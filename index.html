@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>German for Software Engineers · B1 → C1 Roadmap</title>
+  <meta name="description" content="Interactive handbook: learn German from B1 to B2/C1 for a software engineering job in Germany.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇩🇪</text></svg>">
+  <!-- set theme before paint to avoid flash -->
+  <script>
+    (function () { try { var t = JSON.parse(localStorage.getItem('gfit:theme')); if (t) document.documentElement.setAttribute('data-theme', t); else if (matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.setAttribute('data-theme', 'dark'); } catch (e) {} })();
+  </script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-btn menu-toggle" id="menuBtn" aria-label="Menü">☰</button>
+      <a class="brand" href="#/home">
+        <span class="logo">DE</span>
+        <span class="txt">German for SW Engineers<small>B1 → B2 / C1 · IT-Deutsch</small></span>
+      </a>
+      <div class="search-wrap">
+        <span class="s-icon">🔎</span>
+        <input id="search" type="search" placeholder="Suchen · Search lessons, grammar, vocab…  ( / )" autocomplete="off" aria-label="Suche">
+        <kbd>/</kbd>
+      </div>
+      <button class="icon-btn" id="themeBtn" aria-label="Theme umschalten">🌙</button>
+    </header>
+
+    <nav class="sidebar" id="nav" aria-label="Inhalt"></nav>
+    <div class="scrim" id="scrim"></div>
+
+    <main class="main"><div id="content"></div></main>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <!-- Mermaid (diagrams). Loads from CDN when online; app falls back to code text offline. -->
+  <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+  <!-- App scripts (order matters) -->
+  <script defer src="js/markdown.js"></script>
+  <script defer src="js/content-index.js"></script>
+  <script defer src="js/content-bundle.js"></script>
+  <script defer src="js/flashcards.js"></script>
+  <script defer src="js/flashcards-2.js"></script>
+  <script defer src="js/quizzes.js"></script>
+  <script defer src="js/checklist.js"></script>
+  <script defer src="js/app.js"></script>
+</body>
+</html>
