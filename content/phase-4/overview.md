@@ -56,6 +56,19 @@ Treat every module's Hausaufgabe as timed exam practice and you prepare for the 
 Willkommen in Phase vier. In diesem Abschnitt lernen Sie, professionell zu kommunizieren: in Besprechungen, Präsentationen, E-Mails und Protokollen. Am Ende können Sie sich sicher zwischen Sie und du bewegen.
 ```
 
+## 🧠 Systems-Check (Foundations)
+
+Phase 4 through the lens of [German as a System](#/foundations/german-as-a-system) and
+[Your Learning System](#/foundations/learning-system):
+
+| Systems view | Phase 4 |
+|---|---|
+| **Fokus-Subsystem** | the **Register layer** — Sie/du, Konjunktiv I, diplomatic middleware; tone bugs now outweigh grammar bugs |
+| **Erwarteter Engpass** | spontaneous professional speech — switching registers *live* in meetings |
+| **Hebel** | **Informationsflüsse (#5)**: the [Fehlerjournal](#/@journal) goes meeting-driven; one weekly meeting simulation = your integration test |
+| **P1-Fehler** | register mismatch (blunt imperative to the wrong audience) · broken reported speech (Konjunktiv I) in Protokollen |
+| **Gate zu Phase 5** | moderate a 10-minute mock meeting + write a clean Protokoll ([Assessment](#/phase-4/assessment)) |
+
 ---
 
 ## 🧾 Zusammenfassung · Summary

@@ -20,6 +20,7 @@
     bookmarks: get('bookmarks', []),
     checklist: get('checklist', {}),
     fc: get('fc', {}),
+    journal: get('journal', []),
     collapse: get('collapse', {}),
     filterLevel: '',
     filterTopic: '',
@@ -170,6 +171,7 @@
     else if (id === '@flashcards') { renderFlashcards(); markActive('@flashcards'); }
     else if (id === '@quiz') { renderQuizIndex(); markActive('@quiz'); }
     else if (id === '@checklist') { renderChecklist(); markActive('@checklist'); }
+    else if (id === '@journal') { renderJournal(); markActive('@journal'); }
     else if (id === '@bookmarks') { renderBookmarks(); markActive('@bookmarks'); }
     else { renderModule(id); markActive(id); }
     state.lastRoute = id; set('lastRoute', id);
@@ -345,6 +347,7 @@
       '<div class="card" data-go="@flashcards"><div class="k">Tool</div><div class="t">🃏 Flashcards</div><div class="d">' + FC.length + ' IT-Vokabeln</div></div>' +
       '<div class="card" data-go="@quiz"><div class="k">Tool</div><div class="t">❓ Quizzes</div><div class="d">Grammatik & Vokabeln testen</div></div>' +
       '<div class="card" data-go="@checklist"><div class="k">Tool</div><div class="t">✅ Weekly Checklist</div><div class="d">Wochenplan abhaken</div></div>' +
+      '<div class="card" data-go="@journal"><div class="k">Tool</div><div class="t">🐞 Fehlerjournal</div><div class="d">Fehler tracken wie Bugs</div></div>' +
       '<div class="card" data-go="@bookmarks"><div class="k">Tool</div><div class="t">★ Bookmarks</div><div class="d">Gemerkte Lektionen</div></div></div>';
     html += '</div>';
     el.content.innerHTML = html;
@@ -486,6 +489,102 @@
       });
     });
     $all('.wk-head', el.content).forEach(function (h) { h.addEventListener('click', function (e) { if (e.target.tagName === 'INPUT') return; h.parentNode.classList.toggle('collapsed'); var b = h.nextElementSibling; b.style.display = b.style.display === 'none' ? '' : 'none'; }); });
+  }
+
+  /* ---------------- render: Fehlerjournal ---------------- */
+  var J_CATS = ['Kasus', 'Verbposition', 'Genus', 'Wortschatz', 'Register', 'Aussprache', 'Sonstiges'];
+  function jSave() { set('journal', state.journal); }
+  function jStatusLabel(s) { return s === 'fixed' ? '✅ Gelernt' : s === 'drill' ? '🎯 Drill' : '🔴 Offen'; }
+  function renderJournal() {
+    var list = state.journal;
+    var open = list.filter(function (e) { return e.status !== 'fixed'; }).length;
+    var rec = list.filter(function (e) { return (e.count || 1) >= 3 && e.status !== 'fixed'; }).length;
+    var fixed = list.length - open;
+    var html = '<div class="content"><h1>🐞 Fehlerjournal · Error Log</h1>' +
+      '<p style="color:var(--text-soft)">Dein Bug-Tracker für Deutsch: Fehler → Korrektur → Regel. Ein Fehler, der 3× auftaucht, ist ein „flaky test“ — schreib einen gezielten Drill. Warum das funktioniert: <a href="#/foundations/learning-system">Your Learning System</a>.</p>' +
+      '<div class="stat-row">' +
+        '<div class="stat"><div class="n">' + list.length + '</div><div class="l">Einträge</div></div>' +
+        '<div class="stat"><div class="n">' + open + '</div><div class="l">Offen / Drill</div></div>' +
+        '<div class="stat"><div class="n" style="color:var(--err)">' + rec + '</div><div class="l">Wiederkehrend · P1</div></div>' +
+        '<div class="stat"><div class="n" style="color:var(--ok)">' + fixed + '</div><div class="l">Gelernt ✅</div></div></div>' +
+      '<div class="j-form">' +
+        '<input id="jWrong" class="full" placeholder="❌ Fehler — was hast du gesagt? (z. B. mit die Datenbank)" autocomplete="off">' +
+        '<input id="jRight" class="full" placeholder="✅ Korrektur (z. B. mit der Datenbank)" autocomplete="off">' +
+        '<input id="jRule" placeholder="Regel / Notiz (z. B. mit + Dativ)" autocomplete="off">' +
+        '<select id="jCat">' + J_CATS.map(function (c) { return '<option>' + c + '</option>'; }).join('') + '</select>' +
+        '<button class="btn primary full" id="jAdd">+ Eintrag speichern</button>' +
+      '</div>' +
+      '<div class="j-toolbar"><button class="btn" id="jExport">📋 Als Markdown kopieren (für Tutor/Anki)</button></div>' +
+      '<div id="jList"></div></div>';
+    el.content.innerHTML = html;
+    $('#jAdd').addEventListener('click', jAdd);
+    $('#jRule').addEventListener('keydown', function (e) { if (e.key === 'Enter') jAdd(); });
+    $('#jExport').addEventListener('click', jExport);
+    jDrawList();
+  }
+  function jAdd() {
+    var w = $('#jWrong').value.trim(), r = $('#jRight').value.trim();
+    if (!w || !r) { toast('Bitte Fehler UND Korrektur eintragen'); return; }
+    state.journal.unshift({ id: 'j' + Date.now(), wrong: w, right: r, rule: $('#jRule').value.trim(), cat: $('#jCat').value, count: 1, status: 'open', ts: Date.now() });
+    jSave(); renderJournal(); toast('Eintrag gespeichert 🐞');
+  }
+  function jDrawList() {
+    var box = $('#jList');
+    if (!state.journal.length) { box.innerHTML = '<div class="empty">Noch keine Einträge. Trag deinen ersten Fehler ein — jede Korrektur ist ein Geschenk an dein zukünftiges Ich.</div>'; return; }
+    var list = state.journal.slice().sort(function (a, b) {
+      var af = a.status === 'fixed' ? 1 : 0, bf = b.status === 'fixed' ? 1 : 0;
+      if (af !== bf) return af - bf;
+      return (b.count || 1) - (a.count || 1) || (b.ts || 0) - (a.ts || 0);
+    });
+    var html = '';
+    list.forEach(function (e) {
+      var recurring = (e.count || 1) >= 3 && e.status !== 'fixed';
+      html += '<div class="j-entry' + (recurring ? ' recurring' : '') + (e.status === 'fixed' ? ' fixed' : '') + '" data-id="' + e.id + '">' +
+        '<div class="j-top"><span class="j-tag">' + esc(e.cat || 'Sonstiges') + '</span>' +
+        '<span class="j-count">' + (e.count || 1) + '×</span>' +
+        (recurring ? '<span class="j-p1">P1 → Drill schreiben!</span>' : '') + '</div>' +
+        '<div class="j-line"><span class="j-wrong">' + esc(e.wrong) + '</span> → <span class="j-right">' + esc(e.right) + '</span></div>' +
+        (e.rule ? '<div class="j-rule">📐 ' + esc(e.rule) + '</div>' : '') +
+        '<div class="j-actions">' +
+          '<button class="btn" data-act="speak" title="Korrektur vorlesen">🔊</button>' +
+          '<button class="btn" data-act="count">+1 wieder passiert</button>' +
+          '<button class="btn" data-act="status">' + jStatusLabel(e.status) + '</button>' +
+          '<button class="btn" data-act="del" title="Löschen">🗑</button>' +
+        '</div></div>';
+    });
+    box.innerHTML = html;
+    $all('.j-entry', box).forEach(function (card) {
+      var id = card.getAttribute('data-id'), entry = null;
+      state.journal.forEach(function (e) { if (e.id === id) entry = e; });
+      if (!entry) return;
+      $all('button[data-act]', card).forEach(function (b) {
+        b.addEventListener('click', function () {
+          var act = b.getAttribute('data-act'), y = window.scrollY;
+          if (act === 'speak') { speak(entry.right, b); return; }
+          if (act === 'count') { entry.count = (entry.count || 1) + 1; if (entry.status === 'fixed') entry.status = 'open'; toast('Notiert — ' + entry.count + '× · ' + (entry.count >= 3 ? 'P1! Zeit für einen Drill' : 'im Blick')); }
+          if (act === 'status') { entry.status = entry.status === 'open' ? 'drill' : entry.status === 'drill' ? 'fixed' : 'open'; toast(jStatusLabel(entry.status)); }
+          if (act === 'del') { state.journal = state.journal.filter(function (e) { return e.id !== id; }); toast('Gelöscht'); }
+          jSave(); renderJournal(); window.scrollTo(0, y);
+        });
+      });
+    });
+  }
+  function jExport() {
+    var md = '| Fehler | Korrektur | Regel | Kategorie | Anzahl | Status |\n|---|---|---|---|---|---|\n';
+    state.journal.forEach(function (e) {
+      md += '| ' + String(e.wrong || '').replace(/\|/g, '/') + ' | ' + String(e.right || '').replace(/\|/g, '/') + ' | ' +
+        String(e.rule || '').replace(/\|/g, '/') + ' | ' + (e.cat || '') + ' | ' + (e.count || 1) + '× | ' +
+        (e.status === 'fixed' ? 'gelernt' : e.status === 'drill' ? 'drill' : 'offen') + ' |\n';
+    });
+    function done() { toast('Markdown kopiert 📋'); }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(md).then(done, function () { jFallbackCopy(md); done(); });
+    else { jFallbackCopy(md); done(); }
+  }
+  function jFallbackCopy(text) {
+    var ta = document.createElement('textarea'); ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
   }
 
   /* ---------------- render: bookmarks ---------------- */

@@ -48,5 +48,28 @@ window.QUIZZES = [
       { q: "„die Abfrage ___“ (to optimize the query)", options: ["optimalisieren", "optimieren", "optimalen", "optimalstellen"], answer: 1,
         explain: "The verb is „optimieren“ (not *optimalisieren). „eine Abfrage optimieren“." }
     ]
+  },
+  {
+    id: "q-foundations", title: "Foundations · Think in Systems", level: "All", topic: "Foundations",
+    questions: [
+      { q: "Gender of „Verfügbarkeit“ (availability) — which rule decides?",
+        options: ["der — devices are masculine", "die — the suffix -keit is always feminine", "das — abstract nouns are neuter", "It must be memorized; there is no rule"], answer: 1,
+        explain: "Suffix rules cover ~80 % of genders: -keit/-heit/-ung/-ion/-tät → ALWAYS die. Pattern-match first, memorize only exceptions." },
+      { q: "Satzklammer: „Ich ___ die Migration heute noch ___.“ Which pair completes the bracket?",
+        options: ["muss … testen", "teste … muss", "muss … geteste", "testen … müssen"], answer: 0,
+        explain: "The conjugated verb (muss) opens the bracket in position 2; the infinitive (testen) closes it at the end. One pattern covers modals, Perfekt AND separable verbs." },
+      { q: "What is the full signature of „warten“ (to wait for)?",
+        options: ["warten + Dativ", "warten für + Akkusativ", "warten auf + Akkusativ", "warten an + Dativ"], answer: 2,
+        explain: "Verbs are APIs — learn the whole signature as one unit: warten auf + Akk → „Ich warte auf den Build.“ Never store a bare verb." },
+      { q: "„die Fehlerbehebungsstrategie“ — what gender, and why?",
+        options: ["der, because of Fehler", "das, because it's technical", "die, because the head is die Strategie", "unpredictable"], answer: 2,
+        explain: "Compounds are head-final: the LAST noun sets gender and base meaning. die Strategie → die Fehlerbehebungsstrategie (error-fixing strategy). Parse right to left, like List<User> is a List." },
+      { q: "Your profile: reading B2+, listening B1, speaking A2+. Where do the next 30 evenings go?",
+        options: ["More reading — it's working!", "Grammar videos", "Speaking practice — it's the bottleneck", "A new app"], answer: 2,
+        explain: "Theory of constraints: throughput = the slowest stage. Adding input before the bottleneck adds inventory, not fluency. Practice AT the constraint." },
+      { q: "Which intervention has the highest leverage?",
+        options: ["+15 min Anki per day", "A bigger flashcard deck", "A weekly tutor session that corrects you", "Switching to a new textbook"], answer: 2,
+        explain: "Meadows' leverage hierarchy: parameters (minutes, deck size) are the weakest lever. A tutor installs the missing balancing loop — feedback → correction — which prevents fossilized errors." }
+    ]
   }
 ];

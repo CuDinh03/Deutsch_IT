@@ -60,6 +60,19 @@ Schönen Feierabend! Ich bin nächste Woche im Urlaub. Bei dringenden Themen wen
 
 A healthy **Fehlerkultur** treats a production incident as a **system** problem to learn from, not a person to blame — the spirit of the blameless postmortem you'll write in [Phase 6 · Writing](#/phase-6/writing). Feedback is **direct and regular**: expect a *Feedbackgespräch* where strengths and weaknesses are named plainly. Say "Danke für das Feedback" and treat it as data, not a verdict.
 
+## 🧠 Systems-Check (Foundations)
+
+Phase 6 through the lens of [German as a System](#/foundations/german-as-a-system) and
+[Your Learning System](#/foundations/learning-system):
+
+| Systems view | Phase 6 |
+|---|---|
+| **Fokus-Subsystem** | **maintenance loops** — the system runs in production now; the new layer is culture: Sachebene vs. Beziehungsebene |
+| **Erwarteter Engpass** | sustaining habits *after* the goal is reached — the classic goal-erosion trap |
+| **Hebel** | **Paradigma (#1)**: identity — *"Ich bin Entwickler und ich arbeite auf Deutsch."* The [Fehlerjournal](#/@journal) stays open as your work bug tracker |
+| **P1-Fehler** | culture-layer bugs: hearing Sachkritik as personal · missed du/Sie switches with externals |
+| **Gate** | one full **all-German workday per week** — meetings, notes, small talk — without switching to English |
+
 ## 🧾 Zusammenfassung · Summary
 
 German engineering culture rewards **Pünktlichkeit, Struktur and Sachlichkeit**: be on time, follow the agenda, and hear criticism as being about the *issue*, not you. Wait to be offered **du**, protect your **Feierabend**, take your full **Urlaub**, and know the **Betriebsrat** represents you. A blameless **Fehlerkultur** and direct feedback are features, not hostility. Master the language in the rest of Phase 6, but let this culture map keep it in context — start with [Grammar Maintenance](#/phase-6/grammar).

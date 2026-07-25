@@ -52,6 +52,22 @@ Technical vocabulary is huge, so **do not try to memorize it linearly**. Instead
 In dieser Phase lerne ich, meine Architektur auf Deutsch zu erklären. Ich beschreibe den Datenfluss vom Client über das API-Gateway bis zur Datenbank und begründe meine Entscheidungen.
 ```
 
+## 🧠 Systems-Check (Foundations)
+
+Phase 3 through the lens of [German as a System](#/foundations/german-as-a-system) and
+[Your Learning System](#/foundations/learning-system):
+
+| Systems view | Phase 3 |
+|---|---|
+| **Fokus-Subsystem** | **Wortbildung** at full power — Komposita parsing + Nominalstil; vocabulary now scales via patterns, not lists |
+| **Erwarteter Engpass** | *active* IT vocabulary — you'll recognize far more than you can produce; pump passive → active daily |
+| **Hebel** | **Puffer & Informationsflüsse**: a ready queue of heise/Golem articles, one vocab system per day, a personal IT deck with full verb signatures |
+| **P1-Fehler** | wrong Fachbegriff (changes the meaning!) · missing valency of IT verbs (`zugreifen auf + Akk`, `abhängen von + Dat`) |
+| **Gate zu Phase 4** | your architecture explained **5 minutes auf Deutsch**, recorded · one shipped artifact (README/ticket/ADR) per week |
+
+This is where the immersion loops go live: standup notes auf Deutsch, rubber-duck debugging
+auf Deutsch, one German tech article per day ([Your Learning System §6](#/foundations/learning-system)).
+
 ---
 
 ## 🧾 Zusammenfassung · Summary

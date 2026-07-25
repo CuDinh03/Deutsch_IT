@@ -88,6 +88,22 @@ Work the modules in this order:
 7. [Weekly Milestones & Daily Plan](#/phase-1/plan) — your 8-week schedule.
 8. [Monthly Assessment](#/phase-1/assessment) — the gate to Phase 2.
 
+## 🧠 Systems-Check (Foundations)
+
+Phase 1 through the lens of [German as a System](#/foundations/german-as-a-system) and
+[Your Learning System](#/foundations/learning-system) — know your machine before you run it:
+
+| Systems view | Phase 1 |
+|---|---|
+| **Fokus-Subsystem** | the **case hub** + the three verb-position rules — run them until they're automatic |
+| **Erwarteter Engpass** | retrieval speed: you *know* the rules but translate in your head — output is the constraint from day one |
+| **Hebel** | **Regeln (#3)**: non-negotiable daily minimums — 20 Anki cards + one 3-minute recording; protect the streak, not the mood |
+| **P1-Fehler** | verb position (V2 / Verb-Ende) · bare verbs stored without signatures (`warten auf + Akk`) |
+| **Gate zu Phase 2** | case table 100 % from memory · 60-second self-intro without notes · [Assessment](#/phase-1/assessment) passed |
+
+Log every correction in the [Fehlerjournal](#/@journal) from week 1 — recurring errors are
+flaky tests, and they get a targeted drill.
+
 ## 🧾 Zusammenfassung · Summary
 
 Phase 1 converts passive B1 into **automatic** B1 for a working developer. Diagnose honestly, aim at concrete outcomes (self-intro, Perfekt narration, reliable word order, 100+ Anki words), and run the **input → study → output → review** loop for eight weeks. Start with [Phase 1 · Grammar](#/phase-1/grammar) and finish at the [Assessment](#/phase-1/assessment).

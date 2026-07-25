@@ -56,6 +56,23 @@ The **telc B2** exam has a written part (reading + language elements ~90 min, li
 Willkommen in Phase zwei. Auf B2 lernen wir, unsere Meinung zu sagen und zu begründen. Am Ende steht die telc-Prüfung.
 ```
 
+## 🧠 Systems-Check (Foundations)
+
+Phase 2 through the lens of [German as a System](#/foundations/german-as-a-system) and
+[Your Learning System](#/foundations/learning-system):
+
+| Systems view | Phase 2 |
+|---|---|
+| **Fokus-Subsystem** | **Verbsystem** depth — Konjunktiv II, Passiv — plus listening moving to authentic speed |
+| **Erwarteter Engpass** | listening speed & arguing spontaneously; reading races ahead — stop feeding the comfortable stage |
+| **Hebel** | **Feedback-Schleife (#4)**: install the correction loop *now* (weekly tutor/tandem) before B1 habits fossilize |
+| **P1-Fehler** | valency inside argument structures · Nebensatz verb-end collapsing under time pressure |
+| **Gate zu Phase 3** | a full **telc B2 mock passed** ([Assessment](#/phase-2/assessment)) — not passed? loop Phase 2, don't drift on |
+
+⚠️ **This is plateau country.** Speaking gains lag input by weeks — that's system *delay*,
+not failure. Track leading indicators (minutes spoken, [Fehlerjournal](#/@journal) entries,
+checklist ticks), not the feeling of fluency.
+
 ---
 
 ## 🧾 Zusammenfassung · Summary

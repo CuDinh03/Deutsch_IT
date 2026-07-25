@@ -70,6 +70,19 @@ Work them roughly in funnel order, but loop back as needed. The [Plan](#/phase-5
 | [Reading](#/phase-5/reading) | decode Stellenanzeigen & research a company |
 | [Writing](#/phase-5/writing) | build a German CV, Anschreiben, follow-up mail |
 
+## 🧠 Systems-Check (Foundations)
+
+Phase 5 through the lens of [German as a System](#/foundations/german-as-a-system) and
+[Your Learning System](#/foundations/learning-system):
+
+| Systems view | Phase 5 |
+|---|---|
+| **Fokus-Subsystem** | *all* subsystems **under stress** — this is the production deploy of your German |
+| **Erwarteter Engpass** | fluency under pressure: retrieval latency spikes exactly when it matters; rehearsal ≠ retrieval under stress |
+| **Hebel** | **Ziele (#2)**: scheduled full mock interviews as canary releases — staging (self-talk) → canary (mock) → production (real interview) |
+| **P1-Fehler** | unstructured Werdegang narrative · over-claiming (a culture bug German interviewers flag) · valency slips in rehearsed answers |
+| **Gate zu Phase 6** | one full mock (HR **and** Fachgespräch) passed calmly · salary phrases automatic ([Assessment](#/phase-5/assessment)) |
+
 ---
 
 ## 🧾 Zusammenfassung · Summary

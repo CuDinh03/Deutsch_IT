@@ -52,5 +52,20 @@ window.CHECKLIST = [
       "Monatsassessment (Phase 1 → Assessment-Modul) durchführen",
       "Ergebnisse eintragen + Entscheidung: bereit für Phase 2?"
     ]
+  },
+  {
+    title: "🧠 System-Gewohnheiten · täglich / wöchentlich / monatlich (Foundations)",
+    items: [
+      "TÄGLICH: 20 Anki-Karten vor dem Kaffee (Cache-Refresh gegen das Vergessen)",
+      "TÄGLICH: 3-Minuten-Aufnahme — gestern/heute/Blocker, auf Deutsch",
+      "TÄGLICH: 10 Min deutscher Podcast ODER 1 heise/Golem-Artikel",
+      "WÖCHENTLICH: 1 Tutor-/Tandem-Session — die Korrektur-Schleife braucht Menschen",
+      "WÖCHENTLICH: Fehlerjournal reviewen; wiederkehrende Fehler → gezielten Drill schreiben",
+      "WÖCHENTLICH: 1 Integrationstest — Standup- oder Meeting-Simulation, laut",
+      "MONATLICH: Engpass-Profil — alle 4 Skills 1–10 bewerten, Fokus neu setzen",
+      "MONATLICH: Assessment der aktuellen Phase — Gate bestanden?",
+      "GATE (Monat ~5): telc B2 Mock — nicht bestanden? Phase 2 wiederholen, nicht weiterdriften",
+      "IMMER: Identität laut sagen — „Ich bin Entwickler und ich arbeite auf Deutsch.“"
+    ]
   }
 ];

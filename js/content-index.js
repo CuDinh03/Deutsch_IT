@@ -11,8 +11,8 @@ window.CONTENT_INDEX = {
   meta: {
     title: "German for Software Engineers",
     subtitle: "B1 → B2 / C1 · 12-Month Roadmap",
-    version: "0.2",
-    updated: "2026-07-16"
+    version: "0.4",
+    updated: "2026-07-25"
   },
   topics: ["Roadmap", "Grammar", "Vocabulary", "Speaking", "Listening", "Reading",
            "Writing", "IT", "Interview", "Culture"],
@@ -23,6 +23,13 @@ window.CONTENT_INDEX = {
       items: [
         { id: "home", title: "Welcome & How to Use", level: "All", topic: "Roadmap", type: "guide" },
         { id: "roadmap-overview", title: "Roadmap Overview (B1 → C1)", level: "All", topic: "Roadmap", type: "guide" }
+      ]
+    },
+    {
+      id: "foundations", title: "Foundations — Think in Systems", icon: "🧠", open: true,
+      items: [
+        { id: "foundations/german-as-a-system", title: "German as a System (Architecture)",       level: "All", topic: "Grammar", type: "lesson" },
+        { id: "foundations/learning-system",    title: "Your Learning System (Loops & Leverage)", level: "All", topic: "Roadmap", type: "lesson" }
       ]
     },
     {
@@ -151,6 +158,7 @@ window.CONTENT_INDEX = {
         { id: "@flashcards", title: "Vocabulary Flashcards", level: "All", topic: "Vocabulary", type: "flashcards" },
         { id: "@quiz",       title: "Quizzes",               level: "All", topic: "Grammar",    type: "quiz" },
         { id: "@checklist",  title: "Weekly Study Checklist", level: "All", topic: "Roadmap",   type: "checklist" },
+        { id: "@journal",    title: "Fehlerjournal · Error Log", level: "All", topic: "Roadmap", type: "journal" },
         { id: "@bookmarks",  title: "★ Bookmarks",           level: "All", topic: "Roadmap",    type: "bookmarks" }
       ]
     }
