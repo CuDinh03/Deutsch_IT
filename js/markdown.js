@@ -3,9 +3,13 @@
  * German-for-IT Roadmap study app.
  *
  * Supports: ATX headings (with slug ids), GFM tables, fenced code blocks,
- * mermaid diagrams, audio German-TTS widgets, ordered/unordered and nested
- * lists, GitHub task checkboxes, blockquotes, horizontal rules, links,
- * bold/italic (asterisk AND boundary-aware underscore), inline code.
+ * mermaid diagrams, audio German-TTS widgets, spoiler blocks (collapsed
+ * answer keys), ordered/unordered and nested lists, GitHub task checkboxes,
+ * blockquotes, horizontal rules, links, bold/italic (asterisk AND
+ * boundary-aware underscore), inline code.
+ *
+ * NOTE: fences close only on a line of EXACTLY three backticks — nested and
+ * 4-backtick fences are not supported. Never nest a fence inside a fence.
  *
  * Works in the browser (window.MD) and in Node (module.exports) so the same
  * renderer powers the app AND the build/test scripts.
@@ -181,6 +185,20 @@
       '<span class="audio-hint">Klick zum Vorlesen · TTS (de-DE)</span></div>';
   }
 
+  // Collapsed answer key. The body is full Markdown (tables, lists, bold) and
+  // stays hidden until the learner clicks — otherwise a 40-exercise workbook
+  // shows every answer on the way down the page. app.js wires the toggle;
+  // without JS the <details>-free markup still degrades to "body visible".
+  var spoilerSeq = 0;
+  function renderSpoiler(text) {
+    var id = 'sp' + (++spoilerSeq);
+    return '<div class="spoiler" data-spoiler>' +
+      '<button class="spoiler-btn" type="button" aria-expanded="false" aria-controls="' + id + '">' +
+      '<span class="spoiler-ic" aria-hidden="true">🔒</span>' +
+      '<span class="spoiler-lbl">Lösungen anzeigen · Show answers</span></button>' +
+      '<div class="spoiler-body" id="' + id + '" hidden>' + render(text) + '</div></div>';
+  }
+
   function render(md) {
     md = String(md).replace(/\r\n?/g, '\n');
     var lines = md.split('\n'), html = [], i = 0;
@@ -196,6 +214,7 @@
         var code = buf.join('\n');
         if (lang === 'mermaid') html.push('<div class="mermaid">' + escapeHtml(code) + '</div>');
         else if (lang === 'audio') html.push(renderAudio(code));
+        else if (lang === 'spoiler') html.push(renderSpoiler(code));
         else html.push('<pre class="code-block"><code>' + escapeHtml(code) + '</code></pre>');
         continue;
       }

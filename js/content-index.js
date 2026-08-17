@@ -14,8 +14,10 @@ window.CONTENT_INDEX = {
     version: "0.4",
     updated: "2026-07-25"
   },
-  topics: ["Roadmap", "Grammar", "Vocabulary", "Speaking", "Listening", "Reading",
-           "Writing", "IT", "Interview", "Culture"],
+  // Drives the sidebar filter chips. Every item.topic MUST appear here or the
+  // chip for it never renders. Keep in sync when adding content groups.
+  topics: ["Roadmap", "Grammar", "Vocabulary", "Übungen", "Speaking", "Listening", "Reading",
+           "Writing", "IT", "Alltag", "Interview", "Bewerbung", "Exam", "Templates", "Culture"],
   levels: ["B1", "B2", "C1"],
   groups: [
     {

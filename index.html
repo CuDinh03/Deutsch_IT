@@ -42,7 +42,9 @@
   <!-- App scripts (order matters) -->
   <script defer src="js/markdown.js"></script>
   <script defer src="js/content-index.js"></script>
-  <script defer src="js/content-bundle.js?v=8c771f459d"></script>
+  <!-- Only the manifest loads up front; js/content/<group>.js chunks are
+       injected on demand by app.js (script tags, so file:// still works). -->
+  <script defer src="js/content-manifest.js?v=b205e1f81b"></script>
   <script defer src="js/flashcards.js"></script>
   <script defer src="js/flashcards-2.js"></script>
   <script defer src="js/flashcards-3.js"></script>

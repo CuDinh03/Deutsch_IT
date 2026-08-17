@@ -1,31 +1,63 @@
 #!/usr/bin/env node
 /*!
- * build.js — bundles every Markdown file under /content into js/content-bundle.js
- * so the app loads instantly via a plain <script> tag (works over GitHub Pages,
- * a local server, OR by double-clicking index.html — no fetch/CORS needed).
+ * build.js — turns the Markdown in /content into lazily-loadable chunks.
  *
- * Usage:  node build.js
+ *   js/content/<group>.js   one chunk per sidebar group, loaded on demand
+ *   js/content-manifest.js  module-id -> chunk map + per-chunk content hashes
+ *
+ * Why chunks: the old single content-bundle.js was loaded on every page view.
+ * At ~120k words that was 775 KB; the planned ~300k words would have made it
+ * ~1.9 MB of blocking JS. Chunks mean a reader downloads the phase they open,
+ * not the whole handbook.
+ *
+ * Loading stays <script>-tag based (never fetch/XHR), so opening index.html
+ * straight from disk with file:// keeps working.
+ *
+ * Usage:  node build.js             build + report dead links
+ *         node build.js --strict    exit 1 if any dead link is found (CI gate)
  * Re-run whenever you add or edit Markdown in /content.
  */
 'use strict';
 const fs = require('fs');
 const path = require('path');
+const vm = require('vm');
 const crypto = require('crypto');
 
 const ROOT = __dirname;
 const CONTENT = path.join(ROOT, 'content');
-const OUT = path.join(ROOT, 'js', 'content-bundle.js');
+const JSDIR = path.join(ROOT, 'js');
+const CHUNKDIR = path.join(JSDIR, 'content');
+const MANIFEST = path.join(JSDIR, 'content-manifest.js');
 const INDEX = path.join(ROOT, 'index.html');
+const STRICT = process.argv.includes('--strict');
+
+/* Chunk holding any Markdown file that no sidebar group claims. Such a file is
+   unreachable from the nav, so the link report calls it out separately. */
+const ORPHAN_CHUNK = 'misc';
 
 function walk(dir) {
   let files = [];
   for (const name of fs.readdirSync(dir)) {
     const full = path.join(dir, name);
-    const st = fs.statSync(full);
-    if (st.isDirectory()) files = files.concat(walk(full));
+    if (fs.statSync(full).isDirectory()) files = files.concat(walk(full));
     else if (name.endsWith('.md')) files.push(full);
   }
   return files;
+}
+
+function hash(s) {
+  return crypto.createHash('sha1').update(s).digest('hex').slice(0, 10);
+}
+
+/* content-index.js is browser code (`window.CONTENT_INDEX = {...}`); run it in
+   a sandbox rather than duplicating the nav structure here. */
+function loadIndex() {
+  const src = fs.readFileSync(path.join(JSDIR, 'content-index.js'), 'utf8');
+  const sandbox = { window: {} };
+  vm.runInNewContext(src, sandbox, { filename: 'content-index.js' });
+  const ci = sandbox.window.CONTENT_INDEX;
+  if (!ci || !Array.isArray(ci.groups)) throw new Error('content-index.js did not define window.CONTENT_INDEX.groups');
+  return ci;
 }
 
 if (!fs.existsSync(CONTENT)) {
@@ -33,51 +65,145 @@ if (!fs.existsSync(CONTENT)) {
   process.exit(1);
 }
 
+const CI = loadIndex();
+
+/* ---------- module id -> group id ---------- */
+const groupOfId = new Map();
+const indexIds = new Set();
+const indexTopics = new Set(CI.topics || []);
+const topicProblems = [];
+CI.groups.forEach(g => {
+  g.items.forEach(it => {
+    indexIds.add(it.id);
+    if (!it.id.startsWith('@')) groupOfId.set(it.id, g.id);
+    if (it.topic && !indexTopics.has(it.topic)) topicProblems.push({ id: it.id, topic: it.topic });
+  });
+});
+
+/* ---------- read content ---------- */
 const files = walk(CONTENT).sort();
 const map = {};
-let totalChars = 0;
 for (const full of files) {
   const key = path.relative(CONTENT, full).replace(/\\/g, '/').replace(/\.md$/, '');
-  const content = fs.readFileSync(full, 'utf8');
-  map[key] = content;
-  totalChars += content.length;
+  map[key] = fs.readFileSync(full, 'utf8');
 }
 
-const json = JSON.stringify(map);
+/* ---------- group into chunks ---------- */
+const chunks = new Map();          // chunkId -> { [moduleId]: markdown }
+const orphans = [];
+for (const key of Object.keys(map)) {
+  const chunk = groupOfId.get(key) || ORPHAN_CHUNK;
+  if (chunk === ORPHAN_CHUNK) orphans.push(key);
+  if (!chunks.has(chunk)) chunks.set(chunk, {});
+  chunks.get(chunk)[key] = map[key];
+}
 
-// Content hash → cache-busting version. Changes whenever any Markdown changes,
-// so browsers (and the GitHub Pages CDN) always fetch the fresh bundle instead
-// of serving a stale copy that is missing newly-added modules.
-const version = crypto.createHash('sha1').update(json).digest('hex').slice(0, 10);
+/* ---------- link check ---------- */
+const LINK_RE = /\]\(#\/([^)\s]+)\)/g;
+const deadLinks = [];
+for (const [key, md] of Object.entries(map)) {
+  let m;
+  LINK_RE.lastIndex = 0;
+  while ((m = LINK_RE.exec(md)) !== null) {
+    const target = m[1].split('#')[0].replace(/\/$/, '');
+    if (!target) continue;
+    const ok = target.startsWith('@')
+      ? indexIds.has(target)
+      : (Object.prototype.hasOwnProperty.call(map, target) || indexIds.has(target));
+    if (!ok) deadLinks.push({ from: key, to: target });
+  }
+}
+const missingContent = [...indexIds].filter(id => !id.startsWith('@') && !Object.prototype.hasOwnProperty.call(map, id));
 
-const banner =
-  '/*! content-bundle.js — GENERATED by build.js.\n' +
-  ' * Do NOT edit by hand. Edit the Markdown in /content and run:  node build.js\n' +
-  ' * Generated: ' + new Date().toISOString() + '\n' +
-  ' * Version: ' + version + '\n' +
-  ' * Modules: ' + files.length + '  ·  ~' + Math.round(totalChars / 1000) + 'k chars\n' +
-  ' */\n';
+/* ---------- write chunks ---------- */
+fs.mkdirSync(CHUNKDIR, { recursive: true });
+const chunkMeta = {};   // chunkId -> version hash
+const chunkOf = {};     // moduleId -> chunkId
+let totalChars = 0;
 
-fs.writeFileSync(OUT, banner + 'window.CONTENT_BUNDLE = ' + json + ';\n', 'utf8');
+for (const [chunkId, mods] of [...chunks.entries()].sort()) {
+  const json = JSON.stringify(mods);
+  const v = hash(json);
+  chunkMeta[chunkId] = v;
+  Object.keys(mods).forEach(id => { chunkOf[id] = chunkId; totalChars += mods[id].length; });
+  const banner =
+    '/*! content chunk "' + chunkId + '" — GENERATED by build.js. Do not edit.\n' +
+    ' * ' + Object.keys(mods).length + ' modules · ~' + Math.round(json.length / 1024) + ' KB\n' +
+    ' */\n';
+  fs.writeFileSync(
+    path.join(CHUNKDIR, chunkId + '.js'),
+    banner + 'window.__contentChunk(' + JSON.stringify(chunkId) + ',' + json + ');\n',
+    'utf8'
+  );
+}
 
-// Stamp the cache-busting version onto the <script> tag in index.html so a
-// rebuilt bundle is never masked by a cached one. (Query string is ignored for
-// local file:// double-click use, so that path keeps working too.)
-if (fs.existsSync(INDEX)) {
-  const html = fs.readFileSync(INDEX, 'utf8');
-  const tag = /(src=")js\/content-bundle\.js(?:\?v=[^"]*)?(")/;
-  if (!tag.test(html)) {
-    console.warn('! Could not find content-bundle.js <script> tag in index.html to stamp.');
-  } else {
-    const stamped = html.replace(tag, '$1js/content-bundle.js?v=' + version + '$2');
-    if (stamped !== html) {
-      fs.writeFileSync(INDEX, stamped, 'utf8');
-      console.log('✓ Stamped index.html → content-bundle.js?v=' + version);
-    } else {
-      console.log('· index.html already at content-bundle.js?v=' + version);
-    }
+/* Remove stale chunk files from renamed or deleted groups. */
+for (const f of fs.readdirSync(CHUNKDIR)) {
+  if (f.endsWith('.js') && !Object.prototype.hasOwnProperty.call(chunkMeta, f.replace(/\.js$/, ''))) {
+    fs.unlinkSync(path.join(CHUNKDIR, f));
+    console.log('· removed stale chunk ' + f);
   }
 }
 
-console.log('✓ Bundled ' + files.length + ' Markdown modules → js/content-bundle.js  (v=' + version + ')');
-Object.keys(map).sort().forEach(k => console.log('   · ' + k + '  (' + map[k].length + ' chars)'));
+/* "start" holds home + roadmap-overview and must be present before the first
+   paint; everything else waits until the reader opens it. */
+const EAGER = ['start'].filter(c => Object.prototype.hasOwnProperty.call(chunkMeta, c));
+
+const manifest = { version: hash(JSON.stringify(chunkMeta)), eager: EAGER, chunks: chunkMeta, chunkOf: chunkOf };
+fs.writeFileSync(
+  MANIFEST,
+  '/*! content-manifest.js — GENERATED by build.js. Do not edit.\n' +
+  ' * Generated: ' + new Date().toISOString() + '\n' +
+  ' * ' + Object.keys(chunkOf).length + ' modules in ' + Object.keys(chunkMeta).length + ' chunks · ~' +
+  Math.round(totalChars / 1000) + 'k chars\n */\n' +
+  'window.CONTENT_MANIFEST = ' + JSON.stringify(manifest) + ';\n',
+  'utf8'
+);
+
+/* Retire the old monolithic bundle once chunks exist. */
+const legacy = path.join(JSDIR, 'content-bundle.js');
+if (fs.existsSync(legacy)) { fs.unlinkSync(legacy); console.log('· removed legacy js/content-bundle.js (replaced by chunks)'); }
+
+/* ---------- stamp index.html ---------- */
+if (fs.existsSync(INDEX)) {
+  const html = fs.readFileSync(INDEX, 'utf8');
+  const tag = /(src=")js\/content-manifest\.js(?:\?v=[^"]*)?(")/;
+  if (!tag.test(html)) {
+    console.warn('! Could not find content-manifest.js <script> tag in index.html to stamp.');
+  } else {
+    const stamped = html.replace(tag, '$1js/content-manifest.js?v=' + manifest.version + '$2');
+    if (stamped !== html) { fs.writeFileSync(INDEX, stamped, 'utf8'); console.log('✓ Stamped index.html → content-manifest.js?v=' + manifest.version); }
+    else console.log('· index.html already at content-manifest.js?v=' + manifest.version);
+  }
+}
+
+/* ---------- report ---------- */
+console.log('✓ Built ' + Object.keys(chunkOf).length + ' modules → ' + Object.keys(chunkMeta).length + ' chunks (v=' + manifest.version + ')');
+[...chunks.entries()].sort().forEach(([id, mods]) => {
+  const kb = Math.round(JSON.stringify(mods).length / 1024);
+  console.log('   · ' + id.padEnd(24) + String(Object.keys(mods).length).padStart(3) + ' modules  ' + String(kb).padStart(5) + ' KB' + (EAGER.includes(id) ? '  [eager]' : ''));
+});
+
+if (topicProblems.length) {
+  console.warn('\n! ' + topicProblems.length + ' item(s) use a topic missing from CONTENT_INDEX.topics — no filter chip will render:');
+  topicProblems.forEach(p => console.warn('   · ' + p.id + '  →  topic "' + p.topic + '"'));
+}
+if (orphans.length) {
+  console.warn('\n! ' + orphans.length + ' Markdown file(s) not listed in content-index.js — unreachable from the sidebar:');
+  orphans.forEach(o => console.warn('   · content/' + o + '.md'));
+}
+if (missingContent.length) {
+  console.warn('\n! ' + missingContent.length + ' sidebar entr(ies) have no Markdown file — they render an empty state:');
+  missingContent.forEach(o => console.warn('   · ' + o));
+}
+if (deadLinks.length) {
+  console.error('\n✗ ' + deadLinks.length + ' dead internal link(s):');
+  deadLinks.forEach(d => console.error('   · content/' + d.from + '.md  →  #/' + d.to));
+} else {
+  console.log('\n✓ No dead internal links.');
+}
+
+if (STRICT && (deadLinks.length || missingContent.length || topicProblems.length)) {
+  console.error('\n--strict: failing build.');
+  process.exit(1);
+}
