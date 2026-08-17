@@ -127,6 +127,10 @@ Sehr geehrte Damen und Herren, ich habe Ihre E-Mail gelesen und möchte gerne St
 
 > **Lösungen:** 1) **Konjunktiv II** (*Könnten Sie …?*) · 2) **lowercase** · 3) **~150–200 words** · 4) *Einleitung → Hauptteil (Argumente) → Schluss* · 5) *da*. Full quiz: [Quizzes](#/@quiz).
 
+> 🏋️ **Now write.** [Phase 2 · Writing · Übungsteil](#/phase-2/writing-uebungen) includes a
+> **timed telc B2 letter** with a full Musterlösung, plus the content-point drill examiners actually
+> tick off.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Write **one formal email** to a colleague requesting access, using Konjunktiv II.

@@ -171,6 +171,11 @@ Der Service wird jeden Tag automatisch deployt. Wenn wir mehr Tests geschrieben 
 
 > **Lösungen:** 1) *Könntest … geben* · 2) *ist behoben worden* · 3) *der* (Nom., masc.) · 4) *Je … desto* · 5) *Kollegen*. Full quiz: [Quizzes](#/@quiz).
 
+> 🏋️ **Now drill it.** The full workbook — 36 exercises on Konjunktiv II, Passiv,
+> Relativsätze, connectors and the n-declension — is in
+> [Phase 2 · Grammar · Übungsteil](#/phase-2/grammar-uebungen). Do it before Speaking and Writing;
+> both assume these five tools are automatic.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Rewrite **5 sentences** from your last stand-up into the **Passiv**.

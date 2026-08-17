@@ -113,6 +113,10 @@ In der Sendung geht es um Cloud-Technologie in Deutschland. Der Experte sagt, da
 
 > **Lösungen:** 1) *Top-Thema* · 2) *intensive* · 3) e.g. *Engineering Kiosk* (or programmier.bar) · 4) about **two weeks** · 5) add them to [Flashcards](#/@flashcards)/Anki. Full quiz: [Quizzes](#/@quiz).
 
+> 🎧 **Now actually listen.** [Phase 2 · Listening · Übungsteil](#/phase-2/listening-uebungen)
+> has **five normal-speed Hörtexte** you can play right here, plus note-taking drills, two Diktate
+> and stance-detection exercises.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Do the **intensive 3-listen cycle** on 5 Top-Thema episodes this week.

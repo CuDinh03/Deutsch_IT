@@ -127,6 +127,10 @@ Einerseits sind Microservices flexibel, andererseits erhöhen sie die Komplexit�
 
 > **Lösungen:** 1) *die Sicherheit* · 2) *obwohl* (subordinating) · 3) *deshalb* (adverbial → inversion) · 4) e.g. *Meiner Meinung nach …* · 5) *der Engpass*. Full quiz: [Quizzes](#/@quiz).
 
+> 🏋️ **Now drill it.** [Phase 2 · Vocabulary · Übungsteil](#/phase-2/vocabulary-uebungen)
+> trains deriving abstract nouns instead of memorizing them, plus the full opinion toolkit you need
+> for the telc oral.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Derive **10 abstract nouns** from verbs/adjectives you use at work; note the article.

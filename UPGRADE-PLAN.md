@@ -299,7 +299,7 @@ trong `content-index.js` + flashcards/quiz của chính đợt đó + `node buil
 | **0 · code** 🆕 | Mở khoá kỹ thuật — 4 việc ở §10.A: fence `spoiler` · lazy-load bundle · `topics` array · link-checker | 0 | app sẵn sàng nhận workbook; **không viết content** |
 | **1** ✅ | Chốt template Übungsteil + workbook hóa **toàn bộ Phase 1** + nâng cấp assessment 1 | ~19k | ✅ **XONG 18/08/2026** — 6 file `-uebungen.md` mới, **194 bài tập có đáp án**, assessment thành đề 100 điểm, +50 flashcards, +2 quiz (20 câu) |
 | **2** ✅ | 10 bài **Alltag** | ~20k | ✅ **XONG 18/08/2026** — 10 module `content/alltag/`, group mới trên sidebar, +55 flashcards, +1 quiz (15 câu) |
-| **3** | Workbook Phase 2 (9 file) + 3 dialogues dễ (Onboarding, Krankmeldung, Pair programming) | ~24k | phủ kín chặng W9–W20 |
+| **3** ✅ | Workbook Phase 2 + 3 dialogues công sở (Onboarding, Krankmeldung, Pair programming) | ~24k | ✅ **XONG 18/08/2026** — 6 file `-uebungen.md`, assessment → Modelltest 100 điểm, 3 dialogues mới, +45 flashcards, +2 quiz (20 câu) |
 | **4** | **telc B2** (4 module) + `exams/overview` + `exams/pruefungs-redemittel` | ~15k | mốc thi W20 |
 | **5** | Workbook Phase 3 (9 file) + 3 dialogues (Retro, Architektur, Deployment ngoài giờ) | ~24k | chặng IT-German |
 | **6** | Workbook Phase 4 (9 file) + `templates/` (4 module) | ~25k | chặng Pro-Comms |

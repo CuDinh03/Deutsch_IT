@@ -118,6 +118,9 @@ Ich schlage vor, dass wir einen Lerntag zu Kubernetes machen. Das klingt gut, ab
 
 > **Lösungen:** 1) *Example (Beispiel)* · 2) e.g. *Das sehe ich anders / Ich bin nicht ganz überzeugt, weil …* · 3) about **1–2 minutes** · 4) **Teil 3** · 5) e.g. *Also …, Na ja …*. Full quiz: [Quizzes](#/@quiz).
 
+> 🎙 **Now practise it.** [Phase 2 · Speaking · Übungsteil](#/phase-2/speaking-uebungen) drills
+> all three parts of the telc B2 oral, with a **30-phrase Redemittel table** and timed recordings.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Record a **2-minute presentation** on a work topic; listen back for filler overuse.

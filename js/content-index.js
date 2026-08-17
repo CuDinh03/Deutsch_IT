@@ -59,13 +59,19 @@ window.CONTENT_INDEX = {
       items: [
         { id: "phase-2/overview",    title: "Objectives & Overview",        level: "B2", topic: "Roadmap",    type: "lesson" },
         { id: "phase-2/grammar",     title: "Grammar",                      level: "B2", topic: "Grammar",    type: "lesson" },
+        { id: "phase-2/grammar-uebungen",    title: "↳ Grammar · Übungsteil",    level: "B2", topic: "Übungen", type: "lesson" },
         { id: "phase-2/vocabulary",  title: "Vocabulary",                   level: "B2", topic: "Vocabulary", type: "lesson" },
+        { id: "phase-2/vocabulary-uebungen", title: "↳ Vocabulary · Übungsteil", level: "B2", topic: "Übungen", type: "lesson" },
         { id: "phase-2/speaking",    title: "Speaking Practice",            level: "B2", topic: "Speaking",   type: "lesson" },
+        { id: "phase-2/speaking-uebungen",   title: "↳ Speaking · Übungsteil",   level: "B2", topic: "Übungen", type: "lesson" },
         { id: "phase-2/listening",   title: "Listening Resources",          level: "B2", topic: "Listening",  type: "lesson" },
+        { id: "phase-2/listening-uebungen",  title: "↳ Listening · Übungsteil",  level: "B2", topic: "Übungen", type: "lesson" },
         { id: "phase-2/reading",     title: "Reading Materials",            level: "B2", topic: "Reading",    type: "lesson" },
+        { id: "phase-2/reading-uebungen",    title: "↳ Reading · Übungsteil",    level: "B2", topic: "Übungen", type: "lesson" },
         { id: "phase-2/writing",     title: "Writing Exercises",            level: "B2", topic: "Writing",    type: "lesson" },
+        { id: "phase-2/writing-uebungen",    title: "↳ Writing · Übungsteil",    level: "B2", topic: "Übungen", type: "lesson" },
         { id: "phase-2/plan",        title: "Weekly Milestones & Daily Plan", level: "B2", topic: "Roadmap",  type: "lesson" },
-        { id: "phase-2/assessment",  title: "Monthly Assessment",           level: "B2", topic: "Roadmap",    type: "lesson" }
+        { id: "phase-2/assessment",  title: "Prüfung · telc-B2-Modelltest", level: "B2", topic: "Exam",       type: "lesson" }
       ]
     },
     {
@@ -159,7 +165,10 @@ window.CONTENT_INDEX = {
     {
       id: "library", title: "Reference Library", icon: "📚",
       items: [
+        { id: "dialogues/onboarding",       title: "Dialogue — Onboarding, erster Tag",     level: "B1", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/standup",          title: "Dialogue — Daily Standup",              level: "B2", topic: "Speaking",  type: "lesson" },
+        { id: "dialogues/krankmeldung",     title: "Dialogue — Krankmeldung & Urlaub",      level: "B1", topic: "Speaking",  type: "lesson" },
+        { id: "dialogues/pair-programming", title: "Dialogue — Pair Programming",           level: "B2", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/team-lead",        title: "Dialogue — Developer ↔ Team Lead",      level: "B2", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/code-review",      title: "Dialogue — Code Review",                level: "B2", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/sprint-planning",  title: "Dialogue — Sprint Planning",            level: "B2", topic: "Speaking",  type: "lesson" },

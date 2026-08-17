@@ -111,6 +111,10 @@ In dem Artikel geht es um Datenschutz in der Cloud. Der Autor meint, dass deutsc
 
 > **Lösungen:** 1) **guess** the word from context · 2) *Sicherheit + Vorfall* (security incident) · 3) *t3n.de* · 4) *These → Argument → Gegenargument → Fazit* · 5) domain knowledge lets you **infer** the German. Full quiz: [Quizzes](#/@quiz).
 
+> 📖 **Now read.** [Phase 2 · Reading · Übungsteil](#/phase-2/reading-uebungen) has **three
+> authentic-style texts** in the file — a news report, a Kommentar and a technical doc — with
+> compound cracking and argument-structure analysis.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Read **5 articles** this week (mix of t3n.de and heise.de); harvest 5 words each.
