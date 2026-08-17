@@ -300,7 +300,7 @@ trong `content-index.js` + flashcards/quiz của chính đợt đó + `node buil
 | **1** ✅ | Chốt template Übungsteil + workbook hóa **toàn bộ Phase 1** + nâng cấp assessment 1 | ~19k | ✅ **XONG 18/08/2026** — 6 file `-uebungen.md` mới, **194 bài tập có đáp án**, assessment thành đề 100 điểm, +50 flashcards, +2 quiz (20 câu) |
 | **2** ✅ | 10 bài **Alltag** | ~20k | ✅ **XONG 18/08/2026** — 10 module `content/alltag/`, group mới trên sidebar, +55 flashcards, +1 quiz (15 câu) |
 | **3** ✅ | Workbook Phase 2 + 3 dialogues công sở (Onboarding, Krankmeldung, Pair programming) | ~24k | ✅ **XONG 18/08/2026** — 6 file `-uebungen.md`, assessment → Modelltest 100 điểm, 3 dialogues mới, +45 flashcards, +2 quiz (20 câu) |
-| **4** | **telc B2** (4 module) + `exams/overview` + `exams/pruefungs-redemittel` | ~15k | mốc thi W20 |
+| **4** ✅ | **telc B2** (4 module) + `exams/overview` + `exams/pruefungs-redemittel` | ~15k | ✅ **XONG 18/08/2026** — 6 module, **103 bài tập tương tác có chấm điểm**, +engine ```uebung |
 | **5** | Workbook Phase 3 (9 file) + 3 dialogues (Retro, Architektur, Deployment ngoài giờ) | ~24k | chặng IT-German |
 | **6** | Workbook Phase 4 (9 file) + `templates/` (4 module) | ~25k | chặng Pro-Comms |
 | **7** | Workbook Phase 5 (9 file) + 3 dialogues (Gehalt, Career talk, Kunde/PO) | ~24k | chặng phỏng vấn |
@@ -403,7 +403,7 @@ index — chi phí này chỉ trả khi người học thật sự dùng search,
 6. 🆕 **Progress tracking cho Übungsteil — kéo lên TRƯỚC "chấm tự động".** 1.400 bài tập mà không
    đánh dấu được đã làm tới đâu thì không dùng nổi. Một checkbox per-exercise lưu localStorage
    (pattern đã có sẵn ở `@journal` / `@bookmarks`) rẻ hơn nhiều so với auto-chấm và giá trị cao hơn.
-7. (Tùy chọn, sau nữa) trang "Übungsteil interactive": chấm Lückentext ngay trong app thay vì đối chiếu tay.
+7. ✅ **XONG 18/08/2026** — fence ```uebung: trắc nghiệm 1 đáp án / nhiều đáp án / điền từ, chấm ngay, hiện giải thích từng câu, tính điểm, lưu bài làm theo module. Yêu cầu bổ sung của người dùng, kéo lên từ "tùy chọn".
 
 ---
 

@@ -69,6 +69,7 @@
     checklist: get('checklist', {}),
     fc: get('fc', {}),
     checks: get('checks', {}),
+    ueb: get('ueb', {}),
     journal: get('journal', []),
     collapse: get('collapse', {}),
     filterLevel: '',
@@ -365,9 +366,137 @@
       b.addEventListener('click', function () { speak(b.parentNode.getAttribute('data-speak') || b.parentNode.textContent, b); });
     });
     addSpoilers(root);
+    addUebungen(root, moduleId);
     addCheckboxes(root, moduleId);
     addTableSpeakers(root);
     addFlagSpeakers(root);
+  }
+
+  /* Interactive exercises (```uebung blocks).
+     Grades in place, reveals the "why" per item and scores the block.
+     Answers persist per module so a half-finished workbook survives a reload. */
+  function normAnswer(s) {
+    return String(s).toLowerCase().trim()
+      .replace(/[.!?,;:]+$/, '')      // trailing punctuation is not the point
+      .replace(/[„“”"'‚‘’]/g, '')     // quote styles vary by keyboard
+      .replace(/\s+/g, ' ');
+  }
+  function addUebungen(root, moduleId) {
+    var store = moduleId ? (state.ueb[moduleId] || (state.ueb[moduleId] = {})) : {};
+    $all('.ueb', root).forEach(function (block, bi) {
+      var items = $all('.ueb-item', block);
+      var checkBtn = $('.ueb-check', block), resetBtn = $('.ueb-reset', block), scoreEl = $('.ueb-score', block);
+
+      function key(ii) { return 'b' + bi + 'i' + ii; }
+
+      function gradeItem(item, ii) {
+        var type = item.getAttribute('data-type');
+        var fb = $('.ueb-fb', item);
+        var ok = false, answered = false;
+        if (type === 'gap') {
+          var input = $('.ueb-in', item);
+          var val = input.value;
+          answered = !!val.trim();
+          var accept = (item.getAttribute('data-accept') || '').split('|').map(normAnswer);
+          ok = answered && accept.indexOf(normAnswer(val)) !== -1;
+          input.classList.toggle('is-ok', ok);
+          input.classList.toggle('is-bad', answered && !ok);
+          if (!ok) {
+            var want = (item.getAttribute('data-accept') || '').split('|')[0];
+            fb.setAttribute('data-solution', 'Richtig wäre: ' + want);
+          } else { fb.removeAttribute('data-solution'); }
+        } else {
+          var correct = (item.getAttribute('data-correct') || '').split(',').filter(Boolean);
+          var boxes = $all('input[type="radio"], input[type="checkbox"]', item);
+          var chosen = boxes.filter(function (b) { return b.checked; }).map(function (b) { return b.value; });
+          answered = chosen.length > 0;
+          ok = answered && chosen.length === correct.length &&
+               correct.every(function (c) { return chosen.indexOf(c) !== -1; });
+          boxes.forEach(function (b) {
+            var lab = b.parentNode;
+            lab.classList.remove('is-ok', 'is-bad', 'is-missed');
+            if (b.checked && correct.indexOf(b.value) !== -1) lab.classList.add('is-ok');
+            else if (b.checked) lab.classList.add('is-bad');
+            else if (correct.indexOf(b.value) !== -1) lab.classList.add('is-missed');
+          });
+        }
+        item.classList.toggle('graded-ok', ok);
+        item.classList.toggle('graded-bad', answered && !ok);
+        if (answered) fb.removeAttribute('hidden');
+        return { ok: ok, answered: answered };
+      }
+
+      function save(ii, value) {
+        if (!moduleId) return;
+        if (value === '' || value == null) delete store[key(ii)]; else store[key(ii)] = value;
+        if (!Object.keys(store).length) delete state.ueb[moduleId];
+        set('ueb', state.ueb);
+      }
+
+      function runCheck() {
+        var right = 0, done = 0;
+        items.forEach(function (item, ii) {
+          var r = gradeItem(item, ii);
+          if (r.answered) done++;
+          if (r.ok) right++;
+        });
+        block.classList.add('is-graded');
+        if (!done) { scoreEl.textContent = 'Erst antworten, dann prüfen.'; scoreEl.className = 'ueb-score warn'; return; }
+        var pct = Math.round(right / items.length * 100);
+        scoreEl.textContent = right + ' / ' + items.length + ' richtig · ' + pct + ' %';
+        scoreEl.className = 'ueb-score ' + (pct === 100 ? 'good' : pct >= 60 ? 'okish' : 'bad');
+        if (moduleId) { store['b' + bi + 'graded'] = 1; set('ueb', state.ueb); }
+      }
+
+      // restore previous answers
+      items.forEach(function (item, ii) {
+        var saved = store[key(ii)];
+        if (saved == null) return;
+        if (item.getAttribute('data-type') === 'gap') { $('.ueb-in', item).value = saved; }
+        else {
+          String(saved).split(',').forEach(function (v) {
+            var b = item.querySelector('input[value="' + v + '"]');
+            if (b) b.checked = true;
+          });
+        }
+      });
+
+      // wire inputs
+      items.forEach(function (item, ii) {
+        if (item.getAttribute('data-type') === 'gap') {
+          var input = $('.ueb-in', item);
+          input.addEventListener('input', function () { save(ii, input.value); });
+          input.addEventListener('keydown', function (e) { if (e.key === 'Enter') runCheck(); });
+        } else {
+          $all('input', item).forEach(function (b) {
+            b.addEventListener('change', function () {
+              var chosen = $all('input', item).filter(function (x) { return x.checked; })
+                .map(function (x) { return x.value; });
+              save(ii, chosen.join(','));
+            });
+          });
+        }
+      });
+
+      checkBtn.addEventListener('click', runCheck);
+      resetBtn.addEventListener('click', function () {
+        items.forEach(function (item, ii) {
+          item.classList.remove('graded-ok', 'graded-bad');
+          $('.ueb-fb', item).setAttribute('hidden', '');
+          $all('input', item).forEach(function (b) {
+            b.checked = false; b.value = b.type === 'text' ? '' : b.value;
+            b.classList.remove('is-ok', 'is-bad');
+            if (b.parentNode.classList) b.parentNode.classList.remove('is-ok', 'is-bad', 'is-missed');
+          });
+          save(ii, '');
+        });
+        block.classList.remove('is-graded');
+        scoreEl.textContent = ''; scoreEl.className = 'ueb-score';
+        if (moduleId) { delete store['b' + bi + 'graded']; set('ueb', state.ueb); }
+      });
+
+      if (store['b' + bi + 'graded']) runCheck();
+    });
   }
 
   /* Workbook checkboxes.

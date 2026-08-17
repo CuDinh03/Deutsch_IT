@@ -163,6 +163,17 @@ window.CONTENT_INDEX = {
       ]
     },
     {
+      id: "exams", title: "Prüfungen — telc & Goethe", icon: "🎓", badge: "B2/C1",
+      items: [
+        { id: "exams/overview",                        title: "Überblick — welche Prüfung, wann",   level: "B2", topic: "Exam", type: "lesson" },
+        { id: "exams/telc-b2-lesen-sprachbausteine",   title: "telc B2 · Lesen & Sprachbausteine",  level: "B2", topic: "Exam", type: "lesson" },
+        { id: "exams/telc-b2-hoeren",                  title: "telc B2 · Hörverstehen",             level: "B2", topic: "Exam", type: "lesson" },
+        { id: "exams/telc-b2-schreiben",               title: "telc B2 · Schriftlicher Ausdruck",   level: "B2", topic: "Exam", type: "lesson" },
+        { id: "exams/telc-b2-sprechen",                title: "telc B2 · Mündlicher Ausdruck",      level: "B2", topic: "Exam", type: "lesson" },
+        { id: "exams/pruefungs-redemittel",            title: "Prüfungs-Redemittel · Baukasten",    level: "B2", topic: "Exam", type: "lesson" }
+      ]
+    },
+    {
       id: "library", title: "Reference Library", icon: "📚",
       items: [
         { id: "dialogues/onboarding",       title: "Dialogue — Onboarding, erster Tag",     level: "B1", topic: "Speaking",  type: "lesson" },

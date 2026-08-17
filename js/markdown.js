@@ -204,6 +204,70 @@
     return spoilerBlock(text, 'Lösungen anzeigen · Show answers', 'Lösungen ausblenden · Hide answers');
   }
 
+  /* Interactive exercise block. Authoring format inside the fence:
+   *
+   *   ? Question text (inline Markdown allowed)
+   *   * correct option          (two or more "*" -> multi-select)
+   *   x wrong option
+   *   ! Why that is the answer  (revealed after checking)
+   *
+   *   ? Gap-fill question with ___
+   *   = accepted | also accepted
+   *   ! explanation
+   *
+   * A blank line or the next "?" starts the next item. app.js grades the
+   * block, scores it and reveals the explanations. Closed-form only —
+   * free-production tasks keep their Musterlösung in a ```spoiler. */
+  var uebSeq = 0;
+  function renderUebung(text) {
+    var lines = String(text).replace(/\r\n?/g, '\n').split('\n');
+    var items = [], cur = null;
+    function flush() { if (cur && cur.q) items.push(cur); cur = null; }
+    lines.forEach(function (raw) {
+      var l = raw.trim();
+      if (!l) return;
+      var m = l.match(/^([?*x=!])\s+([\s\S]*)$/i);
+      if (!m) { if (cur && cur.q) cur.q += ' ' + l; return; }
+      var tag = m[1].toLowerCase(), body = m[2];
+      if (tag === '?') { flush(); cur = { q: body, opts: [], correct: [], accept: [], why: '' }; return; }
+      if (!cur) return;
+      if (tag === '*') { cur.correct.push(cur.opts.length); cur.opts.push(body); }
+      else if (tag === 'x') { cur.opts.push(body); }
+      else if (tag === '=') { body.split('|').forEach(function (a) { if (a.trim()) cur.accept.push(a.trim()); }); }
+      else if (tag === '!') { cur.why = cur.why ? cur.why + ' ' + body : body; }
+    });
+    flush();
+    if (!items.length) return '<pre class="code-block"><code>' + escapeHtml(text) + '</code></pre>';
+
+    var bid = 'ueb' + (++uebSeq);
+    var html = '<div class="ueb" data-ueb id="' + bid + '">';
+    items.forEach(function (it, i) {
+      var type = it.accept.length ? 'gap' : (it.correct.length > 1 ? 'multi' : 'choice');
+      html += '<div class="ueb-item" data-type="' + type + '"' +
+        (type === 'gap'
+          ? ' data-accept="' + escapeAttr(it.accept.join('|')) + '"'
+          : ' data-correct="' + escapeAttr(it.correct.join(',')) + '"') + '>';
+      html += '<div class="ueb-q"><span class="ueb-n">' + (i + 1) + '</span>' + renderInline(it.q) + '</div>';
+      if (type === 'gap') {
+        html += '<input class="ueb-in" type="text" autocomplete="off" spellcheck="false" ' +
+          'aria-label="Antwort eingeben" placeholder="Antwort eingeben …">';
+      } else {
+        var kind = type === 'multi' ? 'checkbox' : 'radio';
+        it.opts.forEach(function (o, oi) {
+          html += '<label class="ueb-opt"><input type="' + kind + '" name="' + bid + '-' + i + '" value="' + oi + '">' +
+            '<span>' + renderInline(o) + '</span></label>';
+        });
+      }
+      html += '<div class="ueb-fb" hidden>' + (it.why ? renderInline(it.why) : '') + '</div>';
+      html += '</div>';
+    });
+    html += '<div class="ueb-bar">' +
+      '<button class="ueb-check" type="button">Prüfen · Check</button>' +
+      '<span class="ueb-score" aria-live="polite"></span>' +
+      '<button class="ueb-reset" type="button">Zurücksetzen</button></div>';
+    return html + '</div>';
+  }
+
   // A listening exercise: play button plus a transcript that stays hidden.
   // ```audio prints its text, which would hand the learner the answer — so a
   // Hörtext needs its own block where reading along is a deliberate choice.
@@ -235,6 +299,7 @@
         else if (lang === 'audio') html.push(renderAudio(code));
         else if (lang === 'spoiler') html.push(renderSpoiler(code));
         else if (lang === 'hoertext') html.push(renderHoertext(code));
+        else if (lang === 'uebung') html.push(renderUebung(code));
         else html.push('<pre class="code-block"><code>' + escapeHtml(code) + '</code></pre>');
         continue;
       }

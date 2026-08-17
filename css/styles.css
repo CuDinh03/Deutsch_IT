@@ -242,6 +242,66 @@ a:hover { text-decoration: underline; }
 .spoiler-body > :first-child { margin-top: 10px; }
 .spoiler-body > :last-child { margin-bottom: 0; }
 
+/* interactive exercises (```uebung) */
+.ueb {
+  border: 1px solid var(--border-strong); border-radius: var(--radius);
+  background: var(--bg-elev); padding: 6px 16px 14px; margin: 18px 0;
+}
+.ueb-item { padding: 14px 0; border-bottom: 1px solid var(--border); }
+.ueb-item:last-of-type { border-bottom: none; }
+.ueb-q { font-weight: 600; margin-bottom: 10px; display: flex; gap: 10px; align-items: baseline; }
+.ueb-n {
+  flex: none; min-width: 22px; height: 22px; border-radius: 6px;
+  background: var(--primary-soft); color: var(--primary-strong);
+  font-size: 12px; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center;
+}
+.ueb-opt {
+  display: flex; align-items: flex-start; gap: 10px; padding: 7px 10px; margin: 3px 0;
+  border: 1px solid transparent; border-radius: var(--radius-sm); cursor: pointer;
+  transition: background .12s, border-color .12s;
+}
+.ueb-opt:hover { background: var(--bg-hover); }
+.ueb-opt input { margin-top: 3px; flex: none; accent-color: var(--primary); width: 17px; height: 17px; cursor: pointer; }
+.ueb-opt.is-ok { background: color-mix(in srgb, var(--ok) 14%, transparent); border-color: var(--ok); }
+.ueb-opt.is-bad { background: color-mix(in srgb, var(--err) 12%, transparent); border-color: var(--err); }
+.ueb-opt.is-missed { border-color: var(--ok); border-style: dashed; }
+.ueb-opt.is-ok::after { content: "✓"; margin-left: auto; color: var(--ok); font-weight: 700; }
+.ueb-opt.is-bad::after { content: "✕"; margin-left: auto; color: var(--err); font-weight: 700; }
+.ueb-opt.is-missed::after { content: "← richtig"; margin-left: auto; color: var(--ok); font-size: 12px; font-weight: 600; }
+.ueb-in {
+  width: 100%; max-width: 420px; height: 42px; padding: 0 12px; font-size: 15px;
+  border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
+  background: var(--bg); color: var(--text); font-family: inherit;
+}
+.ueb-in:focus { border-color: var(--primary); outline: none; box-shadow: 0 0 0 3px var(--primary-soft); }
+.ueb-in.is-ok { border-color: var(--ok); }
+.ueb-in.is-bad { border-color: var(--err); }
+.ueb-fb {
+  margin-top: 10px; padding: 10px 12px; border-radius: var(--radius-sm);
+  background: var(--bg); border-left: 3px solid var(--primary);
+  font-size: 14px; color: var(--text-soft);
+}
+.ueb-fb[data-solution]::before {
+  content: attr(data-solution); display: block; font-weight: 700;
+  color: var(--err); margin-bottom: 4px;
+}
+.graded-ok > .ueb-fb { border-left-color: var(--ok); }
+.graded-bad > .ueb-fb { border-left-color: var(--err); }
+.ueb-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding-top: 14px; }
+.ueb-check, .ueb-reset {
+  border: 1px solid var(--border-strong); background: var(--bg); color: var(--text);
+  border-radius: var(--radius-sm); padding: 9px 16px; font: inherit; font-weight: 600; cursor: pointer;
+}
+.ueb-check { background: var(--primary); border-color: var(--primary); color: #fff; }
+.ueb-check:hover { background: var(--primary-strong); }
+.ueb-reset:hover { background: var(--bg-hover); }
+.ueb-score { font-weight: 700; font-size: 14px; }
+.ueb-score.good { color: var(--ok); }
+.ueb-score.okish { color: var(--warn); }
+.ueb-score.bad, .ueb-score.warn { color: var(--err); }
+@media print { .ueb-bar { display: none; } .ueb-fb { display: block !important; } }
+
 /* workbook checkboxes — big enough to hit on a phone */
 .wb-check {
   appearance: none; -webkit-appearance: none;
