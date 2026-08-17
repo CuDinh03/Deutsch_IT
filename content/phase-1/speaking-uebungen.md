@@ -16,112 +16,283 @@ open during a real standup.
 
 ## 🏋️ Übungsteil · Workbook
 
-### A. Erkennen — hear the difference (A1–A6)
+### A. Erkennen — hear the difference
 
-**A1.** *ei* or *ie*? Say each aloud, then write the English sound ("eye" or "ee").
+**A1–A8 · ei oder ie?** Wie klingt der Vokal — wie englisch „eye" oder wie „ee"?
 
-*eins · die · vier · die Zeit · wie · klein · das Spiel · die Datei*
+```uebung
+? eins
+* wie „eye"
+x wie „ee"
+! *ei* → sprich den **zweiten** Buchstaben als englischen Buchstabennamen: „i" → eye.
 
-**A2.** Hard *ch* (after a/o/u) or soft *ch* (after e/i/consonant)? Mark each.
+? die
+x wie „eye"
+* wie „ee"
+! *ie* → zweiter Buchstabe „e" → ee.
 
-| Wort | hart | weich |
-|---|:--:|:--:|
-| die Sprache | ☐ | ☐ |
-| ich | ☐ | ☐ |
-| das Buch | ☐ | ☐ |
-| nicht | ☐ | ☐ |
-| die Technik | ☐ | ☐ |
-| auch | ☐ | ☐ |
+? vier
+x wie „eye"
+* wie „ee"
+! *ie* → ee.
 
-**A3.** How is the letter pronounced? Write the English equivalent.
+? die Zeit
+* wie „eye"
+x wie „ee"
+! *ei* → eye.
 
-| Buchstabe | im Wort | klingt wie … |
-|---|---|---|
-| w | wir | |
-| v | von | |
-| z | die Zeit | |
-| s (vor Vokal) | die Sache | |
-| st- (am Anfang) | der Stack | |
-| sp- (am Anfang) | sprechen | |
+? wie
+x wie „eye"
+* wie „ee"
+! *ie* → ee.
 
-**A4.** Which word does **not** rhyme with the others?
+? klein
+* wie „eye"
+x wie „ee"
+! *ei* → eye.
 
-- a) schön · können · hören · kommen
-- b) über · die Tür · für · der Server
+? das Spiel
+x wie „eye"
+* wie „ee"
+! *ie* → ee.
 
-**A5.** Listen to the audio, then mark where you naturally pause (|).
-
-```audio
-Hallo, ich heiße Huy. Ich komme aus Vietnam und arbeite als Backend-Entwickler. Ich programmiere hauptsächlich mit Java und Spring Boot.
+? die Datei
+* wie „eye"
+x wie „ee"
+! *ei* am Wortende → eye. „da-TY".
 ```
 
-**A6.** Which reply belongs to which situation?
+**A9–A14 · ch — hart oder weich?**
 
-| Situation | Antwort |
-|---|---|
-| a) You didn't catch it | 1. Wie sagt man … auf Deutsch? |
-| b) Too fast | 2. Könntest du das bitte wiederholen? |
-| c) Missing a word | 3. Habe ich das richtig verstanden: …? |
-| d) Checking understanding | 4. Entschuldigung, etwas langsamer bitte. |
+```uebung
+? die Sprache
+* hart (wie „ach")
+x weich (wie „ich")
+! Nach **a, o, u, au** ist das *ch* hart, aus dem Rachen.
+
+? ich
+x hart
+* weich
+! Nach **e, i** und Konsonanten ist das *ch* weich.
+
+? das Buch
+* hart
+x weich
+! Nach *u* → hart.
+
+? nicht
+x hart
+* weich
+! Nach *i* → weich.
+
+? die Technik
+x hart
+* weich
+! Das *ch* folgt hier auf *e* → weich.
+
+? auch
+* hart
+x weich
+! Nach *au* → hart.
+```
+
+**A15–A20 · Wie wird der Buchstabe gesprochen?**
+
+```uebung
+? w in „wir"
+x wie englisch w
+* wie englisch v
+x wie englisch f
+! Deutsches *w* = englisches **v**. „wir" klingt wie „veer".
+
+? v in „von"
+x wie englisch v
+* wie englisch f
+x wie englisch w
+! Deutsches *v* = englisches **f**. „von" klingt wie „fon".
+
+? z in „die Zeit"
+x wie englisch z
+* wie „ts"
+x wie „s"
+! *z* ist immer **ts**. „Zeit" klingt wie „tsyt".
+
+? s vor Vokal, z. B. „die Sache"
+x wie englisch s
+* wie englisch z
+x stumm
+! Vor einem Vokal wird *s* stimmhaft — wie englisches z.
+
+? st- am Wortanfang, z. B. „der Stack"
+x wie „st"
+* wie „scht"
+x wie „s"
+! Am Wortanfang wird *st-* zu **scht**.
+
+? sp- am Wortanfang, z. B. „sprechen"
+x wie „sp"
+* wie „schp"
+x wie „s"
+! Am Wortanfang wird *sp-* zu **schp**.
+```
+
+**A21–A22 · Welches Wort passt nicht?**
+
+```uebung
+? schön · können · hören · kommen
+x schön
+x können
+x hören
+* kommen
+! Drei haben den **ö**-Laut, *kommen* hat ein normales o.
+
+? über · die Tür · für · der Server
+x über
+x die Tür
+x für
+* der Server
+! Drei haben **ü**, *Server* nicht.
+```
+
+**A23–A26 · Welche Rettungsformel passt zur Situation?**
+
+```uebung
+? Du hast es akustisch nicht verstanden.
+* Könntest du das bitte wiederholen?
+x Wie sagt man … auf Deutsch?
+x Habe ich das richtig verstanden: …?
+! Wiederholung erbitten, wenn du es schlicht nicht gehört hast.
+
+? Die Person spricht zu schnell.
+x Könntest du das bitte wiederholen?
+* Entschuldigung, etwas langsamer bitte.
+x Wie sagt man … auf Deutsch?
+! Tempo ansprechen, nicht Wiederholung.
+
+? Dir fehlt ein deutsches Wort.
+x Habe ich das richtig verstanden: …?
+* Wie sagt man … auf Deutsch?
+x Entschuldigung, etwas langsamer bitte.
+! Direkt nach dem Wort fragen — völlig normal, auch unter Muttersprachlern.
+
+? Du willst absichern, dass du den Inhalt richtig erfasst hast.
+x Wie sagt man … auf Deutsch?
+* Habe ich das richtig verstanden: …?
+x Entschuldigung, etwas langsamer bitte.
+! Zusammenfassen und rückfragen — der wertvollste Satz in jedem Meeting.
+```
 
 ---
 
-### B. Anwenden — drill with a frame (B1–B10)
+### B. Anwenden — drill with a frame
 
-**B1.** 🎙 Minimal-pair drill. Say each pair five times, alternating. Record once.
+**B1–B4 · Selbstvorstellung bauen.**
 
-*vier / wir · Vater / Wasser · schon / schön · Mutter / Mütter · liegen / legen · Bett / Bad*
+```uebung
+? Ergänze: „Ich arbeite ___ Backend-Entwickler." (als / als ein / wie)
+= als
+! Berufsbezeichnungen stehen nach *als* **ohne Artikel**: *ich arbeite als Entwickler* — nicht *als ein Entwickler*. Ein sehr häufiger Fehler bei Englisch- und Vietnamesischsprachigen, weil beide Sprachen einen Artikel setzen.
 
-**B2.** Fill in your own details, then say the whole intro from memory.
+? Ergänze: „Ich komme ___ Vietnam."
+= aus
+! Herkunftsland → *aus* + Dativ.
 
-> Hallo, ich heiße ______. Ich komme aus ______ und arbeite als ______.
-> Ich programmiere hauptsächlich mit ______ und ______.
-> Zurzeit lerne ich Deutsch, um in Deutschland als ______ zu arbeiten.
+? Ergänze: „Ich lerne Deutsch, ___ in Deutschland zu arbeiten." (Ziel)
+= um
+! *um … zu* + Infinitiv am Ende.
 
-**B3.** Where does the verb go in *um … zu arbeiten*? Say three more *um … zu* sentences about
-your own goals.
-
-**B4.** Expand your intro with a stack description. Fill the frame, then say all of it in one breath
-per sentence.
-
-> Ich entwickle ______ und ______.
-> Ich arbeite viel mit ______, ______ und ______.
-> In meinem Team benutzen wir ______ und machen ______.
-
-**B5.** Q&A ping-pong. Answer each aloud in **one full sentence**, then check the suggested answers.
-
-- a) Was machst du beruflich?
-- b) Mit welchen Technologien arbeitest du?
-- c) Wie lange arbeitest du schon als Entwickler?
-- d) Warum lernst du Deutsch?
-- e) Wie ist dein Team organisiert?
-
-**B6.** Standup turn — fill and say. Three sentences, no notes.
-
-> Gestern habe ich ______.
-> Heute ______ ich ______.
-> Blocker: ______.
-
-**B7.** Rescue phrases. Someone speaks too fast. Produce three **different** reactions without
-switching to English.
-
-**B8.** Say the same fact twice — once with **du**, once with **Sie**.
-
-- a) Kannst du mir bitte den Log schicken? → (Sie)
-- b) Hast du kurz Zeit? → (Sie)
-- c) Könntest du das bitte wiederholen? → (Sie)
-
-**B9.** 🎙 Chunk-and-repeat. Play the audio, pause after each slash, repeat the chunk aloud, then
-say the whole sentence.
-
-```audio
-Gestern habe ich den Login-Bug behoben. Heute möchte ich die Tests grün machen. Ich habe keine Blocker.
+? Wo steht das Verb in „um in Deutschland zu arbeiten"?
+* am Ende, als zu-Infinitiv
+x an Position 2
+x direkt nach „um"
+! *um* … *zu arbeiten* — der Infinitiv schließt die Konstruktion ab.
 ```
 
-Chunks: *Gestern habe ich / den Login-Bug behoben. / Heute möchte ich / die Tests grün machen. /
-Ich habe keine Blocker.*
+**B5–B8 · Standup-Beitrag.**
 
-**B10.** Describe a colleague using **er/sie**. Take your B4 answer and convert every verb.
+```uebung
+? Ergänze das Muster: „___ habe ich den Login-Bug behoben." (gestern)
+= Gestern
+! Perfekt für den gestrigen Stand, mit Inversion nach der Zeitangabe.
+
+? Ergänze: „Heute ___ ich die Tests grün machen." (Notwendigkeit)
+= muss
+! Modalverb, Infinitiv am Ende.
+
+? Wie sagst du, dass du keine Blocker hast?
+= Ich habe keine Blocker | Blocker habe ich keine | Keine Blocker
+! Alle drei sind im Daily üblich. *Blocker habe ich keine* klingt am idiomatischsten.
+
+? Welche drei Elemente gehören in deinen Standup-Beitrag? (mehrere richtig)
+* was du gestern gemacht hast
+* was du heute machst
+* ob du Blocker hast
+x eine ausführliche technische Erklärung
+! Deutsche Dailys sind kurz und strukturiert. Tiefe Diskussion wird vertagt: *„Lass uns das nach dem Daily klären."*
+```
+
+**B9–B11 · Höflich um etwas bitten.**
+
+```uebung
+? Mach höflich: „Wiederhol das."
+= Könntest du das bitte wiederholen? | Könnten Sie das bitte wiederholen?
+! Konjunktiv II + *bitte*.
+
+? Mach höflich: „Sprich langsamer."
+= Könntest du bitte etwas langsamer sprechen? | Könnten Sie bitte etwas langsamer sprechen?
+! *etwas* macht die Bitte noch weicher.
+
+? Mach höflich: „Erklär mir das Problem."
+= Könntest du mir das Problem bitte erklären? | Könnten Sie mir das Problem bitte erklären?
+! Dativ *mir* vor Akkusativ *das Problem*.
+```
+
+**B12–B15 · du → Sie.**
+
+```uebung
+? „Kannst du mir bitte den Log schicken?" → Sie
+= Könnten Sie mir bitte den Log schicken? | Können Sie mir bitte den Log schicken?
+! Verbform ändern, *Sie* großschreiben.
+
+? „Hast du kurz Zeit?" → Sie
+= Haben Sie kurz Zeit?
+! *hast* → *haben*.
+
+? „Wie siehst du das?" → Sie
+= Wie sehen Sie das?
+! *siehst* → *sehen*.
+
+? Wer bekommt im deutschen Dev-Team normalerweise „du"? (mehrere richtig)
+* Teamkollegen
+* meist auch die Teamleitung
+x Kunden
+x die Geschäftsführung beim ersten Kontakt
+! Intern fast immer *du*, nach außen *Sie* — bis das *du* ausdrücklich angeboten wird.
+```
+
+**B16–B19 · Antworten auf typische Fragen.**
+
+```uebung
+? „Was machst du beruflich?" — welche Antwort ist idiomatisch?
+* Ich bin Backend-Entwickler und arbeite hauptsächlich mit Java.
+x Ich bin ein Backend-Entwickler.
+x Mein Beruf ist Backend-Entwickler zu sein.
+! Berufsbezeichnung **ohne Artikel**: *Ich bin Entwickler.*
+
+? Ergänze: „Ich arbeite ___ fünf Jahren als Entwickler."
+= seit
+! *seit* + Dativ + **Präsens**. Das Deutsche benutzt hier die Gegenwart, wo Englisch „I have been working" sagt — einer der hartnäckigsten Lernerfehler.
+
+? Welche Zeitform steht nach „seit fünf Jahren"?
+* Präsens
+x Perfekt
+x Präteritum
+! *Ich arbeite seit fünf Jahren* — nicht *ich habe gearbeitet*.
+
+? „Warum lernst du Deutsch?" — ergänze: „Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte."
+= weil
+! *weil* → Verb *möchte* ans Ende, hinter den Infinitiv.
+```
 
 ---
 
@@ -238,69 +409,9 @@ back into English.
 
 ---
 
-## ✅ Lösungen & Erklärungen
+## ✅ Musterlösungen für C und D
 
 ```spoiler
-### A. Erkennen
-
-**A1.** eins → **eye** · die → **ee** · vier → **ee** · die Zeit → **eye** · wie → **ee** ·
-klein → **eye** · das Spiel → **ee** · die Datei → **eye**
-Shortcut: pronounce the *second* vowel's English letter name. *ei* → "i" → eye. *ie* → "e" → ee.
-
-**A2.** hart: die Spra**ch**e, das Bu**ch**, au**ch** (after a/o/u) ·
-weich: i**ch**, ni**ch**t, die Techni**k**… careful — *Technik* ends in *-ik*, but the **ch** in it
-follows *e* and is soft.
-
-**A3.** w → English **v** · v → English **f** · z → **ts** · s before a vowel → English **z**
-(*Sache* ≈ "zach-e") · st- → **sht** · sp- → **shp**
-
-**A4.** a) **kommen** — the others have the *ö* sound · b) **der Server** — the others have *ü*
-
-**A5.** Natural pauses: *Hallo, | ich heiße Huy. | Ich komme aus Vietnam | und arbeite als
-Backend-Entwickler. | Ich programmiere hauptsächlich | mit Java und Spring Boot.*
-Germans pause at commas and between the Mittelfeld and a long prepositional phrase — not
-mid-Satzklammer.
-
-**A6.** a–2 · b–4 · c–1 · d–3
-
-### B. Anwenden
-
-**B1.** No key — the test is whether a listener can tell the two apart. If *vier* and *wir* sound
-the same in your recording, the *w* is not yet English "v".
-
-**B2–B4.** Your own content. Check: *als* + job with **no article** (*ich arbeite als
-Entwickler*, not *als ein Entwickler*) — a very common Vietnamese-speaker slip, because English
-says "as a developer".
-
-**B3.** The verb goes to the **end**, in the *zu*-infinitive form: *um in Deutschland zu arbeiten*.
-More examples: *Ich lerne Deutsch, um mit Kollegen zu sprechen. / Ich nutze Docker, um lokal zu
-testen. / Ich schreibe Tests, um Fehler früh zu finden.*
-
-**B5. Vorschläge:**
-
-| Frage | Mögliche Antwort |
-|---|---|
-| a | Ich bin Backend-Entwickler und arbeite hauptsächlich mit Java und Spring Boot. |
-| b | Ich arbeite mit Java, Spring Boot, PostgreSQL, Docker und Kubernetes. |
-| c | Ich arbeite seit fünf Jahren als Entwickler. |
-| d | Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte. |
-| e | Wir sind ein Team aus sechs Entwicklern und arbeiten nach Scrum. |
-
-Note c): **seit** + Dativ + **Präsens** — German says *ich arbeite seit fünf Jahren*, not the
-English present perfect. This one trips up nearly every learner.
-
-**B6. Beispiel:** *Gestern habe ich den Login-Bug behoben. Heute möchte ich die Tests grün machen.
-Blocker: keine.*
-
-**B7.** Any three of: *Könntest du das bitte wiederholen? / Entschuldigung, etwas langsamer bitte. /
-Kannst du das bitte anders formulieren? / Habe ich das richtig verstanden: …?*
-
-**B8.** a) **Könnten Sie** mir bitte den Log schicken? · b) **Haben Sie** kurz Zeit? ·
-c) **Könnten Sie** das bitte wiederholen?
-*du → Sie* changes the verb ending *and* capitalizes *Sie*.
-
-**B9–B10.** Recording tasks — no key.
-
 ### C. Produzieren
 
 All open. Use this rubric on your own recording:

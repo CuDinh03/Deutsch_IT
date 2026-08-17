@@ -77,109 +77,334 @@ context, and only after answering A and B may you open a dictionary.
 
 ---
 
-### A. Erkennen — skim & structure (A1–A7)
+### A. Erkennen — skim & structure
 
-**A1.** Skim all three for 90 seconds. Match text to type.
+**A1–A3 · Textsorte bestimmen.**
 
-| Text | Nachricht | Kommentar | Fachtext |
-|---|:--:|:--:|:--:|
-| 1 | ☐ | ☐ | ☐ |
-| 2 | ☐ | ☐ | ☐ |
-| 3 | ☐ | ☐ | ☐ |
+```uebung
+? Text 1 („Immer mehr Unternehmen verlagern Anwendungen in die Cloud")
+* Nachricht
+x Kommentar
+x Fachtext
+! Berichtet und schreibt Aussagen anderen zu („nach einer Erhebung", „Kritiker warnen").
 
-**A2.** Which text has a **stance**? How did you know within ten seconds?
+? Text 2 („Hört auf, freitags zu deployen")
+x Nachricht
+* Kommentar
+x Fachtext
+! Imperativ in der Überschrift, „Es ist höchste Zeit, dass …" — eine eigene These.
 
-**A3.** Crack these compounds right-to-left: split, article, meaning.
+? Text 3 („Fehlerbehandlung in verteilten Systemen")
+x Nachricht
+x Kommentar
+* Fachtext
+! Unpersönlich, Passiv, Aufzählung von Mechanismen.
+```
 
-*die Datenverarbeitung · der Fachkräftemangel · die Rückverlagerung · die Wiederholungsstrategie ·
-der Branchenverband · die Verhandlungsmacht · die Drittanbieter-Integration*
+**A4 · Woran erkennt man eine Haltung?**
 
-**A4.** In Text 2, find the four parts of a Kommentar and quote the cue word for each.
+```uebung
+? Welcher Text hat eine erkennbare Haltung, und woran siehst du das in zehn Sekunden?
+* Text 2 — Imperativ in der Überschrift und „Es ist höchste Zeit, dass …"
+x Text 1 — wegen der Zahlen
+x Text 3 — wegen der Fachbegriffe
+! Nachrichten schreiben zu (*Kritiker warnen*), ein Kommentar behauptet in eigener Stimme.
+```
 
-| Teil | Signalwort im Text |
-|---|---|
-| These | |
-| Argument | |
-| Gegenargument (Einräumung) | |
-| Fazit | |
+**A5–A11 · Komposita zerlegen.** Gib den Artikel an.
 
-**A5.** Which words in the texts signal **opinion** rather than fact?
+```uebung
+? ___ Datenverarbeitung
+= die
+! Kopf: *die Verarbeitung*.
 
-*rund zwei Drittel · höchste Zeit · nach einer Erhebung · in Wahrheit · üblicherweise ·
-unterm Strich · vermutlich · grundsätzlich*
+? ___ Fachkräftemangel
+= der
+! Kopf: *der Mangel*.
 
-**A6.** Scan only — find these as fast as you can.
+? ___ Rückverlagerung
+= die
+! Kopf: *die Verlagerung*.
 
-| Nr | Gesucht | Antwort |
-|---|---|---|
-| a | Anteil der Betriebe, die auslagern (T1) | |
-| b | Wie lange dauert die Behebung am Wochenende (T2) | |
-| c | Wie viele Mechanismen nennt T3 | |
-| d | Bei welchen Operationen sind Wiederholungen unbedenklich (T3) | |
+? ___ Wiederholungsstrategie
+= die
+! Kopf: *die Strategie*.
 
-**A7.** Guess from context — no dictionary.
+? ___ Branchenverband
+= der
+! Kopf: *der Verband*.
 
-| Wort | Kontext | Vermutung |
-|---|---|---|
-| die Erhebung | „nach einer aktuellen Erhebung des Branchenverbands" | |
-| handlungsfähig | „bis Montagmorgen praktisch nicht handlungsfähig" | |
-| die Bevormundung | „keine Bevormundung, sondern Risikomanagement" | |
-| nachgelagert | „an einen nachgelagerten Dienst weitergereicht" | |
-| unbedenklich | „nur bei idempotenten Operationen unbedenklich" | |
+? ___ Verhandlungsmacht
+= die
+! Kopf: *die Macht*.
+
+? ___ Drittanbieter-Integration
+= die
+! Kopf: *die Integration*.
+```
+
+**A12–A15 · Kommentarstruktur in Text 2.**
+
+```uebung
+? Welches Signalwort leitet die These ein?
+* Es ist höchste Zeit, dass …
+x Denn …
+x Zwar …
+x Unterm Strich …
+! Der Anspruch des Autors, direkt im ersten Satz.
+
+? Welches Signalwort leitet das Hauptargument ein?
+x Es ist höchste Zeit …
+* Denn die Rechnung ist einfach.
+x Zwar wird gern eingewendet …
+x Unterm Strich …
+! *Denn* begründet.
+
+? Welches Signalwort leitet die Einräumung ein?
+x Denn …
+* Zwar wird gern eingewendet …
+x Unterm Strich …
+x Es ist höchste Zeit …
+! *Zwar* und *Natürlich* kündigen im Deutschen fast immer ein folgendes *aber* an.
+
+? Welches Signalwort leitet das Fazit ein?
+x Denn …
+x Zwar …
+* Unterm Strich …
+x Natürlich …
+! Klassischer Schlussmarker.
+```
+
+**A16 · Meinung oder Fakt?**
+
+```uebung
+? Welche Ausdrücke signalisieren eine **Meinung**? (mehrere richtig)
+* höchste Zeit
+* in Wahrheit
+* unterm Strich
+* vermutlich
+x rund zwei Drittel
+x nach einer Erhebung
+x üblicherweise
+x grundsätzlich
+! Die neutralen Ausdrücke schreiben zu oder beschreiben Übliches; die anderen bewerten.
+```
+
+**A17–A21 · Aus dem Kontext erraten.**
+
+```uebung
+? „nach einer aktuellen Erhebung des Branchenverbands" — die Erhebung ist …
+* eine Umfrage/Studie
+x eine Erhöhung
+x eine Beschwerde
+x eine Verordnung
+! Formeller als *Umfrage*, gleiche Bedeutung.
+
+? „bis Montagmorgen praktisch nicht handlungsfähig" — handlungsfähig heißt …
+* in der Lage zu handeln/zu reagieren
+x erreichbar per Telefon
+x wirtschaftlich gesund
+x rechtlich zuständig
+! *Handlung* + *fähig*.
+
+? „keine Bevormundung, sondern Risikomanagement" — Bevormundung heißt …
+* jemandem vorschreiben, was er zu tun hat
+x eine Warnung
+x eine Belohnung
+x eine Verzögerung
+! *vor* + *Mund* → jemandem den Mund vorschreiben.
+
+? „an einen nachgelagerten Dienst weitergereicht" — nachgelagert heißt …
+* downstream, weiter hinten in der Kette
+x veraltet
+x optional
+x extern
+! Gegenteil: *vorgelagert* (upstream).
+
+? „nur bei idempotenten Operationen unbedenklich" — unbedenklich heißt …
+* ungefährlich, ohne Risiko
+x nicht empfohlen
+x kompliziert
+x kostenlos
+! *un-* + *bedenklich* (worrying).
+```
 
 ---
 
-### B. Anwenden — read for argument (B1–B10)
+### B. Anwenden — read for argument
 
-**B1 · Text 1** — richtig oder falsch?
+**B1–B5 · Text 1: richtig oder falsch?**
 
-| Nr | Aussage | R | F |
-|---|---|:--:|:--:|
-| a | Etwa zwei Drittel der Betriebe haben teilweise ausgelagert. | ☐ | ☐ |
-| b | Mittelständische Unternehmen lagern am wenigsten aus. | ☐ | ☐ |
-| c | Der Fachkräftemangel ist einer der Gründe. | ☐ | ☐ |
-| d | Der Text erwartet, dass der Trend endet. | ☐ | ☐ |
-| e | Datenschützer wollen Regeln für Daten außerhalb der EU. | ☐ | ☐ |
+```uebung
+? Etwa zwei Drittel der Betriebe haben teilweise ausgelagert.
+* richtig
+x falsch
+! Steht so im Text.
 
-**B2 · Text 1** — answer in a full German sentence.
+? Mittelständische Unternehmen lagern am wenigsten aus.
+x richtig
+* falsch
+! Bei ihnen ist der Anteil **besonders stark gewachsen**. „Am stärksten gewachsen" ist nicht „am höchsten" — und beim Überfliegen wird daraus leicht das Gegenteil. Genau diese Umkehrung ist der häufigste Prüfungsfehler.
 
-- a) Warum nennen die Befragten Skalierbarkeit als Hauptgrund?
-- b) Welche zwei Dinge verliert man laut Kritikern beim Auslagern?
-- c) Warum ist eine Rückverlagerung unwahrscheinlich?
+? Der Fachkräftemangel spielt eine Rolle.
+* richtig
+x falsch
+! „Auch der Fachkräftemangel spielt eine Rolle."
 
-**B3 · Text 2** — what exactly is the author's claim, in one German sentence?
+? Der Text erwartet, dass der Trend endet.
+x richtig
+* falsch
+! „Branchenbeobachter rechnen dennoch damit, dass sich der Trend fortsetzt."
 
-**B4 · Text 2** — the author concedes something. What, and how does he then defeat it?
+? Datenschützer fordern Regeln für Daten außerhalb der EU.
+* richtig
+x falsch
+! Letzter Satz des dritten Absatzes.
+```
 
-**B5 · Text 2** — find the sentence that carries the core argument (the "Rechnung"), and explain it
-in your own words.
+**B6–B8 · Text 1: Inhalt.**
 
-**B6 · Text 3** — fill the mechanism table.
+```uebung
+? Welche zwei Dinge verliert man laut Kritikern beim vollständigen Auslagern? (mehrere richtig)
+* technisches Wissen
+* Verhandlungsmacht
+x Kunden
+x Rechenzentren
+! „verliert nicht nur technisches Wissen, sondern auch Verhandlungsmacht".
 
-| Mechanismus | Was macht er? |
-|---|---|
-| Timeout | |
-| Circuit Breaker | |
-| Wiederholungsstrategie | |
+? Warum nennen die Befragten Skalierbarkeit als Hauptgrund?
+* weil sich Rechenleistung kurzfristig zubuchen lässt, ohne Hardware zu beschaffen
+x weil es billiger ist als eigene Server
+x weil Kunden es verlangen
+x weil es gesetzlich gefordert ist
+! Wörtlich im zweiten Absatz.
 
-**B7 · Text 3** — why are retries risky for non-idempotent operations? Give the text's example.
+? Warum ist eine Rückverlagerung unwahrscheinlich?
+* weil sie wirtschaftlich kaum darstellbar ist
+x weil es verboten ist
+x weil die Anbieter es nicht zulassen
+x weil das Wissen fehlt
+! „für die meisten Betriebe wirtschaftlich kaum darstellbar".
+```
 
-**B8.** Find in the texts the German for:
+**B9–B11 · Text 2: Argument.**
 
-| Englisch | Deutsch |
-|---|---|
-| survey | |
-| skills shortage | |
-| bargaining power | |
-| downstream service | |
-| exponential backoff | |
-| to be unreachable | |
+```uebung
+? Was ist die Kernthese des Kommentars?
+* Freitagnachmittags sollte nichts mehr ausgeliefert werden.
+x Automatische Rollbacks lösen das Problem.
+x Deployments sind generell zu riskant.
+x Teams arbeiten am Wochenende zu wenig.
+! „Am Freitagnachmittag wird nichts mehr ausgeliefert."
 
-**B9.** Passive hunt. Text 3 is written almost entirely in the **Passiv**. Find four examples and
-convert two of them into **man**-sentences.
+? Was räumt der Autor ein?
+* dass moderne Pipelines und Rollbacks vieles abfangen
+x dass Freitagsdeployments bequem sind
+x dass sein Team es anders macht
+x dass die Regel unnötig ist
+! „Zwar wird gern eingewendet, moderne Pipelines … hätten dieses Problem gelöst. Natürlich ist an diesem Einwand etwas dran."
 
-**B10.** Which text would you read **intensively**, and which only **skim**, if you had ten minutes
-before an architecture meeting? Justify.
+? Wie entkräftet er die Einräumung?
+* Gerade die Fehler, die ein Rollback nicht auffängt, treten weiter auf.
+x Er ignoriert sie.
+x Er sagt, Rollbacks funktionieren nie.
+x Er verweist auf ein Gesetz.
+! Einräumen, teilweise zugestehen, dann so weit einschränken, dass es den eigenen Fall nicht mehr deckt — das deutsche Standardmuster der Argumentation.
+```
+
+**B12–B15 · Text 3: Mechanismen.**
+
+```uebung
+? Was macht ein Timeout?
+* begrenzt die Wartezeit
+x verhindert weitere Anfragen
+x wiederholt die Anfrage
+x speichert das Ergebnis
+! Erster der drei Mechanismen.
+
+? Was macht ein Circuit Breaker?
+x begrenzt die Wartezeit
+* verhindert weitere Anfragen an einen überlasteten Dienst
+x wiederholt die Anfrage sofort
+x protokolliert Fehler
+! Zweiter Mechanismus.
+
+? Was macht die Wiederholungsstrategie?
+x begrenzt die Wartezeit
+x blockiert den Dienst
+* wiederholt mit wachsenden Abständen, um nicht zusätzlich zu belasten
+x verwirft die Anfrage
+! Exponentiell wachsende Abstände.
+
+? Warum sind Wiederholungen bei nicht-idempotenten Operationen riskant?
+* derselbe Vorgang kann mehrfach ausgeführt werden — z. B. eine Zahlung doppelt
+x sie dauern zu lange
+x sie brauchen mehr Speicher
+x sie funktionieren technisch nicht
+! Das Beispiel steht wörtlich im Text.
+```
+
+**B16–B21 · Vokabular aus den Texten.**
+
+```uebung
+? Deutsch für „survey"
+= Erhebung | die Erhebung
+! Formeller als *Umfrage*.
+
+? Deutsch für „skills shortage"
+= Fachkräftemangel | der Fachkräftemangel
+! Fachkräfte + Mangel.
+
+? Deutsch für „bargaining power"
+= Verhandlungsmacht | die Verhandlungsmacht
+! Verhandlung + Macht.
+
+? Deutsch für „downstream service"
+= nachgelagerter Dienst | der nachgelagerte Dienst | nachgelagert
+! Gegenteil: vorgelagert.
+
+? Deutsch für „to be unreachable"
+= nicht erreichbar sein | nicht erreichbar
+! Das Standardwort in deutschen Betriebsmeldungen.
+
+? Deutsch für „objection"
+= Einwand | der Einwand
+! Aus Text 2: „an diesem Einwand ist etwas dran".
+```
+
+**B22–B25 · Passiv in Text 3.**
+
+```uebung
+? Welche Formen sind Passiv? (mehrere richtig)
+* muss davon ausgegangen werden
+* wird weitergereicht
+* werden kombiniert
+x kann beantwortet werden — ja, auch das ist Passiv
+! Alle vier sind Passiv. Fachtexte im Deutschen sind fast durchgehend passivisch, weil der Handelnde bewusst offenbleibt.
+
+? Wandle um in einen man-Satz: „In verteilten Systemen muss davon ausgegangen werden, dass …"
+= In verteilten Systemen muss man davon ausgehen, dass … | Man muss davon ausgehen, dass
+! Das Passiv-zu-*man*-Umwandeln ist ein zuverlässiger Verständnistest: Wer es umformen kann, hat den Satz verstanden.
+
+? Wandle um: „Üblicherweise werden drei Mechanismen kombiniert."
+= Üblicherweise kombiniert man drei Mechanismen
+! Inversion nach *üblicherweise*.
+
+? Welche Variante passt besser in ein README?
+* die Aktiv-Variante mit man — kürzer und sagt, wer handelt
+x die Passiv-Variante — klingt professioneller
+! Für Spezifikationen ist Passiv üblich, für Anleitungen Aktiv. Beides ist korrekt — die Wahl ist Register, nicht Grammatik.
+```
+
+**B26 · Lesegang wählen.**
+
+```uebung
+? Du hast zehn Minuten vor einem Architektur-Meeting. Welchen Text liest du intensiv?
+* Text 3 — du musst danach handeln
+x Text 1 — die Zahlen sind wichtig
+x Text 2 — die Meinung ist relevant
+! Bei Text 3 kostet ein Missverständnis dich Produktionsfehler. Text 1 ist Hintergrund, Text 2 Meinung ohne Handlungsbedarf — beide reichen zum Überfliegen.
+```
 
 ---
 
@@ -227,92 +452,9 @@ into *man*-sentences to check you understood them.
 
 ---
 
-## ✅ Lösungen & Erklärungen
+## ✅ Musterlösungen für C und D
 
 ```spoiler
-### A. Erkennen
-
-**A1.** Text 1 → **Nachricht** · Text 2 → **Kommentar** · Text 3 → **Fachtext**
-
-**A2.** **Text 2.** Tells within seconds from the headline (*Hört auf, …* — an imperative) and
-*Es ist höchste Zeit, dass …*. News reports attribute (*nach einer Erhebung*, *Kritiker warnen*);
-a Kommentar asserts in its own voice.
-
-**A3.**
-| Kompositum | Zerlegung | Artikel | Bedeutung |
-|---|---|---|---|
-| die Datenverarbeitung | Daten + Verarbeitung | die | data processing |
-| der Fachkräftemangel | Fachkräfte + Mangel | der | skills shortage |
-| die Rückverlagerung | Rück + Verlagerung | die | moving back (repatriation) |
-| die Wiederholungsstrategie | Wiederholung + Strategie | die | retry strategy |
-| der Branchenverband | Branche + Verband | der | industry association |
-| die Verhandlungsmacht | Verhandlung + Macht | die | bargaining power |
-| die Drittanbieter-Integration | Drittanbieter + Integration | die | third-party integration |
-
-**A4.**
-| Teil | Signal |
-|---|---|
-| These | *Es ist höchste Zeit, dass …* |
-| Argument | *Denn die Rechnung ist einfach.* |
-| Einräumung | *Zwar wird gern eingewendet … Natürlich ist an diesem Einwand etwas dran.* |
-| Fazit | *Unterm Strich …* |
-
-**A5.** Meinung: **höchste Zeit, in Wahrheit, unterm Strich, vermutlich** ·
-Fakt/neutral: *rund zwei Drittel, nach einer Erhebung, üblicherweise, grundsätzlich*
-
-**A6.** a) **rund zwei Drittel** · b) **zwei Tage** (statt zwanzig Minuten) · c) **drei** ·
-d) bei **idempotenten** Operationen
-
-**A7.** die Erhebung = **survey/study** · handlungsfähig = **able to act/respond** ·
-die Bevormundung = **patronizing / being told what to do** · nachgelagert = **downstream** ·
-unbedenklich = **safe, harmless**
-
-### B. Anwenden
-
-**B1.** a) **R** · b) **F** — bei ihnen ist der Anteil *besonders stark gewachsen* ·
-c) **R** · d) **F** — Beobachter rechnen damit, dass er sich **fortsetzt** · e) **R**
-
-Item b) is the classic exam inversion: the text says growth was *strongest* there, the statement
-claims they outsource *least*. Skim-reading turns "grew fastest" into "is highest" or its opposite
-with equal ease — this is why B2 reading questions must be answered from the sentence, not memory.
-
-**B2.** a) *Weil sich Rechenleistung kurzfristig zubuchen lässt, ohne dass Hardware beschafft
-werden muss.* · b) *Technisches Wissen und Verhandlungsmacht.* · c) *Weil sie für die meisten
-Betriebe wirtschaftlich kaum darstellbar ist.*
-
-**B3.** *Teams sollten freitagnachmittags nichts mehr ausliefern, weil das Risiko in der
-handlungsunfähigen Zeit bis Montag unverhältnismäßig hoch ist.*
-
-**B4.** Einräumung: moderne Pipelines und automatische Rollbacks hätten das Problem gelöst.
-Entkräftung: gerade die Fehler, die ein Rollback **nicht** auffängt (fehlerhafte Migrationen,
-korrupte Daten, kaputte Integrationen), treten weiter auf.
-That's the standard German argumentative move: name the counter-argument, grant it partially
-(*Natürlich ist etwas dran*), then narrow it until it no longer covers your case.
-
-**B5.** *„Ein Fehler, der freitags um siebzehn Uhr in Produktion geht, trifft auf ein Unternehmen,
-das bis Montagmorgen praktisch nicht handlungsfähig ist."* — the cost isn't the bug, it's the
-**window in which nobody can respond**.
-
-**B6.** Timeout = **begrenzt die Wartezeit** · Circuit Breaker = **verhindert weitere Anfragen an
-einen überlasteten Dienst** · Wiederholungsstrategie = **wiederholt mit exponentiell wachsenden
-Abständen, um den Dienst nicht zusätzlich zu belasten**
-
-**B7.** Weil derselbe Vorgang mehrfach ausgeführt werden kann — Beispiel: **eine Zahlung** würde
-doppelt ausgeführt.
-
-**B8.** survey = **die Erhebung** · skills shortage = **der Fachkräftemangel** · bargaining power =
-**die Verhandlungsmacht** · downstream service = **der nachgelagerte Dienst** · exponential backoff
-= **Wiederholung mit exponentiell wachsenden Abständen** · to be unreachable = **nicht erreichbar
-sein**
-
-**B9.** Passiv-Beispiele: *muss davon ausgegangen werden · wird weitergereicht · kann beantwortet
-werden · werden kombiniert · geschickt werden · ausgeführt werden*.
-Als *man*-Sätze: *Man muss grundsätzlich davon ausgehen, dass …* · *Üblicherweise kombiniert man
-drei Mechanismen.*
-
-**B10.** Intensiv: **Text 3** — du musst danach handeln, ein Missverständnis kostet dich
-Produktionsfehler. Skim: **Text 1** (Hintergrund) und **Text 2** (Meinung, kein Handlungsbedarf).
-
 ### C. Produzieren
 
 **C4.** *Wiederholungen sind nur bei idempotenten Operationen unbedenklich.*

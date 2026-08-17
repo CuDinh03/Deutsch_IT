@@ -15,115 +15,259 @@ transcript on the first pass.
 
 ## 🏋️ Übungsteil · Workbook
 
-### A. Erkennen — gist pass (A1–A5)
+### A. Erkennen — gist pass
 
-Play each **once**. Answer from memory.
+Spiele jeden Hörtext **einmal** und antworte aus dem Gedächtnis.
 
-**A1 · Hörtext 1 — Architektur-Diskussion**
+**A1–A2 · Hörtext 1 (Architektur-Diskussion)**
 
-```hoertext
-Also, ich bin da ehrlich gesagt skeptisch. Natürlich klingt es gut, den Monolithen aufzuteilen — aber wir haben aktuell weder ein vernünftiges Monitoring noch genug Leute im Bereitschaftsdienst. Wenn wir jetzt fünf Services daraus machen, verlagern wir die Komplexität nur vom Code in den Betrieb. Ich würde vorschlagen, dass wir zuerst den Zahlungsteil herauslösen und schauen, wie gut das läuft. Danach können wir immer noch entscheiden.
+```uebung
+? Ist der Sprecher für oder gegen die Aufteilung?
+x klar dafür
+* skeptisch — aber nicht grundsätzlich dagegen
+x völlig dagegen
+x er sagt es nicht
+! „Ich würde vorschlagen, dass wir zuerst den Zahlungsteil herauslösen" — er will einen kleineren Schritt, keine Absage.
+
+? Was schlägt er konkret vor?
+* zuerst nur den Zahlungsteil herauslösen
+x alle fünf Services auf einmal bauen
+x den Monolithen behalten
+x mehr Leute einstellen
+! Schrittweises Vorgehen mit Zwischenauswertung.
 ```
 
-- a) Ist der Sprecher für oder gegen die Aufteilung?
-- b) Was schlägt er konkret vor?
+**A3–A4 · Hörtext 2 (Nachrichten)**
 
-**A2 · Hörtext 2 — Nachrichten**
+```uebung
+? Worum geht es?
+* um die Cloud-Nutzung deutscher Unternehmen
+x um Gehälter in der IT
+x um Homeoffice
+x um Datenschutzstrafen
+! Erster Satz nennt das Thema.
 
-```hoertext
-Laut einer aktuellen Studie setzen immer mehr deutsche Unternehmen auf Cloud-Lösungen. Rund zwei Drittel der befragten Betriebe gaben an, mindestens einen Teil ihrer Anwendungen ausgelagert zu haben. Kritiker warnen jedoch vor der wachsenden Abhängigkeit von wenigen großen Anbietern. Datenschützer fordern deshalb klarere Regeln für die Speicherung personenbezogener Daten in Rechenzentren außerhalb Europas.
+? Nennt der Text nur Fakten oder auch Kritik?
+x nur Fakten
+* auch Kritik
+! „Kritiker warnen jedoch …" und „Datenschützer fordern …"
 ```
 
-- a) Worum geht es?
-- b) Nennt der Text nur Fakten oder auch Kritik?
+**A5–A6 · Hörtext 3 (Post-Mortem)**
 
-**A3 · Hörtext 3 — Post-Mortem**
+```uebung
+? Wie lange dauerte der Ausfall?
+= 56 | 56 Minuten | sechsundfünfzig Minuten
+! „insgesamt sechsundfünfzig Minuten".
 
-```hoertext
-Kurz zur Einordnung: Der Ausfall am Dienstag hat insgesamt sechsundfünfzig Minuten gedauert. Ausgelöst wurde er durch eine fehlerhafte Konfiguration, die am Montagabend ausgerollt worden ist. Wenn wir das Canary-Deployment schon aktiv gehabt hätten, wäre der Fehler wahrscheinlich nach zwei Minuten aufgefallen. Wir haben drei Maßnahmen beschlossen: erstens Canary-Deployments für alle Dienste, zweitens ein automatisches Rollback und drittens eine bessere Alarmierung nachts.
+? Wie viele Maßnahmen wurden beschlossen?
+= 3 | drei
+! „Wir haben drei Maßnahmen beschlossen."
 ```
 
-- a) Wie lange dauerte der Ausfall?
-- b) Wie viele Maßnahmen wurden beschlossen?
+**A7–A8 · Hörtext 4 (Meinung im Podcast)**
 
-**A4 · Hörtext 4 — Meinung im Podcast**
+```uebung
+? Was ist die Kernthese?
+* Das Werkzeug ist weniger wichtig als die Disziplin.
+x Moderne Sprachen machen Code wartbarer.
+x Alte Systeme sind grundsätzlich schlecht.
+x Architektur spielt keine Rolle.
+! „Unterm Strich ist das Werkzeug weniger wichtig als die Disziplin."
 
-```hoertext
-Ich halte diese ganze Diskussion für überbewertet, ehrlich gesagt. Zwar stimmt es, dass die Sprache die Einstiegshürde senkt — aber am Ende entscheidet doch die Architektur über die Wartbarkeit, nicht die Syntax. Ich habe Teams gesehen, die in einer sehr modernen Sprache völlig unwartbaren Code produziert haben. Und umgekehrt gibt es uralte Systeme, die seit fünfzehn Jahren zuverlässig laufen. Unterm Strich ist das Werkzeug weniger wichtig als die Disziplin.
+? Wo räumt der Sprecher etwas ein?
+* bei „Zwar stimmt es, dass die Sprache die Einstiegshürde senkt"
+x im letzten Satz
+x gar nicht
+x bei der Erwähnung alter Systeme
+! *Zwar …* leitet im Deutschen fast immer eine Einräumung ein, auf die ein *aber* folgt.
 ```
 
-- a) Was ist die Kernthese?
-- b) Wo räumt der Sprecher etwas ein?
+**A9–A10 · Hörtext 5 (Telefonische Absprache)**
 
-**A5 · Hörtext 5 — Telefonische Absprache**
+```uebung
+? Warum ruft die Person an?
+* weil der Donnerstagstermin nicht mehr passt
+x um einen neuen Kunden vorzustellen
+x wegen eines Ausfalls
+x um Urlaub zu beantragen
+! „Der Termin am Donnerstag passt uns leider nicht mehr."
 
-```hoertext
-Ja, genau deswegen rufe ich an. Der Termin am Donnerstag passt uns leider nicht mehr, weil die Kollegin aus dem Datenschutzteam an dem Tag verhindert ist. Wir könnten entweder auf Dienstag ausweichen, dann allerdings erst ab vierzehn Uhr, oder auf den Donnerstag der Folgewoche. Mir persönlich wäre Dienstag lieber, weil wir sonst zu nah an den Release kommen. Sagen Sie mir einfach kurz Bescheid, was für Sie besser passt.
+? Welche zwei Alternativen nennt sie? (mehrere richtig)
+* Dienstag ab 14 Uhr
+* Donnerstag der Folgewoche
+x Mittwochvormittag
+x Freitagnachmittag
+! Beide werden ausdrücklich genannt.
 ```
-
-- a) Warum ruft die Person an?
-- b) Welche zwei Alternativen nennt sie?
 
 ---
 
-### B. Anwenden — detail & stance (B1–B10)
+### B. Anwenden — detail & stance
 
-Replay as often as you like. Transcript only after you've answered.
+**B1–B4 · Hörtext 1: richtig oder falsch?**
 
-**B1 · Hörtext 1** — richtig oder falsch?
+```uebung
+? Der Sprecher lehnt Microservices grundsätzlich ab.
+x richtig
+* falsch
+! Er ist skeptisch gegenüber dem **Zeitpunkt**, nicht gegen die Idee. Hedged Vorbehalt ist **keine** Ablehnung — auf B2 wird genau diese Unterscheidung geprüft.
 
-| Nr | Aussage | R | F |
-|---|---|:--:|:--:|
-| a | Der Sprecher lehnt Microservices grundsätzlich ab. | ☐ | ☐ |
-| b | Es fehlt sowohl Monitoring als auch Personal im Bereitschaftsdienst. | ☐ | ☐ |
-| c | Er will alles auf einmal aufteilen. | ☐ | ☐ |
-| d | Er schlägt einen schrittweisen Weg vor. | ☐ | ☐ |
+? Es fehlt sowohl Monitoring als auch Personal im Bereitschaftsdienst.
+* richtig
+x falsch
+! „weder ein vernünftiges Monitoring noch genug Leute im Bereitschaftsdienst".
 
-**B2 · Hörtext 1** — which two-part connector did the speaker use, and what does it signal?
+? Er will alles auf einmal aufteilen.
+x richtig
+* falsch
+! Er will **zuerst** nur den Zahlungsteil herauslösen.
 
-**B3 · Hörtext 2** — fill in.
+? Er schlägt einen schrittweisen Weg vor.
+* richtig
+x falsch
+! Genau das ist sein Vorschlag.
+```
 
-| Nr | Frage | Antwort |
-|---|---|---|
-| a | Wie viele der befragten Betriebe lagern aus? | |
-| b | Wovor warnen Kritiker? | |
-| c | Was fordern Datenschützer? | |
-| d | Um welche Daten geht es dabei? | |
+**B5 · Der Konnektor in Hörtext 1.**
 
-**B4 · Hörtext 3** — numbers and measures.
+```uebung
+? Welchen zweiteiligen Konnektor benutzt der Sprecher, und was signalisiert er?
+* weder … noch — beides fehlt
+x sowohl … als auch — beides ist vorhanden
+x entweder … oder — eine Wahl
+x je … desto — eine Steigerung
+! *weder … noch* ist die negative Entsprechung von *sowohl … als auch*.
+```
 
-- a) Dauer des Ausfalls in Minuten?
-- b) Wann wurde die fehlerhafte Konfiguration ausgerollt?
-- c) Nenne alle drei Maßnahmen.
-- d) Welche grammatische Struktur benutzt der Sprecher für die Hypothese?
+**B6–B9 · Hörtext 2: Details.**
 
-**B5 · Hörtext 4** — stance detection.
+```uebung
+? Wie viele der befragten Betriebe lagern aus?
+= zwei Drittel | rund zwei Drittel | 2/3
+! „rund zwei Drittel der befragten Betriebe".
 
-- a) Ist der Sprecher **für**, **gegen** oder **neutral** zur These „die Sprache entscheidet"?
-- b) Welche Wörter verraten die Meinung? Nenne drei.
-- c) Wie lautet sein Fazit-Signalwort?
+? Wovor warnen Kritiker?
+* vor der wachsenden Abhängigkeit von wenigen großen Anbietern
+x vor zu hohen Kosten
+x vor Datenverlust
+x vor Fachkräftemangel
+! Wörtlich im Text.
 
-**B6 · Hörtext 5** — Termine.
+? Was fordern Datenschützer?
+* klarere Regeln für die Speicherung
+x ein Verbot der Cloud
+x niedrigere Preise
+x mehr Rechenzentren
+! „Datenschützer fordern deshalb klarere Regeln für die Speicherung".
 
-| Nr | Frage | Antwort |
-|---|---|---|
-| a | Welcher Termin fällt weg und warum? | |
-| b | Alternative 1 mit Uhrzeit? | |
-| c | Alternative 2? | |
-| d | Welche bevorzugt die Sprecherin, und warum? | |
+? Um welche Daten geht es dabei?
+= personenbezogene Daten | personenbezogene
+! „personenbezogener Daten in Rechenzentren außerhalb Europas".
+```
 
-**B7.** Opinion-signal drill. Which of these signal the speaker's stance?
+**B10–B13 · Hörtext 3: Zahlen und Struktur.**
 
-*offensichtlich · laut einer Studie · zweifellos · rund zwei Drittel · ehrlich gesagt ·
-unterm Strich · fraglich · insgesamt*
+```uebung
+? Wann wurde die fehlerhafte Konfiguration ausgerollt?
+= am Montagabend | Montagabend | Montag
+! „die am Montagabend ausgerollt worden ist".
 
-**B8.** Note-taking. Play Hörtext 3 once and take notes in **under 15 words total**. Compare with
-the model notes in the solutions.
+? Nenne die erste beschlossene Maßnahme.
+= Canary-Deployments | Canary-Deployments für alle Dienste | Canary
+! „erstens Canary-Deployments für alle Dienste".
 
-**B9.** Find the **Konjunktiv II** in Hörtext 1 and in Hörtext 3. What social or logical job is each
-one doing? (One hedges, one is counterfactual.)
+? Welche grammatische Struktur benutzt der Sprecher für die Hypothese?
+* Konjunktiv II der Vergangenheit (hätten … gehabt, wäre … aufgefallen)
+x Passiv Präsens
+x Futur
+x Imperativ
+! Das ist die Standardstruktur jedes deutschen Post-Mortems.
 
-**B10.** Which Hörtext was hardest? Speed, vocabulary, or structure? Name the specific obstacle.
+? Welche Form steht im Passiv? (mehrere richtig)
+* Ausgelöst wurde er durch eine fehlerhafte Konfiguration
+* die am Montagabend ausgerollt worden ist
+x Wir haben drei Maßnahmen beschlossen
+x Der Ausfall hat sechsundfünfzig Minuten gedauert
+! Beide Passivformen: Präteritum und Perfekt (mit **worden**).
+```
+
+**B14–B16 · Hörtext 4: Haltung erkennen.**
+
+```uebung
+? Ist der Sprecher für oder gegen die These „die Sprache entscheidet"?
+x dafür
+* dagegen
+x neutral
+! Er hält die Diskussion für „überbewertet".
+
+? Welche Wörter verraten seine Meinung? (mehrere richtig)
+* ehrlich gesagt
+* überbewertet
+* unterm Strich
+x insgesamt
+x laut
+! *insgesamt* und *laut* sind neutrale Signalwörter, die anderen drei markieren Haltung.
+
+? Wie lautet sein Fazit-Signalwort?
+= unterm Strich | Unterm Strich
+! Klassischer Schlussmarker in gesprochener Argumentation.
+```
+
+**B17–B20 · Hörtext 5: Termine.**
+
+```uebung
+? Warum fällt der Donnerstagstermin weg?
+* weil die Kollegin aus dem Datenschutzteam verhindert ist
+x weil der Raum belegt ist
+x wegen eines Feiertags
+x wegen eines Releases
+! „weil die Kollegin aus dem Datenschutzteam an dem Tag verhindert ist".
+
+? Ab wann wäre der Dienstagstermin möglich?
+= 14 Uhr | ab 14 Uhr | vierzehn Uhr | 14:00
+! „dann allerdings erst ab vierzehn Uhr".
+
+? Welchen Termin bevorzugt die Sprecherin?
+* Dienstag
+x Donnerstag der Folgewoche
+x Mittwoch
+x sie hat keine Präferenz
+! „Mir persönlich wäre Dienstag lieber."
+
+? Warum?
+* weil man sonst zu nah an den Release kommt
+x weil dienstags mehr Leute da sind
+x weil der Raum frei ist
+x weil sie donnerstags Urlaub hat
+! „weil wir sonst zu nah an den Release kommen".
+```
+
+**B21 · Meinungssignale sortieren.**
+
+```uebung
+? Welche Ausdrücke signalisieren eine **Meinung**? (mehrere richtig)
+* offensichtlich
+* zweifellos
+* ehrlich gesagt
+* unterm Strich
+* fraglich
+x laut einer Studie
+x rund zwei Drittel
+x insgesamt
+! Die Trennung von Meinungssignal und neutraler Angabe ist die Kernkompetenz beim B2-Hörverstehen — die Prüfung fragt „was denkt der Sprecher", nicht nur „was ist passiert".
+```
+
+**B22 · Konjunktiv II im Hörtext.**
+
+```uebung
+? In Hörtext 1 sagt der Sprecher „Ich würde vorschlagen …". Welche Funktion hat der Konjunktiv II hier?
+* Abschwächung eines Vorschlags
+x Irrealis der Vergangenheit
+x Höflichkeitsbitte an eine fremde Person
+x Zukunft
+! In Hörtext 3 („hätten … gehabt, wäre … aufgefallen") macht dasselbe Werkzeug etwas völlig anderes: kontrafaktische Ursachenanalyse. Gleiche Grammatik, zwei Jobs.
+```
 
 ---
 
@@ -172,71 +316,9 @@ Don't aim for full comprehension — aim to catch the **topic and one opinion**.
 
 ---
 
-## ✅ Lösungen & Erklärungen
+## ✅ Musterlösungen für C und D
 
 ```spoiler
-### A. Erkennen
-
-**A1.** a) **skeptisch / eher dagegen** — aber nicht grundsätzlich · b) **zuerst nur den
-Zahlungsteil herauslösen** und das Ergebnis abwarten
-
-**A2.** a) **Cloud-Nutzung deutscher Unternehmen** · b) **auch Kritik** — Abhängigkeit und
-Datenschutz
-
-**A3.** a) **56 Minuten** · b) **drei**
-
-**A4.** a) **Das Werkzeug (die Sprache) ist weniger wichtig als die Disziplin/Architektur.** ·
-b) bei *„Zwar stimmt es, dass die Sprache die Einstiegshürde senkt"*
-
-**A5.** a) **Der Donnerstagstermin passt nicht mehr** (Kollegin verhindert) · b) **Dienstag ab
-14 Uhr** oder **Donnerstag der Folgewoche**
-
-### B. Anwenden
-
-**B1.** a) **F** — er ist skeptisch gegenüber dem *Zeitpunkt*, nicht gegen die Idee ·
-b) **R** (*weder … noch*) · c) **F** · d) **R**
-
-Item a) is the B2 trap: the speaker uses hedged, conditional language, and a careless listener
-turns "not yet, not like this" into "no". At B2 you're expected to hear the difference between
-rejection and reservation.
-
-**B2.** **weder … noch** — signals that *both* things are missing. It's the negative counterpart of
-*sowohl … als auch*; see [Phase 2 · Grammar](#/phase-2/grammar).
-
-**B3.** a) **rund zwei Drittel** · b) **vor der wachsenden Abhängigkeit von wenigen großen
-Anbietern** · c) **klarere Regeln für die Speicherung** · d) **personenbezogene Daten** in
-Rechenzentren **außerhalb Europas**
-
-**B4.** a) **56** · b) **am Montagabend** · c) **1. Canary-Deployments für alle Dienste,
-2. automatisches Rollback, 3. bessere Alarmierung nachts** · d) **Konjunktiv II der Vergangenheit**
-(*Wenn wir … gehabt hätten, wäre … aufgefallen*) — the standard post-mortem structure.
-
-**B5.** a) **gegen die These** — er hält sie für überbewertet · b) z. B. *ehrlich gesagt,
-überbewertet, doch, unterm Strich* · c) **unterm Strich**
-
-**B6.** a) **Donnerstag**, weil die **Kollegin aus dem Datenschutzteam verhindert** ist ·
-b) **Dienstag, erst ab 14 Uhr** · c) **Donnerstag der Folgewoche** · d) **Dienstag**, weil man
-sonst **zu nah an den Release** kommt
-
-**B7.** Meinungssignale: **offensichtlich, zweifellos, ehrlich gesagt, unterm Strich, fraglich**.
-Neutrale Fakten: *laut einer Studie, rund zwei Drittel, insgesamt*.
-Learning to hear this split is the core B2 listening skill — the exam asks "what does the speaker
-think", not only "what happened".
-
-**B8. Musterlösung (13 Wörter):**
-*Ausfall Di, 56 Min. Ursache: falsche Config Mo-Abend. 3 Maßnahmen: Canary, Auto-Rollback,
-Nacht-Alarm.*
-Note-taking is about nouns and numbers. Verbs and articles cost time and carry little.
-
-**B9.** Hörtext 1: *„Ich **würde** vorschlagen, dass wir zuerst …"* — **hedging**. The speaker has a
-clear proposal but softens it so it reads as an offer, not a decision.
-Hörtext 3: *„Wenn wir das Canary-Deployment schon aktiv **gehabt hätten**, **wäre** der Fehler
-… **aufgefallen**"* — **counterfactual past**. This is the sentence shape every German post-mortem
-is built on: what would have happened if the missing control had existed.
-
-Same grammatical tool (see [Phase 2 · Grammar](#/phase-2/grammar)), two completely different jobs —
-politeness in one, causal analysis in the other.
-
 ### C. Produzieren
 
 **C1. Transkript:** *Der Ausfall wurde durch eine fehlerhafte Konfiguration ausgelöst. Wenn das

@@ -15,135 +15,370 @@ whole point. Block C is where the argument phrases get used for real.
 
 ## 🏋️ Übungsteil · Workbook
 
-### A. Erkennen — derive and classify (A1–A7)
+### A. Erkennen — derive and classify
 
-**A1.** Derive the noun and give the article.
+**A1–A10 · Nomen ableiten.** Schreibe nur den Artikel.
 
-| Verb / Adjektiv | Nomen | Artikel |
-|---|---|---|
-| entwickeln | | |
-| sicher | | |
-| komplex | | |
-| warten | | |
-| skalierbar | | |
-| testen (Infinitiv als Nomen) | | |
-| bereitstellen | | |
-| verfügbar | | |
-| abhängig | | |
-| lösen | | |
+```uebung
+? entwickeln → ___ Entwicklung
+= die
+! Verb + *-ung* → immer *die*.
 
-**A2.** Which suffix, which gender? Fill the rule table from memory.
+? sicher → ___ Sicherheit
+= die
+! Adjektiv + *-heit* → *die*.
 
-| Suffix | Artikel | Von welcher Wortart? |
-|---|---|---|
-| -ung | | |
-| -heit / -keit | | |
-| -tät | | |
-| das + Infinitiv | | |
+? komplex → ___ Komplexität
+= die
+! *-tät* → *die*.
 
-**A3.** Sort these into **Meinung äußern · Begründen · Beispiel · Abwägen · Fazit**.
+? warten → ___ Wartung
+= die
+! *-ung* → *die*.
 
-*Meiner Meinung nach · Das liegt daran, dass · Einerseits … andererseits · Alles in allem ·
-Zum Beispiel · Ich bin der Ansicht, dass · Zusammenfassend · Zwar … aber · Etwa*
+? skalierbar → ___ Skalierbarkeit
+= die
+! *-keit* → *die*.
 
-**A4.** Connector type — koordinierend, adverbial or subordinierend?
+? testen → ___ Testen (Infinitiv als Nomen)
+= das
+! Nominalisierte Infinitive sind **das**.
 
-*obwohl · trotzdem · denn · damit · außerdem · sondern · sodass · dennoch · allerdings · weil*
+? bereitstellen → ___ Bereitstellung
+= die
+! *-ung* → *die*.
 
-**A5.** Which sentence shows **concession** (agreeing but objecting)?
+? verfügbar → ___ Verfügbarkeit
+= die
+! *-keit* → *die*.
 
-1. Kubernetes ist mächtig und flexibel.
-2. Kubernetes ist mächtig; allerdings ist die Lernkurve steil.
-3. Kubernetes ist mächtig, deshalb nutzen wir es.
-4. Kubernetes ist mächtig, weil es viele Features hat.
+? abhängig → ___ Abhängigkeit
+= die
+! *-keit* → *die*.
 
-**A6.** Formal or informal register? Mark each word.
+? lösen → ___ Lösung
+= die
+! *-ung* → *die*.
+```
 
-*super · folglich · darüber hinaus · mega · jedoch · ok · da (= weil) · cool · somit · voll gut*
+**A11 · Das Muster erkennen.**
 
-**A7.** Which is the **bottleneck** word, and which the **outage** word?
+```uebung
+? Neun der zehn Nomen oben waren „die". Was folgt daraus?
+* Die ganze abstrakte Ebene des Deutschen ist überwiegend feminin — man muss sie nicht einzeln lernen.
+x Es ist Zufall.
+x Abstrakte Nomen sind meist neutrum.
+x Man muss jedes Wort einzeln nachschlagen.
+! Die einzige Ausnahme war der nominalisierte Infinitiv (*das Testen*). Wer die Suffixe kennt, hört auf zu raten — das ist der eigentliche Ertrag dieses Moduls.
+```
 
-*der Engpass · der Ausfall · die Wartung · die Abhängigkeit*
+**A12–A16 · Funktion der Redemittel bestimmen.**
+
+```uebung
+? „Meiner Meinung nach …"
+* Meinung äußern
+x begründen
+x abwägen
+x Fazit
+! Der Standard-Einstieg.
+
+? „Das liegt daran, dass …"
+x Meinung äußern
+* begründen
+x abwägen
+x Fazit
+! Die häufigste Begründungsformel auf B2.
+
+? „Einerseits …, andererseits …"
+x Meinung äußern
+x begründen
+* abwägen
+x Fazit
+! Beide Seiten zeigen.
+
+? „Alles in allem …"
+x Meinung äußern
+x begründen
+x abwägen
+* Fazit
+! Zusammenfassender Schluss.
+
+? „Zwar …, aber …"
+x Meinung äußern
+x begründen
+* abwägen (einräumen)
+x Fazit
+! Einräumung: der Gegenseite etwas zugestehen und dann einschränken.
+```
+
+**A17–A19 · Konnektortyp.**
+
+```uebung
+? Welche sind koordinierend? (mehrere richtig)
+* denn
+* sondern
+x obwohl
+x damit
+x trotzdem
+! *denn* und *sondern* ändern die Wortstellung nicht.
+
+? Welche lösen Inversion aus? (mehrere richtig)
+* trotzdem
+* dennoch
+* allerdings
+* außerdem
+x weil
+x sodass
+! Adverbiale Konnektoren besetzen Position 1.
+
+? Welche schicken das Verb ans Ende? (mehrere richtig)
+* obwohl
+* damit
+* sodass
+* weil
+x dennoch
+x denn
+! Subordinierende Konnektoren.
+```
+
+**A20 · Einräumung erkennen.**
+
+```uebung
+? Welcher Satz räumt etwas ein und widerspricht dann?
+x Kubernetes ist mächtig und flexibel.
+* Kubernetes ist mächtig; allerdings ist die Lernkurve steil.
+x Kubernetes ist mächtig, deshalb nutzen wir es.
+x Kubernetes ist mächtig, weil es viele Features hat.
+! *allerdings* gesteht die Stärke zu und schränkt sie dann ein. Die anderen drei ergänzen, folgern oder begründen.
+```
+
+**A21–A22 · Register.**
+
+```uebung
+? Welche Wörter gehören in einen formellen Text? (mehrere richtig)
+* folglich
+* darüber hinaus
+* jedoch
+* somit
+* da
+x super
+x mega
+x ok
+! Die formelle Gruppe ersetzt *also, und auch, aber, deshalb, weil* im geschriebenen Deutsch.
+
+? Welches Wort bezeichnet den Engpass (bottleneck)?
+* der Engpass
+x der Ausfall
+x die Wartung
+x die Abhängigkeit
+! *der Ausfall* = outage, *die Wartung* = maintenance, *die Abhängigkeit* = dependency.
+```
 
 ---
 
-### B. Anwenden — apply with a frame (B1–B12)
+### B. Anwenden — apply with a frame
 
-**B1.** Build the abstract noun and use it in a sentence about your system.
+**B1–B5 · Abstraktes Nomen bilden (mit Artikel).**
 
-Example: *skalierbar* → **die Skalierbarkeit** → *Die Skalierbarkeit unseres Dienstes ist begrenzt.*
+```uebung
+? wartbar →
+= die Wartbarkeit
+! *-keit* → *die*.
 
-a) wartbar · b) verfügbar · c) komplex · d) sicher · e) abhängig
+? verfügbar →
+= die Verfügbarkeit
+! *-keit* → *die*.
 
-**B2.** Nominalisierung in context — rewrite verbal → nominal.
+? komplex →
+= die Komplexität
+! *-tät* → *die*.
 
-| Nr | Verbal | Nominal |
-|---|---|---|
-| a | Nachdem wir bereitgestellt haben, prüfen wir die Metriken. | |
-| b | Weil die Last steigt, brauchen wir mehr Instanzen. | |
-| c | Bevor wir migrieren, machen wir ein Backup. | |
-| d | Weil das System oft ausfällt, verlieren wir Kunden. | |
+? sicher →
+= die Sicherheit
+! *-heit* → *die*.
 
-**B3.** State an opinion **three different ways** about the same claim: *"Wir sollten zuerst
-refactoren."*
+? abhängig →
+= die Abhängigkeit
+! *-keit* → *die*.
+```
 
-**B4.** Add a reason with **Das liegt daran, dass …** to each opinion from B3.
+**B6–B9 · Nominalisierung im Satz.**
 
-**B5.** Weigh both sides with **einerseits … andererseits**.
+```uebung
+? „Nachdem wir bereitgestellt haben, prüfen wir die Metriken." → „Nach ___ prüfen wir die Metriken."
+= der Bereitstellung
+! *nach* + Dativ.
 
-- a) Monolith: einfach zu betreiben / skaliert schlecht
-- b) Microservices: unabhängig deploybar / komplexes Monitoring
-- c) Kubernetes: mächtig / steile Lernkurve
+? „Weil die Last steigt, brauchen wir mehr Instanzen." → „Wegen ___ brauchen wir mehr Instanzen."
+= der steigenden Last
+! Partizip I als Adjektiv im nominalen Stil.
 
-**B6.** Concede, then object — use *zwar … aber*, *trotzdem*, *dennoch*, *allerdings* (each once).
+? „Bevor wir migrieren, machen wir ein Backup." → „Vor ___ machen wir ein Backup."
+= der Migration
+! *vor* + Dativ.
 
-- a) Die Lösung ist schnell. Sie ist schwer zu warten.
-- b) Der Test läuft. Er ist unzuverlässig.
-- c) Das Tool ist teuer. Es spart uns Zeit.
-- d) Wir haben wenig Zeit. Wir sollten Tests schreiben.
+? „Weil das System oft ausfällt, verlieren wir Kunden." → „Wegen ___ verlieren wir Kunden."
+= der häufigen Ausfälle
+! Plural, weil es wiederholt passiert.
+```
 
-**B7.** Word order — complete correctly.
+**B10–B12 · Meinung äußern — drei Varianten.**
 
-| Nr | Satz |
-|---|---|
-| a | Der Test war rot, deshalb ___ ich nicht deployen. |
-| b | Ich konnte nicht deployen, weil der Test rot ___. |
-| c | Obwohl die Pipeline lang ___, deployen wir täglich. |
-| d | Die Last steigt, außerdem ___ die Fehlerrate. |
+```uebung
+? Ergänze: „___ Meinung nach sollten wir zuerst refactoren."
+= Meiner
+! Feste Wendung im Dativ: *meiner Meinung nach*.
 
-**B8.** Replace the informal word with a formal written equivalent.
+? Ergänze: „Ich bin der ___, dass wir zuerst refactoren sollten."
+= Ansicht
+! *Ich bin der Ansicht, dass …* — Verb ans Ende.
 
-- a) Das ist **voll** wichtig. → …
-- b) Das Tool ist **super**. → …
-- c) **Weil** die Last steigt, … (formeller) → …
-- d) Das ist teuer, **aber** es skaliert. (formeller) → …
+? Ergänze: „Ich ___ sagen, dass Refactoring zuerst kommen sollte." (abschwächend)
+= würde
+! *Ich würde sagen, dass …* — Konjunktiv II als Weichmacher.
+```
 
-**B9.** Fill in the IT abstraction.
+**B13–B15 · Begründen und belegen.**
 
-| Nr | Satz |
-|---|---|
-| a | Die Datenbank ist der ___ im System. (bottleneck) |
-| b | Der ___ dauerte zehn Minuten. (outage) |
-| c | Wir reduzieren die ___ zwischen den Diensten. (dependencies) |
-| d | Die ___ läuft jede Nacht um drei. (maintenance) |
-| e | Die ___ ist auf 1.000 Anfragen pro Sekunde begrenzt. (scalability) |
+```uebung
+? Ergänze: „Das ___ daran, dass die Wartbarkeit sonst leidet."
+= liegt
+! *Das liegt daran, dass …*
 
-**B10.** Turn each into a full argument: **These → Begründung → Beispiel**.
+? Ergänze: „Ein gutes ___ dafür ist der letzte Ausfall."
+= Beispiel
+! *Ein gutes Beispiel dafür ist …*
 
-- a) Wir brauchen mehr Tests.
-- b) Freitagsdeployments sind riskant.
+? Welche Elemente gehören zu einem vollständigen B2-Argument? (mehrere richtig)
+* Meinung
+* Begründung
+* Beispiel
+* Fazit
+x Gegenfrage
+! Bei der Meinung stehen zu bleiben ist die typischste B1-Gewohnheit. Die Kette macht den Unterschied.
+```
 
-**B11.** Rewrite in the B2 register — replace the plain word with an abstract noun.
+**B16–B18 · Abwägen.**
 
-- a) Es ist wichtig, dass das System sicher ist. → Die ___ des Systems ist wichtig.
-- b) Es ist schwer, das zu warten. → Die ___ ist schlecht.
-- c) Dass es komplex ist, kostet Zeit. → Die ___ kostet Zeit.
+```uebung
+? „Monolith: einfach zu betreiben / skaliert schlecht" — mit einerseits/andererseits
+= Einerseits ist der Monolith einfach zu betreiben, andererseits skaliert er schlecht
+! Nach beiden Teilen folgt Inversion.
 
-**B12.** Find and fix the register error.
+? „Microservices: unabhängig deploybar / komplexes Monitoring"
+= Einerseits sind Microservices unabhängig deploybar, andererseits ist das Monitoring komplex
+! Gleiches Muster.
 
-- a) Sehr geehrte Frau Weber, das Tool ist echt super.
-- b) In diesem Text geht's um die Frage, ob wir refactoren sollten.
-- c) Die Lösung ist z. B. schneller. *(im Prüfungstext)*
+? „Kubernetes: mächtig / steile Lernkurve"
+= Einerseits ist Kubernetes mächtig, andererseits ist die Lernkurve steil
+! Gleiches Muster.
+```
+
+**B19–B22 · Einräumen und widersprechen.**
+
+```uebung
+? „Die Lösung ist schnell." + „Sie ist schwer zu warten." (mit zwar … aber)
+= Die Lösung ist zwar schnell, aber schwer zu warten
+! *zwar* steht im ersten Teil, *aber* leitet den zweiten ein.
+
+? „Der Test läuft." + „Er ist unzuverlässig." (mit trotzdem)
+= Der Test läuft, trotzdem ist er unzuverlässig
+! *trotzdem* löst Inversion aus.
+
+? „Das Tool ist teuer." + „Es spart uns Zeit." (mit dennoch)
+= Das Tool ist teuer, dennoch spart es uns Zeit
+! Auch *dennoch* invertiert.
+
+? „Wir haben wenig Zeit." + „Wir sollten Tests schreiben." (mit allerdings)
+= Wir haben wenig Zeit, allerdings sollten wir Tests schreiben
+! *allerdings* ist der weichste der drei — es schränkt ein, ohne hart zu widersprechen.
+```
+
+**B23–B26 · Wortstellung nach Konnektor.**
+
+```uebung
+? „Der Test war rot, deshalb ___ ich nicht deployen." (können, Präteritum)
+= konnte
+! Inversion: *deshalb konnte ich*.
+
+? „Ich konnte nicht deployen, weil der Test rot ___."
+= war
+! Verb ans Ende.
+
+? „Obwohl die Pipeline lang ___, deployen wir täglich."
+= ist
+! Verb ans Ende im *obwohl*-Satz.
+
+? „Die Last steigt, außerdem ___ die Fehlerrate." (steigen)
+= steigt
+! *außerdem* invertiert: *außerdem steigt die Fehlerrate*.
+```
+
+**B27–B30 · Ins formelle Register heben.**
+
+```uebung
+? „Das ist voll wichtig." → formell
+= Das ist sehr wichtig
+! *voll* ist Umgangssprache.
+
+? „Weil die Last steigt, …" → formeller
+= Da die Last steigt
+! *da* ist die schriftsprachliche Variante von *weil*, gleiche Wortstellung.
+
+? „Das ist teuer, aber es skaliert." → formeller
+= Das ist teuer, jedoch skaliert es | Das ist teuer; jedoch skaliert es
+! *jedoch* statt *aber*, mit Inversion.
+
+? „Das Tool ist super." → formell
+= Das Tool ist sehr gut | Das Tool ist ausgezeichnet | Das Tool ist überzeugend
+! Mehrere Varianten möglich — nur *super* geht nicht.
+```
+
+**B31–B35 · IT-Abstraktionen einsetzen.**
+
+```uebung
+? Die Datenbank ist der ___ im System. (bottleneck)
+= Engpass
+! *der Engpass*.
+
+? Der ___ dauerte zehn Minuten. (outage)
+= Ausfall
+! *der Ausfall*.
+
+? Wir reduzieren die ___ zwischen den Diensten. (dependencies)
+= Abhängigkeiten
+! Plural.
+
+? Die ___ läuft jede Nacht um drei. (maintenance)
+= Wartung
+! *die Wartung*.
+
+? Die ___ ist auf 1.000 Anfragen pro Sekunde begrenzt. (scalability)
+= Skalierbarkeit
+! *die Skalierbarkeit*.
+```
+
+**B36–B38 · Registerfehler finden.**
+
+```uebung
+? Was ist falsch? „Sehr geehrte Frau Weber, das Tool ist echt super."
+* Umgangssprache passt nicht zur formellen Anrede
+x die Anrede ist falsch
+x das Komma fehlt
+! Registerbruch innerhalb eines Satzes.
+
+? Was ist falsch? „In diesem Text geht's um die Frage, ob wir refactoren sollten."
+* die Kurzform „geht's"
+x „In diesem Text" ist falsch
+x das Komma ist falsch
+! Im Prüfungstext keine Kurzformen: *geht es*.
+
+? Was ist im Prüfungstext falsch? „Die Lösung ist z. B. schneller."
+* die Abkürzung „z. B."
+x „Die Lösung" ist falsch
+x „schneller" ist falsch
+! Abkürzungen ausschreiben: *zum Beispiel*.
+```
 
 ---
 
@@ -189,91 +424,9 @@ Meiner Meinung nach sollten wir zuerst refactoren. Das liegt daran, dass die War
 
 ---
 
-## ✅ Lösungen & Erklärungen
+## ✅ Musterlösungen für C und D
 
 ```spoiler
-### A. Erkennen
-
-**A1.**
-| Basis | Nomen | Artikel |
-|---|---|---|
-| entwickeln | die Entwicklung | die |
-| sicher | die Sicherheit | die |
-| komplex | die Komplexität | die |
-| warten | die Wartung | die |
-| skalierbar | die Skalierbarkeit | die |
-| testen | das Testen | das |
-| bereitstellen | die Bereitstellung | die |
-| verfügbar | die Verfügbarkeit | die |
-| abhängig | die Abhängigkeit | die |
-| lösen | die Lösung | die |
-
-Notice: **nine of the ten are *die***. The only *das* is the nominalized infinitive. That's not a
-coincidence — the whole abstract layer of German is feminine, which means you can stop guessing.
-
-**A2.** -ung → **die**, vom Verb · -heit/-keit → **die**, vom Adjektiv · -tät → **die**, meist aus
-dem Lateinischen · das + Infinitiv → **das**
-
-**A3.** Meinung: *Meiner Meinung nach, Ich bin der Ansicht, dass* · Begründen: *Das liegt daran,
-dass* · Beispiel: *Zum Beispiel, Etwa* · Abwägen: *Einerseits … andererseits, Zwar … aber* ·
-Fazit: *Alles in allem, Zusammenfassend*
-
-**A4.** koordinierend: **denn, sondern** · adverbial (Inversion): **trotzdem, außerdem, dennoch,
-allerdings** · subordinierend (Verb ans Ende): **obwohl, damit, sodass, weil**
-
-**A5.** **Nr. 2** — *allerdings* concedes the strength and then objects. Nr. 3 gives a consequence,
-Nr. 4 a reason, Nr. 1 just adds.
-
-**A6.** formell: **folglich, darüber hinaus, jedoch, da, somit** ·
-informell: **super, mega, ok, cool, voll gut**
-
-**A7.** **der Engpass** = bottleneck (the limiting stage) · **der Ausfall** = outage (it stopped).
-*die Wartung* = maintenance, *die Abhängigkeit* = dependency.
-
-### B. Anwenden
-
-**B1.** a) die Wartbarkeit · b) die Verfügbarkeit · c) die Komplexität · d) die Sicherheit ·
-e) die Abhängigkeit — alle **die**.
-
-**B2.** a) Nach **der Bereitstellung** prüfen wir die Metriken. · b) Wegen **der steigenden Last**
-brauchen wir mehr Instanzen. · c) Vor **der Migration** machen wir ein Backup. ·
-d) Wegen **der häufigen Ausfälle** verlieren wir Kunden.
-
-**B3. Beispiele:** *Meiner Meinung nach sollten wir zuerst refactoren.* · *Ich bin der Ansicht,
-dass wir zuerst refactoren sollten.* · *Ich würde sagen, dass Refactoring zuerst kommen sollte.*
-Note the word order shift: after *Ich bin der Ansicht, **dass*** the verb goes to the end.
-
-**B4. Beispiel:** *… Das liegt daran, dass die Wartbarkeit sonst weiter leidet.*
-
-**B5.** a) **Einerseits** ist der Monolith einfach zu betreiben, **andererseits** skaliert er
-schlecht. · b) **Einerseits** sind Microservices unabhängig deploybar, **andererseits** ist das
-Monitoring komplex. · c) **Einerseits** ist Kubernetes mächtig, **andererseits** ist die Lernkurve
-steil.
-
-**B6.** a) Die Lösung ist **zwar** schnell, **aber** schwer zu warten. · b) Der Test läuft;
-**trotzdem** ist er unzuverlässig. · c) Das Tool ist teuer; **dennoch** spart es uns Zeit. ·
-d) Wir haben wenig Zeit; **allerdings** sollten wir Tests schreiben.
-
-**B7.** a) **konnte ich** (Inversion nach *deshalb*) · b) **war** (Verb ans Ende nach *weil*) ·
-c) **ist** (Verb ans Ende nach *obwohl*) · d) **steigt** … Inversion: *außerdem **steigt** die
-Fehlerrate*
-
-**B8.** a) **sehr** wichtig · b) **sehr gut / ausgezeichnet** · c) **Da** die Last steigt, … ·
-d) Das ist teuer; **jedoch** skaliert es.
-
-**B9.** a) **Engpass** · b) **Ausfall** · c) **Abhängigkeiten** · d) **Wartung** ·
-e) **Skalierbarkeit**
-
-**B10. Musterlösung a:** *Meiner Meinung nach brauchen wir mehr Tests. Das liegt daran, dass wir
-Fehler zurzeit erst in Produktion bemerken. Zum Beispiel ist der Login-Bug letzte Woche erst dem
-Kunden aufgefallen.*
-
-**B11.** a) die **Sicherheit** · b) die **Wartbarkeit** · c) die **Komplexität**
-
-**B12.** a) *echt super* → *sehr hilfreich / überzeugend* (formelle Anrede + Slang passen nicht
-zusammen) · b) *geht's* → *geht es* (keine Kurzformen im Prüfungstext) · c) *z. B.* →
-**zum Beispiel** ausschreiben
-
 ### C. Produzieren
 
 Open. Self-check:

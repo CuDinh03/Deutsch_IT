@@ -15,130 +15,285 @@ before you look at any model answer.
 
 ## 🏋️ Übungsteil · Workbook
 
-### A. Erkennen — spot the pattern (A1–A6)
+### A. Erkennen — spot the pattern
 
-**A1.** Which connector moves the verb? Mark each.
+**A1–A6 · Register erkennen.** Formell oder informell?
 
-| Konnektor | Verb bleibt Position 2 | Verb ans Ende | Inversion |
-|---|:--:|:--:|:--:|
-| und | ☐ | ☐ | ☐ |
-| weil | ☐ | ☐ | ☐ |
-| deshalb | ☐ | ☐ | ☐ |
-| aber | ☐ | ☐ | ☐ |
-| denn | ☐ | ☐ | ☐ |
-| dann | ☐ | ☐ | ☐ |
-| dass | ☐ | ☐ | ☐ |
+```uebung
+? Sehr geehrte Frau Weber,
+* formell
+x informell
+! *Sehr geehrte/r …* ist die formelle Standardanrede, wenn du den Namen kennst.
 
-**A2.** Richtig or falsch?
+? Hi zusammen,
+x formell
+* informell
+! Team-Chat und interne Rundnachrichten.
 
-- a) Die Tests sind rot, deshalb ich deploye nicht. ☐ R ☐ F
-- b) Ich deploye nicht, weil die Tests rot sind. ☐ R ☐ F
-- c) Ich deploye nicht, denn die Tests sind rot. ☐ R ☐ F
-- d) Ich deploye nicht, weil sind die Tests rot. ☐ R ☐ F
+? Ich schreibe Ihnen, weil …
+* formell
+x informell
+! Das *Ihnen* macht es eindeutig.
 
-**A3.** Formal (*Sie*) or informal (*du*)? Mark each opening.
+? Kannst du mal kurz gucken?
+x formell
+* informell
+! *du* + *mal* + *gucken* — dreifach informell.
 
-| Anrede | formell | informell |
-|---|:--:|:--:|
-| Sehr geehrte Frau Weber, | ☐ | ☐ |
-| Hallo Anna, | ☐ | ☐ |
-| Liebe Kolleginnen und Kollegen, | ☐ | ☐ |
-| Hi zusammen, | ☐ | ☐ |
-| Sehr geehrte Damen und Herren, | ☐ | ☐ |
+? Mit freundlichen Grüßen
+* formell
+x informell
+! Der formelle Standardgruß.
 
-**A4.** Match the sign-off to the register.
+? VG
+x formell
+* informell
+! Abkürzung von *Viele Grüße* — nur intern.
+```
 
-| Gruß | 1 formell | 2 neutral | 3 informell |
-|---|:--:|:--:|:--:|
-| Mit freundlichen Grüßen | ☐ | ☐ | ☐ |
-| Viele Grüße | ☐ | ☐ | ☐ |
-| VG | ☐ | ☐ | ☐ |
-| Beste Grüße | ☐ | ☐ | ☐ |
+**A7 · Groß oder klein nach der Anrede?**
 
-**A5.** Which of these chat messages is **too formal** for a team channel?
+```uebung
+? Was folgt richtig auf „Sehr geehrte Frau Weber,"?
+* ich schreibe Ihnen, weil …
+x Ich schreibe Ihnen, weil …
+x Ich Schreibe Ihnen, weil …
+! Nach dem Komma der Anrede geht es **klein** weiter. Für englisch- und vietnamesischsprachige Lernende ist das kontraintuitiv — und deshalb ein zuverlässiges Erkennungsmerkmal für geübtes Deutsch.
+```
 
-1. Hi zusammen, bin 5 Min später im Daily.
-2. Sehr geehrter Herr Müller, ich möchte Sie darüber informieren, dass ich verspätet erscheine.
-3. Kannst du bitte kurz auf meinen PR schauen?
+**A8–A14 · Was macht der Konnektor mit dem Verb?**
 
-**A6.** Find the missing part of the email frame.
+```uebung
+? und
+* Verb bleibt an Position 2
+x Verb ans Ende
+x Inversion
+! Koordinierend — ändert die Wortstellung überhaupt nicht.
 
-> Betreff: Frage zur Pipeline
-> ______________
-> ich habe eine kurze Frage zur Pipeline. Können wir das morgen kurz besprechen?
-> Viele Grüße
-> Huy
+? weil
+x Verb bleibt an Position 2
+* Verb ans Ende
+x Inversion
+! Subordinierend → Nebensatz, konjugiertes Verb ganz hinten.
+
+? deshalb
+x Verb bleibt an Position 2
+x Verb ans Ende
+* Inversion
+! *deshalb* besetzt Position 1, also Verb auf 2 und Subjekt auf 3.
+
+? aber
+* Verb bleibt an Position 2
+x Verb ans Ende
+x Inversion
+! Koordinierend wie *und*.
+
+? denn
+* Verb bleibt an Position 2
+x Verb ans Ende
+x Inversion
+! **Die Falle.** *denn* heißt „weil", bewegt das Verb aber **nicht**. Wenn du im Ernstfall unsicher bist: *denn* benutzen — damit kannst du nichts falsch machen.
+
+? dann
+x Verb bleibt an Position 2
+x Verb ans Ende
+* Inversion
+! Wie *deshalb*: Position 1 besetzt → Inversion.
+
+? dass
+x Verb bleibt an Position 2
+* Verb ans Ende
+x Inversion
+! Subordinierend.
+```
+
+**A15–A18 · Richtig oder falsch?**
+
+```uebung
+? Die Tests sind rot, deshalb ich deploye nicht.
+x richtig
+* falsch
+! *deshalb* verlangt Inversion: *… deshalb **deploye ich** nicht.*
+
+? Ich deploye nicht, weil die Tests rot sind.
+* richtig
+x falsch
+! Korrekt — Verb *sind* am Ende.
+
+? Ich deploye nicht, denn die Tests sind rot.
+* richtig
+x falsch
+! Korrekt — *denn* lässt die normale Wortstellung stehen.
+
+? Ich deploye nicht, weil sind die Tests rot.
+x richtig
+* falsch
+! Nach *weil* gehört *sind* ans Ende: *… weil die Tests rot **sind**.*
+```
+
+**A19 · Register im Team-Chat.**
+
+```uebung
+? Welche Nachricht ist für einen Team-Channel zu formell?
+x Hi zusammen, bin 5 Min später im Daily.
+* Sehr geehrter Herr Müller, ich möchte Sie darüber informieren, dass ich verspätet erscheine.
+x Kannst du bitte kurz auf meinen PR schauen?
+! Volle Sie-Formalität im Teamkanal wirkt entweder ironisch oder wie ein Außenstehender. Team-Chat ist *du*, kurz, ohne Briefrahmen.
+```
 
 ---
 
-### B. Anwenden — apply with a frame (B1–B12)
+### B. Anwenden — apply with a frame
 
-**B1.** Join with **weil**.
+**B1–B3 · Mit *weil* verbinden.**
 
-- a) Ich komme später. Die Bahn hat Verspätung.
-- b) Wir deployen heute nicht. Der Build ist rot.
-- c) Ich frage nach. Die Anforderung ist unklar.
+```uebung
+? „Ich komme später." + „Die Bahn hat Verspätung." (mit weil)
+= Ich komme später, weil die Bahn Verspätung hat
+! *hat* ans Ende, Komma davor.
 
-**B2.** Rewrite all three B1 sentences with **deshalb**.
+? „Wir deployen heute nicht." + „Der Build ist rot." (mit weil)
+= Wir deployen heute nicht, weil der Build rot ist
+! *ist* ans Ende.
 
-**B3.** Rewrite all three B1 sentences with **denn**.
+? „Ich frage nach." + „Die Anforderung ist unklar." (mit weil)
+= Ich frage nach, weil die Anforderung unklar ist
+! *nachfragen* ist trennbar — im Hauptsatz steht *nach* am Ende, im Nebensatz danach *ist*.
+```
 
-**B4.** Fill in the right connector: *und · aber · weil · deshalb · dann*
+**B4–B6 · Dieselben Sätze mit *deshalb*.**
 
-| Nr | Satz |
-|---|---|
-| a | Ich habe den Bug gefunden, ___ ich kann ihn noch nicht beheben. |
-| b | Die Pipeline ist rot, ___ deploye ich heute nicht. |
-| c | Ich schreibe erst den Test, ___ mache ich den PR auf. |
-| d | Ich brauche mehr Zeit, ___ die Anforderungen sich geändert haben. |
-| e | Ich habe den Log gelesen ___ die Ursache gefunden. |
+```uebung
+? „Die Bahn hat Verspätung." + „Ich komme später." (mit deshalb)
+= Die Bahn hat Verspätung, deshalb komme ich später
+! Inversion: Verb *komme* direkt nach *deshalb*.
 
-**B5.** Turn each into a polite chat request (informal *du*, with *bitte* and a softener).
+? „Der Build ist rot." + „Wir deployen heute nicht." (mit deshalb)
+= Der Build ist rot, deshalb deployen wir heute nicht
+! Gleiches Muster.
 
-- a) Review my PR.
-- b) Send me the log.
-- c) Explain the requirement to me.
+? „Ich verstehe den Code nicht." + „Ich frage den Kollegen." (mit deshalb)
+= Ich verstehe den Code nicht, deshalb frage ich den Kollegen
+! Vergleiche B1–B3 mit B4–B6: gleiche Bedeutung, komplett andere Wortstellung. Dieses Paar sicher zu beherrschen ist der halbe B1-Schreibteil.
+```
 
-**B6.** Write the status update from these facts. Three lines: Gestern / Heute / Blocker.
+**B7–B11 · Den passenden Konnektor einsetzen.**
 
-> Facts: fixed the login bug · opened the PR · today: make tests green, test the migration ·
-> waiting for DB access
+```uebung
+? Ich habe den Bug gefunden, ___ ich kann ihn noch nicht beheben.
+= aber
+! Gegensatz, keine Wortstellungsänderung.
 
-**B7.** Same facts, but as a **chat message** in one or two sentences.
+? Die Pipeline ist rot, ___ deploye ich heute nicht.
+= deshalb
+! Das folgende *deploye ich* verrät die Inversion — also ein adverbialer Konnektor.
 
-**B8.** Fix the word order.
+? Ich schreibe erst den Test, ___ mache ich den PR auf.
+= dann
+! Zeitliche Reihenfolge, mit Inversion.
 
-- a) Ich kann heute nicht deployen, weil die Pipeline ist rot.
-- b) Deshalb ich mache das morgen.
-- c) Ich habe gestern den Bug gefunden nicht.
-- d) Wenn du Zeit hast, kannst du bitte schauen auf meinen PR?
+? Ich brauche mehr Zeit, ___ die Anforderungen sich geändert haben.
+= weil
+! Das Verb *haben* steht am Ende → subordinierend.
 
-**B9.** Rewrite each sentence from *du* into *Sie*.
+? Ich habe den Log gelesen ___ die Ursache gefunden.
+= und
+! Reine Aufzählung, kein Komma nötig.
+```
 
-- a) Kannst du mir bitte den Zugang geben?
-- b) Hast du meine Nachricht gesehen?
-- c) Könntest du das bis Freitag machen?
+**B12–B14 · Höfliche Chat-Bitte formulieren.**
 
-**B10.** Complete the email frame. Fill every blank.
+```uebung
+? „Review my PR." → höflich im Team-Chat (du)
+= Könntest du bitte kurz auf meinen PR schauen? | Kannst du bitte kurz auf meinen PR schauen?
+! *kurz* und *bitte* sind die Weichmacher, die eine Bitte freundlich machen.
 
-> Betreff: ______________
-> Sehr geehrte Frau ______,
-> ______________ (Anliegen, 1 Satz)
-> ______________ (Bitte oder Detail, 1 Satz)
-> Mit freundlichen Grüßen
-> ______
+? „Send me the log." → höflich (du)
+= Kannst du mir bitte mal den Log schicken? | Könntest du mir bitte den Log schicken?
+! Dativ *mir* vor Akkusativ *den Log*.
 
-**B11.** Shorten each sentence without losing the meaning. German business writing rewards brevity.
+? „Explain the requirement to me." → höflich (du)
+= Könntest du mir die Anforderung bitte kurz erklären? | Kannst du mir die Anforderung bitte erklären?
+! Infinitiv *erklären* am Ende, weil *könntest* die Klammer öffnet.
+```
 
-- a) Ich wollte Ihnen hiermit mitteilen, dass ich der Meinung bin, dass wir das Deployment
-  möglicherweise verschieben sollten.
-- b) Ich hätte da eventuell noch eine ganz kurze kleine Frage bezüglich der Konfiguration.
+**B15–B17 · Von *du* nach *Sie*.**
 
-**B12.** Punctuation drill — German puts a comma before every Nebensatz. Add the missing commas.
+```uebung
+? „Kannst du mir bitte den Zugang geben?" → Sie
+= Können Sie mir bitte den Zugang geben?
+! Verbform ändert sich, *Sie* wird großgeschrieben.
 
-- a) Ich glaube dass wir mehr Zeit brauchen.
-- b) Wenn der Build grün ist deploye ich.
-- c) Ich habe den Test geschrieben weil der Bug wiederkommen kann.
+? „Hast du meine Nachricht gesehen?" → Sie
+= Haben Sie meine Nachricht gesehen?
+! *hast* → *haben*.
+
+? „Könntest du das bis Freitag machen?" → Sie
+= Könnten Sie das bis Freitag machen?
+! Konjunktiv II bleibt, nur die Endung wechselt.
+```
+
+**B18–B19 · Kürzen ohne Bedeutungsverlust.**
+
+```uebung
+? Kürze: „Ich wollte Ihnen hiermit mitteilen, dass ich der Meinung bin, dass wir das Deployment möglicherweise verschieben sollten."
+= Ich schlage vor, das Deployment zu verschieben
+! Gestapelte Weichmacher (*hiermit, möglicherweise, der Meinung bin*) wirken auf Deutsch unsicher, nicht höflich. Die Höflichkeit steckt in *Könnten Sie …?*, nicht in Füllwörtern.
+
+? Kürze: „Ich hätte da eventuell noch eine ganz kurze kleine Frage bezüglich der Konfiguration."
+= Ich habe noch eine kurze Frage zur Konfiguration
+! Ein Weichmacher reicht. Vier hintereinander sind ein Stilfehler.
+```
+
+**B20–B22 · Kommas setzen.**
+
+```uebung
+? Wo fehlt das Komma? „Ich glaube dass wir mehr Zeit brauchen."
+= Ich glaube, dass wir mehr Zeit brauchen
+! Vor jedem Nebensatz steht im Deutschen ein Komma — anders als im Englischen ist das **Pflicht**.
+
+? „Wenn der Build grün ist deploye ich."
+= Wenn der Build grün ist, deploye ich
+! Nebensatz zuerst → Komma, dann Hauptsatz mit Verb an erster Stelle.
+
+? „Ich habe den Test geschrieben weil der Bug wiederkommen kann."
+= Ich habe den Test geschrieben, weil der Bug wiederkommen kann
+! Komma vor *weil*.
+```
+
+**B23–B26 · Fehler im Brief finden.**
+
+Dieser Text enthält typische Fehler:
+
+> *Sehr geehrte Frau Weber, Ich schreibe Ihnen weil der build seit heute Morgen fehlschlägt.
+> Könnten sie bitte die logs prüfen? Viele Grüße Huy*
+
+```uebung
+? Was ist direkt nach der Anrede falsch?
+* „Ich" muss kleingeschrieben werden
+x es fehlt ein Ausrufezeichen
+x die Anrede ist zu formell
+! Nach dem Anrede-Komma geht der Satz klein weiter.
+
+? Welches Satzzeichen fehlt?
+* das Komma vor „weil"
+x der Punkt am Ende
+x das Fragezeichen
+! *Ich schreibe Ihnen**,** weil …*
+
+? Welche Wörter müssen großgeschrieben werden? (mehrere richtig)
+* build
+* logs
+x seit
+x prüfen
+! *der Build*, *die Logs* — auch englische Lehnwörter werden im Deutschen als Nomen großgeschrieben.
+
+? Was stimmt mit „Könnten sie" nicht?
+* die Höflichkeitsform „Sie" muss groß sein
+x es müsste „Können" heißen
+x nichts, das ist korrekt
+! Kleingeschriebenes *sie* heißt „sie/they". In einem Sie-Brief ändert das die Bedeutung.
+```
 
 ---
 
@@ -178,90 +333,9 @@ mistakes can you now find?
 
 ---
 
-## ✅ Lösungen & Erklärungen
+## ✅ Musterlösungen für C und D
 
 ```spoiler
-### A. Erkennen
-
-**A1.**
-| Konnektor | Wirkung |
-|---|---|
-| und, aber, denn | Verb bleibt Position 2 (koordinierend, ändert nichts) |
-| weil, dass | Verb ans **Ende** (Nebensatz) |
-| deshalb, dann | **Inversion** — sie besetzen Position 1, Verb kommt zweitens |
-
-**A2.** a) **F** — *deshalb **deploye ich** nicht* · b) **R** · c) **R** ·
-d) **F** — *weil die Tests rot **sind*** (Verb ans Ende)
-
-*denn* and *weil* both mean "because", but only *weil* moves the verb. If you're unsure in a real
-message, use **denn** — it keeps normal word order and is impossible to get wrong.
-
-**A3.** Sehr geehrte Frau Weber → **formell** · Hallo Anna → **informell** ·
-Liebe Kolleginnen und Kollegen → **informell** (aber höflich, für Rundmails) ·
-Hi zusammen → **informell** · Sehr geehrte Damen und Herren → **formell** (unbekannter Empfänger)
-
-**A4.** Mit freundlichen Grüßen → **1 formell** · Viele Grüße → **2 neutral** · VG → **3 informell** ·
-Beste Grüße → **2 neutral**
-
-**A5.** **2** — full *Sie* formality in a team channel reads as either sarcastic or as an outsider.
-Team chat is *du*, short, no formal frame.
-
-**A6.** Missing: the **Anrede**, e.g. *Hallo Herr Weber,* oder *Sehr geehrter Herr Weber,*.
-Note that after the Anrede-comma, the next line starts with a **lowercase** letter: *…Weber,* →
-*ich habe eine kurze Frage…*. That's a real German convention and it looks wrong to English eyes.
-
-### B. Anwenden
-
-**B1.** a) Ich komme später, **weil die Bahn Verspätung hat**. · b) Wir deployen heute nicht,
-**weil der Build rot ist**. · c) Ich frage nach, **weil die Anforderung unklar ist**.
-
-**B2.** a) Die Bahn hat Verspätung, **deshalb komme ich** später. · b) Der Build ist rot,
-**deshalb deployen wir** heute nicht. · c) Die Anforderung ist unklar, **deshalb frage ich** nach.
-
-**B3.** a) Ich komme später, **denn die Bahn hat** Verspätung. · b) Wir deployen heute nicht,
-**denn der Build ist** rot. · c) Ich frage nach, **denn die Anforderung ist** unklar.
-
-Compare B1/B2/B3 side by side — same meaning, three different word orders. Getting this trio
-automatic is most of B1 writing.
-
-**B4.** a) **aber** · b) **deshalb** · c) **dann** · d) **weil** · e) **und**
-
-**B5.** a) *Könntest du bitte kurz auf meinen PR schauen?* · b) *Kannst du mir bitte mal den Log
-schicken?* · c) *Könntest du mir die Anforderung bitte kurz erklären?*
-*kurz* and *mal* are the softeners that make a German request sound friendly rather than demanding.
-
-**B6. Musterlösung:**
-> **Gestern:** Login-Bug behoben und den PR aufgemacht.
-> **Heute:** die Tests grün machen und die Migration testen.
-> **Blocker:** warte noch auf den Datenbank-Zugang.
-
-**B7. Musterlösung:** *Moin! Gestern habe ich den Login-Bug behoben und den PR aufgemacht, heute
-mache ich die Tests grün. Ich warte allerdings noch auf den DB-Zugang.*
-
-**B8.** a) *… weil die Pipeline **rot ist**.* · b) *Deshalb **mache ich** das morgen.* ·
-c) *Ich habe gestern den Bug **nicht gefunden**.* · d) *…, kannst du bitte **auf meinen PR
-schauen**?* (separable/prepositional verb goes to the end)
-
-**B9.** a) **Können Sie** mir bitte den Zugang geben? · b) **Haben Sie** meine Nachricht gesehen? ·
-c) **Könnten Sie** das bis Freitag machen?
-
-**B10. Musterlösung:**
-> Betreff: **Zugang zur Produktionsumgebung**
-> Sehr geehrte Frau **Weber**,
-> **ich brauche für die Fehleranalyse Zugang zur Produktionsumgebung.**
-> **Könnten Sie mir den Zugang bis Freitag freischalten?**
-> Mit freundlichen Grüßen
-> **Huy**
-
-**B11.** a) *Ich schlage vor, das Deployment zu verschieben.* · b) *Ich habe noch eine kurze Frage
-zur Konfiguration.*
-German business style is **direct**. Stacked hedges (*eventuell ganz kurz klein*) read as insecure,
-not polite. Politeness comes from *Könnten Sie …?* and *bitte*, not from padding.
-
-**B12.** a) Ich glaube**,** dass wir mehr Zeit brauchen. · b) Wenn der Build grün ist**,** deploye
-ich. · c) Ich habe den Test geschrieben**,** weil der Bug wiederkommen kann.
-The comma before a Nebensatz is **obligatory** in German — unlike English, where it's often optional.
-
 ### C. Produzieren
 
 Use this checklist on your own text **before** reading the model answers:

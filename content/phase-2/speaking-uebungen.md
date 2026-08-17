@@ -14,101 +14,261 @@ exam. The Redemittel table at the end is what you keep open during a real discus
 
 ## 🏋️ Übungsteil · Workbook
 
-### A. Erkennen — spot the move (A1–A6)
+### A. Erkennen — spot the move
 
-**A1.** Which part of the B2 formula is missing?
+**A1–A3 · Was fehlt in der B2-Formel?**
 
-- a) *Meiner Meinung nach sollten wir refactoren.*
-- b) *Meiner Meinung nach sollten wir refactoren. Denn die Wartbarkeit leidet.*
-- c) *Meiner Meinung nach sollten wir refactoren. Denn die Wartbarkeit leidet, zum Beispiel dauert
-  jeder Bugfix inzwischen zwei Tage.*
+```uebung
+? „Meiner Meinung nach sollten wir refactoren."
+* Begründung, Beispiel und Fazit fehlen
+x nur das Fazit fehlt
+x nichts fehlt
+! Bei der Meinung stehen zu bleiben ist die typischste B1-Gewohnheit — der Prüfer wartet auf die Kette.
 
-**A2.** Agreement, partial agreement, or disagreement?
+? „Meiner Meinung nach sollten wir refactoren. Denn die Wartbarkeit leidet."
+x nichts fehlt
+* Beispiel und Fazit fehlen
+x nur die Meinung fehlt
+! Begründung ist da, aber es fehlt der Beleg und der Abschluss.
 
-| Nr | Satz | zustimmen | teilweise | widersprechen |
-|---|---|:--:|:--:|:--:|
-| a | Da stimme ich dir zu. | ☐ | ☐ | ☐ |
-| b | Das sehe ich anders. | ☐ | ☐ | ☐ |
-| c | Da hast du teilweise recht, aber … | ☐ | ☐ | ☐ |
-| d | Ich bin nicht ganz überzeugt, weil … | ☐ | ☐ | ☐ |
-| e | Genau, das sehe ich auch so. | ☐ | ☐ | ☐ |
+? „Meiner Meinung nach sollten wir refactoren. Denn die Wartbarkeit leidet, zum Beispiel dauert jeder Bugfix inzwischen zwei Tage."
+x Begründung fehlt
+x Beispiel fehlt
+* nur das Fazit fehlt
+! Meinung + Begründung + Beispiel stehen. Es fehlt nur noch *Zusammenfassend würde ich sagen, dass …*
+```
 
-**A3.** Which telc B2 oral part is it?
+**A4–A8 · Zustimmung, Teilzustimmung oder Widerspruch?**
 
-- a) You present your view on a topic for 1–2 minutes.
-- b) You and your partner plan a team event together.
-- c) You exchange views and react to your partner.
+```uebung
+? „Da stimme ich dir zu."
+* Zustimmung
+x Teilzustimmung
+x Widerspruch
+! Volle Zustimmung.
 
-**A4.** Which reply keeps the conversation moving, and which kills it?
+? „Das sehe ich anders."
+x Zustimmung
+x Teilzustimmung
+* Widerspruch
+! Höflich, aber klar dagegen.
 
-1. *Ja.*
-2. *Das sehe ich anders — ein Monolith wäre hier einfacher. Und wie siehst du das?*
-3. *Vielleicht.*
-4. *Da hast du recht, aber wie wäre es, wenn wir klein anfangen?*
+? „Da hast du teilweise recht, aber …"
+x Zustimmung
+* Teilzustimmung
+x Widerspruch
+! Die nützlichste Bewegung in einer deutschen Fachdiskussion.
 
-**A5.** Find the Konjunktiv II in each and say why it's there.
+? „Ich bin nicht ganz überzeugt, weil …"
+x Zustimmung
+x Teilzustimmung
+* Widerspruch (höflich)
+! Weich formuliert, inhaltlich aber Ablehnung.
 
-- a) *Ein Monolith wäre hier einfacher zu betreiben.*
-- b) *Wie wäre es, wenn wir klein anfangen?*
-- c) *Ich würde sagen, dass beides funktioniert.*
+? „Genau, das sehe ich auch so."
+* Zustimmung
+x Teilzustimmung
+x Widerspruch
+! Verstärkte Zustimmung.
+```
 
-**A6.** Which phrase belongs to **Teil 3** (planning), not Teil 2 (discussion)?
+**A9–A11 · Welcher Prüfungsteil?**
 
-*Ich schlage vor, dass wir … · Das sehe ich anders. · Sollen wir uns auf Dienstag einigen? ·
-Ich bin nicht ganz überzeugt. · Wie wäre es, wenn wir um zehn anfangen?*
+```uebung
+? Du stellst deine Sicht auf ein Thema 1–2 Minuten lang dar.
+* Teil 1 (Präsentation)
+x Teil 2 (Diskussion)
+x Teil 3 (gemeinsam planen)
+! Monolog mit Struktur.
+
+? Ihr plant zusammen ein Teamevent.
+x Teil 1
+x Teil 2
+* Teil 3
+! Verhandlung mit Ergebnis.
+
+? Ihr tauscht Meinungen aus und reagiert aufeinander.
+x Teil 1
+* Teil 2
+x Teil 3
+! Interaktion ist hier das Bewertungskriterium.
+```
+
+**A12 · Welche Antwort hält das Gespräch am Leben?**
+
+```uebung
+? Welche Reaktionen bringen die Diskussion weiter? (mehrere richtig)
+* Das sehe ich anders — ein Monolith wäre hier einfacher. Und wie siehst du das?
+* Da hast du recht, aber wie wäre es, wenn wir klein anfangen?
+x Ja.
+x Vielleicht.
+! Position **plus** Rückgabe. Ein bloßes *ja* kostet in Teil 2 Punkte, weil dort Interaktion bewertet wird — nicht Korrektheit.
+```
+
+**A13–A15 · Wozu dient der Konjunktiv II hier?**
+
+```uebung
+? „Ein Monolith wäre hier einfacher zu betreiben."
+* hypothetisch — es ist ja keiner
+x höfliche Bitte
+x Vergangenheit
+! Irrealis: die Alternative existiert nicht.
+
+? „Wie wäre es, wenn wir klein anfangen?"
+x hypothetisch
+* höflicher Vorschlag
+x Vergangenheit
+! Standardformel für Vorschläge.
+
+? „Ich würde sagen, dass beides funktioniert."
+x hypothetisch
+* Abschwächung der eigenen Aussage
+x Vergangenheit
+! Derselbe Konjunktiv, drei verschiedene soziale Funktionen.
+```
+
+**A16 · Teil-3-Redemittel erkennen.**
+
+```uebung
+? Welche Formulierungen gehören zu Teil 3 (gemeinsam planen)? (mehrere richtig)
+* Ich schlage vor, dass wir …
+* Sollen wir uns auf Dienstag einigen?
+* Wie wäre es, wenn wir um zehn anfangen?
+x Das sehe ich anders.
+x Ich bin nicht ganz überzeugt.
+! Teil 3 ist Verhandlung in Richtung Beschluss, nicht Meinungsstreit.
+```
 
 ---
 
-### B. Anwenden — drill with a frame (B1–B10)
+### B. Anwenden — drill with a frame
 
-**B1.** Complete the full B2 formula for each claim. Four parts, out loud.
+**B1–B4 · Die vier Bausteine der Präsentation.**
 
-- a) *Homeoffice ist produktiv.*
-- b) *Code-Reviews sollten verpflichtend sein.*
-- c) *Freitagsdeployments sind ein Risiko.*
+```uebung
+? Ergänze die Einleitung: „Ich ___ heute über Homeoffice sprechen."
+= möchte
+! *möchte*, nicht *will* — höflicher Standard.
 
-**B2.** 🎙 Disagree politely — **three different ways** — with: *"Wir sollten sofort auf
-Microservices umsteigen."*
+? Ergänze die Meinungsformel: „___ Meinung nach ist ein hybrides Modell am besten."
+= Meiner
+! Feste Wendung im Dativ.
 
-**B3.** Agree partially, then object, using *Da hast du teilweise recht, aber …*
+? Ergänze die Beispieleinleitung: „___ meiner Erfahrung als Entwickler laufen Code-Reviews auch remote gut."
+= Aus
+! *Aus meiner Erfahrung …* — persönlich, konkret, leicht zu produzieren.
 
-- a) *Kubernetes löst alle unsere Skalierungsprobleme.*
-- b) *Tests kosten nur Zeit.*
+? Ergänze das Fazit: „___ würde ich sagen, dass zwei Bürotage ein guter Kompromiss sind."
+= Zusammenfassend
+! Signalisiert einen bewussten Schluss statt eines Abbruchs.
+```
 
-**B4.** Make each proposal with **Wie wäre es, wenn …?** (Konjunktiv II + Nebensatz).
+**B5–B7 · Höflich widersprechen.**
 
-- a) klein anfangen
-- b) das Meeting verschieben
-- c) zuerst ein Proof of Concept bauen
+```uebung
+? Widersprich höflich: „Wir sollten sofort auf Microservices umsteigen."
+= Das sehe ich anders | Ich bin nicht ganz überzeugt | Da hast du teilweise recht, aber
+! Alle drei Einstiege sind idiomatisch. Wichtig ist, dass danach eine Begründung folgt.
 
-**B5.** 🎙 **Teil 1 skeleton drill.** Fill and deliver in 90 seconds, no notes.
+? Ergänze die Teilzustimmung: „Da hast du ___ recht, aber das Monitoring fehlt uns noch."
+= teilweise
+! *teilweise* macht aus Widerspruch eine Verhandlung.
 
-> Ich möchte heute über ______ sprechen.
-> Meiner Meinung nach ______, weil ______ und ______.
-> Aus meiner Erfahrung als Entwickler ______.
-> Zusammenfassend würde ich sagen, dass ______.
+? Ergänze: „Ich bin nicht ganz ___, weil wir dafür noch kein Monitoring haben."
+= überzeugt
+! *Ich bin nicht ganz überzeugt, weil …* — höflich und trotzdem klar.
+```
 
-**B6.** Do B5 again with three different topics: *Homeoffice · Vier-Tage-Woche · KI im Arbeitsalltag*.
+**B8–B10 · Vorschläge mit Konjunktiv II.**
 
-**B7.** Ping-pong drill. For each statement, produce a reaction **and** a question back.
+```uebung
+? Mach einen Vorschlag: klein anfangen
+= Wie wäre es, wenn wir klein anfangen? | Ich schlage vor, dass wir klein anfangen
+! *wenn* leitet einen Nebensatz ein → Verb am Ende.
 
-- a) *Ich finde, wir brauchen mehr Dokumentation.*
-- b) *Pair Programming ist Zeitverschwendung.*
-- c) *Wir sollten auf eine Vier-Tage-Woche umstellen.*
+? Mach einen Vorschlag: das Meeting verschieben
+= Wie wäre es, wenn wir das Meeting verschieben? | Ich schlage vor, dass wir das Meeting verschieben
+! Gleiches Muster.
 
-**B8.** 🎙 **Teil 3 negotiation.** Plan a team training day out loud, alone, playing both roles.
-Cover: Termin, Ort, Thema, Budget, wer organisiert. Reach an agreement.
+? Mach einen Vorschlag: zuerst ein Proof of Concept bauen
+= Wie wäre es, wenn wir zuerst ein Proof of Concept bauen? | Ich schlage vor, dass wir zuerst ein Proof of Concept bauen
+! Gleiches Muster.
+```
 
-**B9.** Soften each blunt statement into collegial B2 German.
+**B11–B13 · Den Ball zurückgeben.**
 
-- a) *Das ist falsch.*
-- b) *Deine Lösung funktioniert nicht.*
-- c) *Wir machen das so.*
+```uebung
+? Der wichtigste Rückgabesatz in Teil 2:
+= Und wie siehst du das? | Und wie siehst du das
+! Ohne Rückgabe wird Teil 2 zum Monolog — und Interaktion ist genau das Bewertungskriterium.
 
-**B10.** 🎙 Shadow the audio three times, then produce your own version about your own stack.
+? Eine zweite Variante:
+= Was meinst du dazu? | Was meinst du dazu
+! Austauschbar mit der ersten.
 
-```audio
-Da hast du teilweise recht, aber ich bin nicht ganz überzeugt. Ein Monolith wäre am Anfang einfacher zu betreiben. Wie wäre es, wenn wir klein anfangen und später aufteilen?
+? Du willst höflich unterbrechen. Was sagst du?
+= Darf ich kurz ergänzen? | Darf ich kurz ergänzen
+! Höfliches Unterbrechen ist eine geprüfte Fertigkeit, kein Regelverstoß — du wirst auf **deinen** Redeanteil bewertet.
+```
+
+**B14–B16 · Blunt → kollegial.**
+
+```uebung
+? Formuliere kollegial: „Das ist falsch."
+= Das sehe ich anders | Ich bin mir da nicht sicher | Da bin ich anderer Meinung
+! Direktheit heißt im Deutschen: die eigene Position klar sagen — nicht die Weichmacher weglassen.
+
+? Formuliere kollegial: „Deine Lösung funktioniert nicht."
+= Ich bin nicht ganz überzeugt, dass das in unserem Fall funktioniert
+! Bezug auf den Fall statt auf die Person.
+
+? Formuliere kollegial: „Wir machen das so."
+= Ich schlage vor, dass wir es so machen | Wie wäre es, wenn wir es so machen?
+! Aus der Anweisung wird ein Vorschlag.
+```
+
+**B17–B19 · Teil 3 zum Abschluss bringen.**
+
+```uebung
+? Ergänze den Beschluss: „Dann ___ wir fest: Dienstag um zehn."
+= halten
+! Der Satz, der zeigt, dass die Planungsaufgabe erfüllt ist.
+
+? Dein Partner schlägt einen unpassenden Termin vor. Beste Reaktion?
+* Dienstag passt mir leider nicht — wäre Mittwoch eine Option?
+x Nein.
+x Mir ist alles recht.
+x Das entscheidest du.
+! Ablehnen **plus** Gegenvorschlag. Reines Zustimmen zeigt keine Aushandlung, reines Ablehnen bremst sie.
+
+? Welche Elemente muss eine vollständige Teil-3-Planung enthalten? (mehrere richtig)
+* einen konkreten Termin
+* ein Thema oder Inhalt
+* eine ausgesprochene Einigung
+x eine ausführliche Begründung deiner Meinung
+! Lange Meinungsbegründungen gehören in Teil 2 — hier wird organisiert.
+```
+
+**B20–B22 · Rettung im Gespräch.**
+
+```uebung
+? Dir fehlt mitten im Satz ein Wort. Was tust du?
+* umschreiben („also, dieses Ding, mit dem man …")
+x ins Englische wechseln
+x den Satz abbrechen
+x schweigen
+! Umschreiben ist eine **bewertete** kommunikative Fertigkeit — genau dafür gibt es Punkte.
+
+? Du brauchst zwei Sekunden. Ergänze: „___, ich überlege kurz."
+= Moment
+! Gefüllter deutscher Übergang statt stiller Pause.
+
+? Du hast die Frage nicht verstanden. Beste Reaktion?
+* Entschuldigung, könnten Sie die Frage bitte wiederholen?
+x Was?
+x Sorry, could you repeat?
+x (schweigen)
+! Vollständig, höflich, auf Deutsch. Nachfragen kostet nichts.
 ```
 
 ---
@@ -220,64 +380,9 @@ and fix the errors — you'll find things your ear missed.
 
 ---
 
-## ✅ Lösungen & Erklärungen
+## ✅ Musterlösungen für C und D
 
 ```spoiler
-### A. Erkennen
-
-**A1.** a) fehlen **Begründung, Beispiel, Fazit** · b) fehlen **Beispiel und Fazit** ·
-c) fehlt nur das **Fazit**. Stopping at the opinion is *the* B1-sounding habit; the examiner is
-listening for the chain.
-
-**A2.** a) zustimmen · b) widersprechen · c) teilweise · d) widersprechen (höflich) · e) zustimmen
-
-**A3.** a) **Teil 1** (Präsentation) · b) **Teil 3** (gemeinsam planen) · c) **Teil 2** (Diskussion)
-
-**A4.** Moving: **2 und 4** — both give a position *and* hand the turn back.
-Killing: **1 und 3** — no content, no question. In Teil 2 a bare *ja* costs you marks, because the
-part is scored on interaction, not correctness.
-
-**A5.** a) *wäre* — hypothetical (it isn't a monolith) · b) *wäre* — polite proposal ·
-c) *würde* — hedging your own claim. All three are the same tool doing three different social jobs.
-
-**A6.** **Teil 3:** *Ich schlage vor, dass wir … · Sollen wir uns auf Dienstag einigen? ·
-Wie wäre es, wenn wir um zehn anfangen?* — these are negotiation moves toward a concrete agreement.
-
-### B. Anwenden
-
-**B1. Musterlösung a:** *Meiner Meinung nach ist Homeoffice produktiv. Das liegt daran, dass ich
-mich zu Hause besser konzentrieren kann und keine Pendelzeit verliere. Zum Beispiel schaffe ich
-Code-Reviews morgens deutlich schneller als im Büro. Zusammenfassend würde ich sagen, dass ein
-hybrides Modell ideal ist.*
-
-**B2. Drei Varianten:** *Das sehe ich anders — für unsere Teamgröße wäre das zu viel Overhead.* ·
-*Ich bin nicht ganz überzeugt, weil wir das Monitoring dafür noch nicht haben.* ·
-*Da hast du teilweise recht, aber ich würde erst einen Dienst herauslösen.*
-
-**B3.** a) *Da hast du teilweise recht, aber Kubernetes löst nur die Skalierung — die Komplexität
-im Betrieb steigt dafür deutlich.* · b) *Da hast du teilweise recht, aber ohne Tests kostet uns
-jeder Bugfix später mehr Zeit, als wir jetzt sparen.*
-
-**B4.** a) *Wie wäre es, wenn wir klein anfangen?* · b) *Wie wäre es, wenn wir das Meeting
-verschieben?* · c) *Wie wäre es, wenn wir zuerst ein Proof of Concept bauen?*
-Note: *wenn* opens a Nebensatz → **verb at the end**.
-
-**B5–B8.** Recording tasks. Score B5 with this grid:
-
-| Kriterium | Frage |
-|---|---|
-| Struktur | Einleitung, Meinung + 2 Gründe, Beispiel, Fazit — alle vier da? |
-| Zeit | 90–120 Sekunden, ohne Abbruch? |
-| Konnektoren | *weil, deshalb, zum Beispiel, zusammenfassend* benutzt? |
-| Flüssigkeit | Kein Wechsel ins Englische? |
-
-**B9.** a) *Das sehe ich anders.* / *Ich bin mir da nicht sicher.* · b) *Ich bin nicht ganz
-überzeugt, dass das in unserem Fall funktioniert — hast du den Fall X bedacht?* ·
-c) *Ich schlage vor, dass wir es so machen. Wärst du damit einverstanden?*
-
-German workplace culture prizes directness, but *directness* means stating your position clearly —
-not removing the softeners. *Das ist falsch* is blunt in German too.
-
 ### C. Produzieren
 
 All recording tasks. Two things worth knowing about the real exam:

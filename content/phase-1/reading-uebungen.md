@@ -80,113 +80,308 @@ even then, at most five words per text.
 
 ---
 
-### A. Erkennen — skim & scan (A1–A7)
+### A. Erkennen — skim & scan
 
-**A1.** Skim all three texts for 60 seconds. Match text to type.
+**A1–A3 · Textsorte bestimmen.**
 
-| Text | a) Anleitung | b) Nachricht | c) Ankündigung |
-|---|:--:|:--:|:--:|
-| Text 1 | ☐ | ☐ | ☐ |
-| Text 2 | ☐ | ☐ | ☐ |
-| Text 3 | ☐ | ☐ | ☐ |
+```uebung
+? Text 1 („IT-Branche sucht weiter Personal") ist …
+x eine Anleitung
+* eine Nachricht
+x eine Ankündigung
+! Bericht über einen Sachverhalt, mit Quellenangabe („nach einer Studie").
 
-**A2.** Scan only. Find these as fast as you can — no reading in full.
+? Text 2 (zahlungs-service README) ist …
+* eine Anleitung
+x eine Nachricht
+x eine Ankündigung
+! Voraussetzungen, nummerierte Schritte, Befehle — eine Handlungsanweisung.
 
-| Nr | Gesucht | Antwort |
-|---|---|---|
-| a | Wie viele Fachleute fehlen? (Text 1) | |
-| b | Welche Java-Version? (Text 2) | |
-| c | Unter welchem Port läuft die Anwendung? (Text 2) | |
-| d | Wann beginnen die Wartungsarbeiten? (Text 3) | |
-| e | Wie lange dauern sie voraussichtlich? (Text 3) | |
+? Text 3 („Wartungsarbeiten am Freitag") ist …
+x eine Anleitung
+x eine Nachricht
+* eine Ankündigung
+! Interne Mitteilung über etwas Bevorstehendes, mit Anrede und Gruß.
+```
 
-**A3.** Which gear did you use for A2 — skim, scan or intensive?
+**A4–A8 · Scannen.** Finde die Information, ohne den ganzen Text zu lesen.
 
-**A4.** Cognate, tech loanword, or compound? Sort these words from the texts.
+```uebung
+? Wie viele Fachleute fehlen laut Text 1?
+= 150.000 | rund 150.000 | 150000
+! Steht im ersten Absatz. Beim Scannen suchst du nur die Zahl, nicht den Satz.
 
-*die Industrie · das Repository · die Arbeitsbedingungen · die Integrationstests ·
-der Bereitschaftsdienst · flexibel · die Zeilenenden · der Quereinsteiger*
+? Welche Java-Version verlangt Text 2?
+= Java 17 | 17
+! Unter „Voraussetzungen".
 
-**A5.** Guess from context — no dictionary. Write your guess, then a confidence mark (✓ sure /
-? unsure).
+? Unter welchem Port läuft die Anwendung in Text 2?
+= 8080
+! Schritt 4 der Installation.
 
-| Wort | Kontext | Deine Vermutung |
-|---|---|---|
-| der Quereinsteiger | "stellen auch Quereinsteiger ein, wenn sie praktische Kenntnisse mitbringen" | |
-| die Voraussetzung | "Java 17, Docker, PostgreSQL 15" | |
-| fehlschlagen | "Ohne Datenbank schlagen sie fehl." | |
-| voraussichtlich | "dauern voraussichtlich drei Stunden" | |
-| der Bereitschaftsdienst | "Bei dringenden Fragen wendet euch an den …" | |
+? Wann beginnen die Wartungsarbeiten in Text 3?
+= 18:00 | 18 Uhr | 18:00 Uhr
+! Zweiter Absatz.
 
-**A6.** In Text 3 — is the tone formal (*Sie*) or informal (*ihr*)? Find the evidence.
+? Wie lange dauern sie voraussichtlich?
+= drei Stunden | 3 Stunden
+! *voraussichtlich drei Stunden*.
+```
 
-**A7.** Which text would you read **intensively**, and which only **skim**, if you had five minutes
-before a meeting?
+**A9 · Welcher Lesegang war das?**
+
+```uebung
+? Für die Aufgaben A4–A8 hast du …
+x geskimmt
+* gescannt
+x intensiv gelesen
+! **Scannen** = gezielt nach Einzelinformationen suchen, ohne den Zusammenhang zu lesen. Genau das brauchst du im Job am häufigsten.
+```
+
+**A10–A13 · Worttyp bestimmen.**
+
+```uebung
+? „das Repository" ist …
+x ein Cognate
+* ein Tech-Lehnwort
+x ein Kompositum
+! Direkt aus dem Englischen übernommen, unverändert.
+
+? „die Arbeitsbedingungen" ist …
+x ein Cognate
+x ein Tech-Lehnwort
+* ein Kompositum
+! Arbeit + Bedingungen. Von rechts lesen: Bedingungen, und zwar der Arbeit.
+
+? „die Industrie" ist …
+* ein Cognate
+x ein Tech-Lehnwort
+x ein Kompositum
+! Fast identisch mit dem englischen Wort — geschenkte Verständlichkeit.
+
+? „der Bereitschaftsdienst" ist …
+x ein Cognate
+x ein Tech-Lehnwort
+* ein Kompositum
+! Bereitschaft + Dienst → der Dienst der Bereitschaft = on-call.
+```
+
+**A14–A18 · Aus dem Kontext erraten.** Kein Wörterbuch.
+
+```uebung
+? „stellen auch Quereinsteiger ein, wenn sie praktische Kenntnisse mitbringen" — was ist ein Quereinsteiger?
+* jemand, der aus einem anderen Bereich in den Beruf wechselt
+x ein Berufsanfänger direkt von der Uni
+x ein befristeter Mitarbeiter
+x ein Freiberufler
+! *quer* (seitwärts) + *Einsteiger* (jemand, der einsteigt) → jemand, der seitlich hineinkommt. Zerleg das Kompositum, und die Bedeutung ist praktisch geschenkt.
+
+? „Voraussetzungen: Java 17, Docker, PostgreSQL" — was sind Voraussetzungen?
+x Empfehlungen
+* Dinge, die vorher da sein müssen
+x Warnungen
+x Einstellungen
+! *voraus* + *setzen* → was vorausgesetzt wird. Das nützlichste README-Wort überhaupt.
+
+? „Ohne Datenbank schlagen sie fehl." — was heißt fehlschlagen?
+x fehlen
+* scheitern, nicht funktionieren
+x überspringen
+x langsam sein
+! *fehlschlagen* = to fail. Nicht mit *fehlen* (to be missing) verwechseln.
+
+? „dauern voraussichtlich drei Stunden" — was heißt voraussichtlich?
+x sicher
+* wahrscheinlich, geplant
+x höchstens
+x mindestens
+! Es ist eine Schätzung, keine Garantie.
+
+? „Bei dringenden Fragen wendet euch an den Bereitschaftsdienst." — was ist das?
+* die Person, die außerhalb der Arbeitszeit erreichbar ist
+x die IT-Abteilung
+x der Betriebsrat
+x die Geschäftsführung
+! Bereitschaft = Verfügbarkeit auf Abruf. Im Dev-Alltag sagt man auch „On-Call".
+```
+
+**A19 · Anrede in Text 3.**
+
+```uebung
+? Ist Text 3 formell (Sie) oder informell (ihr)?
+x formell (Sie)
+* informell (ihr)
+! *Liebe Kolleginnen und Kollegen*, *speichert eure Änderungen*, *wendet euch*, *euer Verständnis* — alles *ihr*-Formen. Deutsche Firmen nutzen intern häufig *ihr*, nach außen aber *Sie*.
+```
 
 ---
 
-### B. Anwenden — read for detail (B1–B10)
+### B. Anwenden — read for detail
 
-**B1 · Text 1** — richtig oder falsch?
+**B1–B5 · Text 1: richtig oder falsch?**
 
-| Nr | Aussage | R | F |
-|---|---|:--:|:--:|
-| a | Es fehlen etwa 15.000 Fachleute. | ☐ | ☐ |
-| b | Ein Studium ist heute immer Voraussetzung. | ☐ | ☐ |
-| c | Konkrete Projekte sind oft wichtiger als das Zeugnis. | ☐ | ☐ |
-| d | In internationalen Teams spricht man meist Englisch. | ☐ | ☐ |
-| e | Deutschkenntnisse helfen besonders bei großen Konzernen in Großstädten. | ☐ | ☐ |
+```uebung
+? Etwa zwei Drittel der Betriebe haben teilweise ausgelagert.
+* richtig
+x falsch
+! Steht so im Text.
 
-**B2 · Text 1** — answer in one German sentence each.
+? Mittelständische Unternehmen lagern am wenigsten aus.
+x richtig
+* falsch
+! Bei ihnen ist der Anteil **besonders stark gewachsen** — das ist fast das Gegenteil. Klassische Prüfungsumkehrung.
 
-- a) In welchen drei Bereichen ist der Bedarf besonders groß?
-- b) Was hat sich bei den Arbeitsbedingungen verändert?
-- c) Wo helfen Deutschkenntnisse am meisten?
+? Der Fachkräftemangel ist einer der genannten Gründe.
+* richtig
+x falsch
+! „Auch der Fachkräftemangel spielt eine Rolle."
 
-**B3 · Text 2** — put the setup steps in the right order.
+? Der Text erwartet, dass der Trend endet.
+x richtig
+* falsch
+! „Branchenbeobachter rechnen dennoch damit, dass sich der Trend **fortsetzt**."
 
-☐ Container starten · ☐ Umgebungsvariablen setzen · ☐ Repository klonen · ☐ Anwendung im Browser öffnen
+? Datenschützer wollen klarere Regeln für Daten außerhalb der EU.
+* richtig
+x falsch
+! Letzter Satz des dritten Absatzes.
+```
 
-**B4 · Text 2** — answer.
+**B6–B8 · Text 2: Reihenfolge und Details.**
 
-- a) Was macht der Service?
-- b) Welche Datenbank wird benutzt?
-- c) Warum schlagen die Integrationstests manchmal fehl?
-- d) Was ist das bekannte Problem unter Windows und wie löst man es?
+```uebung
+? Welcher Schritt kommt zuerst?
+* Repository klonen
+x Container starten
+x Umgebungsvariablen setzen
+x Anwendung im Browser öffnen
+! Ohne Repository gibt es nichts zu konfigurieren.
 
-**B5 · Text 3** — fill in the facts.
+? Warum schlagen die Integrationstests manchmal fehl?
+x weil Java 17 fehlt
+* weil keine Datenbank läuft
+x weil das Repository veraltet ist
+x weil der Port belegt ist
+! „Die Integrationstests benötigen eine laufende Datenbank."
 
-| Nr | Frage | Antwort |
-|---|---|---|
-| a | Datum? | |
-| b | Uhrzeit Beginn? | |
-| c | Voraussichtliche Dauer? | |
-| d | Was sollen die Kollegen vorher tun? | |
-| e | Wo wird informiert, wenn es länger dauert? | |
+? Wie löst man das Windows-Problem aus Text 2?
+= core.autocrlf auf false setzen | core.autocrlf false | autocrlf false
+! Es geht um die Zeilenenden. Die Lösung steht wörtlich im Abschnitt „Bekannte Probleme".
+```
 
-**B6.** Now check five words you guessed in A5. How many did you get right?
+**B9–B12 · Text 3: Fakten.**
 
-**B7.** Find in the texts the German for:
+```uebung
+? An welchem Datum finden die Wartungsarbeiten statt?
+= 12. September | Freitag, 12. September | 12.9.
+! „am Freitag, dem 12. September".
 
-| Englisch | Deutsch (aus dem Text) |
-|---|---|
-| prerequisites | |
-| to clone | |
-| environment variables | |
-| to fail (of a test) | |
-| reachable / available | |
-| on-call duty | |
-| maintenance work | |
+? Was sollen die Kollegen vorher tun?
+* ihre Änderungen rechtzeitig speichern
+x das Büro verlassen
+x die Anwendung neu starten
+x den Bereitschaftsdienst anrufen
+! „Bitte speichert eure Änderungen rechtzeitig vorher."
 
-**B8.** Decode these compounds right-to-left, then give article + meaning.
+? Wo wird informiert, wenn es länger dauert?
+= im üblichen Chat-Kanal | Chat-Kanal | im Chat
+! Vierter Absatz.
 
-*die Arbeitsbedingungen · der Bereitschaftsdienst · die Sprachkenntnisse · die Integrationstests ·
-die Wartungsarbeiten · die Zeilenenden*
+? Was passiert mit nicht gespeicherten Vorgängen?
+x sie werden automatisch gesichert
+* sie gehen verloren
+x sie werden nachträglich übertragen
+x nichts
+! „Offene Vorgänge, die nicht gespeichert wurden, gehen verloren."
+```
 
-**B9.** In Text 3, find one sentence with a **Nebensatz** and one with **inversion**. Write both out
-and mark the verb.
+**B13–B19 · Vokabular aus den Texten.**
 
-**B10.** Which words in Text 2 are English and which German? Why does the mixture work?
+```uebung
+? Deutsch für „prerequisites"
+= Voraussetzungen | die Voraussetzungen
+! Aus Text 2.
+
+? Deutsch für „to clone"
+= klonen
+! Aus Text 2.
+
+? Deutsch für „environment variables"
+= Umgebungsvariablen | die Umgebungsvariablen
+! Umgebung + Variablen.
+
+? Deutsch für „to fail" (von einem Test)
+= fehlschlagen
+! Trennbar: *die Tests schlagen fehl*.
+
+? Deutsch für „reachable / available"
+= erreichbar
+! Auch für Personen: *Ich bin ab neun Uhr erreichbar.*
+
+? Deutsch für „on-call duty"
+= Bereitschaftsdienst | der Bereitschaftsdienst
+! Aus Text 3.
+
+? Deutsch für „maintenance work"
+= Wartungsarbeiten | die Wartungsarbeiten
+! Meist im Plural.
+```
+
+**B20–B25 · Komposita zerlegen.** Gib den Artikel an.
+
+```uebung
+? ___ Arbeitsbedingungen
+= die
+! Kopf ist *die Bedingungen*.
+
+? ___ Bereitschaftsdienst
+= der
+! Kopf ist *der Dienst*.
+
+? ___ Sprachkenntnisse
+= die
+! Kopf ist *die Kenntnisse* (nur Plural).
+
+? ___ Integrationstests
+= die
+! Kopf ist *die Tests*.
+
+? ___ Wartungsarbeiten
+= die
+! Kopf ist *die Arbeiten*.
+
+? ___ Zeilenenden
+= die
+! Kopf ist *die Enden*.
+```
+
+**B26–B27 · Grammatik im Text erkennen.**
+
+```uebung
+? „Offene Vorgänge, die nicht gespeichert wurden, gehen verloren." — was für ein Satz ist der eingeschobene Teil?
+* ein Relativsatz
+x ein Kausalsatz
+x ein Konditionalsatz
+! Er beschreibt das Nomen *Vorgänge* näher; das Verb *wurden* steht am Ende des Einschubs.
+
+? „In dieser Zeit ist die interne Anwendung nicht erreichbar." — warum steht „ist" an zweiter Stelle?
+* weil „In dieser Zeit" Position 1 besetzt (Inversion)
+x weil es ein Nebensatz ist
+x weil es Passiv ist
+! Standard-Inversion: Wenn eine Angabe vorn steht, folgt sofort das konjugierte Verb.
+```
+
+**B28 · Warum funktioniert das Sprachgemisch in Text 2?**
+
+```uebung
+? Welche Wörter bleiben in deutschen Tech-Dokumenten typischerweise englisch? (mehrere richtig)
+* Befehle wie „docker compose up"
+* Produktnamen wie PostgreSQL
+* Konfigurationsschlüssel wie core.autocrlf
+x Verben wie „klonen"
+x Nomen wie „die Voraussetzungen"
+! Befehle, Tool- und Produktnamen bleiben englisch; das **Bindegewebe** dazwischen ist deutsch. Genau deshalb ist Lesen deine billigste Fertigkeit: die halbe Seite kannst du schon.
+```
 
 ---
 
@@ -236,108 +431,9 @@ In dem Artikel geht es um die IT-Branche in Deutschland. Viele Unternehmen suche
 
 ---
 
-## ✅ Lösungen & Erklärungen
+## ✅ Musterlösungen für C und D
 
 ```spoiler
-### A. Erkennen
-
-**A1.** Text 1 → **b) Nachricht** · Text 2 → **a) Anleitung** · Text 3 → **c) Ankündigung**
-
-**A2.** a) **rund 150.000** · b) **Java 17** · c) **8080** · d) **18:00 Uhr** ·
-e) **drei Stunden** (voraussichtlich)
-
-**A3.** **Scan** — you hunted for specific data points without reading the surrounding sentences.
-That's the gear you'll use most often at work.
-
-**A4.**
-| Typ | Wörter |
-|---|---|
-| Cognate | die Industrie, flexibel |
-| Tech-Lehnwort | das Repository, die Integrationstests |
-| Kompositum | die Arbeitsbedingungen, der Bereitschaftsdienst, die Zeilenenden, der Quereinsteiger |
-
-*die Integrationstests* is arguably both — a loanword stem plus a German plural. That's very typical
-of German tech writing and it's good news for you: half the word is already yours.
-
-**A5.**
-| Wort | Bedeutung |
-|---|---|
-| der Quereinsteiger | career changer, someone entering from another field |
-| die Voraussetzung | prerequisite |
-| fehlschlagen | to fail |
-| voraussichtlich | expected / probably |
-| der Bereitschaftsdienst | on-call duty |
-
-*Quer* = across/sideways + *Einsteiger* = someone getting in → "someone getting in sideways". Once
-you split it, the guess is nearly free — which is the whole point of the compound rule from
-[Phase 1 · Vocabulary](#/phase-1/vocabulary).
-
-**A6.** **Informal** — *Liebe Kolleginnen und Kollegen*, *Bitte speichert eure Änderungen*,
-*wendet euch*, *euer Verständnis*. All *ihr*-forms. German companies commonly use *ihr* for
-all-staff mails while keeping *Sie* for external contacts.
-
-**A7.** Intensive: **Text 2** (you'd have to act on it correctly). Skim: **Text 1** (background
-information, nothing depends on the detail).
-
-### B. Anwenden
-
-**B1.** a) **F** — 150.000, nicht 15.000 · b) **F** — heute nicht mehr immer · c) **R** ·
-d) **R** · e) **F** — besonders bei **kleineren und mittleren** Unternehmen **außerhalb** der großen
-Städte
-
-Item e) inverts the text on purpose. When a statement reverses a detail you skimmed past, you'll
-mark it *richtig* out of familiarity — this is the single most common exam-reading mistake, and telc
-B2 leans on it heavily.
-
-**B2.** a) *Bei Cloud-Systemen, bei der IT-Sicherheit und bei der Entwicklung von Software für die
-Industrie.* · b) *Viele Stellen erlauben Homeoffice; manche Firmen bieten flexible Arbeitszeiten
-oder eine Vier-Tage-Woche.* · c) *Bei kleineren und mittleren Unternehmen außerhalb der großen
-Städte.*
-
-**B3.** 1. Repository klonen → 2. Umgebungsvariablen setzen → 3. Container starten →
-4. Anwendung im Browser öffnen
-
-**B4.** a) *Er verarbeitet Zahlungen für den Online-Shop und stellt eine REST-Schnittstelle bereit.* ·
-b) **PostgreSQL 15** · c) *Weil die Integrationstests eine laufende Datenbank benötigen.* ·
-d) *Ein Fehler wegen der Zeilenenden; man setzt `core.autocrlf` auf `false`.*
-
-**B5.** a) **Freitag, 12. September** · b) **18:00 Uhr** · c) **drei Stunden** ·
-d) *Ihre Änderungen rechtzeitig vorher speichern.* · e) **im üblichen Chat-Kanal**
-
-**B6.** Your own score. Three or more out of five is a healthy guessing rate at B1 — it means the
-5-word rule is working and you don't need the dictionary reflex.
-
-**B7.**
-| Englisch | Deutsch |
-|---|---|
-| prerequisites | die Voraussetzungen |
-| to clone | klonen |
-| environment variables | die Umgebungsvariablen |
-| to fail | fehlschlagen |
-| reachable / available | erreichbar |
-| on-call duty | der Bereitschaftsdienst |
-| maintenance work | die Wartungsarbeiten |
-
-**B8.**
-| Kompositum | Zerlegung | Artikel | Bedeutung |
-|---|---|---|---|
-| die Arbeitsbedingungen | Arbeit + Bedingungen | die | working conditions |
-| der Bereitschaftsdienst | Bereitschaft + Dienst | der | on-call duty |
-| die Sprachkenntnisse | Sprache + Kenntnisse | die | language skills |
-| die Integrationstests | Integration + Tests | die | integration tests |
-| die Wartungsarbeiten | Wartung + Arbeiten | die | maintenance work |
-| die Zeilenenden | Zeile + Enden | die | line endings |
-
-**B9. Nebensatz:** *Offene Vorgänge, **die** nicht gespeichert wurden, **gehen** verloren.* —
-relative clause, verb *wurden* at the end of the clause.
-**Inversion:** *In dieser Zeit **ist** die interne Anwendung nicht erreichbar.* — *In dieser Zeit*
-takes position 1, so the verb comes second.
-
-**B10.** English: Repository, Docker, PostgreSQL, `docker compose up`, `core.autocrlf`, localhost,
-REST. German: everything connecting them. This is exactly how German tech docs read — commands and
-product names stay English, and you only decode the connective tissue. It's why reading is your
-cheapest skill to grow.
-
 ### C. Produzieren
 
 **C5.** *Ohne Datenbank schlagen die Integrationstests fehl.*

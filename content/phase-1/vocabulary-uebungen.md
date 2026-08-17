@@ -5,213 +5,450 @@
 
 This is the practice half of [Phase 1 · Vocabulary](#/phase-1/vocabulary). The point is not to learn
 new words here — it's to make the **three habits** automatic: predict gender from the ending, pick
-the plural pattern, and split compounds right-to-left. Everything below uses words a backend
-developer actually meets.
+the plural pattern, and split compounds right-to-left.
 
-**How to use it:** do block A cold, without looking anything up — guessing is the skill being
-trained. Only after you've answered may you check a dictionary. Wrong guesses are the useful ones:
-they tell you which ending rule hasn't stuck.
+**How it works:** blocks A and B grade themselves — answer, press **Prüfen**, read why. Do block A
+**without a dictionary**; guessing is the skill being trained, and a wrong guess tells you exactly
+which ending rule hasn't stuck.
 
 ---
 
 ## 🏋️ Übungsteil · Workbook
 
-### A. Erkennen — spot the pattern (A1–A7)
+### A. Erkennen — spot the pattern
 
-**A1.** Predict the article from the ending. Write *der / die / das* and the rule you used.
+**A1–A8 · Artikel aus der Endung ableiten.** Kein Wörterbuch.
 
-| Nr | Nomen | Artikel | Regel |
-|---|---|---|---|
-| a | Konfiguration | | |
-| b | Sicherheit | | |
-| c | Rechner | | |
-| d | Deployment | | |
-| e | Verfügbarkeit | | |
-| f | Datei | | |
-| g | Qualität | | |
-| h | Logik | | |
+```uebung
+? Konfiguration
+x der
+* die
+x das
+! Endung **-ion** → immer *die*. Diese Regel gilt ausnahmslos.
 
-**A2.** Odd one out — one noun in each row has a **different article** from the other three.
+? Sicherheit
+x der
+* die
+x das
+! Endung **-heit** → immer *die*.
 
-- a) Anwendung · Lösung · Ordner · Anforderung
-- b) Server · Speicher · Nutzer · Schnittstelle
-- c) Dokument · Argument · Deployment · Version
+? Rechner
+* der
+x die
+x das
+! Endung **-er** bei Werkzeugen und Tätern → *der*. Ebenso: der Server, der Nutzer, der Ordner.
 
-**A3.** Which part of the compound decides the **gender**? Underline it.
+? Deployment
+x der
+x die
+* das
+! Endung **-ment** → *das*. Ebenso: das Dokument, das Argument.
 
-*Datenbank · Benutzeroberfläche · Betriebssystem · Programmiersprache · Umgebungsvariable ·
-Fehlerbehebungsstrategie*
+? Verfügbarkeit
+x der
+* die
+x das
+! Endung **-keit** → immer *die*.
 
-**A4.** Match the plural type to the noun.
+? Datei
+x der
+* die
+x das
+! Endung **-ei** → *die*. Ebenso: die Bäckerei, die Kartei.
 
-| Nomen | -e | -en | keine Änderung | -s |
-|---|:--:|:--:|:--:|:--:|
-| das Deployment | ☐ | ☐ | ☐ | ☐ |
-| die Anwendung | ☐ | ☐ | ☐ | ☐ |
-| der Server | ☐ | ☐ | ☐ | ☐ |
-| der Termin | ☐ | ☐ | ☐ | ☐ |
-| der Bug | ☐ | ☐ | ☐ | ☐ |
-| die Datei | ☐ | ☐ | ☐ | ☐ |
+? Qualität
+x der
+* die
+x das
+! Endung **-tät** (aus dem Lateinischen) → *die*. Ebenso: die Komplexität, die Universität.
 
-**A5.** True or false?
+? Logik
+x der
+* die
+x das
+! Endung **-ik** → *die*. Ebenso: die Technik, die Grafik.
+```
 
-- a) All nouns ending in **-ung** are feminine. ☐ R ☐ F
-- b) The **first** noun in a compound sets the gender. ☐ R ☐ F
-- c) English loanwords in German usually take an **-s** plural. ☐ R ☐ F
-- d) *der Fehler* and *die Fehler* are spelled the same. ☐ R ☐ F
+**A9 · Das große Muster.**
 
-**A6.** Which of these is **not** a real German compound? (One is invented.)
+```uebung
+? Welche Endungen sind IMMER feminin? (mehrere richtig)
+* -ung
+* -heit
+* -keit
+* -ion
+* -tät
+x -ment
+x -er
+! Diese fünf decken einen enormen Teil der abstrakten Nomen ab. Wer sie kann, muss beim Artikel nicht mehr raten — das ist die höchste Rendite in der ganzen deutschen Grammatik.
+```
 
-*die Datenbank · der Quellcode · die Fehlermeldung · das Speicherordner · die Schnittstellenbeschreibung*
+**A10–A12 · Odd one out.** Welches Nomen hat einen anderen Artikel als die übrigen?
 
-**A7.** Cognate or false friend? Mark each.
+```uebung
+? Anwendung · Lösung · Ordner · Anforderung
+x Anwendung
+x Lösung
+* Ordner
+x Anforderung
+! Drei *-ung*-Nomen (alle *die*) und **der Ordner** (Endung *-er*).
 
-| Deutsch | Bedeutet es das englische Wort? |
-|---|---|
-| das System | ☐ ja ☐ nein |
-| zusammenfassen (≠ to merge) | ☐ ja ☐ nein |
-| die Analyse | ☐ ja ☐ nein |
-| bekommen (≠ to become) | ☐ ja ☐ nein |
+? Server · Speicher · Nutzer · Schnittstelle
+x Server
+x Speicher
+x Nutzer
+* Schnittstelle
+! Drei *-er*-Nomen (alle *der*) und **die Schnittstelle** (Endung *-e*).
+
+? Dokument · Argument · Deployment · Version
+x Dokument
+x Argument
+x Deployment
+* Version
+! Drei *-ment*-Nomen (alle *das*) und **die Version** (Endung *-ion*).
+```
+
+**A13–A18 · Welcher Teil bestimmt das Genus im Kompositum?**
+
+```uebung
+? die Datenbank — welcher Teil entscheidet?
+x Daten
+* Bank
+! Komposita sind **kopf-final**: der **letzte** Teil bestimmt Genus und Grundbedeutung. *die Bank* → *die Datenbank*.
+
+? das Betriebssystem
+x Betrieb
+* System
+! *das System* → *das Betriebssystem*. Von rechts nach links lesen: ein System, und zwar für den Betrieb.
+
+? die Benutzeroberfläche
+x Benutzer
+* Oberfläche
+! *die Oberfläche* → *die Benutzeroberfläche*. Wäre *Benutzer* entscheidend, hieße es *der*.
+
+? die Programmiersprache
+x programmier(en)
+* Sprache
+! *die Sprache* → *die Programmiersprache*.
+
+? die Umgebungsvariable
+x Umgebung
+* Variable
+! *die Variable* → *die Umgebungsvariable*. Hier sind zufällig beide feminin — das Prinzip bleibt trotzdem: der letzte Teil zählt.
+
+? die Fehlerbehebungsstrategie
+x Fehler
+x Behebung
+* Strategie
+! Egal wie lang das Wort ist: nur der **letzte** Baustein zählt. *die Strategie* → *die Fehlerbehebungsstrategie*.
+```
+
+**A19–A24 · Pluraltyp bestimmen.**
+
+```uebung
+? das Deployment → Plural
+x Deploymente
+* Deployments
+x Deploymenten
+! Fremd-/Lehnwörter nehmen **-s**, genau wie im Englischen.
+
+? die Anwendung → Plural
+x Anwendunge
+* Anwendungen
+x Anwendungs
+! *-ung*-Nomen nehmen **-en**.
+
+? der Server → Plural
+* Server
+x Servers
+x Servern
+! Maskulina und Neutra auf **-er/-el/-en** bleiben im Plural **unverändert**. *die Server*.
+
+? der Termin → Plural
+* Termine
+x Termins
+x Terminen
+! Viele Maskulina nehmen **-e**.
+
+? der Bug → Plural
+x Buge
+* Bugs
+x Bügen
+! Englisches Lehnwort → **-s**.
+
+? die Datei → Plural
+x Dateis
+* Dateien
+x Dateie
+! Feminina auf *-ei* nehmen **-en**: die Datei**en**.
+```
+
+**A25–A28 · Richtig oder falsch?**
+
+```uebung
+? Alle Nomen auf **-ung** sind feminin.
+* richtig
+x falsch
+! Ausnahmslos. Eine der wenigen Regeln ohne Ausnahme.
+
+? Der **erste** Teil eines Kompositums bestimmt das Genus.
+x richtig
+* falsch
+! Der **letzte** Teil bestimmt es. Kopf-final, immer.
+
+? Englische Lehnwörter nehmen im Deutschen meist die Plural-Endung **-s**.
+* richtig
+x falsch
+! die Bugs, die Features, die Deployments, die Apps.
+
+? *der Fehler* und *die Fehler* werden gleich geschrieben.
+* richtig
+x falsch
+! Nomen auf *-er* ändern sich im Plural nicht — nur der Artikel verrät die Zahl.
+```
+
+**A29 · Falscher Freund?**
+
+```uebung
+? Welche Wörter bedeuten NICHT das, was sie auf Englisch zu bedeuten scheinen? (mehrere richtig)
+* zusammenfassen
+* bekommen
+x das System
+x die Analyse
+! *zusammenfassen* = to **summarize**, nicht „to merge" (das ist *zusammenführen*). *bekommen* = to **get**, nicht „to become" (das ist *werden*). *System* und *Analyse* sind echte Cognates.
+```
 
 ---
 
-### B. Anwenden — apply with a frame (B1–B12)
+### B. Anwenden — apply with a frame
 
-**B1.** Write the full form: **Artikel + Nomen + Plural**.
+**B1–B8 · Artikel + Plural vollständig angeben.** Schreibe nur den Artikel.
 
-Example: *Anwendung* → **die Anwendung, die Anwendungen**
+```uebung
+? ___ Datei (Artikel)
+= die
+! die Datei, die Dateien.
 
-a) Datei · b) Ordner · c) Schnittstelle · d) Datenbank · e) Speicher · f) Anforderung ·
-g) Feature · h) Termin
+? ___ Ordner
+= der
+! der Ordner, die Ordner (keine Änderung).
 
-**B2.** Split each compound and give the gender of **each** part plus the whole.
+? ___ Schnittstelle
+= die
+! die Schnittstelle, die Schnittstellen.
 
-| Kompositum | Teil 1 | Teil 2 | Artikel gesamt |
-|---|---|---|---|
-| die Datenbank | | | |
-| das Betriebssystem | | | |
-| die Umgebungsvariable | | | |
-| die Programmiersprache | | | |
-| die Fehlermeldung | | | |
+? ___ Datenbank
+= die
+! die Datenbank, die Datenbanken. Genus von *die Bank*.
 
-**B3.** Build the compound from the parts, with its article.
+? ___ Speicher
+= der
+! der Speicher, die Speicher.
 
-- a) Daten + Schutz → …
-- b) Benutzer + Oberfläche → …
-- c) Quelle + Code → …
-- d) Fehler + Meldung → …
-- e) Sicherheit + Lücke → …
+? ___ Anforderung
+= die
+! die Anforderung, die Anforderungen.
 
-**B4.** Fill in the collocation verb: *beheben · einhalten · werfen · zusammenführen · optimieren ·
-bereitstellen*
+? ___ Feature
+= das
+! das Feature, die Features.
 
-| Nr | Kollokation | Englisch |
-|---|---|---|
-| a | einen Fehler ___ | to fix a bug |
-| b | eine Ausnahme ___ | to throw an exception |
-| c | eine Frist ___ | to meet a deadline |
-| d | einen Branch ___ | to merge a branch |
-| e | eine Abfrage ___ | to optimize a query |
-| f | einen Dienst ___ | to deploy a service |
+? ___ Termin
+= der
+! der Termin, die Termine.
+```
 
-**B5.** Complete with the right noun from the module's tables.
+**B9–B13 · Komposita bauen.** Schreibe Artikel + Wort.
 
-| Nr | Satz |
-|---|---|
-| a | Die ___ liest die Daten aus der Datenbank. (interface) |
-| b | Ich habe die ___ in den Ordner gelegt. (file) |
-| c | Wir haben morgen einen ___ mit dem Kunden. (appointment) |
-| d | Die ___ ändern sich in jedem Sprint. (requirements) |
-| e | Der ___ ist voll — wir brauchen mehr RAM. (memory) |
+```uebung
+? Daten + Schutz →
+= der Datenschutz
+! *der Schutz* bestimmt das Genus.
 
-**B6.** Singular → Plural, in a full sentence.
+? Benutzer + Oberfläche →
+= die Benutzeroberfläche
+! *die Oberfläche* bestimmt das Genus.
 
-- a) Wir haben heute ein Deployment. → Wir haben heute zwei …
-- b) Ich habe einen Bug gefunden. → Ich habe drei …
-- c) Der Server läuft. → Die …
-- d) Die Anwendung ist langsam. → Die …
+? Quelle + Code →
+= der Quellcode
+! *der Code* → der Quellcode. Beachte: *Quelle* verliert das -e.
 
-**B7.** Gender drill against the clock. Say each aloud with its article, then check. Target: 30
-seconds for all twelve.
+? Fehler + Meldung →
+= die Fehlermeldung
+! *die Meldung* → die Fehlermeldung.
 
-*Schnittstelle · Rechner · Deployment · Anforderung · Ordner · Datenbank · Betriebssystem ·
-Sicherheit · Version · Speicher · Datei · Dokument*
+? Sicherheit + Lücke →
+= die Sicherheitslücke
+! *die Lücke* → die Sicherheitslücke. Fugen-s zwischen den Teilen.
+```
 
-**B8.** Which ending rule is broken? Each of these is an **exception** — note it in your deck.
+**B14–B19 · Kollokationen.** Setze das passende Verb ein.
 
-| Nomen | Artikel | Erwartete Regel |
-|---|---|---|
-| das Team | das | -m sagt nichts; englisches Lehnwort |
-| der Service | der | ? |
-| das Interface | das | ? |
-| die Firewall | die | ? |
+```uebung
+? einen Fehler ___ (to fix a bug)
+= beheben
+! *einen Fehler beheben*. Umgangssprachlich auch *einen Bug fixen*.
 
-**B9.** Replace the English word with the German one, keeping the article correct.
+? eine Ausnahme ___ (to throw an exception)
+= werfen
+! *eine Ausnahme werfen*; das Gegenstück ist *abfangen* (to catch).
 
-- a) Ich habe das *file* gelöscht.
-- b) Die *database* ist nicht erreichbar.
-- c) Wir brauchen mehr *memory*.
-- d) Die *requirements* sind unklar.
+? eine Frist ___ (to meet a deadline)
+= einhalten
+! *eine Frist einhalten*. Verpassen wäre *versäumen/verpassen*.
 
-**B10.** Word family — fill the gaps.
+? einen Branch ___ (to merge a branch)
+= zusammenführen | mergen
+! *zusammenführen* — **nicht** *zusammenfassen*, das heißt „to summarize".
 
-| Verb | Nomen | Artikel |
-|---|---|---|
-| entwickeln | ___ | |
-| anfordern | ___ | |
-| lösen | ___ | |
-| bereitstellen | ___ | |
-| sichern | ___ | |
+? eine Abfrage ___ (to optimize a query)
+= optimieren
+! Das Verb ist *optimieren*, nicht *optimalisieren*.
 
-**B11.** Which article? These compounds all end in a word you know.
+? einen Dienst ___ (to deploy a service)
+= bereitstellen | deployen
+! *bereitstellen* ist die deutsche Form, *deployen* der Dev-Alltag.
+```
 
-*…sprache · …system · …variable · …meldung · …zugang · …oberfläche*
+**B20–B24 · Das passende Nomen einsetzen.**
 
-**B12.** Correct the mistake in each phrase.
+```uebung
+? Die ___ liest die Daten aus der Datenbank. (interface/API)
+= Schnittstelle
+! die Schnittstelle — Schnitt + Stelle.
 
-- a) der Anwendung
-- b) die Deployments (Singular gemeint)
-- c) das Datenbank
-- d) die Server**s** (Plural gemeint)
+? Ich habe die ___ in den Ordner gelegt. (file)
+= Datei
+! die Datei, die Dateien.
+
+? Wir haben morgen einen ___ mit dem Kunden. (appointment)
+= Termin
+! der Termin. Achtung: *Termin* heißt Termin **und** Deadline.
+
+? Die ___ ändern sich in jedem Sprint. (requirements)
+= Anforderungen
+! Plural, weil „ändern sich".
+
+? Der ___ ist voll — wir brauchen mehr RAM. (memory)
+= Speicher
+! der Speicher, die Speicher.
+```
+
+**B25–B28 · Singular → Plural im Satz.**
+
+```uebung
+? „Wir haben heute ein Deployment." → zwei
+= Wir haben heute zwei Deployments
+! Lehnwort → **-s**.
+
+? „Ich habe einen Bug gefunden." → drei
+= Ich habe drei Bugs gefunden
+! Lehnwort → **-s**.
+
+? „Der Server läuft." → Plural
+= Die Server laufen
+! *-er* bleibt unverändert, aber Artikel und Verb ändern sich.
+
+? „Die Anwendung ist langsam." → Plural
+= Die Anwendungen sind langsam
+! *-ung* → **-en**, Verb wird Plural.
+```
+
+**B29–B33 · Wortfamilie: Verb → Nomen.**
+
+```uebung
+? entwickeln → Nomen (mit Artikel)
+= die Entwicklung
+! Verb + *-ung* → immer *die*.
+
+? anfordern → Nomen
+= die Anforderung
+! Gleiches Muster.
+
+? lösen → Nomen
+= die Lösung
+! Gleiches Muster.
+
+? bereitstellen → Nomen
+= die Bereitstellung
+! Gleiches Muster.
+
+? sichern → Nomen
+= die Sicherung
+! Alle fünf enden auf *-ung*, alle fünf sind *die*. Verb → *-ung* ist das produktivste Wortbildungsmuster im technischen Deutsch.
+```
+
+**B34–B37 · Fehler korrigieren.**
+
+```uebung
+? Korrigiere: „der Anwendung"
+= die Anwendung
+! *-ung* → *die*.
+
+? Korrigiere den Singular: „die Deployments" (ein Stück gemeint)
+= das Deployment
+! *-ment* → *das*.
+
+? Korrigiere: „das Datenbank"
+= die Datenbank
+! Genus von *die Bank*.
+
+? Korrigiere den Plural: „die Servers"
+= die Server
+! Nomen auf *-er* bekommen kein *-s*.
+```
+
+**B38 · Genus-Drill gegen die Uhr.** Sag alle zwölf laut mit Artikel, dann prüfe.
+
+```uebung
+? Welche dieser Nomen sind feminin (die)? (mehrere richtig)
+* Schnittstelle
+* Anforderung
+* Datenbank
+* Sicherheit
+* Version
+* Datei
+x Rechner
+x Deployment
+x Betriebssystem
+x Ordner
+x Speicher
+x Dokument
+! *der*: Rechner, Ordner, Speicher · *das*: Deployment, Betriebssystem, Dokument · *die*: der Rest. Ziel: alle zwölf in unter 30 Sekunden, laut, ohne Nachdenken.
+```
 
 ---
 
-### C. Produzieren — build it yourself (C1–C8)
+### C. Produzieren — build it yourself
 
-**C1.** Write 5 sentences, each using a **different** tech noun from the module with its correct
-article and case.
-
-**C2.** Describe your project's stack in 3 sentences. Every noun must carry a correct article.
-
-**C3.** Take 5 long compounds from your own codebase's German docs (or invent plausible ones) and
-write each with article + a translation.
-
-**C4.** Write one sentence for each of these collocations: *einen Fehler beheben · eine Frist
-einhalten · einen Branch zusammenführen*.
-
-**C5.** Translate: *The interface reads the requirements from the database.*
-
-**C6.** Translate: *We have two deployments and three bugs today.*
-
-**C7.** Translate: *The user interface is new, but the operating system stayed the same.*
-
-**C8.** Mini-writing: 4 sentences explaining to a German colleague what your service does. Use at
-least three compound nouns.
+**C1.** Schreibe 5 Sätze, jeder mit einem **anderen** technischen Nomen aus dem Modul, mit korrektem
+Artikel im richtigen Kasus.
+**C2.** Beschreibe den Stack deines Projekts in 3 Sätzen. Jedes Nomen mit korrektem Artikel.
+**C3.** Nimm 5 lange Komposita aus deiner echten Codebasis (oder erfinde plausible) und schreibe je
+Artikel + Übersetzung.
+**C4.** Schreibe je einen Satz mit: *einen Fehler beheben · eine Frist einhalten · einen Branch
+zusammenführen*.
+**C5.** Übersetze: *The interface reads the requirements from the database.*
+**C6.** Übersetze: *We have two deployments and three bugs today.*
+**C7.** Übersetze: *The user interface is new, but the operating system stayed the same.*
+**C8.** Mini-Writing: 4 Sätze, die einem deutschen Kollegen erklären, was dein Service macht.
+Mindestens drei Komposita.
 
 ---
 
-### D. Transfer — your real work (D1–D4)
+### D. Transfer — your real work
 
-**D1.** Open your current repository. Find **10 nouns** you'd need to describe it in German. Write
-each with article + plural + one example sentence. Add all ten to [Flashcards](#/@flashcards).
+**D1.** Öffne dein aktuelles Repository. Finde **10 Nomen**, die du brauchst, um es auf Deutsch zu
+beschreiben. Schreibe jedes mit Artikel + Plural + einem Beispielsatz und leg sie in
+[Flashcards](#/@flashcards) an.
 
-**D2.** Take the last error message you saw at work. Write it in German as a **Fehlermeldung** —
-one sentence, correct article.
+**D2.** Nimm die letzte Fehlermeldung, die du bei der Arbeit gesehen hast. Formuliere sie auf Deutsch
+als **Fehlermeldung** — ein Satz, korrekter Artikel.
 
-**D3.** Set up (or check) your *IT-Deutsch* Anki deck: 20 cards, every noun with **article +
-plural + example**. A card without an article is a broken card — fix or delete it.
+**D3.** Richte dein *IT-Deutsch*-Anki-Deck ein (oder prüfe es): 20 Karten, jedes Nomen mit
+**Artikel + Plural + Beispiel**. Eine Karte ohne Artikel ist eine kaputte Karte.
 
-**D4.** Read the line below aloud, then say the same about your own system.
+**D4.** Lies die Zeile unten laut, dann sag dasselbe über dein eigenes System.
 
 ```audio
 In meinem Projekt benutze ich eine Datenbank, mehrere Schnittstellen und einen Server. Die Anwendung läuft in einem Container und die Konfiguration liegt in einer Datei.
@@ -219,128 +456,55 @@ In meinem Projekt benutze ich eine Datenbank, mehrere Schnittstellen und einen S
 
 ---
 
-## ✅ Lösungen & Erklärungen
+## ✅ Musterlösungen für C und D
 
 ```spoiler
-### A. Erkennen
-
-**A1.** a) **die** (-ion) · b) **die** (-heit) · c) **der** (-er, Werkzeug/Täter) ·
-d) **das** (-ment) · e) **die** (-keit) · f) **die** (-ei) · g) **die** (-tät) · h) **die** (-ik)
-
-The four suffixes **-ung / -heit / -keit / -ion** (plus -tät, -ik, -ei) are *always* feminine. That
-single block covers a large share of the abstract nouns you meet — learn it once, stop guessing.
-
-**A2.** a) **Ordner** (der; the rest are die) · b) **Schnittstelle** (die; the rest are der) ·
-c) **Version** (die; the rest are das)
-
-**A3.** The **last** noun decides: Daten**bank** · Benutzer**oberfläche** · Betriebs**system** ·
-Programmier**sprache** · Umgebungs**variable** · Fehlerbehebungs**strategie**.
-Compounds are head-final — same idea as `List<User>` still being a `List`.
-
-**A4.** das Deployment → **-s** · die Anwendung → **-en** · der Server → **keine Änderung** ·
-der Termin → **-e** · der Bug → **-s** · die Datei → **-en** (die Dateien)
-
-**A5.** a) **R** · b) **F** — the *last* noun decides · c) **R** · d) **R** (der Fehler / die Fehler)
-
-**A6.** **das Speicherordner** is invented — and doubly wrong: it would be *der Speicherordner*,
-since *Ordner* is masculine and sets the gender.
-
-**A7.** das System → **ja** · zusammenfassen → **nein** (= to summarize; "to merge" is
-*zusammenführen*) · die Analyse → **ja** · bekommen → **nein** (= to get, not "to become")
-
-### B. Anwenden
-
-**B1.** a) die Datei, die Dateien · b) der Ordner, die Ordner · c) die Schnittstelle, die
-Schnittstellen · d) die Datenbank, die Datenbanken · e) der Speicher, die Speicher · f) die
-Anforderung, die Anforderungen · g) das Feature, die Features · h) der Termin, die Termine
-
-**B2.**
-| Kompositum | Teil 1 | Teil 2 | Artikel gesamt |
-|---|---|---|---|
-| die Datenbank | die Daten | die Bank | **die** |
-| das Betriebssystem | der Betrieb | das System | **das** |
-| die Umgebungsvariable | die Umgebung | die Variable | **die** |
-| die Programmiersprache | programmieren | die Sprache | **die** |
-| die Fehlermeldung | der Fehler | die Meldung | **die** |
-
-**B3.** a) **der Datenschutz** · b) **die Benutzeroberfläche** · c) **der Quellcode** ·
-d) **die Fehlermeldung** · e) **die Sicherheitslücke**
-
-**B4.** a) **beheben** · b) **werfen** · c) **einhalten** · d) **zusammenführen** ·
-e) **optimieren** · f) **bereitstellen**
-
-**B5.** a) **Schnittstelle** · b) **Datei** · c) **Termin** · d) **Anforderungen** · e) **Speicher**
-
-**B6.** a) … zwei **Deployments**. · b) … drei **Bugs** gefunden. · c) Die **Server laufen**. ·
-d) Die **Anwendungen sind** langsam.
-
-**B7.** die Schnittstelle · der Rechner · das Deployment · die Anforderung · der Ordner ·
-die Datenbank · das Betriebssystem · die Sicherheit · die Version · der Speicher · die Datei ·
-das Dokument
-
-**B8.** der Service — English loanword, but treated as masculine like *der Dienst*; das Interface —
-neuter like most borrowed *-face/-ment* nouns (also *die Schnittstelle*); die Firewall — feminine,
-because *die Wall/Mauer* is felt as the head. Loanwords often inherit the gender of their nearest
-German synonym. Just store them as exceptions.
-
-**B9.** a) **die Datei** · b) **Die Datenbank** · c) **mehr Speicher** · d) **Die Anforderungen**
-
-**B10.** entwickeln → **die Entwicklung** · anfordern → **die Anforderung** · lösen → **die Lösung** ·
-bereitstellen → **die Bereitstellung** · sichern → **die Sicherung**.
-All five are **-ung** → all five are **die**. Verb → *-ung* noun is one of the most productive
-patterns in technical German.
-
-**B11.** **die** Sprache · **das** System · **die** Variable · **die** Meldung · **der** Zugang ·
-**die** Oberfläche
-
-**B12.** a) **die** Anwendung · b) **das** Deployment · c) **die** Datenbank ·
-d) **die Server** (no -s; *-er* nouns don't change)
-
 ### C. Produzieren
 
-**C5.** Die Schnittstelle liest die Anforderungen aus der Datenbank.
+**C5.** *Die Schnittstelle liest die Anforderungen aus der Datenbank.*
 (*aus* + Dativ → *aus der Datenbank*.)
 
-**C6.** Wir haben heute zwei Deployments und drei Bugs.
+**C6.** *Wir haben heute zwei Deployments und drei Bugs.*
 
-**C7.** Die Benutzeroberfläche ist neu, aber das Betriebssystem ist gleich geblieben.
+**C7.** *Die Benutzeroberfläche ist neu, aber das Betriebssystem ist gleich geblieben.*
 
-**C1–C4, C8** are open. Self-check list:
+**C1–C4, C8** sind offen. Selbstkontrolle:
 
 | Check | Frage |
 |---|---|
-| Artikel | Does every noun have one, and is it right? |
-| Kasus | Is the article's form justified by the verb or preposition? |
-| Plural | Correct pattern, especially *-s* for loanwords and no change for *-er*? |
-| Kompositum | Did you take the gender from the **last** part? |
+| Artikel | Hat jedes Nomen einen — und ist er richtig? |
+| Kasus | Ist die Artikelform durch Verb oder Präposition begründet? |
+| Plural | Richtiges Muster, besonders *-s* bei Lehnwörtern und keine Änderung bei *-er*? |
+| Kompositum | Genus vom **letzten** Teil genommen? |
 
 **Musterlösung für C8:**
 *Mein Service verwaltet die Benutzerdaten. Er stellt eine REST-Schnittstelle bereit und speichert
 alles in einer PostgreSQL-Datenbank. Die Konfiguration liegt in Umgebungsvariablen. Wenn eine
 Anfrage fehlschlägt, schreibt der Service eine Fehlermeldung in den Log.*
 
-Compounds used: die Benutzerdaten, die REST-Schnittstelle, die Umgebungsvariablen, die Fehlermeldung.
+Komposita darin: die Benutzerdaten, die REST-Schnittstelle, die Umgebungsvariablen, die
+Fehlermeldung.
 
 ### D. Transfer
 
-**D1–D3.** Your own content. One hard rule to check: **no card without an article and a plural.**
-A card that says only "Datei = file" will not help you speak — you still won't know whether to say
-*der, die* or *das* under pressure.
+**D1–D3.** Eigener Inhalt. Eine harte Regel: **keine Karte ohne Artikel und Plural.** Eine Karte, auf
+der nur „Datei = file" steht, hilft dir beim Sprechen nicht — unter Druck weißt du trotzdem nicht,
+ob es *der, die* oder *das* heißt.
 
 **D2. Beispiel:** *Die Anwendung konnte keine Verbindung zur Datenbank herstellen.*
 
-**D4.** No answer key — compare rhythm with the audio and repeat.
+**D4.** Kein Lösungsschlüssel — Rhythmus mit dem Audio vergleichen und wiederholen.
 ```
 
 ---
 
 ## 🧾 Zusammenfassung · Summary
 
-Three habits carried this workbook: **predict the article from the ending** (-ung/-heit/-keit/-ion →
-*die*, tool-**-er** → *der*, -ment → *das*), **pick the plural pattern** (loanwords take *-s*, *-er*
-nouns don't change), and **decode compounds right-to-left** so the last noun hands you both gender
-and meaning. Verb → *-ung* is the single most productive noun-building pattern in technical German,
-and every noun it makes is feminine. Theory lives in [Phase 1 · Vocabulary](#/phase-1/vocabulary).
+Three habits carried this workbook: **predict the article from the ending** (-ung/-heit/-keit/-ion/
+-tät → *die*, tool-**-er** → *der*, -ment → *das*), **pick the plural pattern** (loanwords take *-s*,
+*-er* nouns don't change), and **decode compounds right-to-left** so the last noun hands you both
+gender and meaning. Verb → *-ung* is the single most productive noun-building pattern in technical
+German, and every noun it makes is feminine. Theory: [Phase 1 · Vocabulary](#/phase-1/vocabulary).
 
 ## 📇 Vokabel-Checkliste · Vocabulary checklist
 
@@ -359,14 +523,14 @@ and every noun it makes is feminine. Theory lives in [Phase 1 · Vocabulary](#/p
 
 ## 📝 Hausaufgabe · Homework
 
-- [ ] Finish blocks **A–B**; every wrong article goes into the [Fehlerjournal](#/@journal).
-- [ ] Add the **10 nouns** from D1 to your Anki deck — with article, plural and example.
-- [ ] Redo **B7** (the gender drill) daily for a week until it's under 30 seconds.
-- [ ] Take the [IT Vocabulary · Articles quiz](#/@quiz).
+- [ ] Block **A ohne Wörterbuch** — jeder falsche Artikel geht ins [Fehlerjournal](#/@journal).
+- [ ] Die **10 Nomen** aus D1 mit Artikel, Plural und Beispiel ins Deck.
+- [ ] **B38 (Genus-Drill)** täglich eine Woche lang, bis unter 30 Sekunden.
+- [ ] Mach das [IT Vocabulary · Articles-Quiz](#/@quiz).
 
 ## 📚 Empfohlene Ressourcen · Recommended resources
 
-- **Article + plural lookup:** dict.leo.org, DWDS.de, Duden.de.
-- **Context examples:** Linguee, Reverso Context.
-- **Back to theory:** [Phase 1 · Vocabulary](#/phase-1/vocabulary).
-- **Next:** [Phase 1 · Speaking](#/phase-1/speaking) and its [Übungsteil](#/phase-1/speaking-uebungen).
+- **Artikel + Plural nachschlagen:** dict.leo.org, DWDS.de, Duden.de.
+- **Beispiele im Kontext:** Linguee, Reverso Context.
+- **Zurück zur Theorie:** [Phase 1 · Vocabulary](#/phase-1/vocabulary).
+- **Weiter:** [Phase 1 · Speaking](#/phase-1/speaking) und der [Übungsteil](#/phase-1/speaking-uebungen).

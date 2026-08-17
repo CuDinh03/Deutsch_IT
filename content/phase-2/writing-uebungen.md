@@ -15,110 +15,305 @@ Then compare with the Musterlösung and, more importantly, run the self-check ta
 
 ## 🏋️ Übungsteil · Workbook
 
-### A. Erkennen — register and structure (A1–A7)
+### A. Erkennen — register and structure
 
-**A1.** Formal (Sie) or informal (du)? Mark each.
+**A1–A6 · Formell oder informell?**
 
-| Zeile | formell | informell |
-|---|:--:|:--:|
-| Sehr geehrte Frau Weber, | ☐ | ☐ |
-| Hi zusammen, | ☐ | ☐ |
-| Ich schreibe Ihnen, weil … | ☐ | ☐ |
-| Kannst du mal kurz gucken? | ☐ | ☐ |
-| Mit freundlichen Grüßen | ☐ | ☐ |
-| VG | ☐ | ☐ |
+```uebung
+? Sehr geehrte Frau Weber,
+* formell
+x informell
+! Formelle Standardanrede.
 
-**A2.** Which sentence is correctly capitalized after the Anrede?
+? Hi zusammen,
+x formell
+* informell
+! Team-Chat.
 
-1. Sehr geehrte Frau Weber, Ich schreibe Ihnen, weil …
-2. Sehr geehrte Frau Weber, ich schreibe Ihnen, weil …
+? Ich schreibe Ihnen, weil …
+* formell
+x informell
+! Das *Ihnen* entscheidet.
 
-**A3.** Put the argumentative structure in order.
+? Kannst du mal kurz gucken?
+x formell
+* informell
+! *du* + *mal* + *gucken*.
 
-☐ Gegenargument einräumen · ☐ Einleitung und These · ☐ Fazit und eigene Meinung ·
-☐ Argument mit Beispiel
+? Mit freundlichen Grüßen
+* formell
+x informell
+! Formeller Standardgruß.
 
-**A4.** Which of these belong in a **formal written** text? Mark the ones to avoid.
+? VG
+x formell
+* informell
+! Abkürzung, nur intern.
+```
 
-*folglich · z. B. (ausgeschrieben?) · gibt's · darüber hinaus · mega · jedoch · ok · somit · da*
+**A7 · Groß oder klein nach der Anrede?**
 
-**A5.** A telc prompt has four bullet points. How many must your letter address?
+```uebung
+? Was ist richtig?
+* Sehr geehrte Frau Weber, ich schreibe Ihnen, weil …
+x Sehr geehrte Frau Weber, Ich schreibe Ihnen, weil …
+! Nach dem Anrede-Komma geht es **klein** weiter. Ein kostenloser Punkt, den fast alle Nichtmuttersprachler verschenken.
+```
 
-**A6.** Identify the function: *Ich schlage vor, dass … · Ich habe Ihre E-Mail gelesen … · Erstens
-…, zweitens … · Ich freue mich auf Ihre Antwort.*
+**A8 · Aufbau des argumentativen Textes.**
 
-**A7.** Which is the bigger point loss at telc B2 — one missing content point, or three grammar
-slips?
+```uebung
+? Welche Reihenfolge ist richtig?
+* Einleitung/These → Argument mit Beispiel → Gegenargument einräumen → Fazit
+x Fazit → These → Argument → Gegenargument
+x Argument → These → Fazit → Gegenargument
+x These → Fazit → Argument → Gegenargument
+! Die Einräumung kommt **nach** dem eigenen Argument und **vor** dem Fazit — so bleibt deine Position der letzte Eindruck.
+```
+
+**A9–A10 · Register im Prüfungstext.**
+
+```uebung
+? Welche Wörter gehören in einen Prüfungstext? (mehrere richtig)
+* folglich
+* darüber hinaus
+* jedoch
+* somit
+* da
+x mega
+x gibt's
+x ok
+! Die informelle Gruppe kostet bei „Angemessenheit".
+
+? Wie schreibt man „z. B." im Prüfungstext?
+* zum Beispiel
+x z. B.
+x zb
+x z.B
+! Abkürzungen ausschreiben — gratis Punkte.
+```
+
+**A11–A12 · Inhaltspunkte.**
+
+```uebung
+? Ein telc-Prompt hat vier Vorgaben. Wie viele musst du beantworten?
+* alle vier
+x drei reichen
+x zwei, wenn sie gut sind
+x so viele, wie in die Wortzahl passen
+! Inhaltspunkte werden **einzeln** abgehakt.
+
+? Was ist schlimmer?
+x drei kleine Grammatikfehler
+* ein nicht beantworteter Inhaltspunkt
+x eine kurze Einleitung
+! Grammatikfehler gehen in eine Gesamteinschätzung ein; ein fehlender Inhaltspunkt ist ein direkter Abzug. Vier Punkte in einfachem Deutsch schlagen drei Punkte in schönem Deutsch.
+```
+
+**A13–A16 · Funktion der Redemittel.**
+
+```uebung
+? „Ich habe Ihre E-Mail erhalten."
+* Bezug auf den Prompt
+x Vorschlag
+x Struktur
+x Schluss
+! Standardeinstieg.
+
+? „Ich schlage vor, dass …"
+x Bezug
+* Vorschlag
+x Struktur
+x Schluss
+! Vorschlagsformel.
+
+? „Erstens …, zweitens …"
+x Bezug
+x Vorschlag
+* Struktur
+x Schluss
+! Gliederung.
+
+? „Ich freue mich auf Ihre Antwort."
+x Bezug
+x Vorschlag
+x Struktur
+* Schluss
+! Fester Schlussbaustein.
+```
 
 ---
 
-### B. Anwenden — apply with a frame (B1–B12)
+### B. Anwenden — apply with a frame
 
-**B1.** Fill the formal email frame.
+**B1–B3 · Höfliche Bitten im formellen Brief.**
 
-> Betreff: ______________
-> Sehr geehrte Frau ______,
-> ______________ *(Grund, 1 Satz mit „weil")*
-> ______________ *(Bitte, Konjunktiv II)*
-> ______________ *(Schluss)*
-> Mit freundlichen Grüßen
-> ______
+```uebung
+? „Schalten Sie mir den Zugang frei." → höflich
+= Könnten Sie mir bitte den Zugang freischalten?
+! Konjunktiv II + *bitte*.
 
-**B2.** Rewrite each request in Konjunktiv II, formal.
+? „Schicken Sie mir die Logs." → höflich
+= Könnten Sie mir bitte die Logs schicken? | Würden Sie mir bitte die Logs schicken?
+! Beide Varianten sind idiomatisch.
 
-- a) Schalten Sie mir den Zugang frei.
-- b) Schicken Sie mir die Logs.
-- c) Verschieben Sie das Meeting.
+? „Verschieben Sie das Meeting." → höflich
+= Könnten wir das Meeting bitte verschieben? | Könnten Sie das Meeting bitte verschieben?
+! *Könnten wir …?* wirkt kooperativer als *Könnten Sie …?*
+```
 
-**B3.** Turn each informal line into formal written German.
+**B4–B6 · Informell → formell.**
 
-- a) Hi, kannst du mal kurz auf den Build gucken?
-- b) Das Tool ist echt super, sollten wir nehmen.
-- c) Gibt's da eine Doku zu?
+```uebung
+? „Hi, kannst du mal kurz auf den Build gucken?" → formell
+= Könnten Sie bitte einen Blick auf den Build werfen? | Könnten Sie bitte kurz auf den Build schauen?
+! Anrede, Konjunktiv II, kein *mal*, kein *gucken*.
 
-**B4.** Replace with a **written** connector: *da · jedoch · folglich · darüber hinaus*.
+? „Das Tool ist echt super, sollten wir nehmen." → formell
+= Ich halte das Tool für sehr geeignet und schlage vor, dass wir es einsetzen
+! Bewertung + Vorschlag, ohne Umgangssprache.
 
-| Nr | Satz |
-|---|---|
-| a | Wir brauchen mehr Instanzen, ___ die Last steigt. |
-| b | Das ist teuer; ___ skaliert es gut. |
-| c | Der Build dauert zu lange; ___ müssen wir ihn aufteilen. |
-| d | ___ sinkt die Wartbarkeit. |
+? „Gibt's da eine Doku zu?" → formell
+= Gibt es dazu eine Dokumentation?
+! Keine Kurzformen im Prüfungstext.
+```
 
-**B5.** Add the missing concession to make it B2-level.
+**B7–B10 · Schriftsprachliche Konnektoren einsetzen.**
 
-- a) Wir sollten refactoren. *(räume ein: es kostet Zeit)*
-- b) Kubernetes ist die bessere Lösung. *(räume ein: steile Lernkurve)*
+```uebung
+? Wir brauchen mehr Instanzen, ___ die Last steigt. (formell für „weil")
+= da
+! *da* + Verb am Ende.
 
-**B6.** Write the **Einleitung** for an argumentative text on: *"Sollten Entwickler freitags
-deployen?"*
+? Das ist teuer; ___ skaliert es gut. (formell für „aber")
+= jedoch
+! *jedoch* löst Inversion aus.
 
-**B7.** Write **one argument with a reason and an example** for the same topic.
+? Der Build dauert zu lange; ___ müssen wir ihn aufteilen. (formell für „deshalb")
+= folglich | somit | daher
+! Alle drei korrekt, alle mit Inversion.
 
-**B8.** Write the **Schluss** for the same topic.
+? ___ sinkt die Wartbarkeit. (formell für „außerdem")
+= Darüber hinaus
+! *Darüber hinaus* + Inversion.
+```
 
-**B9.** Content-point drill. The prompt asks you to:
-*(1) auf die Einladung reagieren · (2) einen Termin vorschlagen · (3) nach dem Ort fragen ·
-(4) sich für die Verspätung entschuldigen.*
-Write **one sentence per point**, clearly separable.
+**B11–B12 · Einräumung ergänzen.**
 
-**B10.** Shorten each sentence without losing meaning — B2 writing rewards density, not padding.
+```uebung
+? „Wir sollten refactoren." — räume ein, dass es Zeit kostet.
+= Zwar kostet das Zeit, aber die Wartbarkeit steigt deutlich | Wir sollten refactoren. Zwar kostet das Zeit, aber die Wartbarkeit steigt
+! *zwar … aber* zeigt, dass du beide Seiten siehst.
 
-- a) Ich wollte Ihnen hiermit mitteilen, dass ich der Meinung bin, dass wir das Deployment
-  möglicherweise verschieben sollten.
-- b) Es ist so, dass die Datenbank eigentlich der Grund dafür ist, warum alles so langsam ist.
+? „Kubernetes ist die bessere Lösung." — räume die steile Lernkurve ein.
+= Kubernetes ist die bessere Lösung; allerdings ist die Lernkurve steil
+! *allerdings* mit Inversion.
+```
 
-**B11.** Fix the register error in each.
+**B13–B16 · Inhaltspunkte sichtbar beantworten.**
 
-- a) Sehr geehrter Herr Müller, das Tool ist mega gut.
-- b) Sehr geehrte Damen und Herren, ich hab da mal 'ne Frage.
-- c) Mit freundlichen Grüßen, dein Huy
+Der Prompt verlangt: (1) auf die Einladung reagieren, (2) einen Termin vorschlagen, (3) nach dem Ort
+fragen, (4) sich für die Verspätung entschuldigen.
 
-**B12.** Run the 5-point self-check on this text and list every error you find.
+```uebung
+? Formuliere Punkt 1 in einem Satz.
+= Vielen Dank für die Einladung | Vielen Dank für Ihre Einladung
+! Kurz und sofort erkennbar.
+
+? Formuliere Punkt 2 in einem Satz.
+= Wäre Dienstagnachmittag möglich? | Ich schlage Dienstagnachmittag vor
+! Vorschlag mit konkretem Termin.
+
+? Formuliere Punkt 3 in einem Satz.
+= Wo findet der Workshop statt? | Könnten Sie mir sagen, wo der Workshop stattfindet?
+! Direkte oder indirekte Frage, beides zählt.
+
+? Wie machst du dem Prüfer die vier Punkte am leichtesten erkennbar?
+* je ein eigener Absatz oder klar abgegrenzter Satz pro Punkt
+x alle Punkte in einem langen Absatz verweben
+x die Punkte am Ende auflisten
+x die Punkte durchnummerieren wie im Aufgabenblatt
+! Der Prüfer hakt ab. Nummerieren wirkt allerdings wie eine Liste, nicht wie ein Brief.
+```
+
+**B17–B18 · Kürzen.**
+
+```uebung
+? Kürze: „Ich wollte Ihnen hiermit mitteilen, dass ich der Meinung bin, dass wir das Deployment möglicherweise verschieben sollten."
+= Ich schlage vor, das Deployment zu verschieben
+! Gestapelte Weichmacher wirken im Deutschen unsicher, nicht höflich.
+
+? Kürze: „Es ist so, dass die Datenbank eigentlich der Grund dafür ist, warum alles so langsam ist."
+= Die Datenbank ist der Engpass | Die Datenbank ist der Grund für die Langsamkeit
+! Deutsche Sachtexte sind direkt. Höflichkeit steckt in *Könnten Sie …?*, nicht in Füllwörtern.
+```
+
+**B19–B21 · Registerfehler finden.**
+
+```uebung
+? Was ist falsch? „Sehr geehrter Herr Müller, das Tool ist mega gut."
+* Umgangssprache passt nicht zur formellen Anrede
+x die Anrede ist falsch
+x es fehlt ein Komma
+! Registerbruch.
+
+? Was ist falsch? „Sehr geehrte Damen und Herren, ich hab da mal 'ne Frage."
+* Kurzformen und Umgangssprache im formellen Brief
+x die Anrede ist falsch
+x die Frage ist unhöflich
+! *ich habe eine Frage* wäre korrekt.
+
+? Was ist falsch? „Mit freundlichen Grüßen, dein Huy"
+* formeller Gruß mit informeller Signatur gemischt
+x der Gruß ist falsch
+x der Name fehlt
+! Entweder *Mit freundlichen Grüßen, Huy Nguyen* oder *Viele Grüße, dein Huy*.
+```
+
+**B22–B25 · Fehler im Brief finden.**
 
 > *Sehr geehrte Frau Weber, Ich schreibe Ihnen weil der build seit heute Morgen fehlschlägt.
-> Könnten sie bitte die logs prüfen? Ich habe schon die konfiguration geprüft, aber ich konnte
-> keinen fehler finden. Ich würde mich freuen wenn Sie mir helfen können. Viele Grüße Huy*
+> Könnten sie bitte die logs prüfen? Ich würde mich freuen wenn Sie mir helfen können. Viele Grüße Huy*
+
+```uebung
+? Was ist direkt nach der Anrede falsch?
+* „Ich" muss kleingeschrieben werden
+x es fehlt ein Ausrufezeichen
+x die Anrede ist zu formell
+! Nach dem Anrede-Komma klein weiter.
+
+? Welches Satzzeichen fehlt zweimal?
+* das Komma vor dem Nebensatz
+x der Punkt am Satzende
+x das Fragezeichen
+! *Ich schreibe Ihnen**,** weil …* und *Ich würde mich freuen**,** wenn …*
+
+? Welche Wörter müssen großgeschrieben werden? (mehrere richtig)
+* build
+* logs
+x seit
+x prüfen
+! Auch englische Lehnwörter sind im Deutschen Nomen: der Build, die Logs.
+
+? Was stimmt mit „Könnten sie" nicht?
+* die Höflichkeitsform „Sie" muss groß sein
+x es müsste „Können" heißen
+x nichts
+! Kleingeschriebenes *sie* bedeutet „sie/they" — in einem Sie-Brief ändert das die Bedeutung.
+```
+
+**B26 · Die Selbstkontrolle.**
+
+```uebung
+? Welche fünf Punkte prüfst du in den letzten vier Minuten? (mehrere richtig)
+* alle Inhaltspunkte beantwortet
+* Verbposition im Haupt- und Nebensatz
+* Komma vor jedem Nebensatz
+* Nomen groß, nach der Anrede klein
+* durchgehend Sie
+x die Wortzahl möglichst weit überschreiten
+! Die Wortzahl deutlich zu überschreiten hilft nicht — die vier mechanischen Prüfungen dagegen holen zuverlässig Punkte zurück.
+```
 
 ---
 
@@ -161,94 +356,9 @@ options, recommendation.
 
 ---
 
-## ✅ Lösungen & Erklärungen
+## ✅ Musterlösungen für C und D
 
 ```spoiler
-### A. Erkennen
-
-**A1.** formell: *Sehr geehrte Frau Weber, · Ich schreibe Ihnen, weil … · Mit freundlichen Grüßen* ·
-informell: *Hi zusammen, · Kannst du mal kurz gucken? · VG*
-
-**A2.** **Nr. 2.** After the Anrede comma the next line continues **lowercase**. It looks wrong to
-English eyes and it's a free point at telc — examiners notice it.
-
-**A3.** 1. Einleitung und These → 2. Argument mit Beispiel → 3. Gegenargument einräumen →
-4. Fazit und eigene Meinung
-
-**A4.** In formal writing: **folglich, darüber hinaus, jedoch, somit, da** und *zum Beispiel*
-ausgeschrieben. Vermeiden: **z. B.** (abgekürzt im Prüfungstext), **gibt's**, **mega**, **ok**.
-
-**A5.** **Alle vier.** Content points are ticked off individually.
-
-**A6.** *Ich schlage vor, dass …* = Vorschlag · *Ich habe Ihre E-Mail gelesen …* = Bezug auf den
-Prompt · *Erstens …, zweitens …* = Struktur · *Ich freue mich auf Ihre Antwort.* = Schluss
-
-**A7.** **One missing content point** costs more. Grammar errors are averaged into a band; a missing
-content point removes a whole scored item. If you're short on time, finish all four points with
-simpler German rather than polishing three.
-
-### B. Anwenden
-
-**B1. Musterlösung:**
-> Betreff: **Zugang zum Staging-System**
-> Sehr geehrte Frau **Weber**,
-> **ich schreibe Ihnen, weil ich für die Fehleranalyse Zugang zum Staging-System benötige.**
-> **Könnten Sie mir den Zugang bitte bis Mittwoch freischalten?**
-> **Für Ihre Unterstützung bedanke ich mich im Voraus.**
-> Mit freundlichen Grüßen
-> **Huy Nguyen**
-
-**B2.** a) **Könnten Sie** mir bitte den Zugang **freischalten**? · b) **Würden Sie** mir bitte die
-Logs **schicken**? · c) **Könnten wir** das Meeting bitte **verschieben**?
-
-**B3.** a) *Könnten Sie bitte einen Blick auf den Build werfen?* · b) *Das Tool halte ich für sehr
-geeignet; ich schlage vor, dass wir es einsetzen.* · c) *Gibt es dazu eine Dokumentation?*
-
-**B4.** a) **da** · b) **jedoch** · c) **folglich** · d) **Darüber hinaus**
-
-**B5.** a) *Wir sollten refactoren. **Zwar** kostet das Zeit, **aber** die Wartbarkeit steigt
-deutlich.* · b) *Kubernetes ist die bessere Lösung; **allerdings** ist die Lernkurve steil.*
-
-**B6. Musterlösung:** *In diesem Text geht es um die Frage, ob Entwicklungsteams freitags
-Software ausliefern sollten. Ich bin der Ansicht, dass man darauf verzichten sollte.*
-
-**B7. Musterlösung:** *Ein wichtiges Argument ist die Erreichbarkeit. Wenn am Wochenende niemand
-im Bereitschaftsdienst ist, dauert die Behebung eines Ausfalls deutlich länger. Zum Beispiel war
-unser Zahlungsdienst im letzten Quartal an einem Samstag über vier Stunden nicht erreichbar.*
-
-**B8. Musterlösung:** *Zusammenfassend halte ich Freitagsdeployments für ein unnötiges Risiko.
-Dienstag und Donnerstag bieten genug Zeit, um auf Probleme zu reagieren.*
-
-**B9. Musterlösung:**
-1. *Vielen Dank für die Einladung zum Workshop.*
-2. *Leider kann ich am Freitagnachmittag nicht teilnehmen, da ich zu dieser Zeit einen Kundentermin habe.*
-3. *Wäre stattdessen Dienstagnachmittag möglich?*
-4. *Außerdem würde ich gern einen kurzen Beitrag über unsere Integrationstests beisteuern — wäre das möglich?*
-
-Four sentences, four visibly separate points. That's exactly what gets ticked.
-
-**B10.** a) *Ich schlage vor, das Deployment zu verschieben.* · b) *Die Datenbank ist der Engpass.*
-Stacked hedges (*eigentlich, möglicherweise, es ist so, dass*) read as insecure in German, not
-polite. Politeness lives in *Könnten Sie …?*, not in padding.
-
-**B11.** a) *mega gut* → *sehr überzeugend* · b) *ich hab da mal 'ne Frage* → *ich habe eine Frage* ·
-c) *Mit freundlichen Grüßen, dein Huy* — mixed register; entweder *Mit freundlichen Grüßen, Huy
-Nguyen* (formell) oder *Viele Grüße, dein Huy* (informell).
-
-**B12. Fehlerliste:**
-
-| Fehler | Korrektur |
-|---|---|
-| *Ich* nach der Anrede großgeschrieben | *ich schreibe Ihnen …* |
-| Komma vor *weil* fehlt | *Ich schreibe Ihnen**,** weil …* |
-| *build, logs, konfiguration, fehler* klein | **Build, Logs, Konfiguration, Fehler** — alle Nomen groß |
-| *sie* statt *Sie* | **Könnten Sie** … |
-| Komma vor *wenn* fehlt | *Ich würde mich freuen**,** wenn …* |
-| Register gemischt | formelle Anrede + *Viele Grüße* → **Mit freundlichen Grüßen** |
-
-Six errors, and five of them are mechanical — capitalization, commas and *Sie*. Those are the
-cheapest points to win back on a telc paper.
-
 ### C. Produzieren
 
 Run this **before** reading the model answers:

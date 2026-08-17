@@ -404,6 +404,7 @@ index — chi phí này chỉ trả khi người học thật sự dùng search,
    đánh dấu được đã làm tới đâu thì không dùng nổi. Một checkbox per-exercise lưu localStorage
    (pattern đã có sẵn ở `@journal` / `@bookmarks`) rẻ hơn nhiều so với auto-chấm và giá trị cao hơn.
 7. ✅ **XONG 18/08/2026** — fence ```uebung: trắc nghiệm 1 đáp án / nhiều đáp án / điền từ, chấm ngay, hiện giải thích từng câu, tính điểm, lưu bài làm theo module. Yêu cầu bổ sung của người dùng, kéo lên từ "tùy chọn".
+8. ✅ **Chuyển đổi toàn bộ 18/08/2026** — 12 workbook Phase 1+2 đã chuyển khối A/B sang `​```uebung`: **596 bài tương tác**, mỗi bài có giải thích. Khối C/D (viết/nói tự do) giữ Musterlösung vì không có một đáp án đúng duy nhất. Còn lại: 2 file `assessment.md` (đề mock — tự chấm theo thang điểm là đúng mô hình thi).
 
 ---
 

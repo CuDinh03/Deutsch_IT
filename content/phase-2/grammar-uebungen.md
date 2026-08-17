@@ -15,187 +15,437 @@ lives — free production under a structural constraint. Log recurring errors in
 
 ## 🏋️ Übungsteil · Workbook
 
-### A. Erkennen — spot the structure (A1–A8)
+### A. Erkennen — spot the structure
 
-**A1.** Konjunktiv II or Indikativ? Mark each.
+**A1–A5 · Konjunktiv II oder Indikativ?**
 
-| Nr | Satz | K II | Ind. |
-|---|---|:--:|:--:|
-| a | Ich hätte gern mehr Zeit für Tests. | ☐ | ☐ |
-| b | Wir haben gestern deployt. | ☐ | ☐ |
-| c | An deiner Stelle würde ich die Logs prüfen. | ☐ | ☐ |
-| d | Der Build war rot. | ☐ | ☐ |
-| e | Wenn wir mehr Tests geschrieben hätten, … | ☐ | ☐ |
+```uebung
+? Ich hätte gern mehr Zeit für Tests.
+* Konjunktiv II
+x Indikativ
+! *hätte* — irreal/höflich.
 
-**A2.** Aktiv or Passiv?
+? Wir haben gestern deployt.
+x Konjunktiv II
+* Indikativ
+! *haben* — reale Vergangenheit.
 
-- a) Das Team deployt den Service jeden Freitag.
-- b) Der Service wird jeden Freitag deployt.
-- c) Der Bug ist gestern behoben worden.
-- d) Man deployt freitags nicht.
-- e) Die Migration muss vorher getestet werden.
+? An deiner Stelle würde ich die Logs prüfen.
+* Konjunktiv II
+x Indikativ
+! *würde* + Infinitiv — der Standard-Konjunktiv II.
 
-**A3.** Identify the connector type: **koordinierend · adverbial · subordinierend**.
+? Der Build war rot.
+x Konjunktiv II
+* Indikativ
+! Präteritum von *sein*, nicht Konjunktiv.
 
-*und · weil · deshalb · obwohl · aber · trotzdem · damit · denn · außerdem · sodass*
+? Wenn wir mehr Tests geschrieben hätten, …
+* Konjunktiv II
+x Indikativ
+! *hätten* + Partizip II — Irrealis der Vergangenheit.
+```
 
-**A4.** Which relative pronoun case is required? Name Nom./Akk./Dat.
+**A6–A10 · Aktiv oder Passiv?**
 
-| Nr | Satz | Kasus |
-|---|---|---|
-| a | Der Service, ___ ständig abstürzt, … | |
-| b | Das Ticket, ___ ich gestern bekommen habe, … | |
-| c | Der Kollege, ___ ich geholfen habe, … | |
-| d | Die Server, auf ___ wir deployen, … | |
+```uebung
+? Das Team deployt den Service jeden Freitag.
+* Aktiv
+x Passiv
+! Das Team handelt.
 
-**A5.** Partizip I or Partizip II? What does each signal?
+? Der Service wird jeden Freitag deployt.
+x Aktiv
+* Passiv
+! *werden* + Partizip II.
 
-*der laufende Prozess · die gelöste Aufgabe · die steigende Last · der behobene Fehler ·
-das wachsende Team*
+? Der Bug ist gestern behoben worden.
+x Aktiv
+* Passiv
+! Passiv Perfekt, erkennbar an **worden**.
 
-**A6.** n-Deklination — which of these masculine nouns take **-(e)n** outside the Nominativ?
+? Man deployt freitags nicht.
+* Aktiv
+x Passiv
+! *man* ist grammatisch **aktiv**, inhaltlich unpersönlich — die gesprochene Alternative zum Passiv.
 
-*der Kollege · der Server · der Kunde · der Rechner · der Name · der Praktikant · der Fehler ·
-der Experte*
+? Die Migration muss vorher getestet werden.
+x Aktiv
+* Passiv
+! Passiv mit Modalverb: *muss … getestet werden*.
+```
 
-**A7.** Find the verb's fixed preposition and its case.
+**A11–A13 · Konnektortyp bestimmen.**
 
-| Verb | Präposition | Kasus |
-|---|---|---|
-| warten | | |
-| abhängen | | |
-| sich kümmern | | |
-| teilnehmen | | |
-| sich beschäftigen | | |
+```uebung
+? Welche Konnektoren sind koordinierend (ändern nichts)? (mehrere richtig)
+* und
+* aber
+* denn
+* sondern
+x weil
+x obwohl
+! Koordinierende Konnektoren stehen auf „Position 0" und lassen die Wortstellung unberührt.
 
-**A8.** Which sentence is **wrong**, and why?
+? Welche lösen Inversion aus? (mehrere richtig)
+* deshalb
+* trotzdem
+* außerdem
+* dennoch
+x weil
+x damit
+! Adverbiale Konnektoren besetzen Position 1 → Verb auf 2, Subjekt auf 3.
 
-1. Der Bug ist behoben worden.
-2. Der Bug ist behoben geworden.
-3. Der Bug muss behoben werden.
-4. Der Bug wurde behoben.
+? Welche schicken das Verb ans Ende? (mehrere richtig)
+* weil
+* obwohl
+* damit
+* sodass
+x trotzdem
+x denn
+! Subordinierende Konnektoren leiten Nebensätze ein. *trotzdem* und *obwohl* bedeuten Ähnliches, verhalten sich aber gegensätzlich — die häufigste Verwechslung auf B2.
+```
+
+**A14–A17 · Welcher Kasus für das Relativpronomen?**
+
+```uebung
+? Der Service, ___ ständig abstürzt, …
+* Nominativ
+x Akkusativ
+x Dativ
+! Das Pronomen ist **Subjekt seines eigenen Satzes** (wer stürzt ab?).
+
+? Das Ticket, ___ ich gestern bekommen habe, …
+x Nominativ
+* Akkusativ
+x Dativ
+! Objekt von *bekommen*.
+
+? Der Kollege, ___ ich geholfen habe, …
+x Nominativ
+x Akkusativ
+* Dativ
+! *helfen* verlangt Dativ. Genus kommt vom Bezugswort, **Kasus aus dem eigenen Satz** — zwei verschiedene Quellen.
+
+? Die Server, auf ___ wir deployen, …
+x Nominativ
+x Akkusativ
+* Dativ
+! *auf* als Ortsangabe → Dativ Plural: *auf denen*.
+```
+
+**A18–A19 · Partizip I oder II?**
+
+```uebung
+? Welche sind Partizip I (laufend, aktiv)? (mehrere richtig)
+* der laufende Prozess
+* die steigende Last
+* das wachsende Team
+x die gelöste Aufgabe
+x der behobene Fehler
+! Partizip I endet auf **-end** und beschreibt etwas Andauerndes.
+
+? Welche sind Partizip II (abgeschlossen, passivisch)? (mehrere richtig)
+* die gelöste Aufgabe
+* der behobene Fehler
+x der laufende Prozess
+x die steigende Last
+! Partizip II beschreibt ein Ergebnis: die Aufgabe **wurde** gelöst.
+```
+
+**A20 · n-Deklination.**
+
+```uebung
+? Welche maskulinen Nomen bekommen außerhalb des Nominativs ein -(e)n? (mehrere richtig)
+* der Kollege
+* der Kunde
+* der Name
+* der Praktikant
+* der Experte
+x der Server
+x der Rechner
+x der Fehler
+! Belebte Maskulina auf **-e**, **-ant**, **-ent**, **-ist** folgen der n-Deklination. Nomen auf *-er* bleiben unverändert.
+```
+
+**A21 · Der worden-Test.**
+
+```uebung
+? Welcher Satz ist falsch?
+x Der Bug ist behoben worden.
+* Der Bug ist behoben geworden.
+x Der Bug muss behoben werden.
+x Der Bug wurde behoben.
+! Im Passiv Perfekt heißt es **worden**. *geworden* ist das Partizip von *werden* als Vollverb: *Er ist Entwickler geworden.* Dieses eine Wort trennt B1 von B2.
+```
 
 ---
 
-### B. Anwenden — apply with a frame (B1–B16)
+### B. Anwenden — apply with a frame
 
-**B1.** Make it polite with Konjunktiv II.
+**B1–B4 · Höflich machen mit Konjunktiv II.**
 
-| Nr | Direkt | Höflich |
-|---|---|---|
-| a | Gib mir den Zugang. | |
-| b | Review den PR. | |
-| c | Erkläre mir die Architektur. | |
-| d | Wir müssen das verschieben. | |
+```uebung
+? „Gib mir den Zugang." → höflich
+= Könntest du mir bitte den Zugang geben? | Könnten Sie mir bitte den Zugang geben?
+! *könntest/könnten* + *bitte* + Infinitiv am Ende.
 
-**B2.** Irrealis der Gegenwart — complete with *würde / hätte / wäre / könnte*.
+? „Review den PR." → höflich
+= Würdest du bitte den PR reviewen? | Könntest du bitte den PR reviewen?
+! *würdest* und *könntest* sind hier beide idiomatisch.
 
-- a) An deiner Stelle ___ ich zuerst die Logs prüfen.
-- b) Wenn ich mehr Zeit ___, ___ ich das refactoren.
-- c) Ohne Monitoring ___ wir den Ausfall nicht bemerkt.
-- d) Es ___ besser, wenn wir dienstags deployen.
+? „Erkläre mir die Architektur." → höflich
+= Könntest du mir die Architektur erklären? | Könntest du mir bitte die Architektur erklären?
+! Dativ *mir* vor Akkusativ.
 
-**B3.** Irrealis der Vergangenheit — the language of the post-mortem. Build *Wenn …, hätte/wäre …*
+? „Wir müssen das verschieben." → vorsichtiger
+= Wir müssten das verschieben
+! Konjunktiv II des Modalverbs macht aus der Feststellung einen Vorschlag.
+```
 
-- a) Wir haben keine Tests geschrieben. Der Bug ist in Produktion gegangen.
-- b) Das Monitoring hat gefehlt. Wir haben den Ausfall spät bemerkt.
-- c) Wir haben freitags deployt. Niemand war erreichbar.
+**B5–B7 · Irrealis der Vergangenheit.**
 
-**B4.** Aktiv → Passiv, Präsens.
+```uebung
+? „Wir haben keine Tests geschrieben. Der Bug ist in Produktion gegangen." → Irrealis
+= Wenn wir mehr Tests geschrieben hätten, wäre der Bug nicht in Produktion gegangen
+! *hätte/wäre* + Partizip II in **beiden** Satzhälften. Doppelter Verbschluss im wenn-Satz: *geschrieben hätten*.
 
-- a) Das Team deployt den Service.
-- b) Der Entwickler behebt den Fehler.
-- c) Wir testen die Migration.
+? „Das Monitoring hat gefehlt. Wir haben den Ausfall spät bemerkt." → Irrealis
+= Wenn das Monitoring nicht gefehlt hätte, hätten wir den Ausfall früher bemerkt
+! Das ist die Standardstruktur jedes deutschen Post-Mortems.
 
-**B5.** Aktiv → Passiv, Perfekt. Watch for **worden**.
+? „Wir haben freitags deployt. Niemand war erreichbar." → Irrealis
+= Wenn wir nicht freitags deployt hätten, wäre jemand erreichbar gewesen
+! *wäre … gewesen* für den Zustand in der Vergangenheit.
+```
 
-- a) Wir haben den Bug behoben.
-- b) Man hat die API getestet.
-- c) Das Team hat den Branch gemergt.
+**B8–B10 · Aktiv → Passiv Präsens.**
 
-**B6.** Passiv mit Modalverb.
+```uebung
+? Das Team deployt den Service.
+= Der Service wird deployt | Der Service wird vom Team deployt
+! Akkusativobjekt wird Subjekt; Handelnder optional mit *von* + Dativ.
 
-- a) Wir müssen die Migration testen. → Die Migration ___ ___ ___ ___.
-- b) Man kann den Cache leeren. → Der Cache ___ ___ ___ ___.
-- c) Wir sollten das dokumentieren. → Das ___ ___ ___ ___.
+? Der Entwickler behebt den Fehler.
+= Der Fehler wird behoben | Der Fehler wird vom Entwickler behoben
+! Gleiches Muster.
 
-**B7.** Passiv → **man**-Alternative (same meaning, active grammar).
+? Wir testen die Migration.
+= Die Migration wird getestet
+! Gleiches Muster.
+```
 
-- a) Freitags wird nicht deployt.
-- b) Die Logs werden automatisch archiviert.
-- c) Der Zugang muss beantragt werden.
+**B11–B13 · Aktiv → Passiv Perfekt.**
 
-**B8.** Relativsätze — fill the pronoun.
+```uebung
+? Wir haben den Bug behoben.
+= Der Bug ist behoben worden
+! **worden**, nicht *geworden*.
 
-| Nr | Satz |
-|---|---|
-| a | Der Service, ___ ständig abstürzt, läuft jetzt stabil. |
-| b | Das Ticket, ___ ich gestern zugewiesen bekam, ist erledigt. |
-| c | Der Kollege, ___ ich den Zugang gegeben habe, ist im Urlaub. |
-| d | Die Datenbank, mit ___ wir arbeiten, ist alt. |
-| e | Alles, ___ wir deployen, wird geloggt. |
-| f | Das Repo, ___ der Fehler liegt, wird nicht mehr gepflegt. |
+? Man hat die API getestet.
+= Die API ist getestet worden
+! Auch aus *man*-Sätzen wird ein sauberes Passiv.
 
-**B9.** Combine into one sentence using a relative clause.
+? Das Team hat den Branch gemergt.
+= Der Branch ist gemergt worden
+! Gleiches Muster.
+```
 
-- a) Der Server ist gestern abgestürzt. Er läuft wieder.
-- b) Ich habe das Ticket übernommen. Es war seit Wochen offen.
-- c) Wir nutzen eine Bibliothek. Sie wird nicht mehr gewartet.
+**B14–B16 · Passiv mit Modalverb.**
 
-**B10.** Nominalisierung — turn the verb into a noun and rewrite.
+```uebung
+? Wir müssen die Migration testen. → Passiv
+= Die Migration muss getestet werden
+! Modalverb an Position 2, dann **Partizip II + werden** ganz am Ende.
 
-| Nr | Verbal | Nominal |
-|---|---|---|
-| a | Nachdem wir bereitgestellt haben, prüfen wir die Metriken. | Nach ___ … |
-| b | Weil die Last steigt, brauchen wir mehr Instanzen. | Wegen ___ … |
-| c | Bevor wir migrieren, machen wir ein Backup. | Vor ___ … |
+? Man kann den Cache leeren. → Passiv
+= Der Cache kann geleert werden
+! Gleiches Muster.
 
-**B11.** Two-part connectors — complete.
+? Wir sollten das dokumentieren. → Passiv
+= Das sollte dokumentiert werden
+! Gleiches Muster.
+```
 
-| Nr | Satz |
-|---|---|
-| a | ___ refactoren wir, ___ wir schreiben neu. (either/or) |
-| b | Redis ist ___ ___ schnell, ___ ___ einfach. (not only/but also) |
-| c | Wir nutzen ___ Docker ___ ___ Kubernetes. (both/and) |
-| d | Der Test ist ___ grün ___ rot — er hängt. (neither/nor) |
-| e | ___ mehr Microservices, ___ komplexer das Deployment. (the more/the more) |
-| f | Es ist ___ langsam, ___ korrekt. (admittedly/but) |
+**B17–B19 · Passiv → man.**
 
-**B12.** *je … desto* — watch the word order carefully.
+```uebung
+? Freitags wird nicht deployt. → mit man
+= Man deployt freitags nicht
+! Kürzer und im Gespräch üblicher.
 
-- a) Die Pipeline läuft lang. Sie braucht viele Ressourcen.
-- b) Wir haben viele Logs. Das Debugging ist leicht.
+? Die Logs werden automatisch archiviert. → mit man
+= Man archiviert die Logs automatisch
+! Gleiches Muster.
 
-**B13.** Partizip als Adjektiv — build the phrase with the right ending.
+? Der Zugang muss beantragt werden. → mit man
+= Man muss den Zugang beantragen
+! Modalverb bleibt, Passiv verschwindet.
+```
 
-| Nr | Basis | Phrase |
-|---|---|---|
-| a | der Prozess + laufen (P I) | der ___ Prozess |
-| b | die Aufgabe + lösen (P II) | die ___ Aufgabe |
-| c | die Last + steigen (P I) | die ___ Last |
-| d | der Fehler + beheben (P II) | der ___ Fehler |
+**B20–B25 · Relativpronomen einsetzen.**
 
-**B14.** Verben mit Präposition — fill in preposition **and** article.
+```uebung
+? Der Service, ___ ständig abstürzt, läuft jetzt stabil.
+= der
+! Nominativ maskulin.
 
-- a) Ich warte ___ ___ Code-Review.
-- b) Der Build hängt ___ ___ Datenbank ab.
-- c) Ich kümmere mich ___ ___ Ticket.
-- d) Sie nimmt ___ ___ Meeting teil.
-- e) Wir beschäftigen uns ___ ___ neuen Architektur.
+? Das Ticket, ___ ich gestern zugewiesen bekam, ist erledigt.
+= das
+! Akkusativ neutrum.
 
-**B15.** n-Deklination — correct each sentence.
+? Der Kollege, ___ ich den Zugang gegeben habe, ist im Urlaub.
+= dem
+! *geben* + Dativ für die Person.
 
-- a) Ich habe dem Kollege geholfen.
-- b) Wir sprechen mit dem Kunde.
-- c) Der Name des Service ist falsch.
-- d) Ich frage den Experte.
+? Die Datenbank, mit ___ wir arbeiten, ist alt.
+= der
+! *mit* + Dativ feminin.
 
-**B16.** Find and fix the **one** error in each.
+? Alles, ___ wir deployen, wird geloggt.
+= was
+! Nach *alles, etwas, nichts, das* steht **was**, nicht *das*.
 
-- a) Wenn wir mehr Tests geschrieben hätten, wäre der Bug nicht passiert wäre.
-- b) Der Service wird jeden Tag deployt worden.
-- c) Der Kollege, den ich geholfen habe, ist im Urlaub.
-- d) Je mehr Logs wir haben, desto das Debugging ist leichter.
+? Das Repo, ___ der Fehler liegt, wird nicht mehr gepflegt.
+= wo
+! Ortsangabe → *wo* (oder *in dem*).
+```
+
+**B26–B28 · Nominalisierung.**
+
+```uebung
+? „Nachdem wir bereitgestellt haben, prüfen wir die Metriken." → nominal mit „Nach ___"
+= der Bereitstellung
+! *bereitstellen* → *die Bereitstellung*; *nach* + Dativ.
+
+? „Weil die Last steigt, brauchen wir mehr Instanzen." → nominal mit „Wegen ___"
+= der steigenden Last
+! *wegen* + Genitiv ist die Schulnorm, *wegen* + Dativ im Alltag verbreitet; *der steigenden Last* passt zu beidem.
+
+? „Bevor wir migrieren, machen wir ein Backup." → nominal mit „Vor ___"
+= der Migration
+! *vor* + Dativ.
+```
+
+**B29–B34 · Zweiteilige Konnektoren.**
+
+```uebung
+? ___ refactoren wir, ___ wir schreiben neu. (either/or)
+= entweder … oder | entweder...oder | entweder oder
+! *entweder … oder*.
+
+? Redis ist ___ schnell, ___ einfach. (not only/but also — Kurzform)
+= nicht nur … sondern auch | nicht nur...sondern auch
+! *nicht nur … sondern auch*.
+
+? Wir nutzen ___ Docker ___ Kubernetes. (both/and)
+= sowohl … als auch | sowohl...als auch
+! *sowohl … als auch*.
+
+? Der Test ist ___ grün ___ rot — er hängt. (neither/nor)
+= weder … noch | weder...noch
+! *weder … noch*.
+
+? ___ mehr Microservices, ___ komplexer das Deployment.
+= je … desto | je...desto
+! *je … desto*.
+
+? Es ist ___ langsam, ___ korrekt. (admittedly/but)
+= zwar … aber | zwar...aber
+! *zwar … aber*.
+```
+
+**B35–B36 · je … desto mit korrekter Wortstellung.**
+
+```uebung
+? „Die Pipeline läuft lang." + „Sie braucht viele Ressourcen."
+= Je länger die Pipeline läuft, desto mehr Ressourcen braucht sie
+! Nach *je* ein Nebensatz (Verb **am Ende**), nach *desto* **Inversion** (Verb zweitens). Zwei verschiedene Ordnungen in einem Satz.
+
+? „Wir haben viele Logs." + „Das Debugging ist leicht."
+= Je mehr Logs wir haben, desto leichter ist das Debugging
+! Gleiches Muster.
+```
+
+**B37–B40 · Partizip als Adjektiv.**
+
+```uebung
+? der Prozess + laufen (Partizip I)
+= der laufende Prozess
+! Partizip I + Adjektivendung.
+
+? die Aufgabe + lösen (Partizip II)
+= die gelöste Aufgabe
+! Partizip II + Endung.
+
+? die Last + steigen (Partizip I)
+= die steigende Last
+! Gleiches Muster.
+
+? der Fehler + beheben (Partizip II)
+= der behobene Fehler
+! Gleiches Muster.
+```
+
+**B41–B45 · Verben mit fester Präposition.**
+
+```uebung
+? Ich warte ___ das Code-Review.
+= auf
+! *warten auf* + Akkusativ.
+
+? Der Build hängt ___ der Datenbank ab.
+= von
+! *abhängen von* + Dativ.
+
+? Ich kümmere mich ___ das Ticket.
+= um
+! *sich kümmern um* + Akkusativ.
+
+? Sie nimmt ___ dem Meeting teil.
+= an
+! *teilnehmen an* + Dativ.
+
+? Wir beschäftigen uns ___ der neuen Architektur.
+= mit
+! *sich beschäftigen mit* + Dativ.
+```
+
+**B46–B48 · n-Deklination korrigieren.**
+
+```uebung
+? Korrigiere: „Ich habe dem Kollege geholfen."
+= Ich habe dem Kollegen geholfen
+! *der Kollege* → Dativ *dem Kollegen*.
+
+? Korrigiere: „Wir sprechen mit dem Kunde."
+= Wir sprechen mit dem Kunden
+! *der Kunde* → *dem Kunden*.
+
+? Korrigiere: „Ich frage den Experte."
+= Ich frage den Experten
+! *der Experte* → *den Experten*.
+```
+
+**B49–B52 · Fehler finden.**
+
+```uebung
+? Korrigiere: „Wenn wir mehr Tests geschrieben hätten, wäre der Bug nicht passiert wäre."
+= Wenn wir mehr Tests geschrieben hätten, wäre der Bug nicht passiert
+! Doppeltes *wäre* — im Hauptsatz steht es nur einmal, an zweiter Position.
+
+? Korrigiere: „Der Service wird jeden Tag deployt worden."
+= Der Service wird jeden Tag deployt
+! Entweder Präsens Passiv (*wird deployt*) oder Perfekt Passiv (*ist deployt worden*) — nicht beides gemischt.
+
+? Korrigiere: „Der Kollege, den ich geholfen habe, ist im Urlaub."
+= Der Kollege, dem ich geholfen habe, ist im Urlaub
+! *helfen* + Dativ → *dem*.
+
+? Korrigiere: „Je mehr Logs wir haben, desto das Debugging ist leichter."
+= Je mehr Logs wir haben, desto leichter ist das Debugging
+! Nach *desto* folgt Inversion: erst das Vergleichswort, dann Verb, dann Subjekt.
+```
 
 ---
 
@@ -246,104 +496,9 @@ Der Service wird jeden Tag automatisch deployt. Wenn wir das Monitoring früher 
 
 ---
 
-## ✅ Lösungen & Erklärungen
+## ✅ Musterlösungen für C und D
 
 ```spoiler
-### A. Erkennen
-
-**A1.** a) **K II** · b) **Ind.** · c) **K II** · d) **Ind.** · e) **K II** (Vergangenheit)
-
-**A2.** a) **Aktiv** · b) **Passiv** · c) **Passiv** (Perfekt, mit *worden*) · d) **Aktiv**
-(*man* ist grammatisch aktiv, inhaltlich unpersönlich) · e) **Passiv** mit Modalverb
-
-**A3.** koordinierend: **und, aber, denn** · adverbial (Inversion): **deshalb, trotzdem,
-außerdem** · subordinierend (Verb ans Ende): **weil, obwohl, damit, sodass**
-
-The one that catches people: *trotzdem* and *obwohl* both mean roughly "although/nevertheless", but
-*trotzdem* triggers inversion and *obwohl* sends the verb to the end.
-
-**A4.** a) **Nom.** (Subjekt seines Satzes) · b) **Akk.** (Objekt von *bekommen*) ·
-c) **Dat.** (*helfen* + Dativ) · d) **Dat.** (*auf* + Dat., Ort)
-
-The rule worth memorizing: the pronoun takes **gender/number from the noun it describes**, but
-**case from its own clause**. Those are two different sources — mixing them up is the single most
-common B2 relative-clause error.
-
-**A5.** Partizip I (*-end*, ongoing/active): **laufende, steigende, wachsende** ·
-Partizip II (completed/passive): **gelöste, behobene**
-
-**A6.** n-Deklination: **der Kollege, der Kunde, der Name, der Praktikant, der Experte**.
-Nicht: *der Server, der Rechner, der Fehler* (die enden auf -er und bleiben unverändert).
-Faustregel: belebte maskuline Nomen auf **-e**, **-ant**, **-ent**, **-ist**, **-e** aus dem
-Griechischen/Lateinischen.
-
-**A7.** warten **auf** + Akk · abhängen **von** + Dat · sich kümmern **um** + Akk ·
-teilnehmen **an** + Dat · sich beschäftigen **mit** + Dat
-
-**A8.** **Nr. 2 ist falsch.** Im Passiv Perfekt heißt es **worden**, nicht *geworden*.
-*geworden* ist das Partizip von *werden* als Vollverb (*Er ist Entwickler geworden*).
-
-### B. Anwenden
-
-**B1.** a) **Könntest du** mir bitte den Zugang **geben**? · b) **Würdest du** bitte den PR
-**reviewen**? · c) **Könntest du** mir die Architektur **erklären**? · d) Wir **müssten** das
-**verschieben**.
-
-**B2.** a) **würde** · b) **hätte** … **würde** · c) **hätten** · d) **wäre**
-
-**B3.** a) **Wenn wir mehr Tests geschrieben hätten, wäre der Bug nicht in Produktion gegangen.** ·
-b) **Wenn das Monitoring nicht gefehlt hätte, hätten wir den Ausfall früher bemerkt.** ·
-c) **Wenn wir nicht freitags deployt hätten, wäre jemand erreichbar gewesen.**
-
-Note the double verb at the end of the *wenn*-clause: *geschrieben hätten*. And the main clause
-begins with the verb, because the whole Nebensatz occupies position 1.
-
-**B4.** a) Der Service **wird** (vom Team) **deployt**. · b) Der Fehler **wird behoben**. ·
-c) Die Migration **wird getestet**.
-
-**B5.** a) Der Bug **ist behoben worden**. · b) Die API **ist getestet worden**. ·
-c) Der Branch **ist gemergt worden**.
-
-**B6.** a) Die Migration **muss getestet werden**. · b) Der Cache **kann geleert werden**. ·
-c) Das **sollte dokumentiert werden**.
-Word order: modal in position 2, **Partizip II + werden** at the very end, in that order.
-
-**B7.** a) **Man deployt freitags nicht.** · b) **Man archiviert die Logs automatisch.** ·
-c) **Man muss den Zugang beantragen.**
-
-**B8.** a) **der** · b) **das** · c) **dem** · d) **der** (*mit* + Dat., die Datenbank → der) ·
-e) **was** (nach *alles*) · f) **wo** (Ort)
-
-**B9.** a) Der Server, **der gestern abgestürzt ist**, läuft wieder. · b) Das Ticket, **das ich
-übernommen habe**, war seit Wochen offen. · c) Wir nutzen eine Bibliothek, **die nicht mehr
-gewartet wird**.
-
-**B10.** a) Nach **der Bereitstellung** prüfen wir die Metriken. · b) Wegen **der steigenden Last**
-brauchen wir mehr Instanzen. · c) Vor **der Migration** machen wir ein Backup.
-
-**B11.** a) **Entweder** … **oder** · b) **nicht nur** … **sondern auch** · c) **sowohl** …
-**als auch** · d) **weder** … **noch** · e) **Je** … **desto** · f) **zwar** … **aber**
-
-**B12.** a) **Je länger die Pipeline läuft, desto mehr Ressourcen braucht sie.** ·
-b) **Je mehr Logs wir haben, desto leichter ist das Debugging.**
-Two different orders in one sentence: *je* opens a Nebensatz (**verb last**), *desto* triggers
-**inversion** (verb second). Getting this pair right is a reliable B2 marker.
-
-**B13.** a) der **laufende** Prozess · b) die **gelöste** Aufgabe · c) die **steigende** Last ·
-d) der **behobene** Fehler
-
-**B14.** a) **auf das** Code-Review · b) **von der** Datenbank · c) **um das** Ticket ·
-d) **an dem (am)** Meeting · e) **mit der** neuen Architektur
-
-**B15.** a) dem **Kollegen** · b) dem **Kunden** · c) des **Service** ist richtig, aber
-*der **Name*** → **des Namens** wäre die n-Deklination; hier: *Der Name des Service* ist korrekt,
-der Fehler wäre *des Namen*. · d) den **Experten**
-
-**B16.** a) doppeltes *wäre* — richtig: *…, **wäre** der Bug nicht passiert.* ·
-b) *wird deployt* ODER *ist deployt worden* — nicht beides: **Der Service wird jeden Tag deployt.** ·
-c) *helfen* + Dativ → *der Kollege, **dem** ich geholfen habe* ·
-d) *desto* verlangt Inversion → *…, **desto leichter ist** das Debugging.*
-
 ### C. Produzieren
 
 Open tasks. Self-check grid:

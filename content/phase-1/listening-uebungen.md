@@ -19,108 +19,234 @@ the module's rule: gist first, detail second, transcript only third.
 
 ## 🏋️ Übungsteil · Workbook
 
-### A. Erkennen — gist pass (A1–A5)
+### A. Erkennen — gist pass
 
-Play each Hörtext **once**. Answer from memory. Don't replay, don't open the transcript.
+Spiele jeden Hörtext **einmal** und antworte aus dem Gedächtnis. Nicht zurückspulen, kein Transkript.
 
-**A1 · Hörtext 1 — Im Daily**
+**A1–A3 · Hörtext 1 (Im Daily)**
 
-```hoertext
-Guten Morgen zusammen. Gestern habe ich den Login-Bug behoben und den Pull Request aufgemacht. Heute möchte ich die Tests grün machen. Danach schaue ich mir die Migration an. Ich habe keine Blocker. Ach ja, der Kollege aus dem Frontend-Team wartet noch auf meine Schnittstelle. Ich schicke ihm die Dokumentation heute Nachmittag.
+```uebung
+? Wer spricht?
+* ein Entwickler
+x ein Kunde
+x ein Personaler
+x ein Support-Mitarbeiter
+! Daily, Pull Request, Tests, Schnittstelle — eindeutig aus der Entwicklung.
+
+? Wie wirkt die Person?
+* ruhig und im Plan
+x gestresst
+x verärgert
+x unsicher
+! „Ich habe keine Blocker" und ein geordneter Ablauf — keine Problemsignale.
+
+? Worum geht es hauptsächlich?
+x um eine Störung
+* um den eigenen Arbeitsstand im Daily
+x um eine Urlaubsplanung
+x um ein Code-Review-Ergebnis
+! Gestern / heute / Blocker — das klassische Standup-Muster.
 ```
 
-- a) Wer spricht — ein Entwickler oder ein Kunde?
-- b) Ist die Person zufrieden oder gestresst?
-- c) Worum geht es hauptsächlich?
+**A4–A5 · Hörtext 2 (Eine Störung)**
 
-**A2 · Hörtext 2 — Eine Störung**
+```uebung
+? Was ist passiert?
+* Der Server ist abgestürzt, die Anwendung war nicht erreichbar.
+x Ein Deployment wurde verschoben.
+x Ein Kollege ist krank.
+x Die Datenbank wurde migriert.
+! „Der Server … ist heute Nacht um drei Uhr abgestürzt."
 
-```hoertext
-Kurze Info an alle: Der Server im Rechenzentrum ist heute Nacht um drei Uhr abgestürzt. Die Anwendung war ungefähr vierzig Minuten nicht erreichbar. Die Ursache war eine fehlende Umgebungsvariable in der neuen Konfiguration. Wir haben das Problem behoben und das System läuft wieder normal. Einen ausführlichen Bericht schicke ich morgen.
+? Ist das Problem gelöst oder noch offen?
+* gelöst
+x noch offen
+! „Wir haben das Problem behoben und das System läuft wieder normal."
 ```
 
-- a) Was ist passiert?
-- b) Ist das Problem gelöst oder noch offen?
+**A6–A8 · Hörtext 3 (In der Kaffeeküche)**
 
-**A3 · Hörtext 3 — In der Kaffeeküche**
+```uebung
+? Wie viele Personen sprechen?
+x eine
+* zwei
+x drei
+x vier
+! Ein Hin und Her zwischen zwei Personen.
 
-```hoertext
-Na, wie war dein Wochenende? Ganz gut, danke. Ich war am Samstag im Park und am Sonntag habe ich nur gelesen. Und bei dir? Wir waren mit den Kindern im Schwimmbad. Das Wetter war ja endlich mal schön. Stimmt, letzte Woche hat es jeden Tag geregnet. Übrigens, kommst du nachher zum Mittagessen mit? Wir gehen um halb eins zum Italiener.
+? Formell oder informell?
+x formell
+* informell
+! *du*-Formen und „Na, wie war dein Wochenende?" — reiner Small Talk.
+
+? Worum geht es am Ende?
+x um ein Projekt
+* um eine Einladung zum Mittagessen
+x um das Wetter
+x um die Kinder
+! „kommst du nachher zum Mittagessen mit?"
 ```
-
-- a) Wie viele Personen sprechen?
-- b) Ist das ein formelles oder informelles Gespräch?
-- c) Worum geht es am Ende?
-
-**A4.** After one pass of each, write **one German sentence** summarizing each Hörtext.
-
-**A5.** Which Hörtext was hardest to follow? Why — speed, vocabulary, or structure?
 
 ---
 
-### B. Anwenden — detail pass (B1–B9)
+### B. Anwenden — detail pass
 
-Now replay as often as you like. Still no transcript until you've answered.
+Jetzt darfst du so oft hören, wie du willst. Transkript erst nach dem Antworten.
 
-**B1 · Hörtext 1** — richtig oder falsch?
+**B1–B5 · Hörtext 1: richtig oder falsch?**
 
-| Nr | Aussage | R | F |
-|---|---|:--:|:--:|
-| a | Der Sprecher hat gestern die Tests grün gemacht. | ☐ | ☐ |
-| b | Der Sprecher hat einen Pull Request aufgemacht. | ☐ | ☐ |
-| c | Der Sprecher hat einen Blocker. | ☐ | ☐ |
-| d | Das Frontend-Team wartet auf eine Schnittstelle. | ☐ | ☐ |
-| e | Die Dokumentation kommt morgen. | ☐ | ☐ |
+```uebung
+? Der Sprecher hat gestern die Tests grün gemacht.
+x richtig
+* falsch
+! Gestern hat er den **Bug behoben**; die Tests will er **heute** grün machen. Die Information steht im Text — aber an einem anderen Zeitwort. Genau daran hängen Prüfungsfragen.
 
-**B2 · Hörtext 2** — fill in the numbers and facts.
+? Der Sprecher hat einen Pull Request aufgemacht.
+* richtig
+x falsch
+! „…und den Pull Request aufgemacht."
 
-| Nr | Frage | Antwort |
-|---|---|---|
-| a | Um wie viel Uhr ist der Server abgestürzt? | |
-| b | Wie lange war die Anwendung nicht erreichbar? | |
-| c | Was war die Ursache? | |
-| d | Wann kommt der Bericht? | |
+? Der Sprecher hat einen Blocker.
+x richtig
+* falsch
+! „Ich habe keine Blocker."
 
-**B3 · Hörtext 3** — choose the correct answer.
+? Das Frontend-Team wartet auf eine Schnittstelle.
+* richtig
+x falsch
+! „der Kollege aus dem Frontend-Team wartet noch auf meine Schnittstelle."
 
-- a) Was hat die erste Person am Sonntag gemacht?
-  1. Sie war im Schwimmbad. 2. Sie hat gelesen. 3. Sie war im Park.
-- b) Wie war das Wetter letzte Woche?
-  1. Schön. 2. Es hat geregnet. 3. Es hat geschneit.
-- c) Wann gehen sie essen?
-  1. Um 12:00. 2. Um 12:30. 3. Um 13:30.
-
-**B4 · Hörtext 4 — Eine Sprachnachricht**
-
-```hoertext
-Hallo Huy, hier ist Anna. Du, ich habe deinen Pull Request angeschaut. Sieht insgesamt gut aus, aber an zwei Stellen habe ich Kommentare hinterlassen. Vor allem die Fehlerbehandlung in der zweiten Methode verstehe ich nicht ganz. Könntest du dir das noch mal anschauen? Wenn du magst, können wir morgen um zehn kurz zusammen draufschauen. Sag einfach Bescheid. Bis dann, tschüss.
+? Die Dokumentation kommt morgen.
+x richtig
+* falsch
+! Die Doku kommt **heute Nachmittag**. *Morgen* kommt der Bericht in Hörtext 2 — zwei Texte, zwei Fristen, leicht zu verwechseln.
 ```
 
-- a) Wer ruft an und warum?
-- b) Wie viele Kommentare hat Anna hinterlassen?
-- c) Was versteht Anna nicht?
-- d) Was schlägt sie vor?
-- e) Ist ihr Ton freundlich oder verärgert? Woran hörst du das?
+**B6–B9 · Hörtext 2: Details.**
 
-**B5 · Hörtext 5 — Kurznachrichten**
+```uebung
+? Um wie viel Uhr ist der Server abgestürzt?
+= 3 | drei | 3 Uhr | um drei Uhr
+! „heute Nacht um drei Uhr".
 
-```hoertext
-Und nun die Nachrichten aus der Wirtschaft. Viele deutsche Unternehmen suchen weiterhin Fachkräfte in der Informationstechnik. Nach einer neuen Studie fehlen in Deutschland rund einhundertfünfzigtausend Fachleute. Besonders gesucht sind Entwicklerinnen und Entwickler für Cloud-Systeme und für Sicherheit. Viele Firmen bieten inzwischen auch Stellen an, bei denen man teilweise von zu Hause arbeiten kann.
+? Wie lange war die Anwendung nicht erreichbar?
+= 40 Minuten | vierzig Minuten | ungefähr 40 Minuten
+! „ungefähr vierzig Minuten".
+
+? Was war die Ursache?
+* eine fehlende Umgebungsvariable in der neuen Konfiguration
+x ein Netzwerkausfall
+x ein Fehler im Frontend
+x zu wenig Speicher
+! Wörtlich im Text.
+
+? Wann kommt der ausführliche Bericht?
+= morgen
+! Letzter Satz.
 ```
 
-- a) Um welches Thema geht es?
-- b) Wie viele Fachleute fehlen?
-- c) Welche zwei Bereiche werden besonders gesucht?
-- d) Was bieten viele Firmen an?
+**B10–B12 · Hörtext 3: Details.**
 
-**B6.** Zahlen-Drill. Play Hörtexte 2 and 5 again and write every number you hear, in digits.
+```uebung
+? Was hat die erste Person am Sonntag gemacht?
+x Sie war im Schwimmbad.
+* Sie hat gelesen.
+x Sie war im Park.
+x Sie hat gekocht.
+! „am Sonntag habe ich nur gelesen." Der Park war am **Samstag**.
 
-**B7.** Which words did you **guess** from context rather than know? List five and check them
-afterwards.
+? Wie war das Wetter letzte Woche?
+x schön
+* es hat geregnet
+x es hat geschneit
+x sehr kalt
+! „letzte Woche hat's ja jeden Tag geregnet."
 
-**B8.** In Hörtext 1, the speaker uses Perfekt twice and a modal verb twice. Name them.
+? Wann gehen sie essen?
+x um 12:00
+* um 12:30
+x um 13:30
+x um 11:30
+! *halb eins* = **12:30**. Deutsch zählt auf die nächste Stunde zu — *halb zwei* wäre 13:30. Dieser eine Punkt kostet Lernende regelmäßig echte Termine.
+```
 
-**B9.** In Hörtext 4, find the polite request. Write it down exactly as you heard it.
+**B13–B16 · Hörtext 4 (Sprachnachricht von Anna).**
+
+```uebung
+? Warum ruft Anna an?
+* wegen des Pull Requests
+x wegen eines Serverausfalls
+x wegen eines Meetings
+x wegen des Urlaubs
+! „ich habe deinen Pull Request angeschaut."
+
+? Wie viele Kommentare hat sie hinterlassen?
+= 2 | zwei
+! „an zwei Stellen habe ich Kommentare hinterlassen."
+
+? Was versteht sie nicht ganz?
+* die Fehlerbehandlung in der zweiten Methode
+x den Namen der Klasse
+x den Testaufbau
+x die Konfiguration
+! Wörtlich im Text.
+
+? Ist ihr Ton freundlich oder verärgert?
+* freundlich
+x verärgert
+! „Sieht insgesamt gut aus", „Könntest du …", „Wenn du magst", „Sag einfach Bescheid". So verpackt man Kritik in deutschen Teams — die Weichmacher **sind** die Höflichkeit, der Inhalt bleibt eine Änderungsbitte.
+```
+
+**B17–B20 · Hörtext 5 (Kurznachrichten).**
+
+```uebung
+? Um welches Thema geht es?
+* Fachkräftemangel in der IT
+x neue Datenschutzregeln
+x Homeoffice
+x Gehälter in der IT
+! „Viele deutsche Unternehmen suchen weiterhin Fachkräfte in der Informationstechnik."
+
+? Wie viele Fachleute fehlen?
+= 150.000 | 150000 | einhundertfünfzigtausend | rund 150.000
+! *einhundertfünfzigtausend* als ein gesprochenes Wort — große Zahlen am Stück sind eine Standardfalle. Gezielt laut üben.
+
+? Welche zwei Bereiche werden besonders gesucht?
+* Cloud-Systeme und Sicherheit
+x Frontend und Design
+x Datenbanken und Netzwerke
+x Support und Vertrieb
+! „besonders gesucht sind Entwicklerinnen und Entwickler für Cloud-Systeme und für Sicherheit."
+
+? Was bieten viele Firmen inzwischen an?
+* teilweise von zu Hause zu arbeiten
+x höhere Gehälter
+x kürzere Arbeitszeiten
+x Firmenwagen
+! „Stellen an, bei denen man teilweise von zu Hause arbeiten kann."
+```
+
+**B21–B23 · Sprachliche Details.**
+
+```uebung
+? Welche Perfekt-Formen benutzt der Sprecher in Hörtext 1? (mehrere richtig)
+* habe … behoben
+* habe … aufgemacht
+x möchte … machen
+x wartet
+! *möchte machen* ist ein Modalverb + Infinitiv, *wartet* ist Präsens.
+
+? Welche Modalverben kommen in Hörtext 1 vor? (mehrere richtig)
+* möchte
+x habe
+x wartet
+x schicke
+! Nur *möchte*. Wenn du hier mehr angekreuzt hast, sieh dir die Modalverbliste in [Phase 1 · Grammar](#/phase-1/grammar) noch einmal an.
+
+? Wie lautet die höfliche Bitte in Hörtext 4?
+= Könntest du dir das noch mal anschauen? | Könntest du dir das noch mal anschauen
+! Konjunktiv II — die Standardform für Bitten im Code-Review.
+```
 
 ---
 
@@ -182,65 +308,12 @@ method: gist → detail → transcript. Write 2 sentences about it.
 
 ---
 
-## ✅ Lösungen & Erklärungen
+## ✅ Musterlösungen für C und D
 
 Open only after you've answered — and after you've used the **Transkript** buttons above for the
 detail pass.
 
 ```spoiler
-### A. Erkennen
-
-**A1.** a) **ein Entwickler** (Daily, Pull Request, Tests) · b) **zufrieden / ruhig** — "keine
-Blocker", keine Problemwörter · c) **sein Arbeitsstand im Daily**
-
-**A2.** a) **Der Server ist abgestürzt / es gab eine Störung** · b) **gelöst** ("Wir haben das
-Problem behoben, das System läuft wieder normal")
-
-**A3.** a) **zwei** · b) **informell** (du, "Na, wie war dein Wochenende?") ·
-c) **um eine Einladung zum Mittagessen**
-
-**A4–A5.** Your own sentences. If you couldn't produce a summary sentence after one pass, that's
-normal at B1 — it's exactly the skill the gist pass trains.
-
-### B. Anwenden
-
-**B1.** a) **F** — er hat den Bug behoben; die Tests will er *heute* grün machen ·
-b) **R** · c) **F** — "Ich habe keine Blocker" · d) **R** ·
-e) **F** — die Dokumentation kommt **heute Nachmittag**, der Bericht in Hörtext 2 kommt morgen
-
-Item a) and e) are the classic trap: the information *is* there, but attached to a different time
-word. In a real standup, the time markers (*gestern, heute, morgen, heute Nachmittag*) carry as much
-meaning as the verbs.
-
-**B2.** a) **um drei Uhr** (nachts) · b) **ungefähr 40 Minuten** · c) **eine fehlende
-Umgebungsvariable in der neuen Konfiguration** · d) **morgen**
-
-**B3.** a) **2** (sie hat gelesen) · b) **2** (es hat geregnet) · c) **2** (um halb eins = 12:30)
-
-*halb eins* means **12:30**, not 1:30. German counts *towards* the next hour: *halb zwei* = 1:30.
-This is one of the most common comprehension errors for learners — and it costs you meetings.
-
-**B4.** a) **Anna**, wegen des Pull Requests · b) **zwei** · c) **die Fehlerbehandlung in der
-zweiten Methode** · d) **morgen um zehn kurz zusammen draufschauen** ·
-e) **freundlich** — "Sieht insgesamt gut aus", "Könntest du …", "Wenn du magst", "Sag einfach
-Bescheid". Criticism in German teams is usually wrapped exactly like this; the softeners are the
-politeness, not the content.
-
-**B5.** a) **Fachkräftemangel in der IT in Deutschland** · b) **rund 150.000** ·
-c) **Cloud-Systeme und Sicherheit** · d) **Stellen mit Homeoffice / teilweise von zu Hause arbeiten**
-
-**B6.** Hörtext 2: **3** (Uhr), **40** (Minuten). Hörtext 5: **150.000**.
-*einhundertfünfzigtausend* as one spoken word is deliberate — large numbers said fast are a
-standard B1/B2 listening trap.
-
-**B7.** Your own list.
-
-**B8.** Perfekt: *habe … behoben*, *habe … aufgemacht*. Modal: *möchte … machen*,
-(and *wartet auf* is not a modal — if you picked it, re-read the modal list in
-[Phase 1 · Grammar](#/phase-1/grammar)).
-
-**B9.** *Könntest du dir das noch mal anschauen?*
-
 ### C. Produzieren
 
 **C1. Diktat-Transkript:**
