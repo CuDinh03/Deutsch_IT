@@ -242,6 +242,26 @@ a:hover { text-decoration: underline; }
 .spoiler-body > :first-child { margin-top: 10px; }
 .spoiler-body > :last-child { margin-bottom: 0; }
 
+/* workbook checkboxes — big enough to hit on a phone */
+.wb-check {
+  appearance: none; -webkit-appearance: none;
+  width: 20px; height: 20px; margin: 0 2px; vertical-align: -4px;
+  border: 2px solid var(--border-strong); border-radius: 5px;
+  background: var(--bg); cursor: pointer; flex: none;
+  transition: background .12s, border-color .12s;
+}
+.wb-check:hover { border-color: var(--primary); }
+.wb-check:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--primary-soft); }
+.wb-check:checked { background: var(--primary); border-color: var(--primary); }
+.wb-check:checked::after {
+  content: "✓"; display: block; color: #fff; font-size: 14px; line-height: 16px;
+  text-align: center; font-weight: 700;
+}
+.article td .wb-check { vertical-align: middle; }
+li.task-item { list-style: none; margin-left: -1.1em; }
+li.task-item .wb-check { margin-right: 8px; }
+@media print { .wb-check { border-color: #666; } }
+
 /* Hörtext — listening exercise: audio up front, transcript behind a toggle */
 .hoertext {
   border: 1px dashed var(--border-strong); border-radius: var(--radius);

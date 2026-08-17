@@ -68,6 +68,7 @@
     bookmarks: get('bookmarks', []),
     checklist: get('checklist', {}),
     fc: get('fc', {}),
+    checks: get('checks', {}),
     journal: get('journal', []),
     collapse: get('collapse', {}),
     filterLevel: '',
@@ -274,7 +275,7 @@
     });
     $('#btnMark').addEventListener('click', function () { toggleBookmark(id); route(); });
     $('#btnPrint').addEventListener('click', function () { window.print(); });
-    enhanceContent(el.content);
+    enhanceContent(el.content, id);
   }
   function navPrevNext(id) {
     var ids = []; CI.groups.forEach(function (g) { g.items.forEach(function (it) { if (it.type === 'lesson' || it.type === 'guide') ids.push(it); }); });
@@ -358,14 +359,56 @@
       if (g && g.length > 2) el.appendChild(mkSpeakBtn(g, 'inline'));
     });
   }
-  function enhanceContent(root) {
+  function enhanceContent(root, moduleId) {
     renderMermaid(root);
     $all('.audio-btn', root).forEach(function (b) {
       b.addEventListener('click', function () { speak(b.parentNode.getAttribute('data-speak') || b.parentNode.textContent, b); });
     });
     addSpoilers(root);
+    addCheckboxes(root, moduleId);
     addTableSpeakers(root);
     addFlagSpeakers(root);
+  }
+
+  /* Workbook checkboxes.
+     Two things in the Markdown look tickable but aren't: task-list items
+     (`- [ ]`), which the renderer emits as DISABLED inputs, and the ☐
+     characters used inside exercise tables, which are plain text. Both are
+     turned into real, persisted checkboxes here so a 40-exercise workbook can
+     actually be worked through. State is per module, keyed by the checkbox's
+     position in the article — editing a module reshuffles its own ticks, which
+     is an acceptable trade for not needing ids in the content. */
+  var BALLOT = '☐';
+  function addCheckboxes(root, moduleId) {
+    if (!moduleId) return;
+    var store = state.checks[moduleId] || (state.checks[moduleId] = {});
+    var slots = [];
+    // querySelectorAll returns document order, so indices stay stable.
+    $all('li.task-item > input[type="checkbox"], td', root).forEach(function (node) {
+      if (node.tagName === 'INPUT') { slots.push(node); return; }
+      if (node.textContent.indexOf(BALLOT) === -1) return;
+      var texts = [], w = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, null);
+      while (w.nextNode()) if (w.currentNode.nodeValue.indexOf(BALLOT) !== -1) texts.push(w.currentNode);
+      texts.forEach(function (tn) {
+        var parts = tn.nodeValue.split(BALLOT), frag = document.createDocumentFragment();
+        parts.forEach(function (p, i) {
+          if (i) { var cb = document.createElement('input'); cb.type = 'checkbox'; frag.appendChild(cb); slots.push(cb); }
+          if (p) frag.appendChild(document.createTextNode(p));
+        });
+        tn.parentNode.replaceChild(frag, tn);
+      });
+    });
+    if (!slots.length) return;
+    slots.forEach(function (cb, i) {
+      cb.disabled = false;
+      cb.classList.add('wb-check');
+      if (store[i]) cb.checked = true;
+      cb.addEventListener('change', function () {
+        if (cb.checked) store[i] = 1; else delete store[i];
+        if (!Object.keys(store).length) delete state.checks[moduleId];
+        set('checks', state.checks);
+      });
+    });
   }
   /* Answer keys stay collapsed until asked for. Deliberately NOT persisted:
      reopening a workbook should hide the answers again. */
