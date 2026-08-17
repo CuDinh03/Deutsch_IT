@@ -242,6 +242,16 @@ a:hover { text-decoration: underline; }
 .spoiler-body > :first-child { margin-top: 10px; }
 .spoiler-body > :last-child { margin-bottom: 0; }
 
+/* Hörtext — listening exercise: audio up front, transcript behind a toggle */
+.hoertext {
+  border: 1px dashed var(--border-strong); border-radius: var(--radius);
+  background: var(--bg-elev); margin: 16px 0; padding: 12px 14px;
+}
+.ht-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.ht-label { font-weight: 600; color: var(--de); }
+.hoertext .spoiler { margin: 12px 0 0; background: transparent; border-style: dashed; }
+.hoertext .spoiler-btn { padding: 8px 12px; font-size: 13px; font-weight: 500; }
+
 /* inline speaker buttons on words + example sentences */
 .spk { border: none; background: var(--primary-soft); color: var(--primary-strong); cursor: pointer; border-radius: 6px; font-size: 11px; line-height: 1; padding: 3px 5px; margin-right: 6px; vertical-align: middle; transition: background .15s; }
 .spk:hover { background: var(--primary); color: #fff; }

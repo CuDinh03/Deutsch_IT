@@ -128,6 +128,10 @@ Hallo zusammen, ich bin heute fünf Minuten später im Daily. Gestern habe ich d
 
 > **Lösungen:** 1) to the **end** of the clause · 2) *… deshalb **deploye ich** nicht.* (verb position 2) · 3) *Mit freundlichen Grüßen* · 4) **du** (team chat is informal).
 
+> 🏋️ **Now write.** [Phase 1 · Writing · Übungsteil](#/phase-1/writing-uebungen) drills the
+> *weil / deshalb / denn* trio and gives a **Musterlösung** for every open task — including formal
+> and informal versions of the same email.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Write your **daily status** in German for **5 days** (yesterday/today/blockers).

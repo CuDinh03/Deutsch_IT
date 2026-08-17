@@ -379,9 +379,10 @@
         else { body.removeAttribute('hidden'); sp.setAttribute('data-open', ''); }
         btn.setAttribute('aria-expanded', open ? 'false' : 'true');
         $('.spoiler-ic', btn).textContent = open ? '🔒' : '🔓';
+        // Labels come from the markup so answer keys and transcripts can differ.
         $('.spoiler-lbl', btn).textContent = open
-          ? 'Lösungen anzeigen · Show answers'
-          : 'Lösungen ausblenden · Hide answers';
+          ? (btn.getAttribute('data-closed-label') || 'Lösungen anzeigen · Show answers')
+          : (btn.getAttribute('data-open-label') || 'Lösungen ausblenden · Hide answers');
         // Everything in the body was already enhanced while hidden; only
         // Mermaid needs a re-run, since it cannot size a display:none node.
         if (!open) renderMermaid(body);

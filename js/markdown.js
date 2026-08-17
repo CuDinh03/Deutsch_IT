@@ -190,13 +190,32 @@
   // shows every answer on the way down the page. app.js wires the toggle;
   // without JS the <details>-free markup still degrades to "body visible".
   var spoilerSeq = 0;
-  function renderSpoiler(text) {
+  function spoilerBlock(text, closedLabel, openLabel) {
     var id = 'sp' + (++spoilerSeq);
     return '<div class="spoiler" data-spoiler>' +
-      '<button class="spoiler-btn" type="button" aria-expanded="false" aria-controls="' + id + '">' +
+      '<button class="spoiler-btn" type="button" aria-expanded="false" aria-controls="' + id + '"' +
+      ' data-closed-label="' + escapeAttr(closedLabel) + '"' +
+      ' data-open-label="' + escapeAttr(openLabel) + '">' +
       '<span class="spoiler-ic" aria-hidden="true">🔒</span>' +
-      '<span class="spoiler-lbl">Lösungen anzeigen · Show answers</span></button>' +
+      '<span class="spoiler-lbl">' + escapeHtml(closedLabel) + '</span></button>' +
       '<div class="spoiler-body" id="' + id + '" hidden>' + render(text) + '</div></div>';
+  }
+  function renderSpoiler(text) {
+    return spoilerBlock(text, 'Lösungen anzeigen · Show answers', 'Lösungen ausblenden · Hide answers');
+  }
+
+  // A listening exercise: play button plus a transcript that stays hidden.
+  // ```audio prints its text, which would hand the learner the answer — so a
+  // Hörtext needs its own block where reading along is a deliberate choice.
+  function renderHoertext(text) {
+    var t = text.trim();
+    return '<div class="hoertext">' +
+      '<div class="ht-head" data-speak="' + escapeAttr(t) + '">' +
+      '<button class="audio-btn" type="button" aria-label="Hörtext abspielen">🔊</button>' +
+      '<span class="ht-label">Hörtext · erst hören — nicht mitlesen</span>' +
+      '<span class="audio-hint">TTS (de-DE) · beliebig oft wiederholen</span></div>' +
+      spoilerBlock(t, 'Transkript anzeigen · Show transcript', 'Transkript ausblenden · Hide transcript') +
+      '</div>';
   }
 
   function render(md) {
@@ -215,6 +234,7 @@
         if (lang === 'mermaid') html.push('<div class="mermaid">' + escapeHtml(code) + '</div>');
         else if (lang === 'audio') html.push(renderAudio(code));
         else if (lang === 'spoiler') html.push(renderSpoiler(code));
+        else if (lang === 'hoertext') html.push(renderHoertext(code));
         else html.push('<pre class="code-block"><code>' + escapeHtml(code) + '</code></pre>');
         continue;
       }

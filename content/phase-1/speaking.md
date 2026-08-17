@@ -123,6 +123,9 @@ Hallo, ich heiße Huy. Ich arbeite als Backend-Entwickler und programmiere mit J
 
 > **Lösungen:** 1) *w* = English **v**, *v* = English **f** · 2) **ie** ("ee"); *ei* = "eye" · 3) *Entschuldigung, etwas langsamer bitte.* · 4) to the **end** (*… zu arbeiten*).
 
+> 🏋️ **Now drill it.** The full workbook — pronunciation reps, Q&A ping-pong with model answers and
+> a **32-phrase Redemittel table** — is in [Phase 1 · Speaking · Übungsteil](#/phase-1/speaking-uebungen).
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Record and re-record your self-intro until it's smooth (≤ 60 s, no notes).

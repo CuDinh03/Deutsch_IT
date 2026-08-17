@@ -297,7 +297,7 @@ trong `content-index.js` + flashcards/quiz của chính đợt đó + `node buil
 | Đợt | Nội dung | ≈ từ mới | Sản phẩm |
 |---|---|---:|---|
 | **0 · code** 🆕 | Mở khoá kỹ thuật — 4 việc ở §10.A: fence `spoiler` · lazy-load bundle · `topics` array · link-checker | 0 | app sẵn sàng nhận workbook; **không viết content** |
-| **1** | Chốt template Übungsteil + workbook hóa **toàn bộ Phase 1** (9 file) + nâng cấp assessment 1 | ~15k | Phase 1 thành giáo trình khép kín — học được ngay |
+| **1** ✅ | Chốt template Übungsteil + workbook hóa **toàn bộ Phase 1** + nâng cấp assessment 1 | ~19k | ✅ **XONG 18/08/2026** — 6 file `-uebungen.md` mới, **194 bài tập có đáp án**, assessment thành đề 100 điểm, +50 flashcards, +2 quiz (20 câu) |
 | **2** | 10 bài **Alltag** | ~25k | mảng "đời thường" bạn yêu cầu |
 | **3** | Workbook Phase 2 (9 file) + 3 dialogues dễ (Onboarding, Krankmeldung, Pair programming) | ~24k | phủ kín chặng W9–W20 |
 | **4** | **telc B2** (4 module) + `exams/overview` + `exams/pruefungs-redemittel` | ~15k | mốc thi W20 |
@@ -382,6 +382,13 @@ tiên. Ở 300k từ việc này sẽ block main thread hàng trăm ms trên đi
 index — chi phí này chỉ trả khi người học thật sự dùng search, không phải mỗi lần mở app.
 
 </details>
+
+### A2. Phát sinh trong Đợt 1 (đã làm) 🆕
+
+| # | Việc | Vì sao |
+|---|---|---|
+| A5 | **Fence `hoertext`** trong `markdown.js` + CSS | ` ```audio ` **hiển thị** text của nó (`.audio-text`) — dùng cho bài nghe thì lộ transcript ngay. `hoertext` = nút play + transcript giấu sau nút bấm. Không có nó thì toàn bộ Workstream C3 (~30 bài nghe) vô nghĩa |
+| A6 | **Cache-busting cho MỌI script** trong `build.js` | Chỉ `content-manifest.js` được đóng dấu `?v=`. `quizzes.js` / `flashcards-*.js` / `app.js` thì không → **quiz mới không xuất hiện** vì trình duyệt trả bản cache. Phát hiện khi test Đợt 1: file trên đĩa có 6 quiz, app chỉ thấy 4 |
 
 ### B. Mỗi đợt nội dung (1 → 9)
 

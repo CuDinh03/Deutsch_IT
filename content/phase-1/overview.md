@@ -138,6 +138,41 @@ Ich bin Backend-Entwickler und lerne Deutsch, um in Deutschland zu arbeiten. In 
 
 > **Lösungen:** 1) Input → Study → Output → Review · 2) [Grammar](#/phase-1/grammar) · 3) False — it means making existing B1 *automatic*.
 
+## 🏋️ Übungsteil · Diagnose yourself (9 Aufgaben)
+
+Light block — this module is a map, not a lesson. But answer these honestly before you start.
+
+**Ü1.** Fill in the **self-diagnosis table** in §2 above. Every row, today's honest answer.
+
+**Ü2.** Count your "Reliably" ticks: ___ / 7. Fewer than 3 → slow down and drill; 3–5 → you're the
+target reader; 6–7 → skim Phase 1 and go to [Phase 2](#/phase-2/overview).
+
+**Ü3.** Which **two** rows did you mark lowest? Name the module that fixes each.
+
+| Schwäche | Modul |
+|---|---|
+| | |
+| | |
+
+**Ü4.** Write your Phase-1 goal in German: *"In acht Wochen kann ich ______."*
+
+**Ü5.** Say it out loud. Does the verb sit in position 2? Check against
+[Grammar](#/phase-1/grammar) §1.
+
+**Ü6.** How many hours per week can you **realistically** give this? Be pessimistic — write the
+number you can hit in a bad week: ___ h.
+
+**Ü7.** Which of the six skills is your **bottleneck** right now? (Usually the one you avoid.)
+
+**Ü8.** Open the [Fehlerjournal](#/@journal) and add your first entry: one mistake you know you make
+repeatedly.
+
+**Ü9.** Bookmark ★ the three modules you'll do first.
+
+> **Lösungen:** Ü2 is the only one with a fixed reading — the rest are your own diagnosis. If Ü7 and
+> Ü6 conflict (your bottleneck is speaking but you only planned reading time), fix the schedule in
+> [Plan](#/phase-1/plan) before you start week 1.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Fill in the **self-diagnosis** table above honestly.

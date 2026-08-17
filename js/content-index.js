@@ -39,13 +39,19 @@ window.CONTENT_INDEX = {
       items: [
         { id: "phase-1/overview",    title: "Objectives & Overview",        level: "B1", topic: "Roadmap",    type: "lesson" },
         { id: "phase-1/grammar",     title: "Grammar",                      level: "B1", topic: "Grammar",    type: "lesson" },
+        { id: "phase-1/grammar-uebungen",    title: "↳ Grammar · Übungsteil",    level: "B1", topic: "Übungen", type: "lesson" },
         { id: "phase-1/vocabulary",  title: "Vocabulary",                   level: "B1", topic: "Vocabulary", type: "lesson" },
+        { id: "phase-1/vocabulary-uebungen", title: "↳ Vocabulary · Übungsteil", level: "B1", topic: "Übungen", type: "lesson" },
         { id: "phase-1/speaking",    title: "Speaking Practice",            level: "B1", topic: "Speaking",   type: "lesson" },
+        { id: "phase-1/speaking-uebungen",   title: "↳ Speaking · Übungsteil",   level: "B1", topic: "Übungen", type: "lesson" },
         { id: "phase-1/listening",   title: "Listening Resources",          level: "B1", topic: "Listening",  type: "lesson" },
+        { id: "phase-1/listening-uebungen",  title: "↳ Listening · Übungsteil",  level: "B1", topic: "Übungen", type: "lesson" },
         { id: "phase-1/reading",     title: "Reading Materials",            level: "B1", topic: "Reading",    type: "lesson" },
+        { id: "phase-1/reading-uebungen",    title: "↳ Reading · Übungsteil",    level: "B1", topic: "Übungen", type: "lesson" },
         { id: "phase-1/writing",     title: "Writing Exercises",            level: "B1", topic: "Writing",    type: "lesson" },
+        { id: "phase-1/writing-uebungen",    title: "↳ Writing · Übungsteil",    level: "B1", topic: "Übungen", type: "lesson" },
         { id: "phase-1/plan",        title: "Weekly Milestones & Daily Plan", level: "B1", topic: "Roadmap",  type: "lesson" },
-        { id: "phase-1/assessment",  title: "Monthly Assessment",           level: "B1", topic: "Roadmap",    type: "lesson" }
+        { id: "phase-1/assessment",  title: "Prüfung · Phase-1 Test",       level: "B1", topic: "Roadmap",    type: "lesson" }
       ]
     },
     {

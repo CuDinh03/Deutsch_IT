@@ -117,6 +117,10 @@ Am Montag höre ich einen Podcast im Zug. Am Abend sehe ich ein Video mit Untert
 
 > **Lösungen:** 1) *What is it about?* (the gist) · 2) **Nicos Weg** (Deutsche Welle) · 3) **Intensive**.
 
+> 🎧 **Now actually listen.** [Phase 1 · Listening · Übungsteil](#/phase-1/listening-uebungen) has
+> **five Hörtexte** you can play right here, with comprehension questions, two **Diktate** and a
+> marked shadowing script — no YouTube needed.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Do **7 days** of extensive listening (~20 min/day) on your commute.

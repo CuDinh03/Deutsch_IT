@@ -54,6 +54,46 @@ Anchor each block to something you already do. **Anki every morning** is non-neg
 
 Two hours sounds like a lot, but morning + afternoon (~1 h) is dead time you already have; only the evening block asks for real focus.
 
+## 🏋️ Übungsteil · Plan it for real (10 Aufgaben)
+
+A plan you haven't written down is a wish. Work these in your calendar, not in your head.
+
+**P1.** Write your **8 milestone dates** — actual calendar dates, starting this Monday.
+
+| Woche | Datum (Mo) | Fokus | Meilenstein erreicht? |
+|:--:|---|---|:--:|
+| 1 | | Grammar: Wortstellung + Kasus | ☐ |
+| 2 | | Grammar: Perfekt + Modalverben | ☐ |
+| 3 | | Vocabulary: Genus/Plural + Anki | ☐ |
+| 4 | | Speaking: Laute + Selbstvorstellung | ☐ |
+| 5 | | Listening: Routine + Hörtexte | ☐ |
+| 6 | | Reading: Nachrichten + README | ☐ |
+| 7 | | Writing: Chat + Status + E-Mail | ☐ |
+| 8 | | [Prüfung](#/phase-1/assessment) | ☐ |
+
+**P2.** Block the **evening slot** in your real calendar for all 8 weeks, right now. Recurring event.
+
+**P3.** Name your **three anchors** — the existing daily habits you'll attach study to
+(e.g. commute → podcast; coffee → Anki; after dinner → workbook).
+
+**P4.** Decide your **minimum day**: what you'll do even on the worst day. Keep it under 10 minutes.
+
+**P5.** Write the *if–then* rule for a missed day: *"Wenn ich einen Tag verpasse, dann ______."*
+
+**P6.** Which module is your **weakest** right now? Move it one week earlier in the table.
+
+**P7.** Schedule the **Phase-1 assessment** — a specific date and a 90-minute block in week 8.
+
+**P8.** Say your plan aloud in German: *"Jede Woche lerne ich …, am Wochenende …"*
+
+**P9.** Write the *weil*-sentence for your own motivation: *"Ich lerne Deutsch, weil …"*
+
+**P10.** After week 1, come back and mark what actually happened vs. what you planned. Adjust the
+volume, never the shape.
+
+> **Kein Lösungsschlüssel** — this block is planning, not testing. The only wrong answer is an empty
+> table. Review it at the end of week 1 and again in week 4.
+
 ## 🧾 Zusammenfassung · Summary
 
 Phase 1 fits into **8 weekly milestones** (grammar first, four skills in the middle, assessment last) and a **daily rhythm** of morning Anki, an afternoon commute-listen or read, and one focused evening block. Every week runs the **input → study → output → review** loop. Keep the shape even when life shrinks the hours; track it with the [Weekly Study Checklist](#/@checklist).

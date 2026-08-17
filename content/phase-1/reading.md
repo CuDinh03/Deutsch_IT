@@ -126,6 +126,10 @@ In dem Artikel geht es um die IT-Branche in Deutschland. Viele Unternehmen suche
 
 > **Lösungen:** 1) **Scan** · 2) **prerequisites** · 3) at most **five**, only meaning-blocking ones.
 
+> 📖 **Now read.** [Phase 1 · Reading · Übungsteil](#/phase-1/reading-uebungen) has **three graded
+> texts** in the file — a news item, a real README and an internal announcement — with skim, scan and
+> detail questions plus guess-from-context drills.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Read **3 graded articles** this week (Top-Thema or nachrichtenleicht), intensive.

@@ -146,6 +146,9 @@ In meinem Projekt benutze ich eine Datenbank, mehrere Schnittstellen und einen S
 
 > **Lösungen:** 1) **die** (ending -ion) · 2) *die Features* (foreign → -s) and *die Server* (no change, -er) · 3) **die**, from *Sprache*, the last word · 4) always **with article + plural**, ideally + an example sentence.
 
+> 🏋️ **Now drill it.** The full workbook — **27 exercises** on gender prediction, plurals, Komposita
+> and collocations — is in [Phase 1 · Vocabulary · Übungsteil](#/phase-1/vocabulary-uebungen).
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Create the *IT-Deutsch* Anki deck and add **20 cards** with article + plural + example.

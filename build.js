@@ -164,17 +164,22 @@ fs.writeFileSync(
 const legacy = path.join(JSDIR, 'content-bundle.js');
 if (fs.existsSync(legacy)) { fs.unlinkSync(legacy); console.log('· removed legacy js/content-bundle.js (replaced by chunks)'); }
 
-/* ---------- stamp index.html ---------- */
+/* ---------- stamp index.html ----------
+   Every local js/*.js gets a ?v= hash of its own contents. Without this, an
+   edited quizzes.js or flashcards-N.js is silently served from cache and the
+   new data never appears — the same failure the content bundle already hit. */
 if (fs.existsSync(INDEX)) {
   const html = fs.readFileSync(INDEX, 'utf8');
-  const tag = /(src=")js\/content-manifest\.js(?:\?v=[^"]*)?(")/;
-  if (!tag.test(html)) {
-    console.warn('! Could not find content-manifest.js <script> tag in index.html to stamp.');
-  } else {
-    const stamped = html.replace(tag, '$1js/content-manifest.js?v=' + manifest.version + '$2');
-    if (stamped !== html) { fs.writeFileSync(INDEX, stamped, 'utf8'); console.log('✓ Stamped index.html → content-manifest.js?v=' + manifest.version); }
-    else console.log('· index.html already at content-manifest.js?v=' + manifest.version);
-  }
+  const stamped = html.replace(
+    /(<script\b[^>]*\bsrc=")(js\/[A-Za-z0-9._/-]+\.js)(?:\?v=[^"]*)?(")/g,
+    (m, pre, src, post) => {
+      const file = path.join(ROOT, src);
+      if (!fs.existsSync(file)) { console.warn('! index.html references missing ' + src); return m; }
+      return pre + src + '?v=' + hash(fs.readFileSync(file, 'utf8')) + post;
+    }
+  );
+  if (stamped !== html) { fs.writeFileSync(INDEX, stamped, 'utf8'); console.log('✓ Stamped index.html script tags with content hashes'); }
+  else console.log('· index.html script versions already current');
 }
 
 /* ---------- report ---------- */

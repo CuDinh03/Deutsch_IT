@@ -183,6 +183,10 @@ Gestern habe ich den Login-Bug behoben. Heute muss ich die Tests grün machen, w
 > das Framework → dem) · 3) *ist … abgestürzt* (change of state → sein) · 4) *…weil ich den
 > Release **fertig mache**.* (verb to the end). Full quiz: [Quizzes](#/@quiz).
 
+> 🏋️ **Now drill it.** The full workbook — **36 exercises** with answers and explanations — is in
+> [Phase 1 · Grammar · Übungsteil](#/phase-1/grammar-uebungen). Do it before moving on; this module
+> is the one everything else in Phase 1 leans on.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Write **8 sentences** about your current project: 4 in Perfekt, 4 with a modal verb.
