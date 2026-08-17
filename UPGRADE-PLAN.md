@@ -267,7 +267,7 @@ cần chi tiết chiến thuật) nhưng **nâng Goethe C1 lên 3 module** — t
 |---|---|---|
 | Bài tập có đáp án | **21 câu** trong quiz engine + Mini-Quiz 3–5 câu/module | **~1.400 bài workbook + 900 câu quiz** |
 | Bài nghe có cấu trúc | 0 (chỉ link) | **~30 bài + shadowing từng vai trong 24 hội thoại** |
-| Hội thoại | 5 (chỉ công sở) | **24** (14 công sở + 10 Alltag) |
+| Hội thoại | 5 (chỉ công sở) | **24** (14 công sở + 10 Alltag ✅) |
 | Interview bank | 3 | **7** + 5 module Bewerbung + 4 module templates |
 | Flashcards | **~237** | **~2.050** |
 | Luyện thi | 0 | **9 module** telc B2 + Goethe C1 🆕 |
@@ -298,7 +298,7 @@ trong `content-index.js` + flashcards/quiz của chính đợt đó + `node buil
 |---|---|---:|---|
 | **0 · code** 🆕 | Mở khoá kỹ thuật — 4 việc ở §10.A: fence `spoiler` · lazy-load bundle · `topics` array · link-checker | 0 | app sẵn sàng nhận workbook; **không viết content** |
 | **1** ✅ | Chốt template Übungsteil + workbook hóa **toàn bộ Phase 1** + nâng cấp assessment 1 | ~19k | ✅ **XONG 18/08/2026** — 6 file `-uebungen.md` mới, **194 bài tập có đáp án**, assessment thành đề 100 điểm, +50 flashcards, +2 quiz (20 câu) |
-| **2** | 10 bài **Alltag** | ~25k | mảng "đời thường" bạn yêu cầu |
+| **2** ✅ | 10 bài **Alltag** | ~20k | ✅ **XONG 18/08/2026** — 10 module `content/alltag/`, group mới trên sidebar, +55 flashcards, +1 quiz (15 câu) |
 | **3** | Workbook Phase 2 (9 file) + 3 dialogues dễ (Onboarding, Krankmeldung, Pair programming) | ~24k | phủ kín chặng W9–W20 |
 | **4** | **telc B2** (4 module) + `exams/overview` + `exams/pruefungs-redemittel` | ~15k | mốc thi W20 |
 | **5** | Workbook Phase 3 (9 file) + 3 dialogues (Retro, Architektur, Deployment ngoài giờ) | ~24k | chặng IT-German |

@@ -142,6 +142,21 @@ window.CONTENT_INDEX = {
       ]
     },
     {
+      id: "alltag", title: "Alltag — Everyday German", icon: "🏠", badge: "B1/B2",
+      items: [
+        { id: "alltag/cafe-baeckerei",       title: "Im Café & an der Bäckerei",      level: "B1", topic: "Alltag", type: "lesson" },
+        { id: "alltag/mittagspause",         title: "Mittagspause mit Kollegen",      level: "B1", topic: "Alltag", type: "lesson" },
+        { id: "alltag/kaffeekueche",         title: "Kaffeeküche & Modalpartikeln",   level: "B1", topic: "Alltag", type: "lesson" },
+        { id: "alltag/feierabend",           title: "Feierabend mit dem Team",        level: "B1", topic: "Alltag", type: "lesson" },
+        { id: "alltag/wohnungsbesichtigung", title: "Wohnungsbesichtigung & WG",      level: "B2", topic: "Alltag", type: "lesson" },
+        { id: "alltag/anmeldung",            title: "Anmeldung & Ausländerbehörde",   level: "B2", topic: "Alltag", type: "lesson" },
+        { id: "alltag/beim-arzt",            title: "Beim Arzt",                      level: "B2", topic: "Alltag", type: "lesson" },
+        { id: "alltag/supermarkt-pfand",     title: "Supermarkt, Pfand & Umtausch",   level: "B1", topic: "Alltag", type: "lesson" },
+        { id: "alltag/bahn-verspaetung",     title: "Bahn, Verspätung & Fahrgastrechte", level: "B2", topic: "Alltag", type: "lesson" },
+        { id: "alltag/telefon-bank-vertrag", title: "Telefon: Bank & Handyvertrag",   level: "B2", topic: "Alltag", type: "lesson" }
+      ]
+    },
+    {
       id: "library", title: "Reference Library", icon: "📚",
       items: [
         { id: "dialogues/standup",          title: "Dialogue — Daily Standup",              level: "B2", topic: "Speaking",  type: "lesson" },
