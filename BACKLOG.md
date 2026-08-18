@@ -151,7 +151,7 @@ lỗi lặp lại trong hàng ôn), không phải từ một danh sách từ. Ch
 | # | Việc | Ghi chú |
 |---|---|---|
 | 4.1 | **26 từ Đức trùng nhau** giữa các deck viết trước Đợt 5 (28 thẻ thừa; `Übergabe` và `Vorfall` có 3 bản) | Vô hại nhưng bẩn. Gộp thì phải chọn thẻ nào giữ, thẻ nào xoá — id đã xoá **không được tái sử dụng**. Lệnh liệt kê ở [AUTHORING §5](AUTHORING.md). |
-| 4.2 | **`build.js --strict` không fail khi có file Markdown mồ côi** — chỉ cảnh báo rồi exit 0 | Đúng lỗi đã dính ngày 18.08: `tail -3` cắt mất dòng cảnh báo, module không mở được từ sidebar trông vẫn ổn. Sửa: thêm `\|\| orphans.length` vào điều kiện `STRICT` ở `build.js` (~dòng 237). Một dòng. |
+| 4.2 | ~~**`build.js --strict` không fail khi có file Markdown mồ côi**~~ ✅ **XONG 19.08.2026** | Đã thêm `orphans.length` vào điều kiện `STRICT`. Kiểm bằng cách tạo file mồ côi tạm → exit 1, xoá đi → exit 0. Lưu ý còn lại: dòng cảnh báo vẫn in bằng `!` chứ không phải `✗`, nên build hỏng vẫn trông êm cho tới dòng cuối — **đừng pipe qua `tail`**. |
 | 4.3 | **UPGRADE-PLAN §10.C mục 6 ghi sai trạng thái** — progress tracking cho Übungsteil thực tế đã có | `state.ueb[moduleId]` lưu trạng thái đã chấm + đáp án; `addCheckboxes()` lưu ☐ theo module. Chỉ cần đánh ✅, không phải làm gì thêm. |
 | 4.4 | **Không có test regression cho renderer** trong repo | Từng nằm trong scratchpad phiên cũ. Hiện `build.js --strict` + kiểm giải thích ở §5 phủ cùng nhóm lỗi. Thêm test thật thì nên phủ: fence lồng nhau, `uebung` mọi kiểu, `spoiler` không rò đáp án. |
 | 4.5 | **6 file `assessment.md` tự chấm theo thang điểm** | **Cố ý**, không phải thiếu sót — mô phỏng điều kiện thi thật, Teil 4/5 là sản xuất mở. Chuyển Teil 1–3 sang `uebung` là làm được nếu muốn. |
@@ -171,11 +171,12 @@ lỗi lặp lại trong hàng ôn), không phải từ một danh sách từ. Ch
 ## Đề xuất thứ tự cho phiên sau
 
 1. ~~**§2 — sửa vị trí đáp án.**~~ ✅ xong 19.08.2026.
-2. **§4.2 — cho `--strict` fail khi có file mồ côi.** Một dòng, chặn đúng lỗi đã xảy ra thật.
+2. ~~**§4.2 — cho `--strict` fail khi có file mồ côi.**~~ ✅ xong 19.08.2026.
 3. **§1 phương án A — 6 Phase Final Quiz.** Phần duy nhất của workstream quiz mà workbook không
    thay thế được.
 4. **§4.3 và §4.1** — dọn dẹp, làm khi tiện.
 5. **§5.1** — hỏi trước khi làm bất cứ điều gì về audio.
 
-**Trước khi commit bất cứ mục nào ở trên: chạy đủ [AUTHORING §5](AUTHORING.md).** Đọc *toàn bộ* output
-của `node build.js --strict` — đừng pipe qua `tail`, và đừng chỉ xem exit code (xem §4.2).
+**Trước khi commit bất cứ mục nào ở trên: chạy đủ [AUTHORING §5](AUTHORING.md).** Từ 19.08.2026
+`--strict` fail trên cả năm loại lỗi nên **exit code đã đáng tin** — nhưng ba trong năm loại vẫn in
+bằng `!` chứ không phải `✗`, nên vẫn đọc *toàn bộ* output thay vì pipe qua `tail`.

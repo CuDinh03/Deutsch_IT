@@ -13,8 +13,11 @@
  * Loading stays <script>-tag based (never fetch/XHR), so opening index.html
  * straight from disk with file:// keeps working.
  *
- * Usage:  node build.js             build + report dead links
- *         node build.js --strict    exit 1 if any dead link is found (CI gate)
+ * Usage:  node build.js             build + report problems
+ *         node build.js --strict    exit 1 on any problem (CI gate): dead links,
+ *                                   nested/unclosed fences, sidebar entries with no
+ *                                   file, Markdown files missing from content-index.js,
+ *                                   and topics with no filter chip.
  * Re-run whenever you add or edit Markdown in /content.
  */
 'use strict';
@@ -234,7 +237,7 @@ if (deadLinks.length) {
   console.log('\n✓ No dead internal links.');
 }
 
-if (STRICT && (deadLinks.length || missingContent.length || topicProblems.length || fenceProblems.length)) {
+if (STRICT && (deadLinks.length || missingContent.length || topicProblems.length || fenceProblems.length || orphans.length)) {
   console.error('\n--strict: failing build.');
   process.exit(1);
 }

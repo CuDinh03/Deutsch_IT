@@ -302,15 +302,19 @@ node build.js --strict
 ```
 
 Must end with `✓ No dead internal links.` **Exits 1** on dead links, nested or unclosed fences,
-sidebar entries with no file, and topics with no chip. Run it **twice** if you want to confirm
-idempotency — the second run should leave the tree unchanged.
+sidebar entries with no file, **Markdown files missing from `content-index.js`**, and topics with no
+chip. Run it **twice** if you want to confirm idempotency — the second run should leave the tree
+unchanged.
 
-> **One check only warns — read the output, do not just check the exit code.** A Markdown file that
-> exists but is *not* listed in `content-index.js` prints
-> `! N Markdown file(s) not listed in content-index.js` and still exits 0. The file is unreachable
-> from the sidebar and gets swept into a `misc` chunk, so the module looks written but cannot be
-> opened. Do not pipe the build through `tail` — the warning header scrolls off and the remaining
-> line looks like an ordinary chunk listing.
+> **Still read the output, not just the exit code.** Three of those five checks print with `!`
+> rather than `✗` — a leftover from when they only warned — so a failing build can look calm until
+> the last line, `--strict: failing build.` The orphan check is the one that bites: a Markdown file that exists but is *not* listed in
+> `content-index.js` gets swept into a `misc` chunk, so the module builds, looks written, and cannot
+> be opened from the sidebar. It failed the build only from 19.08.2026 (BACKLOG §4.2); before that
+> it warned and exited 0, which is exactly how one shipped unnoticed.
+>
+> **Do not pipe the build through `tail`.** The warning header scrolls off and the remaining line
+> looks like an ordinary chunk listing. That is the actual mistake that let it through.
 
 ```bash
 node --check js/markdown.js && node --check js/app.js && node --check js/content-index.js
