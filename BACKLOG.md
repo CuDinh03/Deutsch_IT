@@ -162,9 +162,59 @@ lỗi lặp lại trong hàng ôn), không phải từ một danh sách từ. Ch
 
 | # | Câu hỏi | Trạng thái |
 |---|---|---|
-| 5.1 | Thay TTS trình duyệt bằng **audio người thật**? (`assets/audio/` đã chừa chỗ) | **Chưa trả lời**, mang qua nhiều đợt. Đây là quyết định lớn nhất còn lại: 24 hội thoại + 28 Hörtext + 245 khối audio là rất nhiều bản ghi. |
+| 5.1 | ~~Thay TTS trình duyệt bằng **audio người thật**?~~ | ✅ **Chốt 19.08.2026: tạm giữ TTS.** Nguồn audio người thật đã tra và ghi ở **§6** ngay dưới. |
 | 5.2 | **Lebenslauf / Anschreiben cá nhân hóa** theo CV thật? | Đã ship bản nhân vật giả định (backend Java), có callout ghi rõ trong [`bewerbung/lebenslauf.md`](content/bewerbung/lebenslauf.md). Nếu CV thật đến thì phạm vi thay rất gọn: muster §4 file đó + hai thư mẫu trong `anschreiben.md`. Cấu trúc và công thức đoạn không phụ thuộc hồ sơ. |
 | 5.3 | ~~Module Goethe B1 làm mốc W8?~~ | ✅ **Chốt 18.08.2026: có.** Đã ship `content/exams/goethe-b1.md`. |
+
+---
+
+## 6. Bài nghe — nguồn audio người thật (tra 19.08.2026)
+
+**Quyết định:** tạm giữ TTS trình duyệt. Mục này ghi lại nguồn đã tra để khi làm phần bài nghe
+không phải tra lại từ đầu.
+
+### Trước hết: TTS hiện tại đang bị đánh giá thấp hơn thực tế
+
+`speak()` trong `js/app.js` dùng `speechSynthesis` với `lang='de-DE'`, `rate=0.95`. **Chất lượng phụ
+thuộc hoàn toàn vào giọng cài trong hệ điều hành** — code đã có sẵn `toast()` nhắc điều này khi
+không tìm thấy giọng Đức. Máy chưa cài giọng Đức thì trình duyệt đọc tiếng Đức bằng giọng Anh, nghe
+như rác; cài rồi thì khá ổn.
+
+**Việc rẻ nhất, làm được ngay, chưa làm:** hướng dẫn người học cài giọng Đức chất lượng cao của hệ
+điều hành (macOS: *Anna*, *Petra*, *Markus* trong System Settings → Accessibility → Spoken Content →
+System Voice → Manage Voices; Windows: *Katja*, *Conrad* trong Settings → Time & Language → Speech).
+Không tốn gì và nâng chất lượng ngay cho cả 245 khối audio đang có.
+
+### Điểm mấu chốt: "TTS" và "người thật" không phải hai thái cực
+
+Phát hiện đáng giá nhất khi tra: **Thorsten-Voice** — một người Đức hiến giọng mình dưới **CC0**,
+hơn 23 giờ thu chất lượng cao, *và* đã có model TTS huấn luyện từ đó. Nghĩa là có thể tạo file MP3
+nghe gần như người thật, offline, miễn phí, không vướng bản quyền, rồi commit thẳng vào
+`assets/audio/`.
+
+### Bảng nguồn — hợp với việc gì, vướng gì
+
+| Nguồn | Giấy phép | Hợp với | Vướng |
+|---|---|---|---|
+| **[Thorsten-Voice](https://www.thorsten-voice.de/en/)** + **[Piper TTS](https://github.com/OHF-Voice/piper1-gpl)** | dataset **CC0**; Piper **GPL-3.0** (phần mềm, không ràng buộc file audio xuất ra) | **28 Hörtext** — sinh sẵn MP3, chạy offline, chất lượng gần người thật | Model *khác* trong Piper có giấy phép khác — **kiểm từng model**, đừng suy từ Thorsten ra cả bộ |
+| [Piper voices `de_DE`](https://huggingface.co/rhasspy/piper-voices/tree/main/de/de_DE) | tuỳ model | Hội thoại cần **hai giọng khác nhau**: có `thorsten`, `thorsten_emotional` (nam) và `eva_k`, `kerstin`, `ramona` (nữ) | như trên |
+| [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | clip **CC0** | phát âm **từ đơn / câu đơn** | **Điều khoản cấm re-host lại dataset.** Toàn câu rời 3–8 từ, chất lượng và giọng vùng miền rất tạp → không dùng làm Hörtext được |
+| [LibriVox](https://librivox.org/) | **public domain**, dùng thương mại được | luyện nghe mở rộng | Toàn văn học hết hạn bản quyền — tiếng Đức đầu thế kỷ 20. **Sai hoàn toàn register** cho Sprint Planning và Incident-Call |
+| [Tatoeba audio](https://tatoeba.org/en/downloads) | **tuỳ người thu**: CC BY, CC BY-NC, CC BY-NC-ND… | câu mẫu lẻ | Phổ biến nhất là **NC (phi thương mại)**; ô giấy phép trống = **không được dùng lại**. Phải kiểm từng file |
+| Podcast (Easy German, programmier.bar, Engineering Kiosk…) | có bản quyền | **chỉ link ra ngoài** — đã làm ở mục Ressourcen các module | **Không nhúng, không tải về host lại.** Đây là ranh giới rõ ràng |
+| Thuê người bản ngữ thu | mua đứt | **24 hội thoại** thu theo từng lượt thoại, hai vai | Tốn tiền và thời gian điều phối. Đây là con đường duy nhất cho hội thoại hai giọng thật |
+
+### Đường đi đề xuất khi làm phần bài nghe
+
+1. **Bậc 0 — miễn phí, làm ngay:** viết hướng dẫn cài giọng Đức hệ điều hành vào một module
+   foundations, link từ chỗ nào có nút 🔊. Nâng chất lượng toàn bộ audio hiện có mà không đụng code.
+2. **Bậc 1 — 28 Hörtext:** Piper + `thorsten` (nam) / `kerstin` (nữ), sinh sẵn MP3 commit vào
+   `assets/audio/`. Kiểm giấy phép từng model trước khi dùng. Chú ý: file audio sẽ làm repo nặng
+   lên — Pages phục vụ tĩnh nên cần đo dung lượng trước.
+3. **Bậc 2 — 24 hội thoại:** chỗ này TTS thua rõ nhất, vì cần hai giọng phân biệt và ngữ điệu thật
+   để shadowing có ích. Thuê người bản ngữ. Làm sau cùng, và chỉ khi bậc 0–1 đã xong.
+
+**Không làm:** tải audio podcast về host lại. Link ra ngoài là đúng và đã làm rồi.
 
 ---
 

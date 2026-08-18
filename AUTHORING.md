@@ -578,8 +578,12 @@ dialogues were deliberately left as they were.
 
 ## 9. Open questions and deliberate omissions
 
-**Unanswered by the user, carried across batches:** whether to replace the browser TTS with real
-recorded audio (UPGRADE-PLAN §11.1).
+**Answered 19.08.2026 (UPGRADE-PLAN §11.1):** keep the browser TTS for now. Sources for real
+recorded audio are researched and written up in [BACKLOG §6](BACKLOG.md) so the listening work does
+not start from scratch. Two things worth knowing before touching audio: the current TTS quality is
+**entirely** the OS voice the reader has installed — `speak()` already toasts a hint when no German
+voice is found — and CC0 human-voice datasets with trained Piper models exist, so "TTS" and "real
+voice" are not the binary the question assumed.
 
 **Answered 18.08.2026:** yes to a Goethe B1 module as the week-8 milestone (§11.3). It does *not*
 replace the Phase-1 test — that stays the internal gate to Phase 2 — and it is written as a

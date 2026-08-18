@@ -437,7 +437,7 @@ index — chi phí này chỉ trả khi người học thật sự dùng search,
 
 ## 11. Câu hỏi mở (không chặn Đợt 0 hay Đợt 1)
 
-1. **Audio người thật** thay TTS về lâu dài? (assets/audio/ đã có sẵn chỗ)
+1. ~~**Audio người thật** thay TTS về lâu dài?~~ → **✅ CHỐT 19/08/2026: tạm giữ TTS.** Nguồn audio người thật đã tra và ghi lại ở [BACKLOG §6](BACKLOG.md) để dùng khi làm phần bài nghe. Kết luận đáng chú ý: TTS và giọng người thật không phải hai thái cực — **Thorsten-Voice** (giọng người Đức hiến dưới CC0, >23 giờ) đã có model Piper huấn luyện từ đó, nên sinh sẵn MP3 nghe gần như người thật là khả thi mà không tốn phí và không vướng bản quyền. Việc rẻ nhất chưa làm: hướng dẫn cài giọng Đức của hệ điều hành — chất lượng TTS hiện tại phụ thuộc hoàn toàn vào đó.
 2. Có muốn mình soạn **Lebenslauf + Anschreiben mẫu cá nhân hóa** theo đúng CV thật của bạn ở **đợt 8** không (thay vì mẫu nhân vật giả định)?
 3. ~~Mức thi mục tiêu trung gian: có thêm module **Goethe B1** làm mốc W8 không?~~ → **✅ ĐÃ CHỐT 18/08/2026: có.** `content/exams/goethe-b1.md` — mốc tuần 8, **không thay** bài test Phase 1 (đó vẫn là cổng nội bộ sang Phase 2) mà bổ sung quyết định về chứng chỉ ngoài. Module đóng khung câu hỏi là *có nên thi hay không*: lý do thật gần như luôn là giấy tờ (Niederlassungserlaubnis / Einbürgerung), không phải hồ sơ xin việc — chỗ đó phải B2 trở lên. Exams: 9 → **10 module**.
 4. ~~Tách `-uebungen.md` riêng hay để chung file?~~ → **✅ ĐÃ CHỐT 17/08/2026: tách riêng.** Xem §3.1b.
