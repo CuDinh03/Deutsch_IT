@@ -6,12 +6,15 @@
 > đầu đến cuối, các lệnh kiểm tra, và danh sách lỗi **đã sửa rồi — đừng tái tạo**.
 >
 > **Trạng thái 18/08/2026**: 156 module · ~319k từ ·
-> **1.756 bài tập tương tác** · 1.323 flashcards · 19 quiz · checklist **đủ 52 tuần**.
+> **1.756 bài tập tương tác** · 1.369 flashcards · 19 quiz · checklist **đủ 52 tuần**.
 > **Xong toàn bộ Đợt 0–9.** Mọi module trong kế hoạch đã viết xong. Việc còn lại: flashcards
-> 1.323 → ~2.050, làm theo từng đợt. **Pass 1 xong** (12 module IT deep dive → 145 thẻ),
-> **Pass 2 xong** (14 dialogue công sở → 150 thẻ), **Pass 3 xong** (Vokabel-Checkliste Phase 1–4
-> + 4 bucket nhỏ → 150 thẻ), **Pass 4 xong** (`alltag/` trọn bộ + Phase 5–6 + module thi
-> → 150 thẻ). Còn ~78 thuật ngữ đã đo được — xem AUTHORING §6.1.
+> **Flashcards: thu hoạch xong.** Pass 1–5 đã chuyển toàn bộ bảng từ vựng trong `content/` thành
+> thẻ: 1.248/1.280 dòng đã có thẻ, 32 dòng còn lại là bỏ qua có chủ đích (trùng lặp, 1 dòng bảng
+> chia cách, 1 dòng sai thuật ngữ) — xem AUTHORING §6.1.
+>
+> Mục tiêu ~2.050 trong kế hoạch này được ước lượng **trước khi** đếm bảng thật. Muốn vượt 1.369
+> phải **viết từ vựng mới**, không còn gì để thu hoạch — việc khác, cần quyết định riêng, đừng nhồi
+> thẻ cho đủ số.
 
 
 > Bản kế hoạch nội dung + phần kỹ thuật tối thiểu để nội dung đó thật sự chạy được trong app.

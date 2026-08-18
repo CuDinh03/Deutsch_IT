@@ -146,16 +146,16 @@ Included now:
   Retrospektive, Architektur-Diskussion, Deployment-Notfall, Gehaltsgespräch, Karrieregespräch,
   Kundentermin) + **7 interview banks** (Backend/Java, DevOps, Spring/Microservices, HR & Behavioral,
   System Design, Live-Coding, Gehalt & Vertrag).
-- **Full 52-week study plan** + **1,323 flashcards** + **19 quizzes (176 questions)** + a weekly
+- **Full 52-week study plan** + **1,369 flashcards** + **19 quizzes (176 questions)** + a weekly
   checklist covering **all 52 weeks**.
 - Two scored mock exams: a 100-point Phase-1 test and a telc-B2-shaped Phase-2 Modelltest,
   each with a **Fehler → Modul** table pointing at what to redo.
 
-**Every module the plan called for is now written.** The flashcard deck is being filled in passes:
-1,323 of a planned ~2,050, with the 12 IT deep dives, all 14 workplace dialogues, every Phase 1–6
-checklist and the whole everyday-German set fully converted. About 80 further terms already sit in
-the modules' vocabulary tables, waiting to be turned into cards with example sentences — see
-AUTHORING.md §6.1 for the breakdown by source and the command that regenerates it.
+**Every module the plan called for is now written, and the flashcard deck is complete.** All 1,369
+cards were written by hand from the modules' own vocabulary tables — the 12 IT deep dives, all 14
+workplace dialogues, every Phase 1–6 checklist, the whole everyday-German set, the exam modules and
+the four interview banks. Each card carries a real example sentence in context, a collocation and a
+tip about the gender rule, false friend or plural trap behind the word.
 Any not-yet-written module shows a friendly “being written” note in the app.
 
 > Numbers above are produced by `node build.js` — re-run it after editing content and it will

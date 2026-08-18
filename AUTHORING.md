@@ -5,7 +5,7 @@
 > history at §8), [CONTENT-STYLE-GUIDE.md](CONTENT-STYLE-GUIDE.md) is the *voice and vocabulary*,
 > and [README.md](README.md) is written for the learner, not for you.
 >
-> Last verified: **18.08.2026**, after Đợt 9 plus flashcard passes 1–4. Everything committed and pushed
+> Last verified: **18.08.2026**, after Đợt 9 plus flashcard passes 1–5. Everything committed and pushed
 > to `origin/main`.
 
 ---
@@ -19,7 +19,7 @@
 | Content modules | **156** |
 | Words | **~319,500** |
 | Interactive exercises | **1,756** |
-| Flashcards | **1,323** (target ~2,050 — §6.1) |
+| Flashcards | **1,369** — table harvest complete (§6.1) |
 | Quizzes / questions | **19 / 176** |
 | Checklist weeks | **all 52** ✅ |
 
@@ -27,8 +27,13 @@
 5 (Phase 3) · 6 (Phase 4 + `templates/`) · 7 (Phase 5 + 3 dialogues) · 8 (Phase 6 + `bewerbung/`) ·
 9 (Goethe C1 + 4 interview banks + final sweep).
 
-**Every module UPGRADE-PLAN called for is written.** The one open job is the flashcard deck, which
-is being filled in passes — see **§6.1**, the main recipe in this file.
+**Every module UPGRADE-PLAN called for is written, and the flashcard harvest is finished.** Passes
+1–5 turned the modules' own vocabulary tables into cards: of **1,280** measured table rows, **1,248**
+are carded and the 32 that remain are all deliberate skips, listed in §6.1.
+
+There is no longer a queue of work waiting. The deck sits at 1,369 against the plan's ~2,050, and
+closing that gap means **writing new vocabulary** rather than harvesting tables — a different job
+with a different quality bar. Read §6.1 before starting it.
 
 ### First five minutes in a new session
 
@@ -44,7 +49,7 @@ If the build is clean and the app loads, the repo is in a good state and you can
 
 | You want to … | Say |
 |---|---|
-| continue the main open work | `Read AUTHORING.md §6.1, then do the next flashcard pass (150 cards).` |
+| add cards beyond the harvest | `Read AUTHORING.md §6.1, then add a flashcard deck on <topic>.` |
 | add a module | `Read AUTHORING.md §6.2, then write <module> in content/<group>/.` |
 | fix something | `Read AUTHORING.md §5 and §9, then fix <problem>.` |
 
@@ -229,7 +234,7 @@ Order does not matter; the app shuffles. One card:
 The TTS button speaks `article + de + ex`, so a bad `ex` is also a bad listening experience.
 
 **Id ranges already used:** `fc0xx`, `fc1xx`/`fc9xx`, `fc10xx`–`fc70xx`, `fc80xx`, `fc81xx`,
-`fc90xx`–`fc91xx`, `fc92xx`–`fc93xx`, `fc94xx`–`fc95xx`, `fc96xx`–`fc97xx`. **Next free: `fc9801`+.**
+`fc90xx`–`fc91xx`, `fc92xx`–`fc93xx`, `fc94xx`–`fc95xx`, `fc96xx`–`fc97xx`, `fc98xx`. **Next free: `fc9901`+.**
 
 ### 4.2 Quizzes — `js/quizzes.js`
 
@@ -299,7 +304,7 @@ to confirm idempotency — the second run should leave the tree unchanged.
 node --check js/markdown.js && node --check js/app.js && node --check js/content-index.js
 ```
 
-Add whichever data file you touched — `node --check js/flashcards-16.js` and so on. This is what
+Add whichever data file you touched — `node --check js/flashcards-17.js` and so on. This is what
 catches the German-quote syntax trap from §3.
 
 **Every exercise carries an explanation, and how many shipped:**
@@ -311,7 +316,7 @@ node -e 'const MD=require("./js/markdown.js"),fs=require("fs");let t=0,bad=0;for
 **Flashcard and quiz integrity** — duplicate ids, duplicate German words, incomplete cards:
 
 ```bash
-node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13","flashcards-14","flashcards-15","flashcards-16","quizzes"].forEach(f=>require("./js/"+f+".js"));
+node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13","flashcards-14","flashcards-15","flashcards-16","flashcards-17","quizzes"].forEach(f=>require("./js/"+f+".js"));
 const ids=w.FLASHCARDS.map(c=>c.id), de=w.FLASHCARDS.map(c=>c.de);
 console.log("cards:",w.FLASHCARDS.length,"| dup ids:",ids.filter((v,i)=>ids.indexOf(v)!==i).length,"| dup words:",de.filter((v,i)=>de.indexOf(v)!==i).length);
 console.log("incomplete:",w.FLASHCARDS.filter(c=>!c.de||!c.en||!c.ex||!c.exEn||!c.topic||!c.level).length);
@@ -334,22 +339,32 @@ nothing is pre-filled on a fresh load, `hoertext` transcripts start hidden, and 
 
 ## 6. Recipes
 
-### 6.1 A flashcard pass — the main open work
+### 6.1 Flashcard passes — the harvest is done; read this before adding more
 
-The deck stands at **1,323** against a plan target of **~2,050**. The remaining ~78 terms are
-**already written**: they sit in the modules' own vocabulary tables with article, plural, English
-and often a Vietnamese gloss. Turning one into a card means adding an **example sentence**, a
-collocation and a tip.
+The deck stands at **1,369**. Passes 1–5 harvested every vocabulary table in `content/`: of 1,280
+measured rows, 1,248 are carded, and the 32 left are deliberate skips (listed at the end of this
+section). **The measured well is dry — the command in Step 1 will not hand you a bucket any more.**
 
-**Do 100–150 cards per pass, not one sitting.** The quality bar in §4.1 applies to every card. A
-mechanically generated deck without real examples would break the project's own standard and be
-worth less than a smaller hand-written one.
+That leaves a gap to the plan's ~2,050, and it cannot be closed by harvesting. It needs **new
+vocabulary, chosen rather than found**. That is a different job, and worth being explicit about:
+
+* **Do not pad.** 1,369 hand-written cards, each with a real example, beat 2,050 where the last
+  seven hundred are filler. The number in UPGRADE-PLAN was an estimate made before the tables were
+  counted; it is not a promise the deck owes anyone.
+* **If you do add cards, start from a gap, not a word list.** Something the learner hits and the
+  deck cannot answer — a `content/` module written later, a Prüfungsteil that turns out thin, a
+  recurring miss in the review queue. Then the deck grows for a reason you can name.
+* **The quality bar in §4.1 still applies to every card**, and every check in Step 3 still runs —
+  they compare against existing cards, so they work just as well for hand-picked vocabulary.
+
+**Do 100–150 cards per pass, not one sitting.** A mechanically generated deck without real examples
+would break the project's own standard and be worth less than a smaller hand-written one.
 
 #### Step 1 — measure and pick a bucket
 
 ```bash
 node -e 'const fs=require("fs");const w={};global.window=w;
-["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13","flashcards-14","flashcards-15","flashcards-16"].forEach(f=>require("./js/"+f+".js"));
+["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13","flashcards-14","flashcards-15","flashcards-16","flashcards-17"].forEach(f=>require("./js/"+f+".js"));
 const have=new Set(w.FLASHCARDS.map(c=>c.de.trim()));const rows=new Map();
 (function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=d+"/"+e.name;if(e.isDirectory())walk(p);else if(e.name.endsWith(".md")){
 for(const L of fs.readFileSync(p,"utf8").split("\n")){const m=L.match(/^\|\s*([^|]+?)\s*\|\s*(der|die|das|—)\s*\|\s*([^|]*?)\s*\|\s*([^|]+?)\s*\|\s*([^|]*?)\s*\|/);
@@ -364,19 +379,29 @@ console.log(miss.filter(([,v])=>v.src.startsWith("content/dialogues/")).map(([de
 Add each new deck file to the list at the top when you create it, and re-run to confirm the bucket
 actually closed.
 
-What the command above prints after pass 4 — **78 terms**, in suggested order of value for this
-learner:
+What the command prints now — **32 terms, all of them deliberate skips.** Every bucket is closed:
 
-| Source | Untapped | Suggested pass |
-|---|---:|---|
-| `interviews/` (27) + `exams/` receptive skills (17) | 44 | **pass 5** — the last real bucket |
-| `vocabulary/` | 6 | fold into pass 5 — pass 1 left these as low-value |
-| everything else | 28 | ✅ closed — these are the deliberate skips from passes 2–4 |
+| Pass | Bucket | Cards |
+|---|---|---:|
+| 1 | `vocabulary/` — the 12 IT deep dives | 145 |
+| 2 | `dialogues/` — 14 workplace dialogues | 150 |
+| 3 | phase Vokabel-Checklisten P1–P4 + `bewerbung/`, `templates/`, `foundations/`, `plans/` | 150 |
+| 4 | `alltag/` complete + P5–P6 + exam framing and production modules | 150 |
+| 5 | `interviews/` + `exams/` receptive + `vocabulary/` stragglers | 46 |
 
-Pass 5 is the **last** one that has a bucket to work from. It comes to roughly 50 cards, not 150.
-After it the measured well is dry at about **1,375** cards, and the plan's ~2,050 target can only be
-reached by *writing new vocabulary* rather than harvesting tables — a different job, worth its own
-decision. Say so rather than padding the deck to hit a number.
+The 32 that remain, and why — keep the list so nobody re-harvests them by mistake:
+
+* **30 near-duplicates.** Mostly slash pairs whose German half is already carded
+  (*Vorfall / Incident*, *Freigabe / Approve*, *Umfang / Scope*, *Retrospektive / Retro*,
+  *Zusage / Absage*, *Daily*, *Kompromiss*), bare forms an existing card teaches in collocation
+  (*aufteilen*, *umsetzen*, *einhalten*, *zuständig (für)*, *verzichten (auf)*), and reflexive or
+  prepositional variants of a carded verb (*sich einigen*, *sich abstimmen*, *koppeln (an)*).
+* **`Nom.` in `phase-2/grammar.md`** — a Deklinationstabelle row, not vocabulary. The regex matches
+  any five-column table; this is the one row in the whole repo where that bites.
+* **`Vererbung überschreiben` in `vocabulary/java.md`** — the row is glossed "to override (a
+  method)", but one overrides a *method*, not inheritance. `fc9030 überschreiben` already teaches it
+  correctly and `fc012 Vererbung` covers the noun. Left alone deliberately: unlike a typo, changing
+  it is a terminology decision for whoever owns the module.
 
 > The exact total moves with the matching regex — the one above requires a five-column table row
 > (DE · Artikel · Plural · EN · VI), which is the shape most modules use. A four-column variant
@@ -428,7 +453,7 @@ what a team actually says out loud.
 #    add <script defer src="js/flashcards-N.js"></script> to index.html after the previous deck
 node --check js/flashcards-N.js
 # 2. duplicates involving ONLY the new deck (adjust the fcNN prefix)
-node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13","flashcards-14","flashcards-15","flashcards-16"].forEach(f=>require("./js/"+f+".js"));
+node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13","flashcards-14","flashcards-15","flashcards-16","flashcards-17"].forEach(f=>require("./js/"+f+".js"));
 const byDe={};w.FLASHCARDS.forEach(c=>{(byDe[c.de]=byDe[c.de]||[]).push(c.id)});
 const nd=Object.entries(byDe).filter(([d,i])=>i.length>1&&i.some(x=>/^fc9[23][0-9][0-9]$/.test(x)));
 console.log("cards:",w.FLASHCARDS.length,"| new-deck dups:",nd.length?JSON.stringify(nd):"none");'
