@@ -150,6 +150,9 @@ Zur Verbesserung der Ausfallsicherheit wird jeder Dienst in mehreren Replikaten 
 
 > **Lösungen:** 1) *Nach dem **Neustart** des Service …* · 2) *Die Migration **wird** vor dem Release **getestet**.* · 3) *der gerade **laufende** Prozess* (Partizip I). · 4) **indem** (it answers *how?*; *sodass* would express the result). Full drills: [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 3 · Grammar · Übungsteil](#/phase-3/grammar-uebungen) — 58 Aufgaben
+> zu Nominalstil, Passiv, Funktionsverbgefügen, Partizipialattributen und den präzisen Konnektoren.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Rewrite **5 spoken sentences** about your project into **Nominalstil**.

@@ -98,6 +98,27 @@ for (const key of Object.keys(map)) {
   chunks.get(chunk)[key] = map[key];
 }
 
+/* ---------- fence lint ----------
+   The renderer closes a fence on a line of exactly three backticks, so a code
+   fence nested inside ```spoiler silently closes it early and leaks the answers.
+   Cheap to make, invisible in a diff, so it gets checked here. */
+const fenceProblems = [];
+for (const [key, md] of Object.entries(map)) {
+  const lines = md.split('\n');
+  let open = null, openLine = 0;
+  lines.forEach((l, i) => {
+    if (!/^```/.test(l)) return;
+    const lang = (l.match(/^```(\w*)/) || [])[1] || '';
+    if (open === null) { open = lang; openLine = i + 1; }
+    else if (l.trim() === '```') { open = null; }
+    else {
+      // a labelled fence opened while another is still open
+      fenceProblems.push({ file: key, line: i + 1, inner: lang, outer: open || '(plain)', openLine });
+    }
+  });
+  if (open !== null) fenceProblems.push({ file: key, line: openLine, inner: '(never closed)', outer: open || '(plain)', openLine });
+}
+
 /* ---------- link check ---------- */
 const LINK_RE = /\]\(#\/([^)\s]+)\)/g;
 const deadLinks = [];
@@ -202,6 +223,10 @@ if (missingContent.length) {
   console.warn('\n! ' + missingContent.length + ' sidebar entr(ies) have no Markdown file — they render an empty state:');
   missingContent.forEach(o => console.warn('   · ' + o));
 }
+if (fenceProblems.length) {
+  console.error('\n✗ ' + fenceProblems.length + ' nested/unclosed fence(s) — a spoiler or uebung block will break:');
+  fenceProblems.forEach(f => console.error('   · content/' + f.file + '.md:' + f.line + '  ```' + f.inner + ' inside ```' + f.outer + ' (opened line ' + f.openLine + ')'));
+}
 if (deadLinks.length) {
   console.error('\n✗ ' + deadLinks.length + ' dead internal link(s):');
   deadLinks.forEach(d => console.error('   · content/' + d.from + '.md  →  #/' + d.to));
@@ -209,7 +234,7 @@ if (deadLinks.length) {
   console.log('\n✓ No dead internal links.');
 }
 
-if (STRICT && (deadLinks.length || missingContent.length || topicProblems.length)) {
+if (STRICT && (deadLinks.length || missingContent.length || topicProblems.length || fenceProblems.length)) {
   console.error('\n--strict: failing build.');
   process.exit(1);
 }

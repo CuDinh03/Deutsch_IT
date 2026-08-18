@@ -126,6 +126,9 @@ Schauen wir uns den Bestellservice genauer an. Ich zeichne ihn hier in die Mitte
 
 > **Lösungen:** 1) e.g. *"Die Anfrage **wird an** den Dienst **weitergeleitet**."* · 2) e.g. *"Hm, **wäre es nicht besser**, es anders zu machen?"* (Konjunktiv II). · 3) **zuerst → dann/anschließend → schließlich**, marking results with *dadurch*. More: [Quizzes](#/@quiz).
 
+> 🎙 **Jetzt sprechen.** [Phase 3 · Speaking · Übungsteil](#/phase-3/speaking-uebungen) drillt
+> Architekturbeschreibung mit Sequenzmarkern und das Laut-Denken, damit du nie verstummst.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Record a **2-minute architecture walkthrough** of your project; check structure connectors.

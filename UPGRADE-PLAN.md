@@ -301,7 +301,7 @@ trong `content-index.js` + flashcards/quiz của chính đợt đó + `node buil
 | **2** ✅ | 10 bài **Alltag** | ~20k | ✅ **XONG 18/08/2026** — 10 module `content/alltag/`, group mới trên sidebar, +55 flashcards, +1 quiz (15 câu) |
 | **3** ✅ | Workbook Phase 2 + 3 dialogues công sở (Onboarding, Krankmeldung, Pair programming) | ~24k | ✅ **XONG 18/08/2026** — 6 file `-uebungen.md`, assessment → Modelltest 100 điểm, 3 dialogues mới, +45 flashcards, +2 quiz (20 câu) |
 | **4** ✅ | **telc B2** (4 module) + `exams/overview` + `exams/pruefungs-redemittel` | ~15k | ✅ **XONG 18/08/2026** — 6 module, **103 bài tập tương tác có chấm điểm**, +engine ```uebung |
-| **5** | Workbook Phase 3 (9 file) + 3 dialogues (Retro, Architektur, Deployment ngoài giờ) | ~24k | chặng IT-German |
+| **5** ✅ | Workbook Phase 3 + 3 dialogues (Retro, Architektur, Deployment ngoài giờ) | ~24k | ✅ **XONG 18/08/2026** — 6 workbook (**236 bài tương tác**), 3 dialogues, +45 flashcards, +2 quiz (20 câu), checklist tuần 21–28 |
 | **6** | Workbook Phase 4 (9 file) + `templates/` (4 module) | ~25k | chặng Pro-Comms |
 | **7** | Workbook Phase 5 (9 file) + 3 dialogues (Gehalt, Career talk, Kunde/PO) | ~24k | chặng phỏng vấn |
 | **8** | Workbook Phase 6 (9 file) + `bewerbung/` (5 module) | ~28k | chặng xin việc |

@@ -202,6 +202,9 @@ Diese Entscheidung wurde getroffen, um die Latenz zu senken und die Datenbank zu
 
 > **Lösungen:** 1) **Imperative** (*einführen, beheben*) — the body may use Passiv. · 2) **Kontext / Entscheidung / Konsequenzen** (plus Status). · 3) **Short imperative** — READMEs are read while doing. More: [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt schreiben.** [Phase 3 · Writing · Übungsteil](#/phase-3/writing-uebungen) übt die vier
+> Textsorten: Commit, Ticket, README und ADR — jede in ihrem eigenen Register.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Rewrite **5 of your real commit messages** into German (imperative subject + why-body).

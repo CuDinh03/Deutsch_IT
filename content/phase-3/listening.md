@@ -109,6 +109,9 @@ Also im Prinzip funktioniert das so: Der Service bekommt die Anfrage, verarbeite
 
 > **Lösungen:** 1) **Engineering Kiosk**. · 2) They are **anchors** you already understand — you attach the surrounding German to them. · 3) *beziehungsweise* = **"or rather / respectively"**, refining or offering an alternative. More: [Quizzes](#/@quiz).
 
+> 🎧 **Jetzt hören.** [Phase 3 · Listening · Übungsteil](#/phase-3/listening-uebungen) hat zwei
+> Hörtexte im echten Dev-Tempo plus ein Training für Diskursmarker (*quasi, genau, im Prinzip*).
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Listen **extensively** 20 min/day for a week (Engineering Kiosk or programmier.bar).

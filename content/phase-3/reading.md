@@ -112,6 +112,9 @@ Die zur Reduzierung der Latenz eingeführte Zwischenspeicherung entlastet die Da
 
 > **Lösungen:** 1) Head = **Konzept** → **das** Ausfallsicherheitskonzept. · 2) A **Fugenelement** (joining letter); it carries **no meaning** — ignore it. · 3) The **finite verb** (the spine: who does what). More: [Quizzes](#/@quiz).
 
+> 📖 **Jetzt lesen.** [Phase 3 · Reading · Übungsteil](#/phase-3/reading-uebungen) enthält einen
+> Doku-Auszug und eine Störungsmeldung — mit Komposita-Zerlegung und der Drei-Pass-Methode.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Read **one German tech article/day** for a week (start with t3n or Golem).

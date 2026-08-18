@@ -11,7 +11,7 @@ window.CONTENT_INDEX = {
   meta: {
     title: "German for Software Engineers",
     subtitle: "B1 → B2 / C1 · 12-Month Roadmap",
-    version: "0.6",
+    version: "0.7",
     updated: "2026-08-18"
   },
   // Drives the sidebar filter chips. Every item.topic MUST appear here or the
@@ -79,11 +79,17 @@ window.CONTENT_INDEX = {
       items: [
         { id: "phase-3/overview",    title: "Objectives & Overview",        level: "B2", topic: "Roadmap",    type: "lesson" },
         { id: "phase-3/grammar",     title: "Grammar (Technical Register)", level: "B2", topic: "Grammar",    type: "lesson" },
+        { id: "phase-3/grammar-uebungen",    title: "↳ Grammar · Übungsteil",    level: "B2", topic: "Übungen", type: "lesson" },
         { id: "phase-3/vocabulary",  title: "IT Vocabulary Systems",        level: "B2", topic: "IT",         type: "lesson" },
+        { id: "phase-3/vocabulary-uebungen", title: "↳ Vocabulary · Übungsteil", level: "B2", topic: "Übungen", type: "lesson" },
         { id: "phase-3/speaking",    title: "Speaking Practice",            level: "B2", topic: "Speaking",   type: "lesson" },
+        { id: "phase-3/speaking-uebungen",   title: "↳ Speaking · Übungsteil",   level: "B2", topic: "Übungen", type: "lesson" },
         { id: "phase-3/listening",   title: "Listening Resources",          level: "B2", topic: "Listening",  type: "lesson" },
+        { id: "phase-3/listening-uebungen",  title: "↳ Listening · Übungsteil",  level: "B2", topic: "Übungen", type: "lesson" },
         { id: "phase-3/reading",     title: "Reading Technical Docs",       level: "B2", topic: "Reading",    type: "lesson" },
+        { id: "phase-3/reading-uebungen",    title: "↳ Reading · Übungsteil",    level: "B2", topic: "Übungen", type: "lesson" },
         { id: "phase-3/writing",     title: "Technical Writing",            level: "B2", topic: "Writing",    type: "lesson" },
+        { id: "phase-3/writing-uebungen",    title: "↳ Writing · Übungsteil",    level: "B2", topic: "Übungen", type: "lesson" },
         { id: "phase-3/plan",        title: "Weekly Milestones & Daily Plan", level: "B2", topic: "Roadmap",  type: "lesson" },
         { id: "phase-3/assessment",  title: "Monthly Assessment",           level: "B2", topic: "Roadmap",    type: "lesson" }
       ]
@@ -180,6 +186,9 @@ window.CONTENT_INDEX = {
         { id: "dialogues/standup",          title: "Dialogue — Daily Standup",              level: "B2", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/krankmeldung",     title: "Dialogue — Krankmeldung & Urlaub",      level: "B1", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/pair-programming", title: "Dialogue — Pair Programming",           level: "B2", topic: "Speaking",  type: "lesson" },
+        { id: "dialogues/retrospektive",     title: "Dialogue — Retrospektive",              level: "B2", topic: "Speaking",  type: "lesson" },
+        { id: "dialogues/architektur-diskussion", title: "Dialogue — Architektur-Diskussion", level: "B2", topic: "Speaking",  type: "lesson" },
+        { id: "dialogues/deployment-notfall", title: "Dialogue — Deployment-Notfall",         level: "B2", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/team-lead",        title: "Dialogue — Developer ↔ Team Lead",      level: "B2", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/code-review",      title: "Dialogue — Code Review",                level: "B2", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/sprint-planning",  title: "Dialogue — Sprint Planning",            level: "B2", topic: "Speaking",  type: "lesson" },

@@ -1,7 +1,7 @@
 /*!
  * checklist.js — weekly study checklist data (persists via localStorage).
- * Covers Weeks 1–20 (Phase 1 + Phase 2), i.e. every week that has content
- * written for it. Weeks 21+ arrive with the Phase 3–6 workbooks.
+ * Covers Weeks 1–28 (Phase 1–3), i.e. every week that has content
+ * written for it. Weeks 29+ arrive with the Phase 4–6 workbooks.
  *
  * Each entry: { id, title, items:[strings] }. The id is what progress is
  * stored under — never reuse or renumber one, or ticks land on the wrong row.
@@ -219,6 +219,87 @@ window.CHECKLIST = [
       "Gate: ≥ 65 und kein Teil unter 50 % → Phase 3",
       "Bei ≥ 80: echte telc-Prüfung ablegen",
       "Ausweis, Anmeldebestätigung und Stifte für den Prüfungstag bereitlegen"
+    ]
+  },
+  {
+    id: "w21", title: "Woche 21 · Nominalstil & Passiv (Phase 3 startet)",
+    items: [
+      "[Phase 3 · Grammar](#/phase-3/grammar) §1–2 lesen",
+      "[Grammar · Übungsteil](#/phase-3/grammar-uebungen) Block A + B1–B12, Ziel ≥ 80 %",
+      "Den eigenen Deployment-Prozess in 4 Passivsätzen beschreiben",
+      "Dieselben Sätze mit *man* — welche Version gehört in die README?",
+      "10 Karten aus dem Phase-3-Deck in [Flashcards](#/@flashcards)"
+    ]
+  },
+  {
+    id: "w22", title: "Woche 22 · Funktionsverbgefüge & Konnektoren",
+    items: [
+      "Grammar §3 + §5: FVG und sodass/indem/wohingegen/sofern",
+      "Übungsteil B13–B18 (FVG) und B27–B31 (Konnektoren)",
+      "10 Funktionsverbgefüge in [Flashcards](#/@flashcards) anlegen",
+      "Je einen Satz mit *sodass*, *indem*, *wohingegen* über dein System",
+      "[Dialogue · Architektur-Diskussion](#/dialogues/architektur-diskussion) lesen"
+    ]
+  },
+  {
+    id: "w23", title: "Woche 23 · Partizipialattribute & Lesen",
+    items: [
+      "Grammar §4: Partizip I / II / zu + Partizip I",
+      "Übungsteil B19–B26 (Attribute auflösen und bilden)",
+      "[Reading · Übungsteil](#/phase-3/reading-uebungen) Text 1 komplett",
+      "Drei Partizipialattribute in echter Doku markieren",
+      "Einen langen Satz nach der Drei-Pass-Methode zerlegen"
+    ]
+  },
+  {
+    id: "w24", title: "Woche 24 · IT-Wortschatz & Komposita",
+    items: [
+      "[Vocabulary · Übungsteil](#/phase-3/vocabulary-uebungen) Block A + B, Ziel ≥ 80 %",
+      "Genus-Regeln: -er → der · -ing/-ment → das · -ung/-keit/-enz → die",
+      "10 Fachwörter aus der eigenen Codebasis mit Artikel + Plural anlegen",
+      "5 lange Komposita aus echter Doku zerlegen",
+      "[Reading · Übungsteil](#/phase-3/reading-uebungen) Text 2 (Störungsmeldung)"
+    ]
+  },
+  {
+    id: "w25", title: "Woche 25 · Technisches Schreiben",
+    items: [
+      "[Writing · Übungsteil](#/phase-3/writing-uebungen) Block A + B, Ziel ≥ 80 %",
+      "Fünf echte Commits auf Deutsch schreiben (Subject Infinitiv, Body Passiv)",
+      "Ein vollständiges Ticket auf Deutsch: Schritte, Erwartet/Tatsächlich, Akzeptanzkriterien",
+      "Die Installations-Sektion der eigenen README ins Deutsche übertragen",
+      "Prüfen: sind alle Akzeptanzkriterien binär abhakbar?"
+    ]
+  },
+  {
+    id: "w26", title: "Woche 26 · ADR & Architektur erklären",
+    items: [
+      "Einen echten ADR auf Deutsch schreiben: Kontext, Entscheidung, Konsequenzen",
+      "[Speaking · Übungsteil](#/phase-3/speaking-uebungen) Block A + B",
+      "🎙 Die eigene Architektur in 90 Sekunden aufnehmen (Überblick → Sequenz → Grund → Ergebnis)",
+      "Aufnahme anhören: fehlen Sequenzmarker oder das Ergebnis?",
+      "Einen Trade-off mit *einerseits … andererseits* argumentieren"
+    ]
+  },
+  {
+    id: "w27", title: "Woche 27 · Dev-Tempo hören & Notfall-Deutsch",
+    items: [
+      "[Listening · Übungsteil](#/phase-3/listening-uebungen) beide Hörtexte, erst einmaliges Hören",
+      "Diktat C1 Wort für Wort prüfen",
+      "Eine Folge *Engineering Kiosk* hören — Thema + eine Meinung notieren",
+      "[Dialogue · Deployment-Notfall](#/dialogues/deployment-notfall) — die vier Notfall-Sätze üben",
+      "Zahlen laut: zehn Uhrzeiten und zehn Statuscodes"
+    ]
+  },
+  {
+    id: "w28", title: "Woche 28 · Retro-Deutsch & Phase-3-Abschluss",
+    items: [
+      "[Dialogue · Retrospektive](#/dialogues/retrospektive) — fünf Kritikpunkte unpersönlich formulieren",
+      "In der echten Retro einen Punkt auf Deutsch einbringen",
+      "Alle sechs Phase-3-Übungsteile auf ≥ 80 % bringen",
+      "[Phase 3 · Assessment](#/phase-3/assessment) durchführen",
+      "Fehlerjournal durchgehen: was ist aus Phase 1 und 2 noch offen?",
+      "Gate-Entscheidung: weiter zu [Phase 4](#/phase-4/overview)?"
     ]
   },
   {

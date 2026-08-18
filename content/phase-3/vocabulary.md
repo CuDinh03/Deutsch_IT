@@ -186,6 +186,9 @@ In unserem System nimmt das API-Gateway die Anfrage entgegen, prüft die Berecht
 
 > **Lösungen:** 1) **die** Schnittstelle, **die** Schnittstellen · **der** Container, **die** Container. · 2) **das** Deployment (-ment/-ing → das), **der** Server (-er → der), **die** Bereitstellung (-ung → die). · 3) Zugriff + Berechtigung → head *Berechtigung* → **die** Zugriffsberechtigung. More: [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 3 · Vocabulary · Übungsteil](#/phase-3/vocabulary-uebungen) — Genus von
+> IT-Lehnwörtern, Komposita zerlegen und die Kollokationen, die man nicht wörtlich übersetzen darf.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Learn **one system table per day**; add each to [Flashcards](#/@flashcards) with article + plural.
