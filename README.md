@@ -113,9 +113,9 @@ to **Word/PDF** with your tool of choice.
 
 ---
 
-## 🗺️ Build status — v1.0
+## 🗺️ Build status — v1.1
 
-**149 content modules · ~301k words · 1,670 interactive exercises.**
+**156 content modules · ~319k words · 1,756 interactive exercises.**
 
 Included now:
 
@@ -129,8 +129,9 @@ Included now:
 - **10 Alltag modules** — everyday survival German: bakery, lunch small talk, Modalpartikeln,
   after-work drinks, flat viewing, Anmeldung & Ausländerbehörde, the doctor, Pfand,
   train delays, bank & phone contracts.
-- **6 exam modules** — telc B2 overview, Lesen & Sprachbausteine, Hören, Schreiben, Sprechen,
-  and a 120+ phrase Prüfungs-Redemittel bank, all with interactive drills.
+- **9 exam modules** — telc B2 (overview, Lesen & Sprachbausteine, Hören, Schreiben, Sprechen),
+  **Goethe C1** (Lesen & Hören, Schreiben, Sprechen) and a 120+ phrase Prüfungs-Redemittel bank,
+  all with interactive drills.
 - **5 Bewerbung modules** — the complete German application kit: the hiring process end to end,
   the tabular Lebenslauf with a full worked example, two Anschreiben models, LinkedIn/Xing profiles
   and recruiter replies, and every email between application and contract.
@@ -143,14 +144,17 @@ Included now:
 - **Reference library**: 14 workplace dialogues (Onboarding, Standup, Team-Lead 1:1, Code
   Review, Sprint Planning, Production Incident, Krankmeldung & Urlaub, Pair Programming,
   Retrospektive, Architektur-Diskussion, Deployment-Notfall, Gehaltsgespräch, Karrieregespräch,
-  Kundentermin) + 3 interview banks (Backend/Java, DevOps, Spring/Microservices).
-- **Full 52-week study plan** + **615 flashcards** + **17 quizzes (156 questions)** + a weekly
+  Kundentermin) + **7 interview banks** (Backend/Java, DevOps, Spring/Microservices, HR & Behavioral,
+  System Design, Live-Coding, Gehalt & Vertrag).
+- **Full 52-week study plan** + **728 flashcards** + **19 quizzes (176 questions)** + a weekly
   checklist covering **all 52 weeks**.
 - Two scored mock exams: a 100-point Phase-1 test and a telc-B2-shaped Phase-2 Modelltest,
   each with a **Fehler → Modul** table pointing at what to redo.
 
-Still growing (type **“Continue”** in chat): Goethe C1 exam prep, four more interview banks, and
-the flashcard deck toward 2000+ cards.
+**Every module the plan called for is now written.** The one target still open is the flashcard
+deck: 728 of a planned ~2,050. About 700 further terms already sit in the modules' vocabulary
+tables, waiting to be turned into cards with example sentences — see AUTHORING.md §8 for the
+measured breakdown and the command that regenerates it.
 Any not-yet-written module shows a friendly “being written” note in the app.
 
 > Numbers above are produced by `node build.js` — re-run it after editing content and it will

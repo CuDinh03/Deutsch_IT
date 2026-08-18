@@ -11,7 +11,7 @@ window.CONTENT_INDEX = {
   meta: {
     title: "German for Software Engineers",
     subtitle: "B1 → B2 / C1 · 12-Month Roadmap",
-    version: "1.0",
+    version: "1.1",
     updated: "2026-08-18"
   },
   // Drives the sidebar filter chips. Every item.topic MUST appear here or the
@@ -194,6 +194,9 @@ window.CONTENT_INDEX = {
         { id: "exams/telc-b2-hoeren",                  title: "telc B2 · Hörverstehen",             level: "B2", topic: "Exam", type: "lesson" },
         { id: "exams/telc-b2-schreiben",               title: "telc B2 · Schriftlicher Ausdruck",   level: "B2", topic: "Exam", type: "lesson" },
         { id: "exams/telc-b2-sprechen",                title: "telc B2 · Mündlicher Ausdruck",      level: "B2", topic: "Exam", type: "lesson" },
+        { id: "exams/goethe-c1-lesen-hoeren",       title: "Goethe C1 · Lesen & Hören",          level: "C1", topic: "Exam", type: "lesson" },
+        { id: "exams/goethe-c1-schreiben",          title: "Goethe C1 · Schreiben",              level: "C1", topic: "Exam", type: "lesson" },
+        { id: "exams/goethe-c1-sprechen",           title: "Goethe C1 · Sprechen",               level: "C1", topic: "Exam", type: "lesson" },
         { id: "exams/pruefungs-redemittel",            title: "Prüfungs-Redemittel · Baukasten",    level: "B2", topic: "Exam", type: "lesson" }
       ]
     },
@@ -235,7 +238,11 @@ window.CONTENT_INDEX = {
         { id: "dialogues/incident",         title: "Dialogue — Production Incident",        level: "C1", topic: "Speaking",  type: "lesson" },
         { id: "interviews/backend",         title: "Interview Q&A — Backend / Java",        level: "C1", topic: "Interview", type: "lesson" },
         { id: "interviews/devops",          title: "Interview Q&A — DevOps Engineer",       level: "C1", topic: "Interview", type: "lesson" },
-        { id: "interviews/spring-microservices", title: "Interview Q&A — Spring & Microservices", level: "C1", topic: "Interview", type: "lesson" }
+        { id: "interviews/spring-microservices", title: "Interview Q&A — Spring & Microservices", level: "C1", topic: "Interview", type: "lesson" },
+        { id: "interviews/hr-behavioral",    title: "Interview Q&A — HR & Behavioral",       level: "C1", topic: "Interview", type: "lesson" },
+        { id: "interviews/system-design",    title: "Interview Q&A — System Design",         level: "C1", topic: "Interview", type: "lesson" },
+        { id: "interviews/live-coding",      title: "Interview Q&A — Live-Coding",           level: "C1", topic: "Interview", type: "lesson" },
+        { id: "interviews/gehalt-vertrag",   title: "Interview Q&A — Gehalt & Vertrag",      level: "C1", topic: "Interview", type: "lesson" }
       ]
     },
     {

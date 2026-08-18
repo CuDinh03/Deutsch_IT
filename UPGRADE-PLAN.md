@@ -5,9 +5,10 @@
 > Ở đó có: cú pháp 3 fence tuỳ biến (`uebung` / `spoiler` / `hoertext`), quy trình một đợt từ
 > đầu đến cuối, các lệnh kiểm tra, và danh sách lỗi **đã sửa rồi — đừng tái tạo**.
 >
-> **Trạng thái 18/08/2026**: 149 module · ~301k từ ·
-> **1.670 bài tập tương tác** · 615 flashcards · 17 quiz · checklist **đủ 52 tuần**.
-> Xong Đợt 0–8. **Đợt cuối: 9** (Goethe C1 + 4 interview bank + rà soát) — xem §8.
+> **Trạng thái 18/08/2026**: 156 module · ~319k từ ·
+> **1.756 bài tập tương tác** · 728 flashcards · 19 quiz · checklist **đủ 52 tuần**.
+> **Xong toàn bộ Đợt 0–9.** Mọi module trong kế hoạch đã viết xong. Việc còn lại duy nhất:
+> flashcards 728 → ~2.050 (xem §5.1 và AUTHORING §8).
 
 
 > Bản kế hoạch nội dung + phần kỹ thuật tối thiểu để nội dung đó thật sự chạy được trong app.
@@ -315,7 +316,7 @@ trong `content-index.js` + flashcards/quiz của chính đợt đó + `node buil
 | **6** ✅ | Workbook Phase 4 (9 file) + `templates/` (4 module) | ~25k | ✅ **XONG 18/08/2026** — 6 workbook (**191 bài tương tác**), 4 module `content/templates/` (**50 bài**), group mới trên sidebar, +62 flashcards, +2 quiz (20 câu), checklist tuần 29–36 |
 | **7** ✅ | Workbook Phase 5 (9 file) + 3 dialogues (Gehalt, Career talk, Kunde/PO) | ~24k | ✅ **XONG 18/08/2026** — 6 workbook (**203 bài tương tác**), 3 dialogues (**26 bài**, lần đầu dialogue có drill chấm điểm), +62 flashcards, +2 quiz (20 câu), checklist tuần 37–44 |
 | **8** ✅ | Workbook Phase 6 (9 file) + `bewerbung/` (5 module) | ~28k | ✅ **XONG 18/08/2026** — 6 workbook (**197 bài tương tác**), 5 module `content/bewerbung/` (**68 bài**), group mới trên sidebar, +60 flashcards, +2 quiz (20 câu), checklist tuần 45–52 → **đủ 52 tuần** |
-| **9** | Goethe C1 (3 module) + 4 interview bank mới + bù flashcards lên ~2.050 + cập nhật `52-week-plan` & `checklist.js` + rà soát link toàn bộ | ~22k | đóng gói & kiểm thử cuối |
+| **9** ✅ | Goethe C1 (3 module) + 4 interview bank mới + bù flashcards + cập nhật `52-week-plan` + rà soát link toàn bộ | ~22k | ✅ **XONG 18/08/2026** — 3 module Goethe C1 (**43 bài**), 4 interview bank (**43 bài**), +113 flashcards (615 → **728**), +2 quiz (20 câu), 52-week-plan cập nhật, không có link chết. **Flashcards chưa đạt 2.050** — còn ~700 thuật ngữ đã đo được, xem §5.1 |
 
 **Đợt nào ≈ >25k từ thì tách 2 phiên** ("Continue đợt N, phần 2") — thà chia nhỏ còn hơn viết vội
 rồi phải sửa lại cả loạt file.

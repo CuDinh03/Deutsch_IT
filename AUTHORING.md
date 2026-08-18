@@ -3,7 +3,8 @@
 > Read this **before** writing any content. It is the how-to; [UPGRADE-PLAN.md](UPGRADE-PLAN.md)
 > is the what-and-when (batch table with ✅ markers at §8).
 >
-> Last verified: **18.08.2026**, after Đợt 8, everything committed and pushed to `origin/main`.
+> Last verified: **18.08.2026**, after Đợt 9 — the final content batch. Everything committed and
+> pushed to `origin/main`.
 
 ---
 
@@ -11,19 +12,19 @@
 
 | | Value |
 |---|---:|
-| Content modules | **149** |
-| Words | **~301,200** |
-| Interactive exercises | **1,670** |
-| Flashcards | **615** (target 2,050) |
-| Quizzes / questions | **17 / 156** |
+| Content modules | **156** |
+| Words | **~319,500** |
+| Interactive exercises | **1,756** |
+| Flashcards | **728** (target 2,050 — see §8) |
+| Quizzes / questions | **19 / 176** |
 | Checklist weeks | **all 52** ✅ |
 
-**Done:** Đợt 0 (engine) · 1 (Phase 1) · 2 (Alltag) · 3 (Phase 2) · 4 (telc B2) · 5 (Phase 3) ·
-6 (Phase 4 + `templates/`) · 7 (Phase 5 + 3 dialogues) · 8 (Phase 6 + `bewerbung/`).
-**Next:** Đợt 9 — the last one: Goethe C1 (3 modules) + 4 interview banks + final sweep. See UPGRADE-PLAN §8.
+**Done: all ten batches.** Đợt 0 (engine) · 1 (Phase 1) · 2 (Alltag) · 3 (Phase 2) · 4 (telc B2) ·
+5 (Phase 3) · 6 (Phase 4 + `templates/`) · 7 (Phase 5 + 3 dialogues) · 8 (Phase 6 + `bewerbung/`) ·
+9 (Goethe C1 + 4 interview banks + final sweep).
 
-**Workbooks are complete for all six phases.** Remaining gaps are the flashcard deck (615 → ~2,050)
-and the Đợt 9 content.
+**Every module UPGRADE-PLAN called for is written.** One target is still open — the flashcard deck.
+See §8.
 
 ---
 
@@ -110,8 +111,8 @@ Every batch ships complete. Do not defer data to a later batch.
    Use `type: "lesson"` — prev/next navigation and progress counting filter on it.
    Any new `topic` must also be added to the `topics` array or its filter chip never renders.
 5. **Flashcards** — new file `js/flashcards-N.js`, merged with
-   `window.FLASHCARDS = (window.FLASHCARDS || []).concat([...])`. **Next free id range: `fc8001`+**
-   (used so far: fc0xx, fc1xx/9xx, fc10xx, fc20xx, fc30xx, fc40xx, fc50xx, fc60xx, fc70xx). Every noun needs article
+   `window.FLASHCARDS = (window.FLASHCARDS || []).concat([...])`. **Next free id range: `fc9001`+**
+   (used so far: fc0xx, fc1xx/9xx, fc10xx–fc70xx, fc80xx, fc81xx). Every noun needs article
    **and** plural **and** an example sentence with translation. Add the `<script>` tag to
    `index.html` (unversioned — `build.js` stamps the hash). Check for a duplicate `de` value before
    adding a card; a handful of pre-Đợt-5 duplicates already exist and are worth cleaning up one day.
@@ -149,7 +150,7 @@ node -e 'const MD=require("./js/markdown.js"),fs=require("fs");let t=0,bad=0;for
 Check flashcard/quiz integrity:
 
 ```bash
-node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","quizzes"].forEach(f=>require("./js/"+f+".js"));const ids=w.FLASHCARDS.map(c=>c.id);console.log("cards:",w.FLASHCARDS.length,"dup:",ids.filter((v,i)=>ids.indexOf(v)!==i).length);const q=w.QUIZZES.map(x=>x.id);console.log("quizzes:",w.QUIZZES.length,"dup:",q.filter((v,i)=>q.indexOf(v)!==i).length)'
+node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","quizzes"].forEach(f=>require("./js/"+f+".js"));const ids=w.FLASHCARDS.map(c=>c.id);console.log("cards:",w.FLASHCARDS.length,"dup:",ids.filter((v,i)=>ids.indexOf(v)!==i).length);const q=w.QUIZZES.map(x=>x.id);console.log("quizzes:",w.QUIZZES.length,"dup:",q.filter((v,i)=>q.indexOf(v)!==i).length)'
 ```
 
 Renderer regression tests live in the session scratchpad, not the repo. If they are gone, the
@@ -225,12 +226,44 @@ Mini-Quiz stays where readers expect it — it is explicitly sanctioned for 3–
 
 ## 8. What is left
 
-| Batch | Work | ≈ words |
-|---|---|---:|
-| **9** | Goethe C1 (3 modules) + 4 interview banks + final sweep | ~22k |
+**All nine content batches are done.** What is left is one measurable job.
 
-Plus, as its own pass: **flashcards 615 → ~2,050** — now the largest remaining gap against the
-plan by a wide margin. The checklist is complete (all 52 weeks).
+### The flashcard gap
+
+The deck stands at **728** against a plan target of **~2,050**. The good news is that the remaining
+work is already scoped: roughly **700 terms sit in the modules' own vocabulary tables** with article,
+plural, English and VI gloss already written — they just need an example sentence, a collocation and
+a tip to become cards.
+
+Re-measure at any time:
+
+```bash
+node -e 'const fs=require("fs");const w={};global.window=w;
+["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12"].forEach(f=>require("./js/"+f+".js"));
+const have=new Set(w.FLASHCARDS.map(c=>c.de.trim()));const rows=new Map();
+(function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=d+"/"+e.name;if(e.isDirectory())walk(p);else if(e.name.endsWith(".md")){
+for(const L of fs.readFileSync(p,"utf8").split("\n")){const m=L.match(/^\|\s*([^|]+?)\s*\|\s*(der|die|das|—)\s*\|\s*([^|]*?)\s*\|\s*([^|]+?)\s*\|/);
+if(!m)continue;const de=m[1].replace(/\*\*/g,"").trim();if(!de||de==="Deutsch"||de.length>60)continue;if(!rows.has(de))rows.set(de,{a:m[2],pl:m[3],en:m[4],src:p});}}}})("content");
+const miss=[...rows.entries()].filter(([de])=>!have.has(de));
+const by={};miss.forEach(([,v])=>{const d=v.src.split("/")[1];by[d]=(by[d]||0)+1});
+console.log("untapped:",miss.length,JSON.stringify(by,null,1));
+console.log(miss.slice(0,40).map(([de,v])=>`${v.a} ${de} | ${v.pl} | ${v.en} | ${v.src}`).join("\n"));'
+```
+
+Measured after Đợt 9 — **708 terms**, concentrated where the plan predicted:
+
+| Source | Untapped |
+|---|---:|
+| `dialogues/` (Redemittel & vocab tables) | 163 |
+| `vocabulary/` (12 IT deep dives) | 147 |
+| `alltag/` | 95 |
+| phase Vokabel-Checklisten (P1–P6) | 213 |
+| `exams/`, `interviews/`, `templates/`, `bewerbung/` | 82 |
+
+**Do it in passes of 100–150 cards, not one sitting.** The quality bar in §2 still applies: every
+noun needs Artikel **and** Plural **and** an example sentence with translation. A mechanically
+generated deck without real examples would violate the project's own standard and be worth less
+than the smaller hand-written one.
 
 One open question in UPGRADE-PLAN §11 the user has not answered: real recorded audio instead of
 TTS.
@@ -249,10 +282,13 @@ exam too. Converting Teil 1–3 to `uebung` is possible if asked.
 
 ---
 
-## 9. To start Đợt 9
+## 9. To continue
+
+The batch plan is finished. For the flashcard passes described in §8:
 
 ```
-Read AUTHORING.md, then do Đợt 9 from UPGRADE-PLAN §8.
+Read AUTHORING.md §8, then write the next flashcard pass (150 cards, fc9001+).
 ```
 
-That is enough. Everything needed is in those two files.
+For anything else — a fix, a new module, a format change — the same two files still carry
+everything: this one for the how, UPGRADE-PLAN for the what and why.

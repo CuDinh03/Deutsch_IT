@@ -50,14 +50,18 @@ sind der Teil, in dem tatsächlich geübt wird — nicht nur gelesen.
 
 | Material | Was es ist | Wann |
 |---|---|---|
-| **Übungsteile** — [Phase 1](#/phase-1/grammar-uebungen) · [Phase 2](#/phase-2/grammar-uebungen) | 12 Workbooks, **596 Aufgaben mit Sofortkorrektur**: anklicken, *Prüfen*, Begründung lesen | jede Woche, direkt nach dem Grammatik-/Wortschatzblock |
+| **Übungsteile** — [P1](#/phase-1/grammar-uebungen) · [P2](#/phase-2/grammar-uebungen) · [P3](#/phase-3/grammar-uebungen) · [P4](#/phase-4/grammar-uebungen) · [P5](#/phase-5/grammar-uebungen) · [P6](#/phase-6/grammar-uebungen) | 36 Workbooks für alle sechs Phasen, **über 1.400 Aufgaben mit Sofortkorrektur**: anklicken, *Prüfen*, Begründung lesen | jede Woche, direkt nach dem Grammatik-/Wortschatzblock |
 | **Alltag** — [Café](#/alltag/cafe-baeckerei) · [Mittagspause](#/alltag/mittagspause) · [Kaffeeküche](#/alltag/kaffeekueche) · [Feierabend](#/alltag/feierabend) | Small Talk, Modalpartikeln, Team-Abend | **Wochen 1–8**, je ein Modul pro Woche |
 | **Alltag · Behörden & Leben** — [Wohnung](#/alltag/wohnungsbesichtigung) · [Anmeldung](#/alltag/anmeldung) · [Arzt](#/alltag/beim-arzt) · [Supermarkt](#/alltag/supermarkt-pfand) · [Bahn](#/alltag/bahn-verspaetung) · [Telefon](#/alltag/telefon-bank-vertrag) | die Situationen, in denen Fehler Geld kosten | **Wochen 9–16**, oder sofort bei echtem Bedarf |
-| **Hörtexte im Modul** — [P1](#/phase-1/listening-uebungen) · [P2](#/phase-2/listening-uebungen) | 15 Hörtexte mit verstecktem Transkript, Diktate, Shadowing | statt „irgendwas hören": 2× pro Woche intensiv |
+| **Hörtexte im Modul** — [P1](#/phase-1/listening-uebungen) · [P3](#/phase-3/listening-uebungen) · [P5](#/phase-5/listening-uebungen) · [P6](#/phase-6/listening-uebungen) | 27 Hörtexte mit verstecktem Transkript, Diktate, Shadowing | statt „irgendwas hören": 2× pro Woche intensiv |
 | **Prüfungsvorbereitung** — [Überblick](#/exams/overview) · [Lesen](#/exams/telc-b2-lesen-sprachbausteine) · [Hören](#/exams/telc-b2-hoeren) · [Schreiben](#/exams/telc-b2-schreiben) · [Sprechen](#/exams/telc-b2-sprechen) | telc-B2-Format, Strategie, interaktive Drills | **Wochen 13–20** — Termin schon in Woche 12 buchen |
 | **[Prüfungs-Redemittel](#/exams/pruefungs-redemittel)** | 120+ feste Sätze + Abruftraining | **täglich 10 Minuten** ab Woche 13 |
+| **Goethe C1** — [Lesen & Hören](#/exams/goethe-c1-lesen-hoeren) · [Schreiben](#/exams/goethe-c1-schreiben) · [Sprechen](#/exams/goethe-c1-sprechen) | vier einzeln bestehbare Module, Strategie und Musterlösungen | **Wochen 45–51** — Termin in Woche 44 buchen |
+| **Vorlagen** — [E-Mail](#/templates/emails) · [Ticket](#/templates/tickets) · [PR](#/templates/pull-requests) · [Protokoll & Incident](#/templates/protokoll-incident) | fertige Textbausteine für den Arbeitsalltag | **ab Woche 29**, sobald du auf Deutsch schreibst |
+| **Bewerbung** — [Prozess](#/bewerbung/prozess) · [Lebenslauf](#/bewerbung/lebenslauf) · [Anschreiben](#/bewerbung/anschreiben) · [E-Mails](#/bewerbung/mails) · [LinkedIn & Xing](#/bewerbung/linkedin-xing) | das komplette Bewerbungspaket auf Deutsch | **Wochen 37–44**, parallel zur Interviewvorbereitung |
+| **Interview-Banken** — [Backend](#/interviews/backend) · [DevOps](#/interviews/devops) · [Spring](#/interviews/spring-microservices) · [HR & Behavioral](#/interviews/hr-behavioral) · [System Design](#/interviews/system-design) · [Live-Coding](#/interviews/live-coding) · [Gehalt & Vertrag](#/interviews/gehalt-vertrag) | sieben Q&A-Banken mit Musterantworten | **Wochen 37–44**, eine pro Woche |
 | **Bürodialoge** — [Onboarding](#/dialogues/onboarding) · [Krankmeldung](#/dialogues/krankmeldung) · [Standup](#/dialogues/standup) · [Pair Programming](#/dialogues/pair-programming) | echte Arbeitssituationen mit Redemitteln | passend zur Woche, siehe Tabellen unten |
-| **Zwei bewertete Prüfungen** — [Phase 1](#/phase-1/assessment) (100 P.) · [Phase 2](#/phase-2/assessment) (telc-Modelltest) | mit Punkteschema und **Fehler → Modul**-Tabelle | **Woche 8** und **Woche 20** |
+| **Bewertete Prüfungen** — [Phase 1](#/phase-1/assessment) (100 P.) · [Phase 2](#/phase-2/assessment) (telc-Modelltest) · [Phase 5](#/phase-5/assessment) · [Phase 6](#/phase-6/assessment) | mit Punkteschema und **Fehler → Modul**-Tabelle | **Wochen 8, 20, 44 und 52** |
 
 > **Die wichtigste Änderung gegenüber dem ursprünglichen Plan:** Grammatik „durchnehmen" reicht
 > nicht. Nach jedem Grammatikblock gehört der passende **Übungsteil** — dort bekommst du sofort
@@ -175,7 +179,7 @@ system design, negotiation. Uses [Phase 5](#/phase-5/overview) and the
 | Woche | Grammatik | Vokabeln & IT | Hören/Sprechen | Lesen/Schreiben | Projekt/Mock | Std | Ergebnis |
 |---|---|---|---|---|---|---|---|
 | 37 | C1 formal written style; Nominalstil, precise verbs | Application vocab: die Stellenanzeige, das Anschreiben, die Qualifikation | Read your CV aloud, fluently | [Phase 5 · Writing](#/phase-5/writing): write a German Lebenslauf + Anschreiben | Tailor the CV to a real Stellenanzeige | 17 | Have a polished German CV and cover letter |
-| 38 | Fluent self-narrative + motivation phrasing | HR vocab: der Werdegang, die Stärke, die Schwäche | [Phase 5 · Speaking](#/phase-5/speaking): a 2-min self-presentation | Write answers to 10 HR questions | HR screening role-play | 17 | Deliver a compelling 2-min self-presentation |
+| 38 [^iv] | Fluent self-narrative + motivation phrasing | HR vocab: der Werdegang, die Stärke, die Schwäche | [Phase 5 · Speaking](#/phase-5/speaking): a 2-min self-presentation | Write answers to 10 HR questions | HR screening role-play | 17 | Deliver a compelling 2-min self-presentation |
 | 39 | Past narration mix (Perfekt/Präteritum) + result framing | Behavioral vocab: die Herausforderung, der Konflikt, das Ergebnis | Answer 8 behavioral questions using STAR | Write 5 STAR stories | Behavioral round role-play | 17 | Answer behavioral questions with clear STAR structure |
 | 40 | Thinking-aloud connectors + hypotheticals | Algorithm vocab: die Laufzeit, die Komplexität, der Ansatz | Solve a coding task talking through it in German | [interview Q&A](#/interviews/backend): study + write model answers | Live-coding narration in German | 18 | Narrate your problem-solving live in German |
 | 41 | Structuring long turns + trade-off language (Phase 2 recap) | Scaling vocab: die Lastverteilung, die Ausfallsicherheit, der Durchsatz | [Phase 5 · Listening](#/phase-5/listening): a design discussion | Write a design one-pager | 25-min system-design mock: "Design a URL shortener" | 18 | Run a system-design discussion and justify trade-offs |
@@ -184,6 +188,11 @@ system design, negotiation. Uses [Phase 5](#/phase-5/overview) and the
 | 44 | Fix residual interview error patterns | Consolidate the interview deck | Full HR + technical mock, recorded | Self-review the transcript + action list | Full mock interview: HR + tech + design; [Phase 5 · Assessment](#/phase-5/assessment) | 18 | Pass an end-to-end German interview simulation |
 
 ---
+
+> [^iv]: Ab Woche 38 gehört pro Woche eine **Interview-Bank** dazu:
+> [HR & Behavioral](#/interviews/hr-behavioral), [System Design](#/interviews/system-design),
+> [Live-Coding](#/interviews/live-coding) und [Gehalt & Vertrag](#/interviews/gehalt-vertrag) —
+> dazu das [Bewerbungspaket](#/bewerbung/prozess) für Lebenslauf, Anschreiben und die E-Mails.
 
 ## Phase 6 — Weeks 45–52 · Working in a German IT Company (C1)
 
@@ -199,8 +208,13 @@ debates, incidents, ceremonies, culture — capped by a **Goethe C1** mock. Modu
 | 48 | Estimation + facilitation language | Agile vocab: die Schätzung, der Aufwand, die Retrospektive | Participate in a planning + retro | Write retro notes + action items | Facilitate a retro | 17 | Contribute meaningfully to planning and retrospectives |
 | 49 | Register-switching dev↔business + Nominalstil recap | Stakeholder vocab: der Fachbereich, die Abstimmung, die Priorisierung | Explain tech to non-tech stakeholders | Write a stakeholder update | Align with a "product" stakeholder | 17 | Translate between technical and business audiences |
 | 50 | Diplomatic conflict language + de-escalation | Culture vocab: die Fehlerkultur, die Pünktlichkeit, die Verbindlichkeit | Role-play resolving a disagreement | Write a considerate conflict email | Resolve a team-conflict scenario | 17 | Navigate conflict and German work culture confidently |
-| 51 | C1 exam grammar review | Exam collocations | Goethe C1 Sprechen: paired presentation + discussion | Goethe C1 Lesen / Hören / Schreiben, timed | Full Goethe C1 mock, ≥60/100 per module | 18 | Score C1 on a full Goethe mock |
+| 51 [^c1] | C1 exam grammar review | Exam collocations | Goethe C1 Sprechen: paired presentation + discussion | Goethe C1 Lesen / Hören / Schreiben, timed | Full Goethe C1 mock, ≥60/100 per module | 18 | Score C1 on a full Goethe mock |
 | 52 | Error log → personal maintenance rules | Finalize the master deck; set a maintenance SRS | [Phase 6 · Speaking](#/phase-6/speaking): a 10-min free talk | [Phase 6 · Assessment](#/phase-6/assessment): final writing task | Capstone: a full working-day simulation in German | 16 | Operate a full German workday; set an ongoing maintenance plan |
+
+> [^c1]: Für Woche 51 stehen die drei C1-Module bereit:
+> [Lesen & Hören](#/exams/goethe-c1-lesen-hoeren), [Schreiben](#/exams/goethe-c1-schreiben) und
+> [Sprechen](#/exams/goethe-c1-sprechen). Denk daran: Die vier Goethe-Module sind **einzeln**
+> bestehbar und einzeln wiederholbar — bereite alle vor, optimiere aber das schwächste.
 
 ---
 
