@@ -1,7 +1,7 @@
 /*!
  * checklist.js — weekly study checklist data (persists via localStorage).
- * Covers Weeks 1–28 (Phase 1–3), i.e. every week that has content
- * written for it. Weeks 29+ arrive with the Phase 4–6 workbooks.
+ * Covers Weeks 1–36 (Phase 1–4), i.e. every week that has content
+ * written for it. Weeks 37+ arrive with the Phase 5–6 workbooks.
  *
  * Each entry: { id, title, items:[strings] }. The id is what progress is
  * stored under — never reuse or renumber one, or ticks land on the wrong row.
@@ -300,6 +300,94 @@ window.CHECKLIST = [
       "[Phase 3 · Assessment](#/phase-3/assessment) durchführen",
       "Fehlerjournal durchgehen: was ist aus Phase 1 und 2 noch offen?",
       "Gate-Entscheidung: weiter zu [Phase 4](#/phase-4/overview)?"
+    ]
+  },
+  {
+    id: "w29", title: "Woche 29 · Formales Register & E-Mail",
+    items: [
+      "[Phase 4 · Grammar](#/phase-4/grammar) lesen, dann [Übungsteil](#/phase-4/grammar-uebungen) Block A",
+      "Sechs Sätze aus dem Chat als indirekte Rede umschreiben (Konjunktiv I)",
+      "[E-Mail-Baukasten](#/templates/emails) durchgehen und drei Vorlagen als Textbausteine anlegen",
+      "Dieselbe E-Mail zweimal schreiben: einmal Sie, einmal du",
+      "Fünf schroffe Sätze diplomatisch umformulieren (Konjunktiv II + Hedging)",
+      "Quiz [Phase 4 · Formales Register](#/@quiz), Ziel ≥ 8/10"
+    ]
+  },
+  {
+    id: "w30", title: "Woche 30 · Tickets & Anleitungen",
+    items: [
+      "[Ticket & Akzeptanzkriterien](#/templates/tickets) lesen, Übungen Ü1–Ü4",
+      "Drei echte Tickets auf Deutsch schreiben — mit Erwartet/Tatsächlich",
+      "Zu jedem Ticket zwei binär prüfbare Akzeptanzkriterien formulieren",
+      "Ein Akzeptanzkriterium im Gegeben/Wenn/Dann-Format schreiben",
+      "Eine Wiki-Anleitung im Imperativ verfassen (Überblick · Voraussetzungen · Vorgehen)",
+      "Im Refinement einmal laut fragen: „Woran erkennen wir, dass das fertig ist?“"
+    ]
+  },
+  {
+    id: "w31", title: "Woche 31 · Moderation & Protokoll",
+    items: [
+      "[Phase 4 · Vocabulary](#/phase-4/vocabulary) + [Übungsteil](#/phase-4/vocabulary-uebungen) Block A + B, Ziel ≥ 80 %",
+      "Zehn Kollokationen auswendig (Termin vereinbaren, Protokoll führen, Entscheidung treffen …)",
+      "[Phase 4 · Speaking · Übungsteil](#/phase-4/speaking-uebungen): zehn Redemittel zur Moderation lernen",
+      "Eine echte Besprechung (oder einen TOP davon) auf Deutsch moderieren",
+      "[Protokoll, Incident & Übergabe](#/templates/protokoll-incident) lesen und ein echtes Protokoll führen",
+      "Prüfen: Hat jede Maßnahme Verantwortliche/n und Frist?"
+    ]
+  },
+  {
+    id: "w32", title: "Woche 32 · Präsentation & Signposting",
+    items: [
+      "[Phase 4 · Speaking](#/phase-4/speaking) + [Übungsteil](#/phase-4/speaking-uebungen) Block A + B",
+      "🎙 60-Sekunden-Präsentation mit angekündigter Dreiteilung aufnehmen",
+      "Aufnahme anhören: Kam die Gliederungsansage wirklich vor?",
+      "Acht Signposting-Sätze auswendig (zunächst / danach / abschließend / entscheidend ist hier)",
+      "[Phase 4 · Listening · Übungsteil](#/phase-4/listening-uebungen) Hörtext 2 shadowen",
+      "Einen echten Statusbericht im Team als 90-Sekunden-Vortrag halten"
+    ]
+  },
+  {
+    id: "w33", title: "Woche 33 · Feedback geben und annehmen",
+    items: [
+      "Drei Rückmeldungen nach Situation → Wirkung → Wunsch formulieren und laut sprechen",
+      "Fünf Vorwürfe in Ich-Botschaften umschreiben (kein „du“, kein „immer“)",
+      "[PR & Review-Kommentare](#/templates/pull-requests) lesen; vier Kommentare in vier Verbindlichkeitsstufen schreiben",
+      "In einem echten Review jeden Kommentar mit einer Stufe markieren",
+      "Einmal begründet widersprechen: „Da sehe ich das anders, weil …“",
+      "Eine echte Rückmeldung auf Deutsch geben — mündlich"
+    ]
+  },
+  {
+    id: "w34", title: "Woche 34 · Besprechungstempo hören",
+    items: [
+      "[Phase 4 · Listening · Übungsteil](#/phase-4/listening-uebungen) alle drei Hörtexte, Block A einmalig hören",
+      "Diktat (Hörtext 3) Wort für Wort prüfen",
+      "Protokoll-Methode in einer echten Besprechung: drei Zeilen während sie läuft",
+      "Zehn Uhrzeiten und zehn Datumsangaben laut üben (halb drei = 14:30)",
+      "Drei Folgen Engineering Kiosk / programmier.bar mit je drei Zeilen Mini-Protokoll",
+      "[Kaffeeküche & Modalpartikeln](#/alltag/kaffeekueche) wiederholen — Register nach unten"
+    ]
+  },
+  {
+    id: "w35", title: "Woche 35 · Firmentexte lesen & Übergabe",
+    items: [
+      "[Phase 4 · Reading · Übungsteil](#/phase-4/reading-uebungen) alle drei Texte, Ziel ≥ 80 %",
+      "Eine echte Richtlinie auf Pflicht · Geltungsbereich · Ausnahme · Frist abklopfen",
+      "Fünf Nominalstil-Ausdrücke in Nebensätze auflösen",
+      "Eine echte Wiki-Seite auf Deutsch nach dem Vierteiler umschreiben",
+      "Urlaubsübergabe schreiben (Stand · offene Punkte · Zugänge · Ansprechpartner)",
+      "Einen alten Post-Mortem-Text blamefrei auf Deutsch umschreiben"
+    ]
+  },
+  {
+    id: "w36", title: "Woche 36 · Konsolidierung & Phase-4-Abschluss",
+    items: [
+      "Alle sechs Phase-4-Übungsteile auf ≥ 80 % bringen",
+      "Quiz [Büro-Deutsch · E-Mail, Ticket & Protokoll](#/@quiz), Ziel ≥ 8/10",
+      "Eine vollständige Besprechung auf Deutsch: moderieren, protokollieren, Maßnahmen verschicken",
+      "[Phase 4 · Assessment](#/phase-4/assessment) durchführen, Ziel ≥ 60/100",
+      "Fehlerjournal durchgehen: Konjunktiv I, worden/geworden, Anrede-Kleinschreibung",
+      "Gate-Entscheidung: weiter zu [Phase 5](#/phase-5/overview)?"
     ]
   },
   {

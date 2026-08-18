@@ -112,6 +112,9 @@ Herzlich willkommen zu unserer Folge. Heute sprechen wir über Continuous Deploy
 
 > **Lösungen:** 1) the **Entscheidung** and the **Maßnahmen/owner** · 2) jotting a mini-Protokoll while listening: *Thema · Entscheidung · offene Punkte* · 3) **Engineering Kiosk** and **programmier.bar** (also Working Draft, heise show) · 4) *"We've reached agreement / agreed."* Full quiz: [Quizzes](#/@quiz).
 
+> 🎧 **Jetzt hören.** [Phase 4 · Listening · Übungsteil](#/phase-4/listening-uebungen) — drei Hörtexte
+> im Besprechungstempo, 27 Aufgaben zur Protokoll-Methode und ein Diktat mit Zahlen und Terminen.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Listen to **3 tech-podcast segments** this week; write a 3-line mini-Protokoll for each.

@@ -126,6 +126,9 @@ Liebe Kolleginnen und Kollegen, ab nächster Woche wird das interne Wiki auf ein
 
 > **Lösungen:** 1) the **Stand** (last-updated date) · 2) **obligation, scope, exception** (muss / für wen / Ausnahme) · 3) *"if the deadline is not met."* · 4) **forbidden / prohibited**. Full quiz: [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 4 · Reading · Übungsteil](#/phase-4/reading-uebungen) — Wiki-Seite,
+> Richtlinie und Rundmail im Original, 30 Aufgaben zu Pflicht, Frist, Ausnahme und Nominalstil.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Read **5 articles** this week (heise / Golem / t3n) — 5 new terms each into Anki.

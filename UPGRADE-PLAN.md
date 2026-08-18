@@ -5,9 +5,9 @@
 > Ở đó có: cú pháp 3 fence tuỳ biến (`uebung` / `spoiler` / `hoertext`), quy trình một đợt từ
 > đầu đến cuối, các lệnh kiểm tra, và danh sách lỗi **đã sửa rồi — đừng tái tạo**.
 >
-> **Trạng thái 18/08/2026** (commit `0fd9399`, đã push): 119 module · ~220k từ ·
-> **935 bài tập tương tác** · 431 flashcards · 11 quiz · checklist tuần 1–28.
-> Xong Đợt 0–5. **Đợt tiếp theo: 6** (workbook Phase 4 + `templates/`) — xem §8.
+> **Trạng thái 18/08/2026**: 129 module · ~245k từ ·
+> **1.176 bài tập tương tác** · 493 flashcards · 13 quiz · checklist tuần 1–36.
+> Xong Đợt 0–6. **Đợt tiếp theo: 7** (workbook Phase 5 + 3 dialogues) — xem §8.
 
 
 > Bản kế hoạch nội dung + phần kỹ thuật tối thiểu để nội dung đó thật sự chạy được trong app.
@@ -312,7 +312,7 @@ trong `content-index.js` + flashcards/quiz của chính đợt đó + `node buil
 | **3** ✅ | Workbook Phase 2 + 3 dialogues công sở (Onboarding, Krankmeldung, Pair programming) | ~24k | ✅ **XONG 18/08/2026** — 6 file `-uebungen.md`, assessment → Modelltest 100 điểm, 3 dialogues mới, +45 flashcards, +2 quiz (20 câu) |
 | **4** ✅ | **telc B2** (4 module) + `exams/overview` + `exams/pruefungs-redemittel` | ~15k | ✅ **XONG 18/08/2026** — 6 module, **103 bài tập tương tác có chấm điểm**, +engine ```uebung |
 | **5** ✅ | Workbook Phase 3 + 3 dialogues (Retro, Architektur, Deployment ngoài giờ) | ~24k | ✅ **XONG 18/08/2026** — 6 workbook (**236 bài tương tác**), 3 dialogues, +45 flashcards, +2 quiz (20 câu), checklist tuần 21–28 |
-| **6** | Workbook Phase 4 (9 file) + `templates/` (4 module) | ~25k | chặng Pro-Comms |
+| **6** ✅ | Workbook Phase 4 (9 file) + `templates/` (4 module) | ~25k | ✅ **XONG 18/08/2026** — 6 workbook (**191 bài tương tác**), 4 module `content/templates/` (**50 bài**), group mới trên sidebar, +62 flashcards, +2 quiz (20 câu), checklist tuần 29–36 |
 | **7** | Workbook Phase 5 (9 file) + 3 dialogues (Gehalt, Career talk, Kunde/PO) | ~24k | chặng phỏng vấn |
 | **8** | Workbook Phase 6 (9 file) + `bewerbung/` (5 module) | ~28k | chặng xin việc |
 | **9** | Goethe C1 (3 module) + 4 interview bank mới + bù flashcards lên ~2.050 + cập nhật `52-week-plan` & `checklist.js` + rà soát link toàn bộ | ~22k | đóng gói & kiểm thử cuối |

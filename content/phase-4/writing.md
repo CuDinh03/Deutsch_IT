@@ -168,6 +168,10 @@ Hallo zusammen, kurzes Update: Das Protokoll von heute liegt im Wiki. Die Maßna
 
 > **Lösungen:** 1) **lowercase** (the comma continues the sentence) · 2) **Passiv**, past (*„Es wurde entschieden …“*) · 3) **Mit freundlichen Grüßen** · 4) e.g. **Titel + Akzeptanzkriterien** (also Schritte zur Reproduktion). Full quiz: [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 4 · Writing · Übungsteil](#/phase-4/writing-uebungen) — 33 Aufgaben
+> zu Anrede, Register, Protokollsätzen und Akzeptanzkriterien. Fertige Vorlagen gibt es im
+> [E-Mail-Baukasten](#/templates/emails).
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Write **two versions** of one email: formal (Sie) and du-team — same content.

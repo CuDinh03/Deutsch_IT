@@ -140,6 +140,9 @@ Darf ich kurz einhaken? Mir ist aufgefallen, dass wir zwei Themen vermischen. Ic
 
 > **Lösungen:** 1) *„Darf ich kurz einhaken?“* / *„Entschuldigung, wenn ich kurz unterbreche …“* · 2) **Einleitung – Hauptteil – Schluss** (zunächst / danach / abschließend) · 3) e.g. *„Mir ist aufgefallen, dass der PR sehr groß ist — das macht das Review schwer.“* · 4) *„Das würde den Rahmen sprengen — können wir das offline klären?“* Full quiz: [Quizzes](#/@quiz).
 
+> 🗣️ **Jetzt üben.** [Phase 4 · Speaking · Übungsteil](#/phase-4/speaking-uebungen) — ein Baukasten
+> mit 34 Redemitteln plus 24 Aufgaben zu Moderation, Einhaken, Signposting und Feedback.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Memorise **8 Redemittel** (2 per job) and record yourself saying each cleanly.

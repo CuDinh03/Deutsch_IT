@@ -11,7 +11,7 @@ window.CONTENT_INDEX = {
   meta: {
     title: "German for Software Engineers",
     subtitle: "B1 → B2 / C1 · 12-Month Roadmap",
-    version: "0.7",
+    version: "0.8",
     updated: "2026-08-18"
   },
   // Drives the sidebar filter chips. Every item.topic MUST appear here or the
@@ -99,11 +99,17 @@ window.CONTENT_INDEX = {
       items: [
         { id: "phase-4/overview",    title: "Objectives & Overview",        level: "C1", topic: "Roadmap",    type: "lesson" },
         { id: "phase-4/grammar",     title: "Grammar (Formal Register)",    level: "C1", topic: "Grammar",    type: "lesson" },
+        { id: "phase-4/grammar-uebungen",    title: "↳ Grammar · Übungsteil",    level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-4/vocabulary",  title: "Business & Meeting Vocabulary", level: "C1", topic: "Vocabulary", type: "lesson" },
+        { id: "phase-4/vocabulary-uebungen", title: "↳ Vocabulary · Übungsteil", level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-4/speaking",    title: "Meetings & Presentations",     level: "C1", topic: "Speaking",   type: "lesson" },
+        { id: "phase-4/speaking-uebungen",   title: "↳ Speaking · Übungsteil",   level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-4/listening",   title: "Listening Resources",          level: "C1", topic: "Listening",  type: "lesson" },
+        { id: "phase-4/listening-uebungen",  title: "↳ Listening · Übungsteil",  level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-4/reading",     title: "Reading Materials",            level: "C1", topic: "Reading",    type: "lesson" },
+        { id: "phase-4/reading-uebungen",    title: "↳ Reading · Übungsteil",    level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-4/writing",     title: "Emails & Documentation",       level: "C1", topic: "Writing",    type: "lesson" },
+        { id: "phase-4/writing-uebungen",    title: "↳ Writing · Übungsteil",    level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-4/plan",        title: "Weekly Milestones & Daily Plan", level: "C1", topic: "Roadmap",  type: "lesson" },
         { id: "phase-4/assessment",  title: "Monthly Assessment",           level: "C1", topic: "Roadmap",    type: "lesson" }
       ]
@@ -177,6 +183,15 @@ window.CONTENT_INDEX = {
         { id: "exams/telc-b2-schreiben",               title: "telc B2 · Schriftlicher Ausdruck",   level: "B2", topic: "Exam", type: "lesson" },
         { id: "exams/telc-b2-sprechen",                title: "telc B2 · Mündlicher Ausdruck",      level: "B2", topic: "Exam", type: "lesson" },
         { id: "exams/pruefungs-redemittel",            title: "Prüfungs-Redemittel · Baukasten",    level: "B2", topic: "Exam", type: "lesson" }
+      ]
+    },
+    {
+      id: "templates", title: "Vorlagen — Templates", icon: "📄", badge: "B2/C1",
+      items: [
+        { id: "templates/emails",             title: "E-Mail-Baukasten (14 Vorlagen)",   level: "B2", topic: "Templates", type: "lesson" },
+        { id: "templates/tickets",            title: "Ticket & Akzeptanzkriterien",      level: "B2", topic: "Templates", type: "lesson" },
+        { id: "templates/pull-requests",      title: "Pull Request & Review-Kommentare", level: "C1", topic: "Templates", type: "lesson" },
+        { id: "templates/protokoll-incident", title: "Protokoll, Incident & Übergabe",   level: "C1", topic: "Templates", type: "lesson" }
       ]
     },
     {

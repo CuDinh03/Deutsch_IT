@@ -142,6 +142,9 @@ Ich fasse kurz zusammen: Die Entscheidung ist gefallen, wir setzen den Vorschlag
 
 > **Lösungen:** 1) **vereinbaren** (also *ansetzen*) · 2) das Protokoll **führen** (or *schreiben*) · 3) *Maßnahmen*, *Termine* · 4) **Rückmeldung**. Full quiz: [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 4 · Vocabulary · Übungsteil](#/phase-4/vocabulary-uebungen) — 37 Aufgaben
+> zu Artikeln, Pluralen und vor allem den festen Kollokationen (*eine Entscheidung treffen*, *das Protokoll führen*).
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Build an **Anki note per key word** with article + plural + one collocation + one example sentence.

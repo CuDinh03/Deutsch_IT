@@ -149,6 +149,9 @@ Könnten Sie mir kurz sagen, ob der Fix schon deployt wurde? Der Kunde fragte, w
 
 > **Lösungen:** 1) **sei** · 2) *…fragt, **ob** die Pipeline grün **sei**.* (verb to the end) · 3) *…**wurde** neu **gestartet**.* · 4) K I *arbeiten* = indicative *arbeiten* → ambiguous, so use **würden … arbeiten** (or *arbeiteten*). Full quiz: [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 4 · Grammar · Übungsteil](#/phase-4/grammar-uebungen) — 40 Aufgaben
+> zu Konjunktiv I, indirekten Fragen, diplomatischer Abschwächung und dem Passiv im Bericht.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Rewrite **6 statements** from today's chat as **indirekte Rede** (Konjunktiv I, fall back to K II where needed).
