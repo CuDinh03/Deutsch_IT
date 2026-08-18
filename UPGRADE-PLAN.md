@@ -1,5 +1,15 @@
 # UPGRADE PLAN — Nâng cấp toàn diện nội dung `german-it-roadmap`
 
+> ## 👉 Bắt đầu một phiên mới? Đọc [AUTHORING.md](AUTHORING.md) trước.
+>
+> Ở đó có: cú pháp 3 fence tuỳ biến (`uebung` / `spoiler` / `hoertext`), quy trình một đợt từ
+> đầu đến cuối, các lệnh kiểm tra, và danh sách lỗi **đã sửa rồi — đừng tái tạo**.
+>
+> **Trạng thái 18/08/2026** (commit `0fd9399`, đã push): 119 module · ~220k từ ·
+> **935 bài tập tương tác** · 431 flashcards · 11 quiz · checklist tuần 1–28.
+> Xong Đợt 0–5. **Đợt tiếp theo: 6** (workbook Phase 4 + `templates/`) — xem §8.
+
+
 > Bản kế hoạch nội dung + phần kỹ thuật tối thiểu để nội dung đó thật sự chạy được trong app.
 > Dựa trên: audit toàn bộ repo (**79 module, ~121.500 từ** — số đo lại 17/08/2026) + các quyết định đã chốt ngày 17/08/2026.
 >
