@@ -27,12 +27,14 @@ what the eight weeks before the date should contain.
 |---|---|---|
 | IT-Job in einem internationalen Team | oft gar kein Zertifikat, Englisch reicht | B2 als **Signal** im Lebenslauf |
 | IT-Job im Mittelstand / außerhalb der Großstädte | häufig B2 erwartet | **telc B2** oder **Goethe B2** |
-| Niederlassungserlaubnis (unbefristet) | i. d. R. **B1** | schon erfüllt, wenn du hier bist |
-| Einbürgerung | **B1** (mit Ausnahmen) | schon erfüllt |
+| Niederlassungserlaubnis (unbefristet) | i. d. R. **B1** | **Goethe B1** — als Nachweis, nicht als Lernziel |
+| Einbürgerung | **B1** (mit Ausnahmen) | **Goethe B1**, falls noch kein Nachweis vorliegt |
 | Studium an einer deutschen Hochschule | **C1** (TestDaF/DSH häufiger als Goethe) | anderer Prüfungspfad — prüfe die Hochschule |
 | Persönliches Ziel: „ich will wirklich gut werden" | — | **Goethe C1** als ehrlicher Maßstab |
 
-**Für den Roadmap-Pfad in diesem Handbuch:** **telc B2** in Woche 20, **Goethe C1** in Woche 51.
+**Für den Roadmap-Pfad in diesem Handbuch:** **Goethe B1** in Woche 20 nicht nötig, aber als
+Meilenstein in **Woche 8** möglich — siehe [Goethe B1 · Meilenstein Woche 8](#/exams/goethe-b1);
+dann **telc B2** in Woche 20 und **Goethe C1** in Woche 51.
 B2 ist der Punkt, ab dem dein Deutsch im Bewerbungsprozess **hilft** statt nur zu existieren; C1 ist
 der Punkt, ab dem es **kein Thema mehr ist**.
 

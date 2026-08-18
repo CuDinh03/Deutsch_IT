@@ -97,7 +97,10 @@ window.CHECKLIST = [
       "Auswertung ausfüllen, Gesamtpunktzahl notieren",
       "Fehler → Modul-Tabelle ausfüllen und schwächsten Teil markieren",
       "Gate-Entscheidung: ≥ 70 und kein Teil unter 50 % → Phase 2",
-      "Falls nein: eine Woche gezielt wiederholen, dann neu testen"
+      "Falls nein: eine Woche gezielt wiederholen, dann neu testen",
+      "[Goethe B1 · Meilenstein](#/exams/goethe-b1) — die drei Fragen beantworten und **einen** Entscheidungssatz notieren",
+      "Aktenordner prüfen: liegt schon ein B1-Nachweis vor (DTZ, Integrationskurs, altes Zertifikat)?",
+      "Falls Nachweis nötig: Termin **und** Anmeldefrist auf goethe.de eintragen"
     ]
   },
   {

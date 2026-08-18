@@ -611,5 +611,39 @@ window.QUIZZES = [
         options: ["eine Abfindung bei Kündigung", "ein Leistungsbonus", "eine Zahlung während der Probezeit", "eine Zahlung dafür, dass du nach dem Austritt nicht bei der Konkurrenz arbeitest"], answer: 3,
         explain: "Ein nachvertragliches Wettbewerbsverbot ist in Deutschland ohne Karenzentschädigung nicht wirksam. Steht die Klausel im Vertrag, ausdrücklich nachfragen." }
     ]
+  },
+  { id: "q-goethe-b1", title: "Goethe B1 · Meilenstein Woche 8", level: "B1", topic: "Exam",
+    questions: [
+      { q: "Was ist die wichtigste organisatorische Eigenschaft des Goethe B1?",
+        options: ["Alle vier Module müssen am selben Tag bestanden werden.", "Die vier Module sind einzeln bestehbar und einzeln wiederholbar.", "Es zählt nur der Durchschnitt der vier Module.", "Das Modul Sprechen zählt doppelt."], answer: 1,
+        explain: "Dieselbe modulare Struktur wie bei Goethe C1. Sie ändert die Vorbereitung: Zeit ins schwächste Modul, nicht gleichmäßig verteilen." },
+      { q: "Ab wie vielen Punkten gilt ein Modul als bestanden?",
+        options: ["50 von 100", "55 von 100", "60 von 100", "70 von 100"], answer: 2,
+        explain: "Jedes Modul zählt /100, bestanden ab 60 — genau wie bei C1. Ein Modul mit 59 zieht die anderen nicht mit runter." },
+      { q: "Du hast 78 im Lesen, 71 im Hören, 55 im Schreiben, 68 im Sprechen. Was tust du?",
+        options: ["die ganze Prüfung wiederholen", "nur das Modul Schreiben wiederholen", "nichts, der Durchschnitt liegt über 60", "Schreiben und Sprechen wiederholen"], answer: 1,
+        explain: "Drei Module sind bestanden und bleiben es. Der Durchschnitt spielt keine Rolle — genau dafür gibt es die modulare Struktur." },
+      { q: "Was ist der übliche echte Grund, Goethe B1 abzulegen?",
+        options: ["ein Vorteil bei IT-Bewerbungen", "eine Voraussetzung für telc B2", "ein Behördennachweis wie Niederlassungserlaubnis oder Einbürgerung", "eine Pflicht innerhalb dieser Roadmap"], answer: 2,
+        explain: "Im Bewerbungsprozess wirkt erst B2. B1 ist fast immer ein Dokument für eine Behörde — ein legitimer Grund, aber ein anderer als Sprachniveau." },
+      { q: "Warum funktioniert „erst die Frage lesen, dann im Text suchen“ bei B1 gut, bei C1 aber schlecht?",
+        options: ["Bei B1 steht die Antwort meist wörtlich im Text, bei C1 als Umformulierung.", "Bei C1 gibt es keine Fragen zum Text.", "Bei B1 ist mehr Zeit pro Text vorgesehen.", "Bei C1 darf man den Text nur einmal lesen."], answer: 0,
+        explain: "Wörtliche Nähe ist auf B1 ein Hinweis, auf C1 eher ein Warnsignal. Dieselbe Technik, gegensätzliche Wirkung." },
+      { q: "Welche drei Register verlangt der Schreiben-Teil?",
+        options: ["dreimal formelle Briefe", "Lebenslauf, Anschreiben, E-Mail", "Bericht, Protokoll, Beschwerde", "private Nachricht, Forumsbeitrag mit Meinung, halbformelle Mitteilung"], answer: 3,
+        explain: "Drei Tonlagen sind Teil der Bewertung. Alle drei im selben Ton zu schreiben kostet Punkte, auch bei fehlerfreier Grammatik." },
+      { q: "Was solltest du im ersten Hördurchgang vor allem tun?",
+        options: ["sofort die Antworten ankreuzen", "Zahlen, Namen und Orte roh mitschreiben", "nur zuhören und nichts notieren", "den Text im Kopf übersetzen"], answer: 1,
+        explain: "Mitschreiben, nicht mitdenken. Entschieden wird im zweiten Durchgang — und wo es keinen gibt, hast du wenigstens die Rohdaten." },
+      { q: "Was wird im Sprechen-Teil außer deinem Deutsch noch bewertet?",
+        options: ["wie schnell du sprichst", "wie viele Fachwörter du verwendest", "ob du auf deine Partnerin oder deinen Partner eingehst", "ob du länger sprichst als die andere Person"], answer: 2,
+        explain: "Interaktion ist ein eigenes Kriterium: nachfragen, zustimmen, einen Gegenvorschlag machen. Den anderen niederzureden senkt die eigene Note." },
+      { q: "In einer Zuordnungsaufgabe passt eine Anzeige fast perfekt. Woran erkennst du, ob sie es wirklich ist?",
+        options: ["an der Länge der Anzeige", "an der Reihenfolge der Anzeigen", "an der Zahl gemeinsamer Wörter mit der Aufgabe", "am Detail, das nicht passt — Preis, Termin oder Ort"], answer: 3,
+        explain: "Die Distraktoren sind absichtlich fast richtig. Sie scheitern an genau einem konkreten Detail, und das ist meistens eine Zahl." },
+      { q: "Du hast bereits ein B1-Zertifikat aus dem Integrationskurs. Was ist in Woche 8 sinnvoll?",
+        options: ["Goethe B1 zur Sicherheit noch einmal ablegen", "den Phase-1-Test als Standortbestimmung nutzen und auf Phase 2 zugehen", "den Phase-1-Test überspringen", "direkt auf Goethe C1 umsteigen"], answer: 1,
+        explain: "Ein zweites Papier über dasselbe Niveau bringt nichts. Der Phase-1-Test bleibt trotzdem sinnvoll — er ist die Eingangsmessung für Phase 2." }
+    ]
   }
 ];

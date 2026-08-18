@@ -5,16 +5,22 @@
 > Ở đó có: cú pháp 3 fence tuỳ biến (`uebung` / `spoiler` / `hoertext`), quy trình một đợt từ
 > đầu đến cuối, các lệnh kiểm tra, và danh sách lỗi **đã sửa rồi — đừng tái tạo**.
 >
-> **Trạng thái 18/08/2026**: 156 module · ~319k từ ·
-> **1.756 bài tập tương tác** · 1.369 flashcards · 19 quiz · checklist **đủ 52 tuần**.
-> **Xong toàn bộ Đợt 0–9.** Mọi module trong kế hoạch đã viết xong. Việc còn lại: flashcards
+> **Trạng thái 18/08/2026**: 157 module · ~322k từ ·
+> **1.768 bài tập tương tác** · 1.378 flashcards · 20 quiz · checklist **đủ 52 tuần**.
+> **Xong toàn bộ Đợt 0–9**, cộng module Goethe B1 (chốt §11.3, 18/08/2026).
+>
 > **Flashcards: thu hoạch xong.** Pass 1–5 đã chuyển toàn bộ bảng từ vựng trong `content/` thành
 > thẻ: 1.248/1.280 dòng đã có thẻ, 32 dòng còn lại là bỏ qua có chủ đích (trùng lặp, 1 dòng bảng
 > chia cách, 1 dòng sai thuật ngữ) — xem AUTHORING §6.1.
 >
-> Mục tiêu ~2.050 trong kế hoạch này được ước lượng **trước khi** đếm bảng thật. Muốn vượt 1.369
+> Mục tiêu ~2.050 trong kế hoạch này được ước lượng **trước khi** đếm bảng thật. Muốn vượt 1.378
 > phải **viết từ vựng mới**, không còn gì để thu hoạch — việc khác, cần quyết định riêng, đừng nhồi
 > thẻ cho đủ số.
+>
+> **Việc tồn lớn nhất còn lại: quiz.** §5.2 đặt ~70 bộ / 800–1.000 câu; thực tế 20 bộ / 186 câu,
+> chưa có 6 "Phase Final Quiz" 30 câu. Cân nhắc trước khi làm: 1.768 bài `uebung` trong module đã
+> chấm tự động và có giải thích — thứ chưa tồn tại khi viết kế hoạch. Giá trị còn lại của quiz
+> engine nằm ở đề trộn cuối phase, không ở việc nhân bản cho đủ 70 bộ.
 
 
 > Bản kế hoạch nội dung + phần kỹ thuật tối thiểu để nội dung đó thật sự chạy được trong app.
@@ -255,11 +261,12 @@ Cập nhật `checklist` data để khớp các mục mới (workbook, bài nghe
 
 ## 6. Workstream D — Luyện thi bài bản (`content/exams/`, 9 module mới 🆕)
 
-Bám 2 kỳ thi mà roadmap đã hẹn: **telc B2** (W20) và **Goethe C1** (W51).
+Bám 2 kỳ thi mà roadmap đã hẹn: **telc B2** (W20) và **Goethe C1** (W51), cộng **Goethe B1** (W8) làm mốc trung gian tùy chọn — chốt 18/08/2026, xem §11.3.
 
 | Module | Nội dung |
 |---|---|
 | exams/overview | chọn kỳ thi, đăng ký, lệ phí, cấu trúc điểm, lịch chiến lược 8 tuần trước thi |
+| exams/goethe-b1 🆕 | mốc tuần 8: có cần chứng chỉ không (3 câu hỏi), cấu trúc 4 module, B1 khác B2 ở đâu, luyện format |
 | exams/telc-b2-lesen-sprachbausteine | format từng Teil, chiến thuật, 1 bộ luyện kiểu Modelltest + đáp án |
 | exams/telc-b2-hoeren | chiến thuật nghe, luyện bằng script TTS mô phỏng, mẹo note-taking |
 | exams/telc-b2-schreiben | các dạng thư (Beschwerde, formelle E-Mail), 4 bài mẫu điểm cao + khung chấm, lỗi trừ điểm |
@@ -429,5 +436,5 @@ index — chi phí này chỉ trả khi người học thật sự dùng search,
 
 1. **Audio người thật** thay TTS về lâu dài? (assets/audio/ đã có sẵn chỗ)
 2. Có muốn mình soạn **Lebenslauf + Anschreiben mẫu cá nhân hóa** theo đúng CV thật của bạn ở **đợt 8** không (thay vì mẫu nhân vật giả định)?
-3. Mức thi mục tiêu trung gian: có thêm module **Goethe B1** làm mốc W8 không, hay chỉ tự-đánh-giá như hiện tại?
+3. ~~Mức thi mục tiêu trung gian: có thêm module **Goethe B1** làm mốc W8 không?~~ → **✅ ĐÃ CHỐT 18/08/2026: có.** `content/exams/goethe-b1.md` — mốc tuần 8, **không thay** bài test Phase 1 (đó vẫn là cổng nội bộ sang Phase 2) mà bổ sung quyết định về chứng chỉ ngoài. Module đóng khung câu hỏi là *có nên thi hay không*: lý do thật gần như luôn là giấy tờ (Niederlassungserlaubnis / Einbürgerung), không phải hồ sơ xin việc — chỗ đó phải B2 trở lên. Exams: 9 → **10 module**.
 4. ~~Tách `-uebungen.md` riêng hay để chung file?~~ → **✅ ĐÃ CHỐT 17/08/2026: tách riêng.** Xem §3.1b.

@@ -146,7 +146,7 @@ Included now:
   Retrospektive, Architektur-Diskussion, Deployment-Notfall, Gehaltsgespräch, Karrieregespräch,
   Kundentermin) + **7 interview banks** (Backend/Java, DevOps, Spring/Microservices, HR & Behavioral,
   System Design, Live-Coding, Gehalt & Vertrag).
-- **Full 52-week study plan** + **1,369 flashcards** + **19 quizzes (176 questions)** + a weekly
+- **Full 52-week study plan** + **1,378 flashcards** + **20 quizzes (186 questions)** + a weekly
   checklist covering **all 52 weeks**.
 - Two scored mock exams: a 100-point Phase-1 test and a telc-B2-shaped Phase-2 Modelltest,
   each with a **Fehler → Modul** table pointing at what to redo.

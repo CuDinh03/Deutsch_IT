@@ -16,11 +16,11 @@
 
 | | Value |
 |---|---:|
-| Content modules | **156** |
-| Words | **~319,500** |
-| Interactive exercises | **1,756** |
-| Flashcards | **1,369** — table harvest complete (§6.1) |
-| Quizzes / questions | **19 / 176** |
+| Content modules | **157** |
+| Words | **~322,850** |
+| Interactive exercises | **1,768** |
+| Flashcards | **1,378** — table harvest complete (§6.1) |
+| Quizzes / questions | **20 / 186** |
 | Checklist weeks | **all 52** ✅ |
 
 **All ten batches are done.** Đợt 0 (engine) · 1 (Phase 1) · 2 (Alltag) · 3 (Phase 2) · 4 (telc B2) ·
@@ -234,7 +234,7 @@ Order does not matter; the app shuffles. One card:
 The TTS button speaks `article + de + ex`, so a bad `ex` is also a bad listening experience.
 
 **Id ranges already used:** `fc0xx`, `fc1xx`/`fc9xx`, `fc10xx`–`fc70xx`, `fc80xx`, `fc81xx`,
-`fc90xx`–`fc91xx`, `fc92xx`–`fc93xx`, `fc94xx`–`fc95xx`, `fc96xx`–`fc97xx`, `fc98xx`. **Next free: `fc9901`+.**
+`fc90xx`–`fc91xx`, `fc92xx`–`fc93xx`, `fc94xx`–`fc95xx`, `fc96xx`–`fc97xx`, `fc98xx`, `fc99xx`. **Next free: `fc10001`+.**
 
 ### 4.2 Quizzes — `js/quizzes.js`
 
@@ -296,9 +296,16 @@ window.CONTENT_INDEX = {
 node build.js --strict
 ```
 
-Must end with `✓ No dead internal links.` Fails on dead links, nested or unclosed fences, sidebar
-entries with no file, orphan Markdown files, and topics with no chip. Run it **twice** if you want
-to confirm idempotency — the second run should leave the tree unchanged.
+Must end with `✓ No dead internal links.` **Exits 1** on dead links, nested or unclosed fences,
+sidebar entries with no file, and topics with no chip. Run it **twice** if you want to confirm
+idempotency — the second run should leave the tree unchanged.
+
+> **One check only warns — read the output, do not just check the exit code.** A Markdown file that
+> exists but is *not* listed in `content-index.js` prints
+> `! N Markdown file(s) not listed in content-index.js` and still exits 0. The file is unreachable
+> from the sidebar and gets swept into a `misc` chunk, so the module looks written but cannot be
+> opened. Do not pipe the build through `tail` — the warning header scrolls off and the remaining
+> line looks like an ordinary chunk listing.
 
 ```bash
 node --check js/markdown.js && node --check js/app.js && node --check js/content-index.js
@@ -561,7 +568,12 @@ dialogues were deliberately left as they were.
 ## 9. Open questions and deliberate omissions
 
 **Unanswered by the user, carried across batches:** whether to replace the browser TTS with real
-recorded audio (UPGRADE-PLAN §11).
+recorded audio (UPGRADE-PLAN §11.1).
+
+**Answered 18.08.2026:** yes to a Goethe B1 module as the week-8 milestone (§11.3). It does *not*
+replace the Phase-1 test — that stays the internal gate to Phase 2 — and it is written as a
+*decision* module, because the honest answer for most readers is that B1 matters for paperwork
+(Niederlassungserlaubnis, Einbürgerung) and not for hiring, where B2 is the threshold.
 
 **Answered by shipping:** personalising the Lebenslauf/Anschreiben against the user's real CV. Đợt 8
 went out with the fictional-but-realistic backend-Java profile UPGRADE-PLAN §4.3 specifies, flagged

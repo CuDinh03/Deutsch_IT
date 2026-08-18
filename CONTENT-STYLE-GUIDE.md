@@ -114,6 +114,11 @@ Speakada, Language Atlas; keep a personal IT deck.
 - **telc B2:** written parts (reading + language elements ~90 min, listening ~20 min,
   writing ~30 min) + a paired oral exam (~15 min: presentation, discussion, plan together).
   Digital/hybrid/paper options.
+- **Goethe-Zertifikat B1:** same modular design as C1 — 4 modules (Lesen ~65 min, Hören ~40 min,
+  Schreiben ~60 min, Sprechen ~15 min, paired), each scored /100, **≥60 to pass**, each one
+  **takeable and repeatable on its own**. Jointly developed with ÖSD, so it also appears as
+  *Zertifikat B1*. B1 is the level normally required for **Niederlassungserlaubnis** and
+  **Einbürgerung** — that administrative use, not the language level, is usually the reason to sit it.
 - **Goethe-Zertifikat C1:** Lesen ~70 min, Hören ~40 min, Schreiben ~65 min, Sprechen ~15 min
   (paired). Each of the 4 modules scored /100; **≥60 to pass** each.
 - Many tech roles are advertised in English, but **A2–B1+ German raises shortlisting odds**,

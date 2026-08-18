@@ -23,8 +23,13 @@ and writing alongside. Nothing here is filler: every cell is one week's real wor
   [Phase 2](#/phase-2/overview) · [Phase 3](#/phase-3/overview) · [Phase 4](#/phase-4/overview)
   · [Phase 5](#/phase-5/overview) · [Phase 6](#/phase-6/overview). The table cells link
   straight to the relevant module.
-- **Four milestone mocks** anchor the year: **Week 8** (Phase 1 self-check), **Week 20**
-  (telc B2), **Week 44** (full job interview), **Week 51** (Goethe C1). Book them now.
+- **Four milestone mocks** anchor the year: **Week 8** (Phase 1 self-check, plus the
+  [Goethe B1](#/exams/goethe-b1) decision), **Week 20** (telc B2), **Week 44** (full job
+  interview), **Week 51** (Goethe C1). Book them now.
+- **Week 8 is also a fork.** The Phase-1 test is the internal gate to Phase 2; Goethe B1 is an
+  optional external certificate on top of it. You need it for paperwork
+  (Niederlassungserlaubnis, Einbürgerung), not for the job — the module walks you through
+  deciding in three questions.
 - **Keep an error log.** One line per recurring mistake; review it every Sunday. Progress
   comes from fixing the same 20 errors, not from new rules.
 
@@ -279,6 +284,8 @@ Mein Ziel ist ein Job als Softwareentwickler in Deutschland. Jede Woche habe ich
 - [ ] Set up your personal **IT [Flashcards](#/@flashcards) deck**; add 10 cards from Week 1.
 - [ ] Schedule the **four milestone mocks** now: Week 8, Week 20 (telc B2), Week 44
   (interview), Week 51 (Goethe C1).
+- [ ] Decide in Week 8 whether you need [Goethe B1](#/exams/goethe-b1) — three questions, and
+  the first one settles it for most people.
 - [ ] Start an **error log** — one line per recurring mistake, reviewed every Sunday.
 
 ## 📚 Empfohlene Ressourcen · Recommended resources

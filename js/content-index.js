@@ -190,6 +190,7 @@ window.CONTENT_INDEX = {
       id: "exams", title: "Prüfungen — telc & Goethe", icon: "🎓", badge: "B2/C1",
       items: [
         { id: "exams/overview",                        title: "Überblick — welche Prüfung, wann",   level: "B2", topic: "Exam", type: "lesson" },
+        { id: "exams/goethe-b1",                       title: "Goethe B1 · Meilenstein Woche 8",    level: "B1", topic: "Exam", type: "lesson" },
         { id: "exams/telc-b2-lesen-sprachbausteine",   title: "telc B2 · Lesen & Sprachbausteine",  level: "B2", topic: "Exam", type: "lesson" },
         { id: "exams/telc-b2-hoeren",                  title: "telc B2 · Hörverstehen",             level: "B2", topic: "Exam", type: "lesson" },
         { id: "exams/telc-b2-schreiben",               title: "telc B2 · Schriftlicher Ausdruck",   level: "B2", topic: "Exam", type: "lesson" },

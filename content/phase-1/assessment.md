@@ -219,6 +219,12 @@ flowchart TD
 **Zusatzregel:** Auch bei ≥ 70 gilt — ist **ein Teil unter 50 %**, wiederhole zuerst dieses Modul.
 Ein Loch in einer Fertigkeit wird in Phase 2 größer, nicht kleiner.
 
+> **Dieselbe Punktzahl beantwortet noch eine zweite Frage.** Woche 8 ist auch der Moment, in dem du
+> entscheidest, ob du das **Goethe-B1-Zertifikat** ablegst — kein Lernziel dieser Roadmap, aber oft
+> ein Behördennachweis für Niederlassungserlaubnis oder Einbürgerung. Ab **70** hier ist B1 für dich
+> eine Formsache, es fehlt nur die Formatroutine. Die drei Fragen, an denen die Entscheidung hängt,
+> stehen in [Goethe B1 · Meilenstein Woche 8](#/exams/goethe-b1).
+
 ---
 
 ## 🔧 Fehler → Modul
@@ -362,3 +368,5 @@ if you can compare it to the last one.
 - **Self-quiz:** the app's [Quizzes](#/@quiz) and [Flashcards](#/@flashcards).
 - **Weak spots:** the **Fehler → Modul** table above.
 - **Next (if you pass):** [Phase 2 · Overview](#/phase-2/overview).
+- **Certificate decision:** [Goethe B1 · Meilenstein Woche 8](#/exams/goethe-b1) — whether the
+  paperwork is worth a week of your time.
