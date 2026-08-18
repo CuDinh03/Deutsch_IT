@@ -17,24 +17,24 @@ register: **Commit** (imperative subject, passive body), **Ticket** (reproducibl
 
 ```uebung
 ? Welche Subject-Zeile ist korrekt?
+x fix(auth): behandelt Ablauf des JWT-Tokens
 * fix(auth): Ablauf des JWT-Tokens korrekt behandeln
 x fix(auth): Ich habe den Ablauf des JWT-Tokens korrekt behandelt
 x fix(auth): Ablauf des JWT-Tokens wurde korrekt behandelt
-x fix(auth): behandelt Ablauf des JWT-Tokens
 ! Die Subject-Zeile steht im **Infinitiv/Imperativ**: „Was soll dieser Commit tun?" → *… behandeln*. Kein Ich, kein Passiv, kein Perfekt.
 
 ? Wie lang sollte die Subject-Zeile höchstens sein?
-* etwa 50 Zeichen
-x 200 Zeichen
 x eine ganze Zeile Fließtext
 x egal
+* etwa 50 Zeichen
+x 200 Zeichen
 ! Kurz genug, dass sie in `git log --oneline` lesbar bleibt.
 
 ? In welchem Register steht der **Body** einer Commit-Message?
-* Passiv / Nominalstil, sachlich
 x Imperativ
 x Ich-Form
 x Umgangssprache
+* Passiv / Nominalstil, sachlich
 ! Der Body erklärt **warum** — sachlich und aktorneutral: *Die Prüfung wird nun im Sicherheitsfilter durchgeführt.*
 
 ? Was gehört NICHT in eine gute Commit-Message?
@@ -49,31 +49,31 @@ x eine kurze Subject-Zeile
 
 ```uebung
 ? Welche Felder gehören in ein reproduzierbares Ticket? (mehrere richtig)
-* Titel
 * Beschreibung
 * Schritte zur Reproduktion
 * Erwartetes / Tatsächliches Verhalten
 * Akzeptanzkriterien
 x eine Schätzung in Stunden
+* Titel
 ! Die fünf oben machen ein Ticket bearbeitbar, ohne dass jemand nachfragen muss.
 
 ? Wie sollte der Ticket-Titel formuliert sein?
-* eine sachliche Zeile, die das Problem nennt
-x eine Frage
 x eine Entschuldigung
 x der Name des Entwicklers
+* eine sachliche Zeile, die das Problem nennt
+x eine Frage
 ! *Login schlägt bei abgelaufenem Token fehl* — Zustand, nicht Vermutung.
 
 ? Wie müssen die Reproduktionsschritte sein?
+x als Screenshot ohne Text
 * nummeriert und deterministisch
 x als Fließtext
-x als Screenshot ohne Text
 ! Wer sie befolgt, muss den Fehler sehen. Sonst ist das Ticket nicht bearbeitbar.
 
 ? Wie schreibt man Akzeptanzkriterien?
-* als abhakbare Bedingungen
 x als lange Erklärung
 x als Meinung
+* als abhakbare Bedingungen
 ! Prüfbar formulieren: *Abgelaufene Tokens liefern 401.*
 ```
 
@@ -81,24 +81,24 @@ x als Meinung
 
 ```uebung
 ? „Zuerst klont man das Repository, dann installiert man die Abhängigkeiten."
+x Ticket
 * README / Anleitung
 x ADR
 x Commit-Body
-x Ticket
 ! *man* + Reihenfolge = Handlungsanweisung.
 
 ? „Zur Reduzierung der Kopplung wurde entschieden, auf Events umzustellen."
+x Commit-Subject
 x README
 * ADR
 x Ticket
-x Commit-Subject
 ! Nominalstil + Passiv + Begründung = Entscheidungsdokument.
 
 ? „Nach Ablauf des Tokens erhält der Benutzer einen 500-Fehler statt einer klaren 401-Antwort."
+x Commit-Subject
 x README
 x ADR
 * Ticket-Beschreibung
-x Commit-Subject
 ! Problembeschreibung mit Ist-Zustand.
 ```
 
@@ -172,10 +172,10 @@ x Futur
 ! Präsens, Aussagesatz, prüfbar.
 
 ? Welches Akzeptanzkriterium ist NICHT prüfbar?
+x Die Fehlermeldung nennt den Grund.
 * Die Fehlerbehandlung ist besser.
 x Abgelaufene Tokens liefern 401.
 x Ein Test deckt den Ablauf-Fall ab.
-x Die Fehlermeldung nennt den Grund.
 ! „besser" lässt sich nicht abhaken. Akzeptanzkriterien müssen binär sein.
 ```
 
@@ -183,18 +183,18 @@ x Die Fehlermeldung nennt den Grund.
 
 ```uebung
 ? Welche Formulierung passt in eine README-Anleitung?
-* Zuerst klont man das Repository.
-x Das Repository wird geklont werden müssen.
 x Ich klone dann immer das Repository.
 x Man könnte eventuell das Repository klonen.
+* Zuerst klont man das Repository.
+x Das Repository wird geklont werden müssen.
 ! *man* + klare Reihenfolge. Kein Konjunktiv, keine Ich-Form.
 
 ? Welche Überschriften sind in einer deutschen README üblich? (mehrere richtig)
-* Voraussetzungen
-* Installation
 * Konfiguration
 * Nutzung
 x Danksagung
+* Voraussetzungen
+* Installation
 ! Die vier decken *was brauche ich, wie starte ich, wie stelle ich ein, wie benutze ich*.
 
 ? Deutsch für „Prerequisites"
@@ -202,9 +202,9 @@ x Danksagung
 ! Das nützlichste README-Wort überhaupt.
 
 ? Welcher Stil ist in Installationsschritten üblich?
+x Passiv Perfekt
 * Infinitiv oder man-Form
 x Imperativ mit „Du"
-x Passiv Perfekt
 ! *Repository klonen* / *Man klont das Repository* — nicht *Klone das Repository*.
 ```
 
@@ -232,10 +232,10 @@ x Budget
 ! Konsequenz.
 
 ? Welcher Ton passt in ein ADR?
-* sachlich, begründend, mit genannten Alternativen
-x werbend
 x entschuldigend
 x umgangssprachlich
+* sachlich, begründend, mit genannten Alternativen
+x werbend
 ! Ein ADR dokumentiert eine Abwägung, keine Meinung.
 ```
 
@@ -243,15 +243,15 @@ x umgangssprachlich
 
 ```uebung
 ? Was ist falsch? Commit-Subject: „feat(cache): Die Durchführung der Einführung eines Redis-Caches"
+x es ist zu kurz
 * Nominalstil gehört nicht in die Subject-Zeile
 x der Typ ist falsch
-x es ist zu kurz
 ! Subject = Infinitiv: *Redis-Cache einführen*. Nominalstil ist für Body und ADR.
 
 ? Was ist falsch? README: „Ich installiere dann immer die Abhängigkeiten."
-* Ich-Form gehört nicht in eine Anleitung
 x „installieren" ist falsch
 x es fehlt ein Komma
+* Ich-Form gehört nicht in eine Anleitung
 ! Anleitung → *man* oder Infinitiv.
 
 ? Was ist falsch? Ticket-Titel: „Irgendwas mit dem Login kaputt?"

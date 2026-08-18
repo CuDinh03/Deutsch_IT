@@ -42,24 +42,24 @@ mehr Erfahrung, sondern weniger Auswahl getroffen.
 
 ```uebung
 ? In welcher Reihenfolge stehen die Stationen?
+x nach Firmengröße
 * umgekehrt chronologisch — die neueste zuerst
 x chronologisch — die älteste zuerst
 x nach Wichtigkeit
-x nach Firmengröße
 ! Die lesende Person will zuerst wissen, was du **jetzt** machst. Ältere Stationen interessieren nur noch als Kontext.
 
 ? Wie lang darf ein Lebenslauf für eine Entwicklerstelle sein?
-* ein bis zwei Seiten
-x mindestens drei
 x eine halbe Seite
 x so lang wie nötig
+* ein bis zwei Seiten
+x mindestens drei
 ! Zwei Seiten sind die Obergrenze. Über zehn Jahre alte Stationen bekommen eine Zeile, keine Bullets.
 
 ? Welcher Abschnitt steht direkt nach dem Kopf?
-* Berufserfahrung
 x Ausbildung
 x Kenntnisse
 x Hobbys
+* Berufserfahrung
 ! Bei Berufserfahrenen kommt die Erfahrung vor der Ausbildung. Nur bei Berufseinsteigern dreht sich das um.
 ```
 
@@ -93,10 +93,10 @@ x Kontaktdaten
 ! Das AGG verbietet die Auswahl nach diesen Merkmalen. Üblich sind Foto und Geburtsdatum trotzdem noch — du entscheidest.
 
 ? Du brauchst ein Visum beziehungsweise eine Aufenthaltserlaubnis. Was ist praktisch?
+x erst im Gespräch erwähnen, wenn gefragt wird
 * den Status kurz nennen, damit die Frage nicht offenbleibt
 x das Thema vermeiden
 x eine Kopie des Passes beilegen
-x erst im Gespräch erwähnen, wenn gefragt wird
 ! Verpflichtet bist du nicht. Aber eine offene Frage im Kopf der lesenden Person kostet dich in einem Stapel von 80 Bewerbungen eher eine Einladung als eine klare Zeile.
 ```
 
@@ -120,10 +120,10 @@ Drei Verbtypen decken fast alles ab:
 
 ```uebung
 ? Welche Bulletzeile ist die beste?
-* Latenz der Bestellabfrage von 450 auf 180 ms reduziert
-x Verantwortlich für Performance
 x Arbeit an der Performance des Systems
 x Performance war mir immer wichtig
+* Latenz der Bestellabfrage von 450 auf 180 ms reduziert
+x Verantwortlich für Performance
 ! Verb plus Objekt plus Zahl. Die Messgröße macht aus einer Behauptung eine Tatsache.
 
 ? Was fehlt: „Migration auf Kubernetes“
@@ -131,10 +131,10 @@ x Performance war mir immer wichtig
 ! Besser: *Migration von 12 Services auf Kubernetes verantwortet*. Das Nomen allein sagt nicht, was du dabei getan hast.
 
 ? Wie viele Bullets pro Station?
-* drei bis vier bei der aktuellen, weniger bei älteren
 x mindestens acht
 x einer
 x so viele wie möglich
+* drei bis vier bei der aktuellen, weniger bei älteren
 ! Die aktuelle Station bekommt das Gewicht. Stationen von vor sechs Jahren brauchen oft nur die Kopfzeile.
 
 ? Warum steht in Bullets kein „ich“?
@@ -195,24 +195,24 @@ bei Terraform) und eine **Werkstudentenstelle ohne Bullets**, weil sie sieben Ja
 
 ```uebung
 ? Warum stehen die IT-Kenntnisse gruppiert und nicht als lange Liste?
+x Weil es mehr Kenntnisse suggeriert.
 * Weil eine Gruppierung zeigt, dass du die Landschaft ordnen kannst — und schneller lesbar ist.
 x Weil es kürzer ist.
 x Weil Listen verboten sind.
-x Weil es mehr Kenntnisse suggeriert.
 ! Eine Stichwortwolke aus vierzig Begriffen liest niemand. Fünf Gruppen mit je vier bis sechs Einträgen schon.
 
 ? Warum steht bei Terraform „Grundkenntnisse“?
-* Weil eine ehrliche Stufe im Fachgespräch hält und eine übertriebene auffliegt.
-x Weil Terraform unwichtig ist.
 x Weil es Pflicht ist, eine Schwäche zu nennen.
 x Weil man immer untertreiben sollte.
+* Weil eine ehrliche Stufe im Fachgespräch hält und eine übertriebene auffliegt.
+x Weil Terraform unwichtig ist.
 ! Im deutschen Fachgespräch wird nachgefragt. Eine Selbsteinstufung, die der Nachfrage nicht standhält, kostet mehr als die fehlende Kenntnis.
 
 ? Wie gibst du Sprachniveaus an?
-* nach GER: A1 bis C2, Muttersprache separat
 x „fließend“, „gut“, „Grundkenntnisse“
 x in Jahren
 x gar nicht
+* nach GER: A1 bis C2, Muttersprache separat
 ! Der Gemeinsame Europäische Referenzrahmen ist der Standard. *Verhandlungssicher* und *fließend* kommen in Anzeigen vor, sind aber unscharf — im Lebenslauf ist die Stufe präziser.
 ```
 
@@ -243,10 +243,10 @@ x im Anschreiben erklären, im Lebenslauf verschweigen
 ! Eine benannte Lücke ist eine Zeile. Eine entdeckte Lücke ist eine Vertrauensfrage — und Zeiträume gleicht man gegen die Zeugnisse ab.
 
 ? Wo prüfst du, wie dein ausländischer Abschluss in Deutschland eingestuft wird?
+x beim Goethe-Institut
 * in der anabin-Datenbank der ZAB
 x bei der Arbeitsagentur
 x beim Arbeitgeber
-x beim Goethe-Institut
 ! anabin ist die offizielle Datenbank für die Bewertung ausländischer Bildungsabschlüsse. Der Stand ändert sich — dort direkt nachsehen.
 ```
 

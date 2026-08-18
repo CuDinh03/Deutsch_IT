@@ -144,10 +144,10 @@ und danach **Fragen** dazu stellen und beantworten.
 
 ```uebung
 ? Was ist die wichtigste organisatorische Eigenschaft des Goethe B1?
-* Die vier Module sind einzeln bestehbar und einzeln wiederholbar.
-x Man muss alle vier am selben Tag bestehen.
 x Nur der Durchschnitt aller vier Module zählt.
 x Sprechen zählt doppelt.
+* Die vier Module sind einzeln bestehbar und einzeln wiederholbar.
+x Man muss alle vier am selben Tag bestehen.
 ! Wie bei C1. Das ändert deine Vorbereitung: Zeit ins schwächste Modul stecken, nicht gleichmäßig verteilen — ein bestandenes Modul bleibt bestanden.
 
 ? Ab wie vielen Punkten ist ein Modul bestanden?
@@ -155,24 +155,24 @@ x Sprechen zählt doppelt.
 ! Jedes Modul zählt /100, bestanden ab 60. Ein Modul mit 59 zieht die anderen nicht mit runter — es wird einzeln wiederholt.
 
 ? Du hast 78 im Lesen, 71 im Hören, 55 im Schreiben, 68 im Sprechen. Was tust du?
-x Schreiben und Sprechen wiederholen
-* nur Schreiben wiederholen
 x die ganze Prüfung wiederholen
 x nichts, der Durchschnitt liegt über 60
+x Schreiben und Sprechen wiederholen
+* nur Schreiben wiederholen
 ! Drei Module sind bestanden und bleiben es. Genau dafür gibt es die modulare Struktur — der Durchschnitt spielt keine Rolle.
 
 ? Was ist der übliche echte Grund, Goethe B1 abzulegen?
-x eine Voraussetzung für telc B2
-x eine Pflicht innerhalb dieser Roadmap
 * ein Behördennachweis wie Niederlassungserlaubnis oder Einbürgerung
 x ein Vorteil bei IT-Bewerbungen
+x eine Voraussetzung für telc B2
+x eine Pflicht innerhalb dieser Roadmap
 ! Im Bewerbungsprozess wirkt erst B2. B1 ist fast immer ein Dokument für eine Behörde — ein legitimer Grund, aber ein anderer.
 
 ? Warum funktioniert „erst die Frage lesen, dann im Text suchen" bei B1, aber schlecht bei C1?
-x Bei C1 gibt es keine Fragen zum Text.
-x Bei B1 ist mehr Zeit pro Text vorgesehen.
 x Bei C1 darf man den Text nicht zweimal lesen.
 * Bei B1 steht die Antwort meist wörtlich im Text, bei C1 als Umformulierung.
+x Bei C1 gibt es keine Fragen zum Text.
+x Bei B1 ist mehr Zeit pro Text vorgesehen.
 ! Wörtliche Nähe ist auf B1 ein Hinweis, auf C1 eher ein Warnsignal. Dieselbe Technik, gegensätzliche Wirkung.
 ```
 
@@ -180,31 +180,31 @@ x Bei C1 darf man den Text nicht zweimal lesen.
 
 ```uebung
 ? Du brauchst den Nachweis für die Einbürgerung und hast im Phase-1-Test 74 Punkte. Was ist der sinnvollste nächste Schritt?
+x erst telc B2 abwarten und dann beides zusammen machen
 x auf den Nachweis verzichten
 * B1 buchen und zwei bis drei Wochen gezielt das Format üben
 x sofort ohne Vorbereitung antreten
-x erst telc B2 abwarten und dann beides zusammen machen
 ! 74 heißt: das Niveau steht, es fehlt nur die Formatroutine. Genau dafür ist der Modellsatz da. Auf B2 zu warten verschiebt den Behördentermin ohne Gewinn.
 
 ? Du hast bereits ein B1-Zertifikat aus dem Integrationskurs. Was tust du in Woche 8?
+x Goethe B1 zur Sicherheit noch einmal ablegen
 x den Phase-1-Test überspringen
 x auf Goethe C1 umsteigen
 * den Phase-1-Test als Standortbestimmung nutzen und direkt auf Phase 2 zugehen
-x Goethe B1 zur Sicherheit noch einmal ablegen
 ! Ein zweites Papier über dasselbe Niveau bringt nichts. Der Phase-1-Test bleibt trotzdem sinnvoll — er ist die Eingangsmessung für Phase 2, nicht die Prüfungsvorbereitung.
 
 ? In einer Zuordnungsaufgabe passt eine Anzeige fast perfekt. Woran erkennst du, ob sie es ist?
+* am Detail, das nicht passt — Preis, Termin oder Ort
 x an der Länge der Anzeige
 x an der Reihenfolge der Anzeigen
 x daran, wie viele Wörter sich mit der Aufgabe überschneiden
-* am Detail, das nicht passt — Preis, Termin oder Ort
 ! Die Distraktoren sind absichtlich fast richtig. Sie scheitern an genau einem konkreten Detail, und das ist meistens eine Zahl.
 
 ? Welche drei Register verlangt der Schreiben-Teil?
+x Bericht, Protokoll, Beschwerde
 * private Nachricht, Forumsbeitrag mit Meinung, halbformelle Mitteilung
 x dreimal formelle Briefe
 x Lebenslauf, Anschreiben, E-Mail
-x Bericht, Protokoll, Beschwerde
 ! Drei Tonlagen sind Teil der Bewertung. Alle drei im selben Ton zu schreiben kostet Punkte, auch bei fehlerfreier Grammatik.
 
 ? Im ersten Hördurchgang solltest du vor allem …
@@ -222,10 +222,10 @@ x ob du länger sprichst als die andere Person
 ! Interaktion ist ein eigenes Kriterium: nachfragen, zustimmen, einen Gegenvorschlag machen. Den anderen niederzureden senkt deine eigene Note.
 
 ? Welcher Satz passt zum B1-Niveau — nicht darunter, nicht darüber?
-x Ich gut finden Vorschlag.
 * Ich finde den Vorschlag gut, weil wir dann mehr Zeit haben.
 x Vorschlag gut. Mehr Zeit.
 x Zwar ließe sich einwenden, dass der Vorschlag den Zeitrahmen sprengt, doch überwiegen die Vorteile.
+x Ich gut finden Vorschlag.
 ! B1 heißt: Meinung plus Begründung im Nebensatz. Der dritte Satz ist B2/C1 — richtig, aber nicht das geprüfte Niveau.
 ```
 

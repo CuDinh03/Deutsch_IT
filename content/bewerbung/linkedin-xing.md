@@ -37,17 +37,17 @@ englische bestehen — dann bedienst du beide Suchen.
 
 ```uebung
 ? Warum lohnt sich ein deutschsprachiges Profil?
-* weil Recruiter mit deutschen Begriffen suchen und du sonst nicht gefunden wirst
-x weil englische Profile unhöflich sind
 x weil Deutsch professioneller wirkt
 x weil es Pflicht ist
+* weil Recruiter mit deutschen Begriffen suchen und du sonst nicht gefunden wirst
+x weil englische Profile unhöflich sind
 ! Es ist eine Frage der Auffindbarkeit, nicht der Höflichkeit. *Backend-Entwickler* und *Backend Developer* sind für eine Suchmaske zwei verschiedene Wörter.
 
 ? Was tust du mit deinem englischen Profil?
-* bestehen lassen und die deutsche Fassung ergänzen
 x löschen
 x wörtlich übersetzen und ersetzen
 x ins Deutsche verschieben
+* bestehen lassen und die deutsche Fassung ergänzen
 ! Mehrsprachige Profile bedienen beide Suchen. Und eine wörtliche Übersetzung liest sich fast immer schlechter als eine neu geschriebene Fassung.
 ```
 
@@ -86,17 +86,17 @@ x Lebenslauf in Kurzform
 ! Der letzte Teil entscheidet über die Trefferquote: Ohne ihn wissen Recruiter nicht, ob du überhaupt offen bist.
 
 ? Welche Kurzbeschreibung ist am besten?
+x Java-Fan seit 2015
 * Backend-Entwickler · Java, Spring Boot, Kubernetes · Zahlungssysteme
 x Softwareentwickler bei Nordstern
 x Passionate Developer & Problem Solver
-x Java-Fan seit 2015
 ! Rolle, Stack, Kontext — alles Begriffe, nach denen gesucht wird. Der Firmenname allein sagt einer Suchmaske nichts über dich.
 
 ? Wie lang sollte „Über mich“ sein?
-* etwa vier Sätze
-x eine halbe Seite
 x ein Satz
 x so lang wie der Lebenslauf
+* etwa vier Sätze
+x eine halbe Seite
 ! Vier Sätze werden gelesen, zwanzig überflogen. Das Profil ist kein Anschreiben.
 ```
 
@@ -134,10 +134,10 @@ dich heute nicht interessiert, sucht in zwei Jahren vielleicht genau das, was du
 
 ```uebung
 ? Warum antwortest du auch auf uninteressante Anfragen?
-* weil eine kurze Antwort in Erinnerung bleibt und die Tür offen hält
 x weil es Pflicht ist
 x weil man sonst gesperrt wird
 x weil Recruiter sonst weiterschreiben
+* weil eine kurze Antwort in Erinnerung bleibt und die Tür offen hält
 ! Recruiter merken sich die Leute, die antworten. Das kostet dich zwei Minuten und wirkt jahrelang nach.
 
 ? Was fragst du bei Interesse zuerst?
@@ -152,10 +152,10 @@ x nach dem Bewerbungsprozess
 ! Eine Einladung zum späteren Kontakt macht aus einer Absage eine Verschiebung.
 
 ? Wie lang ist eine gute Antwort auf eine Recruiter-Nachricht?
+x so lang wie das Anschreiben
 * drei bis fünf Zeilen
 x eine Seite
 x ein Wort
-x so lang wie das Anschreiben
 ! Es ist eine Nachricht, keine Bewerbung. Der Lebenslauf kommt später, wenn überhaupt.
 ```
 
@@ -183,17 +183,17 @@ wahrscheinlicher.
 
 ```uebung
 ? Was gehört in eine Kontaktanfrage?
-* ein konkreter Anlass, woher man sich kennt
-x nur der Name
 x der Lebenslauf
 x eine Bitte um eine Stelle
+* ein konkreter Anlass, woher man sich kennt
+x nur der Name
 ! Eine leere Kontaktanfrage wird oft ignoriert. Ein Satz Anlass verdoppelt die Annahmequote — und macht die spätere Nachricht möglich.
 
 ? Du bittest eine Bekannte um eine Empfehlung. Was darf nicht fehlen?
-* ein einfacher Ausweg für sie („kein Problem, wenn es gerade nicht passt“)
 x eine Frist
 x der vollständige Lebenslauf
 x eine Gegenleistung
+* ein einfacher Ausweg für sie („kein Problem, wenn es gerade nicht passt“)
 ! Eine Empfehlung ist ein persönliches Risiko für die andere Person. Wer das Nein leicht macht, bekommt häufiger ein ehrliches Ja.
 
 ? Nach einer Absage um Feedback bitten — ist das in Ordnung?

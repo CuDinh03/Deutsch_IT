@@ -88,9 +88,9 @@ x die Latenz
 ! Vergangenheit, weil es ein abgeschlossener Vorgang ist.
 
 ? „die im Cache gehaltenen Daten" — welche Zeit passt beim Auflösen?
+x Futur
 * Präsens — es ist ein andauernder Zustand
 x Perfekt
-x Futur
 ! *die Daten, die im Cache gehalten werden.*
 ```
 
@@ -105,23 +105,23 @@ x eine Methode
 ! Es stellt Cache-Treffer und Cache-Fehlschlag gegenüber.
 
 ? „Sofern aktuellere Daten benötigt werden, …" — was signalisiert *sofern*?
-x Gegensatz
 x Folge
 * Bedingung
 x Zeitpunkt
+x Gegensatz
 ! *sofern* = vorausgesetzt, dass.
 
 ? „…, da die Datenbanklast dadurch erheblich steigt." — was signalisiert *da*?
-* einen Grund (schriftsprachlich für *weil*)
-x eine Bedingung
 x einen Ort
 x eine Zeit
+* einen Grund (schriftsprachlich für *weil*)
+x eine Bedingung
 ! *da* ist die formelle Variante von *weil*, gleiche Wortstellung.
 
 ? „Da die Änderung zunächst nur auf einem Replikat wirksam wurde, blieb sie länger unauffällig." — wo steht das Verb im Hauptsatz?
-* direkt nach dem Nebensatz, an Position 2 des Gesamtsatzes
 x am Ende
 x vor dem Nebensatz
+* direkt nach dem Nebensatz, an Position 2 des Gesamtsatzes
 ! Der ganze Nebensatz besetzt Position 1, also folgt sofort *blieb*.
 ```
 
@@ -140,10 +140,10 @@ x um Kosten zu senken
 ! Steht direkt im ersten Satz — im Nominalstil: *zur Reduzierung der Latenz*.
 
 ? Was passiert bei einem gültigen Cache-Eintrag?
+x Die Anfrage wird abgewiesen.
 * Die Antwort wird unmittelbar zurückgegeben.
 x Die Datenbank wird trotzdem abgefragt.
 x Der Eintrag wird gelöscht.
-x Die Anfrage wird abgewiesen.
 ! Der *wohingegen*-Satz stellt beide Fälle gegenüber.
 
 ? Nach wie vielen Minuten verfallen die Cache-Daten?
@@ -155,10 +155,10 @@ x Die Anfrage wird abgewiesen.
 ! Im zweiten Absatz.
 
 ? Warum wird von dauerhafter Deaktivierung abgeraten?
-* weil die Datenbanklast dadurch erheblich steigt
-x weil es technisch nicht möglich ist
 x weil es die Latenz senkt
 x weil der Cache dann veraltet
+* weil die Datenbanklast dadurch erheblich steigt
+x weil es technisch nicht möglich ist
 ! Der *da*-Satz nennt den Grund.
 ```
 
@@ -174,10 +174,10 @@ x weil der Cache dann veraltet
 ! „etwa zwölf Prozent".
 
 ? Was war die Ursache?
-* eine ausgerollte Konfigurationsänderung, die das Verbindungslimit von 100 auf 10 senkte
 x ein Hardwaredefekt
 x ein Angriff von außen
 x ein Fehler im Zahlungsanbieter
+* eine ausgerollte Konfigurationsänderung, die das Verbindungslimit von 100 auf 10 senkte
 ! Der zweite Absatz nennt sie im Partizipialattribut.
 
 ? Von welchem Wert auf welchen wurde das Verbindungslimit reduziert?
@@ -192,17 +192,17 @@ x weil die Fehlerrate zu niedrig war
 ! Der *Da*-Satz am Anfang des dritten Satzes.
 
 ? Welche Maßnahmen wurden beschlossen? (mehrere richtig)
+x Einstellung zusätzlicher Mitarbeiter
 * Begrenzung der zulässigen Änderungsgröße
 * Alarmierung ab zwei Prozent Fehlerrate
 * Aufnahme des Verbindungslimits in die Bereitstellungsprüfung
-x Einstellung zusätzlicher Mitarbeiter
 ! Drei Maßnahmen, alle im letzten Absatz.
 
 ? „als es wünschenswert gewesen wäre" — welche Form ist das?
-* Konjunktiv II der Vergangenheit
-x Passiv
 x Futur
 x Imperativ
+* Konjunktiv II der Vergangenheit
+x Passiv
 ! Irrealer Vergleich — typisch für den zurückhaltenden Ton deutscher Störungsmeldungen.
 ```
 

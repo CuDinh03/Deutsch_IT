@@ -40,10 +40,10 @@ Ein Titel nennt **Symptom und Bedingung**, nicht die Vermutung.
 
 ```uebung
 ? Welcher Titel ist am besten?
-* Zeitüberschreitung beim Laden der Bestellliste ab 500 Einträgen
 x Performance-Problem
 x Liste lädt nicht
 x Bitte Bestellliste prüfen
+* Zeitüberschreitung beim Laden der Bestellliste ab 500 Einträgen
 ! Symptom (*Zeitüberschreitung*), Ort (*Bestellliste*) und Bedingung (*ab 500 Einträgen*). Wer den Titel liest, weiß, ob ihn das Ticket betrifft.
 
 ? Was gehört NICHT in einen Titel?
@@ -85,24 +85,24 @@ Erwartung.
 
 ```uebung
 ? Welche Angabe fehlt in diesem Ticket am ehesten, wenn du sie weglässt?
+x die Beschreibung
 * die Schritte zur Reproduktion
 x der Schweregrad
 x die Umgebung
-x die Beschreibung
 ! Ohne Reproduktion beginnt die Bearbeitung mit einer Rückfrage — und das Ticket liegt einen Tag still.
 
 ? „Schweregrad: hoch — Anmeldung ist blockiert, kein Workaround bekannt." Warum steht die Begründung dabei?
-* weil „hoch" ohne Begründung eine Meinung ist und diskutiert wird
-x weil das Feld sonst leer bleibt
 x weil Jira das verlangt
 x weil der Schweregrad die Priorität ersetzt
+* weil „hoch" ohne Begründung eine Meinung ist und diskutiert wird
+x weil das Feld sonst leer bleibt
 ! Priorisierung ist im deutschen Arbeitsalltag Verhandlungssache. Wer die Auswirkung nennt, verhandelt mit Fakten statt mit Adjektiven.
 
 ? Was bedeutet „kein Workaround bekannt"?
-* Es gibt keinen Behelfsweg, mit dem Betroffene sich trotzdem anmelden können.
 x Der Fehler tritt nur selten auf.
 x Der Fehler ist nicht reproduzierbar.
 x Es gibt keine Ursache.
+* Es gibt keinen Behelfsweg, mit dem Betroffene sich trotzdem anmelden können.
 ! Deutsch dafür: *die Behelfslösung* oder *der Umgehungsweg* — im Alltag sagt aber fast jedes Team *Workaround*.
 ```
 
@@ -170,24 +170,24 @@ x Die Nutzererfahrung soll sich verbessern.
 ! Prüfbar heißt: Zwei Personen kommen unabhängig voneinander zum selben Urteil.
 
 ? Wie heißt das Gherkin-Muster auf Deutsch?
+x Erst / Dann / Zuletzt
 * Gegeben / Wenn / Dann
 x Wenn / Aber / Also
 x Voraussetzung / Ablauf / Ergebnis
-x Erst / Dann / Zuletzt
 ! *Gegeben … , wenn … , dann …* — so steht es auch in deutschsprachigen Cucumber-Feature-Dateien.
 
 ? Wozu dient der Abschnitt „Nicht enthalten"?
-* Er grenzt ab, was ausdrücklich nicht Teil des Tickets ist.
-x Er listet abgelehnte Tickets auf.
 x Er sammelt Fehler, die nicht behoben werden.
 x Er ersetzt die Akzeptanzkriterien.
+* Er grenzt ab, was ausdrücklich nicht Teil des Tickets ist.
+x Er listet abgelehnte Tickets auf.
 ! Die Abgrenzung verhindert die häufigste Diskussion der Abnahme: „Ich dachte, das gehört dazu."
 
 ? „Die Seite lädt in unter 500 ms (95. Perzentil)." Warum die Perzentilangabe?
-* Ohne sie ist unklar, ob ein einzelner langsamer Aufruf das Kriterium verletzt.
 x Weil 500 ms zu schnell ist.
 x Weil Perzentile in Jira Pflicht sind.
 x Weil der Mittelwert genauer ist.
+* Ohne sie ist unklar, ob ein einzelner langsamer Aufruf das Kriterium verletzt.
 ! Ein Durchschnitt versteckt Ausreißer. Beim Perzentil ist die Messvorschrift Teil des Kriteriums — und damit unstrittig.
 ```
 
@@ -242,10 +242,10 @@ x mit der Frage, wer schuld ist
 ! *die Abnahme* ist die formelle Übergabe zur Prüfung. Ein Ticket, das ohne diesen Satz auf „fertig" springt, bleibt liegen.
 
 ? „Das hängt an der Freigabe der Datenschutzprüfung." Was drückt der Satz aus?
+x eine Absage
 * eine Abhängigkeit — ohne die Freigabe geht es nicht weiter
 x eine Schätzung
 x eine Priorität
-x eine Absage
 ! *an etwas hängen* ist die umgangssprachliche Form von *von etwas abhängen*. Im Ticket schreibst du besser: *Abhängigkeit: Freigabe der Datenschutzprüfung.*
 ```
 

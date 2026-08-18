@@ -27,10 +27,10 @@ Spiele jeden Hörtext **einmal** und antworte aus dem Gedächtnis. Nicht zurück
 
 ```uebung
 ? Wer spricht?
-* ein Entwickler
 x ein Kunde
 x ein Personaler
 x ein Support-Mitarbeiter
+* ein Entwickler
 ! Daily, Pull Request, Tests, Schnittstelle — eindeutig aus der Entwicklung.
 
 ? Wie wirkt die Person?
@@ -52,15 +52,15 @@ x um ein Code-Review-Ergebnis
 
 ```uebung
 ? Was ist passiert?
-* Der Server ist abgestürzt, die Anwendung war nicht erreichbar.
-x Ein Deployment wurde verschoben.
 x Ein Kollege ist krank.
 x Die Datenbank wurde migriert.
+* Der Server ist abgestürzt, die Anwendung war nicht erreichbar.
+x Ein Deployment wurde verschoben.
 ! „Der Server … ist heute Nacht um drei Uhr abgestürzt."
 
 ? Ist das Problem gelöst oder noch offen?
-* gelöst
 x noch offen
+* gelöst
 ! „Wir haben das Problem behoben und das System läuft wieder normal."
 ```
 
@@ -68,10 +68,10 @@ x noch offen
 
 ```uebung
 ? Wie viele Personen sprechen?
-x eine
 * zwei
 x drei
 x vier
+x eine
 ! Ein Hin und Her zwischen zwei Personen.
 
 ? Formell oder informell?
@@ -80,10 +80,10 @@ x formell
 ! *du*-Formen und „Na, wie war dein Wochenende?" — reiner Small Talk.
 
 ? Worum geht es am Ende?
+x um die Kinder
 x um ein Projekt
 * um eine Einladung zum Mittagessen
 x um das Wetter
-x um die Kinder
 ! „kommst du nachher zum Mittagessen mit?"
 ```
 
@@ -156,17 +156,17 @@ x Sie hat gekocht.
 ! „am Sonntag habe ich nur gelesen." Der Park war am **Samstag**.
 
 ? Wie war das Wetter letzte Woche?
+x sehr kalt
 x schön
 * es hat geregnet
 x es hat geschneit
-x sehr kalt
 ! „letzte Woche hat's ja jeden Tag geregnet."
 
 ? Wann gehen sie essen?
-x um 12:00
-* um 12:30
 x um 13:30
 x um 11:30
+x um 12:00
+* um 12:30
 ! *halb eins* = **12:30**. Deutsch zählt auf die nächste Stunde zu — *halb zwei* wäre 13:30. Dieser eine Punkt kostet Lernende regelmäßig echte Termine.
 ```
 
@@ -185,10 +185,10 @@ x wegen des Urlaubs
 ! „an zwei Stellen habe ich Kommentare hinterlassen."
 
 ? Was versteht sie nicht ganz?
+x die Konfiguration
 * die Fehlerbehandlung in der zweiten Methode
 x den Namen der Klasse
 x den Testaufbau
-x die Konfiguration
 ! Wörtlich im Text.
 
 ? Ist ihr Ton freundlich oder verärgert?
@@ -201,10 +201,10 @@ x verärgert
 
 ```uebung
 ? Um welches Thema geht es?
-* Fachkräftemangel in der IT
 x neue Datenschutzregeln
 x Homeoffice
 x Gehälter in der IT
+* Fachkräftemangel in der IT
 ! „Viele deutsche Unternehmen suchen weiterhin Fachkräfte in der Informationstechnik."
 
 ? Wie viele Fachleute fehlen?
@@ -219,10 +219,10 @@ x Support und Vertrieb
 ! „besonders gesucht sind Entwicklerinnen und Entwickler für Cloud-Systeme und für Sicherheit."
 
 ? Was bieten viele Firmen inzwischen an?
+x Firmenwagen
 * teilweise von zu Hause zu arbeiten
 x höhere Gehälter
 x kürzere Arbeitszeiten
-x Firmenwagen
 ! „Stellen an, bei denen man teilweise von zu Hause arbeiten kann."
 ```
 
@@ -230,17 +230,17 @@ x Firmenwagen
 
 ```uebung
 ? Welche Perfekt-Formen benutzt der Sprecher in Hörtext 1? (mehrere richtig)
-* habe … behoben
-* habe … aufgemacht
 x möchte … machen
 x wartet
+* habe … behoben
+* habe … aufgemacht
 ! *möchte machen* ist ein Modalverb + Infinitiv, *wartet* ist Präsens.
 
 ? Welche Modalverben kommen in Hörtext 1 vor? (mehrere richtig)
-* möchte
 x habe
 x wartet
 x schicke
+* möchte
 ! Nur *möchte*. Wenn du hier mehr angekreuzt hast, sieh dir die Modalverbliste in [Phase 1 · Grammar](#/phase-1/grammar) noch einmal an.
 
 ? Wie lautet die höfliche Bitte in Hörtext 4?

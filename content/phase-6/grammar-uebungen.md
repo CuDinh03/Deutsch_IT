@@ -29,17 +29,17 @@ x eben
 ! *doch* erinnert an gemeinsames Wissen oder widerspricht sanft einer Annahme. Ohne die Partikel klingt derselbe Satz wie eine Neuigkeit.
 
 ? „Kannst du ___ kurz drüberschauen?“ (beiläufige Bitte)
-x doch
-* mal
 x ja
 x wohl
+x doch
+* mal
 ! *mal* macht aus der Bitte eine Kleinigkeit. Es ist die meistgebrauchte Partikel im deutschen Büroalltag.
 
 ? „Dann machen wir es ___ morgen.“ (Achselzucken, dann eben so)
-x doch
-x ja
 * eben
 x wohl
+x doch
+x ja
 ! *eben* und *halt* signalisieren Fügung: Es ist, wie es ist. *halt* ist umgangssprachlicher, sonst austauschbar.
 
 ? „Der Build ist ___ schon wieder rot.“ (das sieht doch jeder)
@@ -57,10 +57,10 @@ x eben
 ! *wohl* drückt eine Annahme aus, ungefähr wie *wahrscheinlich* — nur kürzer und natürlicher.
 
 ? „Wie läuft es ___ mit der Migration?“ (freundliche Frage)
-* denn
 x doch
 x eben
 x wohl
+* denn
 ! *denn* macht Fragen im Deutschen freundlich. Ohne *denn* wirkt dieselbe Frage schnell wie ein Verhör.
 ```
 
@@ -78,10 +78,10 @@ x zwei Adverbien
 ! Partikeln lassen sich stapeln. *doch mal* ist eine der häufigsten Kombinationen — freundliche Aufforderung.
 
 ? Wo stehen Modalpartikeln im Satz?
-* im Mittelfeld, nach dem konjugierten Verb und den Pronomen
-x am Satzanfang
 x ganz am Ende
 x direkt vor dem Verb
+* im Mittelfeld, nach dem konjugierten Verb und den Pronomen
+x am Satzanfang
 ! „Kannst du **mir mal kurz** helfen?“ — erst die Pronomen, dann die Partikel. Am Satzanfang stehen Partikeln nie; dort wären es Konjunktionen oder Adverbien.
 ```
 
@@ -101,10 +101,10 @@ x habe
 ! K I Plural *haben* ist identisch mit dem Indikativ → Ausweichform Konjunktiv II *hätten*. Sonst verschwindet das Signal „berichtet“.
 
 ? Warum steht im Postmortem „Der Kollege gab an, das Alerting habe nicht ausgelöst“?
+x weil das Alerting tatsächlich nicht ausgelöst hat
 * weil der Bericht die fremde Aussage wiedergibt, ohne sie zu bestätigen
 x weil der Schreiber die Aussage bezweifelt
 x weil es eine Vermutung ist
-x weil das Alerting tatsächlich nicht ausgelöst hat
 ! Konjunktiv I ist Distanz, nicht Zweifel. Genau deshalb steht er in Postmortem, Protokoll und Nachricht.
 
 ? Welche Formen sind eindeutig Konjunktiv I? (mehrere richtig)
@@ -121,10 +121,10 @@ x wir gehen
 
 ```uebung
 ? „Reviewst du kurz meinen PR?“ Welches Register?
-* kollegial, per du — Chat oder Standup
 x formell, per Sie
 x höflich neutral
 x schriftliche Bewerbung
+* kollegial, per du — Chat oder Standup
 ! Kurz, direkt, ohne Konjunktiv. Im Teamchat völlig normal; in einer Mail an HR wäre es zu knapp.
 
 ? „Könnten Sie den Pull Request bei Gelegenheit prüfen?“ Welches Register?
@@ -134,10 +134,10 @@ x höflich neutral
 ! Konjunktiv II plus *bei Gelegenheit* plus Sie. Passt zu externen Dienstleistern oder anderen Abteilungen — im eigenen Team wirkt es distanziert.
 
 ? In welchem Register haben Modalpartikeln nichts zu suchen?
+x in der Kaffeeküche
 * im formellen Geschäftsbrief
 x im Teamchat
 x im Daily
-x in der Kaffeeküche
 ! Partikeln gehören zur gesprochenen und chatnahen Sprache. In einem Anschreiben oder einer Betriebsvereinbarung wären sie fehl am Platz.
 ```
 
@@ -189,10 +189,10 @@ x in der Kaffeeküche
 ! *doch mal* macht aus einer Aufforderung eine Einladung.
 
 ? Wie viele Partikeln pro Satz sind sinnvoll?
-* eine oder zwei
-x möglichst viele
 x mindestens drei
 x keine, sie sind umgangssprachlich
+* eine oder zwei
+x möglichst viele
 ! Zwei sind das natürliche Maximum. Wer stapelt, klingt nicht nativer, sondern nachlässig.
 ```
 
@@ -236,10 +236,10 @@ x keine, sie sind umgangssprachlich
 ! Die mittlere Stufe: vertraut in der Anrede, höflich in der Form. Für Bitten an Leute, die du kennst, aber nicht täglich siehst.
 
 ? Welcher Kanal verlangt welches Register?
-* Teamchat kollegial, HR-Mail formell
 x überall gleich formell
 x überall gleich locker
 x das hängt nur vom Alter ab
+* Teamchat kollegial, HR-Mail formell
 ! Register folgt dem Kanal und der Beziehung, nicht der Person allein. Dieselbe Kollegin duzt du im Chat und siezt du in einem offiziellen Antrag.
 ```
 

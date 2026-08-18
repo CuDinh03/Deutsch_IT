@@ -184,17 +184,17 @@ x Einstellungen
 ! *voraus* + *setzen* → was vorausgesetzt wird. Das nützlichste README-Wort überhaupt.
 
 ? „Ohne Datenbank schlagen sie fehl." — was heißt fehlschlagen?
+x langsam sein
 x fehlen
 * scheitern, nicht funktionieren
 x überspringen
-x langsam sein
 ! *fehlschlagen* = to fail. Nicht mit *fehlen* (to be missing) verwechseln.
 
 ? „dauern voraussichtlich drei Stunden" — was heißt voraussichtlich?
-x sicher
-* wahrscheinlich, geplant
 x höchstens
 x mindestens
+x sicher
+* wahrscheinlich, geplant
 ! Es ist eine Schätzung, keine Garantie.
 
 ? „Bei dringenden Fragen wendet euch an den Bereitschaftsdienst." — was ist das?
@@ -251,17 +251,17 @@ x falsch
 
 ```uebung
 ? Welcher Schritt kommt zuerst?
-* Repository klonen
 x Container starten
 x Umgebungsvariablen setzen
 x Anwendung im Browser öffnen
+* Repository klonen
 ! Ohne Repository gibt es nichts zu konfigurieren.
 
 ? Warum schlagen die Integrationstests manchmal fehl?
-x weil Java 17 fehlt
 * weil keine Datenbank läuft
 x weil das Repository veraltet ist
 x weil der Port belegt ist
+x weil Java 17 fehlt
 ! „Die Integrationstests benötigen eine laufende Datenbank."
 
 ? Wie löst man das Windows-Problem aus Text 2?
@@ -277,10 +277,10 @@ x weil der Port belegt ist
 ! „am Freitag, dem 12. September".
 
 ? Was sollen die Kollegen vorher tun?
+x den Bereitschaftsdienst anrufen
 * ihre Änderungen rechtzeitig speichern
 x das Büro verlassen
 x die Anwendung neu starten
-x den Bereitschaftsdienst anrufen
 ! „Bitte speichert eure Änderungen rechtzeitig vorher."
 
 ? Wo wird informiert, wenn es länger dauert?
@@ -288,10 +288,10 @@ x den Bereitschaftsdienst anrufen
 ! Vierter Absatz.
 
 ? Was passiert mit nicht gespeicherten Vorgängen?
+x nichts
 x sie werden automatisch gesichert
 * sie gehen verloren
 x sie werden nachträglich übertragen
-x nichts
 ! „Offene Vorgänge, die nicht gespeichert wurden, gehen verloren."
 ```
 
@@ -365,9 +365,9 @@ x ein Konditionalsatz
 ! Er beschreibt das Nomen *Vorgänge* näher; das Verb *wurden* steht am Ende des Einschubs.
 
 ? „In dieser Zeit ist die interne Anwendung nicht erreichbar." — warum steht „ist" an zweiter Stelle?
+x weil es Passiv ist
 * weil „In dieser Zeit" Position 1 besetzt (Inversion)
 x weil es ein Nebensatz ist
-x weil es Passiv ist
 ! Standard-Inversion: Wenn eine Angabe vorn steht, folgt sofort das konjugierte Verb.
 ```
 
@@ -375,11 +375,11 @@ x weil es Passiv ist
 
 ```uebung
 ? Welche Wörter bleiben in deutschen Tech-Dokumenten typischerweise englisch? (mehrere richtig)
-* Befehle wie „docker compose up"
-* Produktnamen wie PostgreSQL
 * Konfigurationsschlüssel wie core.autocrlf
 x Verben wie „klonen"
 x Nomen wie „die Voraussetzungen"
+* Befehle wie „docker compose up"
+* Produktnamen wie PostgreSQL
 ! Befehle, Tool- und Produktnamen bleiben englisch; das **Bindegewebe** dazwischen ist deutsch. Genau deshalb ist Lesen deine billigste Fertigkeit: die halbe Seite kannst du schon.
 ```
 

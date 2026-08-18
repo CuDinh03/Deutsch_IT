@@ -55,9 +55,9 @@ x formell
 
 ```uebung
 ? Was folgt richtig auf „Sehr geehrte Frau Weber,"?
+x Ich Schreibe Ihnen, weil …
 * ich schreibe Ihnen, weil …
 x Ich schreibe Ihnen, weil …
-x Ich Schreibe Ihnen, weil …
 ! Nach dem Komma der Anrede geht es **klein** weiter. Für englisch- und vietnamesischsprachige Lernende ist das kontraintuitiv — und deshalb ein zuverlässiges Erkennungsmerkmal für geübtes Deutsch.
 ```
 
@@ -270,9 +270,9 @@ Dieser Text enthält typische Fehler:
 
 ```uebung
 ? Was ist direkt nach der Anrede falsch?
-* „Ich" muss kleingeschrieben werden
 x es fehlt ein Ausrufezeichen
 x die Anrede ist zu formell
+* „Ich" muss kleingeschrieben werden
 ! Nach dem Anrede-Komma geht der Satz klein weiter.
 
 ? Welches Satzzeichen fehlt?
@@ -289,9 +289,9 @@ x prüfen
 ! *der Build*, *die Logs* — auch englische Lehnwörter werden im Deutschen als Nomen großgeschrieben.
 
 ? Was stimmt mit „Könnten sie" nicht?
-* die Höflichkeitsform „Sie" muss groß sein
 x es müsste „Können" heißen
 x nichts, das ist korrekt
+* die Höflichkeitsform „Sie" muss groß sein
 ! Kleingeschriebenes *sie* heißt „sie/they". In einem Sie-Brief ändert das die Bedeutung.
 ```
 

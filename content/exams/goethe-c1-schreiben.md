@@ -43,17 +43,17 @@ x den zweiten Text weglassen
 ! Aufgabenerfüllung wird pro Text bewertet. Ein fehlender Text ist eine ganze Position; ein unrunder Absatz kostet Nuancen.
 
 ? Wie viel Zeit reservierst du fürs Prüfen?
+x die Hälfte
 * etwa zehn Minuten
 x null — schreiben bis zum Schluss
 x eine Minute
-x die Hälfte
 ! In zehn Minuten findest du Endungen, Verbstellung und fehlende Konnektoren. Ohne Prüfzeit bleiben genau die Fehler stehen, die am billigsten zu beheben wären.
 
 ? Womit beginnst du?
-* mit einer Gliederung in Stichworten
-x mit dem ersten Satz
 x mit der Einleitung, ausformuliert
 x mit dem Schluss
+* mit einer Gliederung in Stichworten
+x mit dem ersten Satz
 ! Zehn Minuten Planung machen die dreißig Minuten Schreiben planbar. Wer sofort formuliert, schreibt sich in eine Struktur hinein, die er später nicht mehr verlassen kann.
 ```
 
@@ -83,10 +83,10 @@ trennt.
 
 ```uebung
 ? Welcher Block fehlt in schwachen C1-Texten am häufigsten?
-* die fair referierte Gegenposition
 x die Einleitung
 x der Schluss
 x die eigenen Argumente
+* die fair referierte Gegenposition
 ! Wer nur die eigene Meinung ausbreitet, schreibt B2. Erst das Einräumen und Entkräften zeigt, dass man eine Diskussion überblickt.
 
 ? Was gehört NICHT in den Schluss?
@@ -97,17 +97,17 @@ x eine Zusammenfassung der Abwägung
 ! Ein neues Argument im Schluss wirkt, als wäre der Text ausgegangen, bevor er fertig war.
 
 ? „Zwar lassen sich die Kosten senken, allerdings …“ Was leistet diese Figur?
+x Sie stellt eine Frage.
 * Sie räumt einen Punkt ein und schränkt ihn dann ein.
 x Sie stimmt vollständig zu.
 x Sie lehnt vollständig ab.
-x Sie stellt eine Frage.
 ! *zwar … allerdings/aber* ist das Arbeitspferd des argumentativen Schreibens. Zwei bis drei davon tragen einen ganzen Text.
 
 ? Wie viele eigene Argumente sind sinnvoll?
-* zwei, jeweils mit Beleg oder Beispiel
-x möglichst viele
 x eines
 x fünf bis sechs
+* zwei, jeweils mit Beleg oder Beispiel
+x möglichst viele
 ! Zwei ausgeführte Argumente wiegen mehr als fünf behauptete. Beleg heißt nicht Statistik — ein konkretes Beispiel genügt.
 ```
 
@@ -175,10 +175,10 @@ das verlangt die Aufgabenstellung meistens.
 
 ```uebung
 ? Worauf kommt es beim funktionalen Text vor allem an?
-* die Textsorte zu treffen: Anrede, Anliegen, Register, Gruß
 x möglichst viele Argumente
 x maximale Länge
 x komplexe Nebensätze
+* die Textsorte zu treffen: Anrede, Anliegen, Register, Gruß
 ! Aufgabenerfüllung schlägt Eleganz. Wer eine Rückmeldung schreibt, aber eine Beschwerde produziert, verliert die Position — egal wie gut die Sprache ist.
 
 ? Die Aufgabe verlangt eine Rückmeldung. Was gehört hinein?
@@ -189,10 +189,10 @@ x eine allgemeine Einschätzung
 ! „Sehr informativ" ist keine Rückmeldung. Zwei konkrete Punkte sind das Minimum — und sie zeigen, dass du wirklich teilgenommen hast.
 
 ? „Etwas zu kurz kam aus meiner Sicht …“ Warum ist diese Formulierung gut?
+x Sie ist umgangssprachlich.
 * Sie kritisiert konkret und bleibt höflich, weil sie als eigene Sicht markiert ist.
 x Sie ist unverbindlich.
 x Sie vermeidet Kritik.
-x Sie ist umgangssprachlich.
 ! *aus meiner Sicht* macht aus einem Urteil eine Perspektive — im deutschen Schriftverkehr die Standardabschwächung.
 ```
 
@@ -212,17 +212,17 @@ Ein Kriterium pro Durchgang ist schneller **und** gründlicher.
 
 ```uebung
 ? Wie prüfst du deinen Text am effektivsten?
-* in vier Durchgängen mit je einem Kriterium
-x einmal aufmerksam durchlesen
 x rückwärts lesen
 x jemanden fragen
+* in vier Durchgängen mit je einem Kriterium
+x einmal aufmerksam durchlesen
 ! Ein Kriterium pro Durchgang ist schneller und findet mehr. Beim Suchen nach allem gleichzeitig übersieht man alles.
 
 ? Welcher Fehler kostet am meisten?
-* ein vergessener Teilauftrag der Aufgabenstellung
 x eine falsche Adjektivendung
 x ein Rechtschreibfehler
 x ein zu kurzer Satz
+* ein vergessener Teilauftrag der Aufgabenstellung
 ! Aufgabenerfüllung ist eine eigene Bewertungsposition. Einzelne Formfehler gehen in eine Gesamteinschätzung ein — ein fehlender Punkt nicht.
 
 ? Was prüfst du im dritten Durchgang?

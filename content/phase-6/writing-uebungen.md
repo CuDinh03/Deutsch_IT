@@ -21,10 +21,10 @@ Musterlösungen am Ende.
 
 ```uebung
 ? Was muss eine asynchrone Meldung leisten?
-* selbsttragend sein — die lesende Person darf keine Rückfrage brauchen
 x möglichst kurz sein
 x möglichst höflich sein
 x den ganzen Arbeitstag dokumentieren
+* selbsttragend sein — die lesende Person darf keine Rückfrage brauchen
 ! Async heißt: Niemand kann nachfragen, ohne einen halben Tag zu verlieren. Alles Nötige steht im Text oder es fehlt.
 
 ? Welche Meldung ist die beste?
@@ -35,17 +35,17 @@ x Melde mich später nochmal dazu.
 ! Zustand, Detail, offener Punkt, explizite Aussage über Handlungsbedarf. Die anderen drei erzeugen genau die Rückfrage, die async teuer ist.
 
 ? Welcher Satz gehört ans Ende einer Statusmeldung?
+x Mehr dazu bald.
 * Kein Handeln nötig. / Ich brauche von euch: …
 x Danke fürs Lesen.
 x Bei Fragen meldet euch.
-x Mehr dazu bald.
 ! Der **Ask** ist der wichtigste Teil. „Bei Fragen meldet euch“ schiebt die Arbeit zurück zur lesenden Person.
 
 ? Wo steht der Zustand?
-* am Anfang, im ersten Satz
-x am Ende, nach der Erklärung
 x im Betreff, sonst nirgends
 x das ist egal
+* am Anfang, im ersten Satz
+x am Ende, nach der Erklärung
 ! Erst der Zustand, dann die Details. Wer chronologisch erzählt, zwingt alle, bis zum Ende zu lesen.
 ```
 
@@ -53,10 +53,10 @@ x das ist egal
 
 ```uebung
 ? Welche fünf Abschnitte hat das Postmortem-Skelett — in dieser Reihenfolge?
-* Zusammenfassung · Auswirkung · Zeitverlauf · Ursache · Maßnahmen
 x Ursache · Zeitverlauf · Auswirkung · Maßnahmen · Zusammenfassung
 x Was passiert ist · Wer schuld war · Was wir tun
 x Einleitung · Hauptteil · Schluss
+* Zusammenfassung · Auswirkung · Zeitverlauf · Ursache · Maßnahmen
 ! Ergebnis zuerst, Analyse danach. Die meisten Lesenden hören nach der Auswirkung auf — und sollen genau dort schon das Wichtigste haben.
 
 ? Welche Ursachenformulierung ist blamefrei?
@@ -67,17 +67,17 @@ x Der Fehler war vermeidbar.
 ! Passiv ohne Akteur. Der Inhalt bleibt vollständig — nur die Zuweisung fällt weg, und genau die beendet sonst die Suche nach der systemischen Ursache.
 
 ? Womit gibst du im Postmortem eine fremde Aussage wieder?
+x direkte Rede mit Anführungszeichen
 * Konjunktiv I: „Der Kollege gab an, das Alerting habe nicht ausgelöst.“
 x Indikativ: „Das Alerting hat nicht ausgelöst.“
 x Konjunktiv II: „Das Alerting hätte nicht ausgelöst.“
-x direkte Rede mit Anführungszeichen
 ! Konjunktiv I trennt sauber, was du festgestellt hast, von dem, was dir berichtet wurde. Siehe [Grammar · Übungsteil](#/phase-6/grammar-uebungen).
 
 ? Was gehört in „Auswirkung“?
-* Zahlen: wie viele Nutzer, wie lange, welcher Schaden
-x die Vermutung zur Ursache
 x die Namen der Beteiligten
 x die geplanten Maßnahmen
+* Zahlen: wie viele Nutzer, wie lange, welcher Schaden
+x die Vermutung zur Ursache
 ! Die Auswirkung entscheidet über die Priorität der Maßnahmen. Ohne Zahlen wird sie zur Meinungsfrage.
 ```
 
@@ -85,10 +85,10 @@ x die geplanten Maßnahmen
 
 ```uebung
 ? Welches schriftliche Lob wirkt?
-* Dein Refactoring des Auth-Moduls war sehr sauber — besonders die Tests.
 x Guter Job!
 x Weiter so!
 x Du machst das super.
+* Dein Refactoring des Auth-Moduls war sehr sauber — besonders die Tests.
 ! Konkretes Lob ist wiederholbar, allgemeines ist Höflichkeit. Nur das erste sagt der Person, was sie beibehalten soll.
 
 ? Wie viele Kritikpunkte gehören in eine schriftliche Rückmeldung?
@@ -99,17 +99,17 @@ x keiner, Kritik gehört ins Gespräch
 ! Ein Punkt wird umgesetzt, fünf werden verwaltet. Und Schriftliches überlebt den Moment — was du schreibst, liest die Person eventuell mehrfach.
 
 ? Was gehört in eine Vorstellungsnachricht?
+x deine Gehaltsstufe
 * Name, Rolle, ein persönlicher Satz, eine Einladung zum Kontakt
 x der komplette Lebenslauf
 x nur der Name
-x deine Gehaltsstufe
 ! Kurz, warm, im Register des Teams (meist du). Der letzte Teil ist der wichtigste: Eine gute Vorstellung **lädt ein**.
 
 ? Was gehört NICHT in eine Abschiedsnachricht?
-* Kritik an der Firma oder am Team
-x Dank
 x eine Kontaktmöglichkeit
 x ein guter Wunsch
+* Kritik an der Firma oder am Team
+x Dank
 ! Die Abschiedsmail bleibt in vielen Postfächern liegen — und die Branche ist kleiner, als sie sich anfühlt.
 ```
 
@@ -165,10 +165,10 @@ x ein guter Wunsch
 ! Ohne Namen und Datum ist eine Maßnahme eine Absichtserklärung. Dieselbe Regel wie im Protokoll.
 
 ? Was gehört in den „Zeitverlauf“?
-* Uhrzeiten mit Ereignis, in chronologischer Reihenfolge
 x die Ursache
 x die Maßnahmen
 x eine Erklärung, warum es passiert ist
+* Uhrzeiten mit Ereignis, in chronologischer Reihenfolge
 ! An der Zeitlinie liest man ab, wo Zeit verloren ging — meist zwischen erstem Alarm und Entscheidung. Das ist oft die eigentliche Erkenntnis.
 ```
 
@@ -191,10 +191,10 @@ x nur Lob, Kritik gehört ins Gespräch
 ! Das Sandwich mit Kritik in der Mitte gilt im deutschen Berufskontext als durchschaubar. Ein echtes Lob plus ein Punkt wirkt.
 
 ? Was macht schriftliches Feedback riskanter als mündliches?
+x Es ist unhöflich.
 * Es überlebt den Moment und wird ohne deinen Tonfall gelesen.
 x Es ist weniger verbindlich.
 x Es wird selten gelesen.
-x Es ist unhöflich.
 ! Deshalb: konkret, verhaltensbezogen, ein Punkt. Ironie und Emojis tragen die Nuance nicht zuverlässig.
 
 ? „Danke für deinen Einsatz beim Release! Ein Punkt für nächstes Mal: ___.“
@@ -218,10 +218,10 @@ x Es ist unhöflich.
 ! Adjektivendung nach Possessivpronomen im Nominativ maskulin: *mein letzter Tag*.
 
 ? Welches Register haben Vorstellung und Abschied?
-* das des Teams — meist du, warm und kurz
-x immer formell mit Sie
 x immer sehr ausführlich
 x das der Personalabteilung
+* das des Teams — meist du, warm und kurz
+x immer formell mit Sie
 ! Diese beiden Nachrichten liest das ganze Team. Sie im falschen Register zu schreiben, fällt sofort auf — im Zweifel spiegelst du, wie im Kanal geschrieben wird.
 ```
 

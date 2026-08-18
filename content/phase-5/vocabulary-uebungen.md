@@ -63,24 +63,24 @@ x das Arbeitszeugnis
 ! Die Probezeit steht im Vertrag, nicht in der Bewerbungsmappe.
 
 ? Welches Wort beschreibt KEINE Vertragsbedingung?
+* der Werdegang
 x die Kündigungsfrist
 x der Eintrittstermin
 x die Festanstellung
-* der Werdegang
 ! Der Werdegang ist deine Vorgeschichte, keine Konditionsangabe.
 
 ? Welches Wort gehört NICHT zum Prozessende?
-x die Zusage
-x die Absage
 x das Angebot
 * die Stellenanzeige
+x die Zusage
+x die Absage
 ! Die Stellenanzeige steht ganz am Anfang — siehe [Phase 5 · Reading](#/phase-5/reading).
 
 ? Welches Wort ist KEINE Person?
-x der Personaler
 x die Personalerin
 x die Führungskraft
 * die Personalabteilung
+x der Personaler
 ! Die Abteilung ist die Organisationseinheit; die Person darin ist der Personaler oder die Personalerin.
 ```
 
@@ -88,10 +88,10 @@ x die Führungskraft
 
 ```uebung
 ? *unbefristet* bedeutet …
-* ohne Enddatum — eine dauerhafte Stelle
 x auf zwei Jahre begrenzt
 x ohne Probezeit
 x ohne Kündigungsfrist
+* ohne Enddatum — eine dauerhafte Stelle
 ! Gegenteil: *befristet*. Das ist die wichtigste Zeile im ganzen Vertrag — und in der Anzeige oft nur ein Nebensatz.
 
 ? Deutsche Gehälter werden angegeben als …
@@ -102,24 +102,24 @@ x netto und pro Jahr
 ! „70.000 €“ heißt im Gespräch immer *brutto im Jahr*. Wer eine Monatszahl nennt, wird zurückgefragt — oder missverstanden.
 
 ? *die Kenntnisse* — was stimmt?
+x Es wird nur in Zeugnissen verwendet.
 * Das Wort steht fast immer im Plural: *Java-Kenntnisse, Deutschkenntnisse*.
 x Es ist ein Singular mit dem Artikel *das*.
 x Es bedeutet dasselbe wie *die Erfahrung*.
-x Es wird nur in Zeugnissen verwendet.
 ! *Kenntnisse* = angelesenes und angewendetes Wissen; *Erfahrung* = Zeit im Feld. Anzeigen unterscheiden das sehr genau.
 
 ? *die Wechselmotivation* — wonach wird gefragt?
-* Warum du deine jetzige Stelle verlassen willst.
-x Wie oft du schon gewechselt hast.
 x Ob du umziehen würdest.
 x Wie viel du verdienen willst.
+* Warum du deine jetzige Stelle verlassen willst.
+x Wie oft du schon gewechselt hast.
 ! Eine deutsche Standardfrage. Die Antwort geht nach vorn („Ich möchte …“), nie nach hinten („Bei uns ist alles schlecht“).
 
 ? *die Anlage* in einer Bewerbung ist …
-* eine beigefügte Datei oder Unterlage
 x eine technische Anlage im Rechenzentrum
 x eine Geldanlage
 x ein Anhang im Vertrag
+* eine beigefügte Datei oder Unterlage
 ! Alle drei anderen Bedeutungen existieren — der Kontext entscheidet. Am Ende des Anschreibens steht: *Anlagen: Lebenslauf, Zeugnisse*.
 ```
 
@@ -145,17 +145,17 @@ x ausreichend
 ! Zwei Wörter entscheiden: *stets* (immer) und der Superlativ *vollsten*. Fehlt eines, sinkt die Note um eine Stufe.
 
 ? „… zu unserer vollen Zufriedenheit.“ Welche Note?
-x sehr gut
 x gut
 * befriedigend
 x mangelhaft
+x sehr gut
 ! Ohne *stets* fehlt die Beständigkeit. Genau an dieser Stelle lohnt es sich, das eigene Zeugnis noch einmal zu lesen.
 
 ? Warum klingt ein deutsches Arbeitszeugnis immer positiv?
-* Weil es gesetzlich wohlwollend sein muss — die Bewertung steckt deshalb in Nuancen.
-x Weil Arbeitgeber in Deutschland selten unzufrieden sind.
 x Weil es von der Bewerberin selbst geschrieben wird.
 x Weil negative Formulierungen verboten sind und nichts bedeuten.
+* Weil es gesetzlich wohlwollend sein muss — die Bewertung steckt deshalb in Nuancen.
+x Weil Arbeitgeber in Deutschland selten unzufrieden sind.
 ! Wohlwollend **und** wahr — diese Kombination erzwingt die Codesprache. Wer sie nicht kennt, hält ein „befriedigend“ für ein Lob.
 ```
 

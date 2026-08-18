@@ -41,10 +41,10 @@ x eine
 ! Anna (Rollback-Skript), der Sprecher (Kunde informieren), Huy (flaky Tests). Namen stehen im Deutschen fast immer **vor** der Aufgabe.
 
 ? Was ist Huys Aufgabe?
-* herausfinden, warum die Integrationstests instabil sind
-x das Rollback-Skript schreiben
 x den Kunden informieren
 x das Release durchführen
+* herausfinden, warum die Integrationstests instabil sind
+x das Rollback-Skript schreiben
 ! „du schaust dir nochmal an, warum die Integrationstests seit Montag so flaky sind“. *flaky* ist ein Denglisch-Wort, das in deutschen Dev-Teams völlig normal ist.
 ```
 
@@ -56,10 +56,10 @@ Kurz zum Deployment — ihr hört mich, ja? Also, ich hab das Feature-Flag heute
 
 ```uebung
 ? Auf wie viel Prozent wurde das Feature-Flag ausgerollt?
-* zehn Prozent
 x hundert Prozent
 x fünfzig Prozent
 x das wird nicht gesagt
+* zehn Prozent
 ! „erstmal nur auf zehn Prozent“. Zahlen kommen im echten Gespräch oft im Nebensatz — sofort mitschreiben.
 
 ? Was ist noch offen?
@@ -70,10 +70,10 @@ x das Deployment
 ! „Was ich noch nicht gecheckt habe, ist …“ — eine der klarsten Ansagen für einen offenen Punkt.
 
 ? Was soll NICHT jetzt geklärt werden?
+x das Feature-Flag
 * wer nächste Woche Bereitschaft hat
 x das Caching-Verhalten
 x die Fehlerrate
-x das Feature-Flag
 ! „Das können wir aber auch nach dem Daily machen, das ist jetzt nicht dringend.“ Sprecher priorisieren im Deutschen oft laut mit — hör darauf, es spart dir Arbeit.
 ```
 
@@ -99,10 +99,10 @@ Ab hier beliebig oft hören.
 ! *seit* + Dativ + Präsens. „seit Montag so flaky **sind**“ — nicht *waren*.
 
 ? Was bedeutet *flaky* in diesem Kontext?
-* Die Tests schlagen mal fehl, mal nicht — ohne erkennbaren Grund.
-x Die Tests sind zu langsam.
 x Die Tests fehlen.
 x Die Tests sind falsch geschrieben.
+* Die Tests schlagen mal fehl, mal nicht — ohne erkennbaren Grund.
+x Die Tests sind zu langsam.
 ! Deutsches Äquivalent: *sporadisch fehlschlagend* oder *instabil*. Im Team sagt trotzdem fast jeder *flaky*.
 
 ? Was soll Huy tun, wenn das Problem größer wird?
@@ -110,10 +110,10 @@ x Die Tests sind falsch geschrieben.
 ! *Bescheid sagen* ist die Standardwendung. Ohne Objekt, ohne Artikel — feste Verbindung.
 
 ? Womit endet die Runde?
-* mit einer Bestätigungsfrage an alle
 x mit einer Abstimmung
 x mit einem Protokoll
 x ohne Abschluss
+* mit einer Bestätigungsfrage an alle
 ! „Passt das so für alle?“ Wenn du an dieser Stelle nichts sagst, hast du zugestimmt.
 ```
 
@@ -172,10 +172,10 @@ Noch eine organisatorische Sache von der Personalabteilung: Ab dem ersten Dezemb
 
 ```uebung
 ? Was ist der wertvollste Zug am Ende eines Meetings?
-* laut zusammenfassen, wer was bis wann macht
-x sich für die Zeit bedanken
 x das Protokoll abwarten
 x nichts sagen und später nachlesen
+* laut zusammenfassen, wer was bis wann macht
+x sich für die Zeit bedanken
 ! Zusammenfassen bestätigt dein Verständnis, verschafft dir Bedenkzeit und korrigiert Missverständnisse, solange alle noch im Raum sind.
 
 ? Formuliere eine Zusammenfassung: du übernimmst das Caching, Anna die Tests.
@@ -187,10 +187,10 @@ x nichts sagen und später nachlesen
 ! *wegbrechen* ist das Standardwort für abgehackte Verbindungen. Nachfragen ist professionell, nicht schwach.
 
 ? Du willst prüfen, ob du eine Bedingung richtig verstanden hast.
-* Habe ich das richtig verstanden — drei Tage mobil, aber die Kernzeit bleibt?
 x Ja, alles klar.
 x Ich habe nichts verstanden.
 x Können Sie langsamer sprechen?
+* Habe ich das richtig verstanden — drei Tage mobil, aber die Kernzeit bleibt?
 ! Paraphrasieren schlägt jede allgemeine Bitte um Wiederholung: Du prüfst genau die eine Stelle, an der es hakt.
 
 ? Was tust du direkt nach jedem Meeting?

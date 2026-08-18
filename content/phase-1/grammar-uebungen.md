@@ -52,14 +52,14 @@ x falsch
 
 ```uebung
 ? Markiere alle Konjunktionen, nach denen das konjugierte Verb ans Satzende geht.
-* weil
-* dass
-* wenn
-* nachdem
 x und
 x aber
 x denn
 x sondern
+* weil
+* dass
+* wenn
+* nachdem
 ! *weil, dass, wenn, nachdem* sind **subordinierend** → Verb ans Ende. *und, aber, denn, sondern* sind **koordinierend** und ändern gar nichts. Die klassische Falle ist **denn** (= because, keine Bewegung) gegen **weil** (= because, Verb ans Ende).
 ```
 
@@ -99,6 +99,7 @@ x Dativ
 
 ```uebung
 ? Welche Präpositionen verlangen IMMER den Akkusativ?
+x aus
 * durch
 * für
 * ohne
@@ -106,19 +107,18 @@ x Dativ
 * um
 x mit
 x seit
-x aus
 ! Merkhilfe **DOGFU**: durch, ohne, gegen, für, um. Alle anderen hier (mit, seit, aus, von, zu, bei, nach) verlangen Dativ.
 
 ? Welche verlangen IMMER den Dativ?
+* bei
+* nach
+x durch
+x für
 * mit
 * seit
 * aus
 * von
 * zu
-* bei
-* nach
-x durch
-x für
 ! Die Dativ-Gruppe: *aus, bei, mit, nach, seit, von, zu*. Als Kette auswendig lernen — sie kommt in jeder Prüfung vor.
 ```
 
@@ -363,33 +363,33 @@ x Testen ich muss die Migration.
 
 ```uebung
 ? Partizip II von *machen*
+x macht
 * gemacht
 x gemachen
-x macht
 ! Regelmäßig: ge-…-t.
 
 ? Partizip II von *schreiben*
+x schreibt
 x geschreibt
 * geschrieben
-x schreibt
 ! Unregelmäßig: ge-…-en mit Vokalwechsel.
 
 ? Partizip II von *hochladen*
-x gehochladen
 * hochgeladen
 x hochladet
+x gehochladen
 ! Trennbar → *ge-* kommt zwischen Präfix und Stamm.
 
 ? Partizip II von *testen*
+x gestestet
 * getestet
 x getesten
-x gestestet
 ! Regelmäßig, Stamm auf -t → Bindevokal: ge-test-**et**.
 
 ? Partizip II von *deployen*
+x deployen
 x gedeploien
 * deployt
-x deployen
 ! Anglizismen meist ohne *ge-*.
 ```
 

@@ -54,10 +54,10 @@ Guten Morgen, hier ist Frau Berger von der Personalabteilung. Ich rufe an wegen 
 
 ```uebung
 ? Worum geht es in dem Anruf?
-x um eine Krankmeldung
 * um einen Antrag auf Bildungsurlaub
 x um eine Gehaltserhöhung
 x um einen neuen Arbeitsvertrag
+x um eine Krankmeldung
 ! Frau Berger nennt das Thema im zweiten Satz. Beim Globalverstehen steht das Thema fast immer am Anfang — wer die ersten zehn Sekunden verpasst, hat es schwer.
 
 ? Was ist das Problem?
@@ -68,17 +68,17 @@ x Die Personalabteilung ist nicht zuständig.
 ! „wir brauchen den Antrag spätestens acht Wochen vor Beginn … das wäre also knapp". Wichtig: Der Antrag ist **nicht** abgelehnt — genau diese Verwechslung von „schwierig" und „unmöglich" ist der typische Fehler.
 
 ? Was schlägt Frau Berger vor?
+x einen anderen Kurs zu wählen
 x den Antrag zurückzuziehen
 * den Kurs auf April zu verschieben
 x sofort mit dem Kurs zu beginnen
-x einen anderen Kurs zu wählen
 ! „Wenn Sie den Kurs auf April verschieben könnten …" — Konjunktiv II markiert hier den Vorschlag.
 
 ? Bis wann sollst du dich melden?
-x bis morgen
-* bis Ende der Woche
 x bis Ende des Monats
 x acht Wochen vorher
+x bis morgen
+* bis Ende der Woche
 ! Letzter Satz. Fristen kommen fast immer ganz am Schluss — bis dahin konzentriert bleiben.
 ```
 
@@ -106,24 +106,24 @@ x 32
 ! 24 minus 8 = 16. Manche Fragen verlangen eine kleine Rechnung — deshalb Zahlen sofort notieren, nicht merken.
 
 ? Wie hat sich die Durchlaufzeit entwickelt?
-* von 9 auf 5,5 Tage gesunken
-x von 5,5 auf 9 Tage gestiegen
 x sie ist gleich geblieben
 x sie ist auf 8 Tage gestiegen
+* von 9 auf 5,5 Tage gesunken
+x von 5,5 auf 9 Tage gestiegen
 ! „von neun auf fünfeinhalb … gesunken". Richtung ist alles: *von X auf Y* plus *gesunken/gestiegen*. Notiere den Pfeil, nicht nur die Zahlen.
 
 ? Was macht dem Sprecher Sorgen?
+x die Testabdeckung im letzten Quartal
 x die Anzahl der Releases
 x die Durchlaufzeit
 * die gestiegene Zahl der Rollbacks
-x die Testabdeckung im letzten Quartal
 ! Signalwort: „Was uns **allerdings** Sorgen macht". Solche Kontrastwörter kündigen die Prüfungsfrage an — bei *allerdings, jedoch, dagegen* die Ohren spitzen.
 
 ? Auf welchen Wert soll die Testabdeckung steigen?
-x 60 Prozent
 * 80 Prozent
 x 24 Prozent
 x 100 Prozent
+x 60 Prozent
 ! „von sechzig auf achtzig Prozent". Wieder das *von–auf*-Muster: die erste Zahl ist der Ist-Wert, die zweite das Ziel.
 ```
 
@@ -137,24 +137,24 @@ Also, ich will ehrlich sein: Diese ganze Diskussion über die Vier-Tage-Woche ha
 
 ```uebung
 ? Wie steht der Sprecher zur Vier-Tage-Woche?
-x klar dafür
 x völlig dagegen, unter allen Umständen
 * skeptisch, aber nicht grundsätzlich ablehnend
 x er hat keine Meinung
+x klar dafür
 ! „Ich sage nicht, dass es nie geht. Ich sage nur: nicht jetzt." Das ist Vorbehalt, keine Ablehnung — die Unterscheidung ist bei B2 prüfungsrelevant.
 
 ? Welches Zugeständnis macht er?
-* dass es in einzelnen Branchen funktionieren mag
-x dass sein Unternehmen es einführen wird
 x dass die Kunden es fordern
 x dass der Druck sinken würde
+* dass es in einzelnen Branchen funktionieren mag
+x dass sein Unternehmen es einführen wird
 ! „Natürlich klingt es gut, und in einzelnen Branchen mag das funktionieren." *Natürlich* und *zwar* leiten im Deutschen fast immer eine Einräumung ein, auf die ein *aber* folgt.
 
 ? Was ist sein Hauptargument dagegen?
-x die Kosten
-* feste Kundentermine erhöhen den Druck auf die übrigen Tage
 x die Kollegen sind dagegen
 x es ist gesetzlich nicht erlaubt
+x die Kosten
+* feste Kundentermine erhöhen den Druck auf die übrigen Tage
 ! „bei uns hängt so viel an festen Terminen mit Kunden, dass …" — der *dass*-Satz nennt die Folge.
 
 ? Welche Wörter verraten seine Haltung? (mehrere richtig)
@@ -169,38 +169,38 @@ x insgesamt
 
 ```uebung
 ? Was tust du in der Pause **vor** dem Audio?
+x den Antwortbogen ausfüllen
 * die Fragen lesen und Schlüsselwörter markieren
 x die Augen schließen und dich sammeln
 x schon einmal raten
-x den Antwortbogen ausfüllen
 ! Das ist die wertvollste halbe Minute der Prüfung. Wer die Fragen kennt, hört gezielt statt hoffnungsvoll.
 
 ? Du hast eine Antwort verpasst und der Text läuft weiter. Was tust du?
+x die nächste Frage überspringen
 x zurückdenken, bis es dir einfällt
 * die Lücke markieren und sofort weiterhören
 x aufhören mitzuschreiben
-x die nächste Frage überspringen
 ! Nachdenken kostet die nächste Antwort. Bei einmaligem Hören verlierst du sonst eine Kette von Punkten statt einem einzelnen.
 
 ? Was notierst du beim Hören?
-x ganze Sätze
-* Zahlen, Nomen, Negationen
 x nur die Antwortbuchstaben
 x nichts, du merkst es dir
+x ganze Sätze
+* Zahlen, Nomen, Negationen
 ! Sätze zu schreiben ist zu langsam. Zahlen und Negationen sind genau das, worauf die Fragen zielen.
 
 ? Am Ende bleiben zwei Fragen ohne Antwort. Was tust du?
-x leer lassen, um nicht zu raten
 * raten — es gibt keinen Punktabzug
 x die Prüfung abbrechen
 x beim Nachbarn schauen
+x leer lassen, um nicht zu raten
 ! Wie im ganzen Test: Falsches kostet nichts, Leeres kostet garantiert. Rate mit der Option, die am wenigsten Absolutwörter enthält.
 
 ? Welches Signalwort kündigt oft die Prüfungsfrage an?
+x und
 * allerdings / jedoch / dagegen
 x also
 x zum Beispiel
-x und
 ! Kontrastwörter markieren die Stelle, an der der Sprecher etwas Wichtiges einschränkt oder korrigiert — genau dort setzen die Aufgaben an.
 ```
 

@@ -25,10 +25,10 @@ Also, kurz zum Stand: Wir haben die Zwischenspeicherung jetzt quasi überall dri
 
 ```uebung
 ? Worum geht es?
-* um den Stand der Zwischenspeicherung
 x um einen Ausfall
 x um eine Personalfrage
 x um ein Sicherheitsproblem
+* um den Stand der Zwischenspeicherung
 ! Erster Satz nennt das Thema.
 
 ? Ist der Sprecher insgesamt zufrieden?
@@ -52,10 +52,10 @@ x grundsätzlich dagegen
 ! „Klar, … das bestreitet ja niemand" räumt die Technik ein; der Einwand betrifft Personal und Monitoring.
 
 ? Was schlägt sie stattdessen vor?
-* zuerst das Monitoring in Ordnung bringen
-x mehr Leute einstellen
 x bei der aktuellen Lösung bleiben und nichts ändern
 x sofort wechseln
+* zuerst das Monitoring in Ordnung bringen
+x mehr Leute einstellen
 ! „würde ich lieber das Monitoring in Ordnung bringen".
 ```
 
@@ -73,10 +73,10 @@ Jetzt beliebig oft hören. Transkript erst nach dem Antworten.
 ! *von X auf Y* — Richtung gehört zur Antwort.
 
 ? Was ist noch offen?
-* Der Cache wird bei Änderungen im Backoffice nicht invalidiert.
 x Die Latenz ist zu hoch.
 x Der Cache ist noch nicht eingebaut.
 x Die Region fehlt.
+* Der Cache wird bei Änderungen im Backoffice nicht invalidiert.
 ! „Was noch offen ist: …"
 
 ? Wie lange sieht ein Kunde im schlimmsten Fall den alten Preis?
@@ -91,9 +91,9 @@ x nichts zu tun
 ! *Ich würde vorschlagen, dass …*
 
 ? Welche Struktur benutzt er für den Vorschlag?
-* Konjunktiv II (würde vorschlagen)
 x Imperativ
 x Passiv Perfekt
+* Konjunktiv II (würde vorschlagen)
 ! Vorschlag, nicht Anweisung.
 
 ? „bevor wir das Ganze auf alle Regionen ausrollen" — was signalisiert *bevor*?
@@ -107,12 +107,12 @@ x einen Gegensatz
 
 ```uebung
 ? Welche Wörter in Hörtext 1 tragen KEINE Sachinformation? (mehrere richtig)
+x Zwischenspeicherung
 * quasi
 * im Prinzip
 * also
 * genau
 x Latenz
-x Zwischenspeicherung
 ! Diskursmarker geben Rhythmus, nicht Inhalt. Wer sie mitverarbeitet, verliert Tempo.
 
 ? „quasi" bedeutet ungefähr …
@@ -129,15 +129,15 @@ x sofort
 ! Englisch „basically".
 
 ? „genau" als Einwurf bedeutet …
+x eine Frage
 * Bestätigung — „richtig, so ist es"
 x „ungefähr"
-x eine Frage
 ! Sehr häufig als reines Zustimmungssignal.
 
 ? „beziehungsweise (bzw.)" bedeutet …
-* oder vielmehr / respektive
 x deshalb
 x obwohl
+* oder vielmehr / respektive
 ! Korrigiert oder präzisiert das Vorherige.
 
 ? „das heißt (d. h.)" leitet ein …
@@ -151,16 +151,16 @@ x eine Bedingung
 
 ```uebung
 ? Welches Zugeständnis macht die Sprecherin?
+x dass genug Personal da ist
 * dass man mit Kubernetes feiner skalieren könnte
 x dass das Monitoring gut ist
-x dass genug Personal da ist
 ! „Klar, mit Kubernetes könnten wir feiner skalieren."
 
 ? Welche zwei Gründe nennt sie gegen den Zeitpunkt? (mehrere richtig)
-* nur zwei Leute im Bereitschaftsdienst
-* niemand kennt sich mit dem Betrieb aus
 x die Kosten sind zu hoch
 x der Anbieter ist unzuverlässig
+* nur zwei Leute im Bereitschaftsdienst
+* niemand kennt sich mit dem Betrieb aus
 ! Beide betreffen Menschen, nicht Technik.
 
 ? Was meint sie mit „ein Problem, das wir verstehen, gegen eines, das wir nicht verstehen"?
@@ -170,15 +170,15 @@ x eine technische Verbesserung
 ! Das ist ihr Kernargument, in einem Bild verpackt.
 
 ? „das bestreitet ja niemand" — welche Funktion hat das *ja*?
+x Verneinung
 * Modalpartikel: markiert gemeinsames Wissen
 x Zustimmung zu einer Frage
-x Verneinung
 ! Siehe [Alltag · Kaffeeküche](#/alltag/kaffeekueche) — dieselben Partikeln, nur im Fachgespräch.
 
 ? „Bevor wir also die Plattform wechseln, würde ich …" — wo steht das Verb im Hauptsatz?
-* direkt nach dem Nebensatz
 x am Ende
 x vor dem Nebensatz
+* direkt nach dem Nebensatz
 ! Der Nebensatz besetzt Position 1, das finite Verb folgt sofort.
 ```
 

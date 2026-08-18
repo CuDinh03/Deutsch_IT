@@ -241,24 +241,24 @@ x Erstens …, zweitens …
 ! Signalisiert eine bewusste Struktur statt eines Abbruchs.
 
 ? Du hast die Frage nicht verstanden. Welche Reaktion ist die beste?
+x (schweigen und raten)
 * Entschuldigung, könnten Sie die Frage bitte wiederholen?
 x Was?
 x Sorry, could you repeat?
-x (schweigen und raten)
 ! Vollständig, höflich, auf Deutsch. Nachfragen kostet nichts — Schweigen und Englisch kosten viel.
 
 ? Du brauchst zwei Sekunden. Was sagst du?
-* Moment, ich überlege kurz.
-x Ähm …
 x Just a second.
 x (Pause ohne Worte)
+* Moment, ich überlege kurz.
+x Ähm …
 ! Ein gefüllter deutscher Übergang wirkt kontrolliert; eine stumme Pause wirkt wie Blockade.
 
 ? Dir fehlt ein Wort mitten im Satz. Beste Strategie?
-* umschreiben: „also, dieses Ding, mit dem man …"
 x ins Englische wechseln
 x den Satz abbrechen
 x das Wort erfinden
+* umschreiben: „also, dieses Ding, mit dem man …"
 ! Umschreiben ist eine **bewertete** kommunikative Fertigkeit. Genau dafür gibt es Punkte.
 
 ? Welche gehören zu Teil 3 (gemeinsam planen)? (mehrere richtig)
@@ -273,17 +273,17 @@ x Meiner Meinung nach ist das grundsätzlich falsch.
 
 ```uebung
 ? Welches Wort passt NICHT in einen Prüfungsbrief?
-x jedoch
 x folglich
 * mega
 x zudem
+x jedoch
 ! Umgangssprache (*mega, super, cool, ok*) kostet bei „Angemessenheit". Im Brief immer die formelle Variante.
 
 ? Welche Schreibweise ist im Prüfungstext richtig?
-* zum Beispiel
-x z. B.
 x zb
 x z.B
+* zum Beispiel
+x z. B.
 ! Abkürzungen ausschreiben. Das ist gratis und wird bemerkt.
 
 ? „Gibt's dazu eine Doku?" — formelle Variante:
@@ -291,8 +291,8 @@ x z.B
 ! Keine Kurzformen (*gibt's*) im Prüfungstext. Die vollständige Form ist die sichere.
 
 ? Wie geht es nach „Sehr geehrte Frau Weber," weiter — groß oder klein?
-* klein
 x groß
+* klein
 ! *…Weber,* → *ich schreibe …* Ein kostenloser Punkt, den fast alle Nichtmuttersprachler verschenken.
 ```
 

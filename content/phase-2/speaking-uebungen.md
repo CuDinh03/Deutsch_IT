@@ -20,21 +20,21 @@ exam. The Redemittel table at the end is what you keep open during a real discus
 
 ```uebung
 ? „Meiner Meinung nach sollten wir refactoren."
+x nichts fehlt
 * Begründung, Beispiel und Fazit fehlen
 x nur das Fazit fehlt
-x nichts fehlt
 ! Bei der Meinung stehen zu bleiben ist die typischste B1-Gewohnheit — der Prüfer wartet auf die Kette.
 
 ? „Meiner Meinung nach sollten wir refactoren. Denn die Wartbarkeit leidet."
+x nur die Meinung fehlt
 x nichts fehlt
 * Beispiel und Fazit fehlen
-x nur die Meinung fehlt
 ! Begründung ist da, aber es fehlt der Beleg und der Abschluss.
 
 ? „Meiner Meinung nach sollten wir refactoren. Denn die Wartbarkeit leidet, zum Beispiel dauert jeder Bugfix inzwischen zwei Tage."
+* nur das Fazit fehlt
 x Begründung fehlt
 x Beispiel fehlt
-* nur das Fazit fehlt
 ! Meinung + Begründung + Beispiel stehen. Es fehlt nur noch *Zusammenfassend würde ich sagen, dass …*
 ```
 
@@ -60,9 +60,9 @@ x Widerspruch
 ! Die nützlichste Bewegung in einer deutschen Fachdiskussion.
 
 ? „Ich bin nicht ganz überzeugt, weil …"
-x Zustimmung
 x Teilzustimmung
 * Widerspruch (höflich)
+x Zustimmung
 ! Weich formuliert, inhaltlich aber Ablehnung.
 
 ? „Genau, das sehe ich auch so."
@@ -98,10 +98,10 @@ x Teil 3
 
 ```uebung
 ? Welche Reaktionen bringen die Diskussion weiter? (mehrere richtig)
+x Vielleicht.
 * Das sehe ich anders — ein Monolith wäre hier einfacher. Und wie siehst du das?
 * Da hast du recht, aber wie wäre es, wenn wir klein anfangen?
 x Ja.
-x Vielleicht.
 ! Position **plus** Rückgabe. Ein bloßes *ja* kostet in Teil 2 Punkte, weil dort Interaktion bewertet wird — nicht Korrektheit.
 ```
 
@@ -109,21 +109,21 @@ x Vielleicht.
 
 ```uebung
 ? „Ein Monolith wäre hier einfacher zu betreiben."
+x Vergangenheit
 * hypothetisch — es ist ja keiner
 x höfliche Bitte
-x Vergangenheit
 ! Irrealis: die Alternative existiert nicht.
 
 ? „Wie wäre es, wenn wir klein anfangen?"
+x Vergangenheit
 x hypothetisch
 * höflicher Vorschlag
-x Vergangenheit
 ! Standardformel für Vorschläge.
 
 ? „Ich würde sagen, dass beides funktioniert."
-x hypothetisch
 * Abschwächung der eigenen Aussage
 x Vergangenheit
+x hypothetisch
 ! Derselbe Konjunktiv, drei verschiedene soziale Funktionen.
 ```
 
@@ -131,11 +131,11 @@ x Vergangenheit
 
 ```uebung
 ? Welche Formulierungen gehören zu Teil 3 (gemeinsam planen)? (mehrere richtig)
+x Das sehe ich anders.
+x Ich bin nicht ganz überzeugt.
 * Ich schlage vor, dass wir …
 * Sollen wir uns auf Dienstag einigen?
 * Wie wäre es, wenn wir um zehn anfangen?
-x Das sehe ich anders.
-x Ich bin nicht ganz überzeugt.
 ! Teil 3 ist Verhandlung in Richtung Beschluss, nicht Meinungsstreit.
 ```
 
@@ -235,17 +235,17 @@ x Ich bin nicht ganz überzeugt.
 ! Der Satz, der zeigt, dass die Planungsaufgabe erfüllt ist.
 
 ? Dein Partner schlägt einen unpassenden Termin vor. Beste Reaktion?
-* Dienstag passt mir leider nicht — wäre Mittwoch eine Option?
-x Nein.
 x Mir ist alles recht.
 x Das entscheidest du.
+* Dienstag passt mir leider nicht — wäre Mittwoch eine Option?
+x Nein.
 ! Ablehnen **plus** Gegenvorschlag. Reines Zustimmen zeigt keine Aushandlung, reines Ablehnen bremst sie.
 
 ? Welche Elemente muss eine vollständige Teil-3-Planung enthalten? (mehrere richtig)
-* einen konkreten Termin
 * ein Thema oder Inhalt
 * eine ausgesprochene Einigung
 x eine ausführliche Begründung deiner Meinung
+* einen konkreten Termin
 ! Lange Meinungsbegründungen gehören in Teil 2 — hier wird organisiert.
 ```
 
@@ -264,10 +264,10 @@ x schweigen
 ! Gefüllter deutscher Übergang statt stiller Pause.
 
 ? Du hast die Frage nicht verstanden. Beste Reaktion?
+x (schweigen)
 * Entschuldigung, könnten Sie die Frage bitte wiederholen?
 x Was?
 x Sorry, could you repeat?
-x (schweigen)
 ! Vollständig, höflich, auf Deutsch. Nachfragen kostet nichts.
 ```
 

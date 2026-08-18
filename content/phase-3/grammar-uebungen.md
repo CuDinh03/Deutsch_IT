@@ -60,13 +60,13 @@ x in einer Commit-Message-Beschreibung
 
 ```uebung
 ? Der Dienst wird bereitgestellt.
-* Vorgangspassiv — es läuft gerade
 x Zustandspassiv — es ist fertig
+* Vorgangspassiv — es läuft gerade
 ! *werden* + Partizip II = der Vorgang läuft.
 
 ? Der Dienst ist bereitgestellt.
-x Vorgangspassiv
 * Zustandspassiv — Ergebnis
+x Vorgangspassiv
 ! *sein* + Partizip II = der resultierende Zustand. Der Dienst ist oben.
 
 ? Die Migration wird gerade durchgeführt.
@@ -84,26 +84,26 @@ x Vorgangspassiv
 
 ```uebung
 ? Welche Ausdrücke sind Funktionsverbgefüge? (mehrere richtig)
-* zur Verfügung stellen
-* in Betrieb nehmen
-* eine Entscheidung treffen
 * in Frage stellen
 x deployen
 x testen
+* zur Verfügung stellen
+* in Betrieb nehmen
+* eine Entscheidung treffen
 ! Ein FVG ist ein festes Paar aus „leichtem" Verb + bedeutungstragendem Nomen. Als Block lernen — nicht Wort für Wort übersetzen.
 
 ? „in Betrieb nehmen" bedeutet …
-* in Betrieb setzen, live schalten
-x abschalten
 x reparieren
 x kaufen
+* in Betrieb setzen, live schalten
+x abschalten
 ! Gegenteil: *außer Betrieb nehmen*.
 
 ? „Berücksichtigung finden" bedeutet …
-x gefunden werden
-* berücksichtigt werden
 x gesucht werden
 x abgelehnt werden
+x gefunden werden
+* berücksichtigt werden
 ! Passivische Bedeutung ohne Passivform — typisch für FVG im Amtsdeutsch.
 
 ? „etwas in Frage stellen" bedeutet …
@@ -118,9 +118,9 @@ x etwas beschließen
 
 ```uebung
 ? der laufende Prozess
+x zu + Partizip I — Notwendigkeit
 * Partizip I — aktiv, andauernd
 x Partizip II — passiv, abgeschlossen
-x zu + Partizip I — Notwendigkeit
 ! Infinitiv + *d*.
 
 ? die deployte Version
@@ -146,10 +146,10 @@ x zu + Partizip I
 
 ```uebung
 ? Du siehst „die vom Load Balancer auf drei Replikate verteilte Last". Wie liest du das?
+x im Wörterbuch nachschlagen
 * zuerst das Nomen „Last" suchen, dann das Attribut rückwärts lesen
 x von links nach rechts durchlesen
 x das Attribut überspringen und weiterlesen
-x im Wörterbuch nachschlagen
 ! Artikel → langes Attribut überspringen → **Nomen finden** → Attribut rückwärts auflösen. Ohne diese Reihenfolge verlierst du bei jedem Fachtext den Faden.
 ```
 
@@ -157,17 +157,17 @@ x im Wörterbuch nachschlagen
 
 ```uebung
 ? „Wir cachen die Antworten, ___ die Latenz sinkt." (Folge)
-* sodass
-x indem
 x während
 x wohingegen
+* sodass
+x indem
 ! *sodass* = Konsequenz.
 
 ? „Wir erhöhen den Durchsatz, ___ wir horizontal skalieren." (Mittel/Methode)
-x sodass
-* indem
 x während
 x sofern
+x sodass
+* indem
 ! *indem* beantwortet **wie?**
 
 ? „REST ist zustandslos, ___ eine Session Zustand hält." (starker Gegensatz)
@@ -185,9 +185,9 @@ x wohingegen
 ! *sofern* = vorausgesetzt, dass.
 
 ? Alle fünf Konnektoren aus diesem Kapitel sind …
+x adverbial mit Inversion
 * subordinierend — das Verb geht ans Ende
 x koordinierend
-x adverbial mit Inversion
 ! *sodass, indem, während, wohingegen, sofern* leiten alle einen Nebensatz ein.
 ```
 

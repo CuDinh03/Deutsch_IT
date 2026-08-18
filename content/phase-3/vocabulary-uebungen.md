@@ -53,13 +53,13 @@ the long German compounds around it.
 
 ```uebung
 ? Welche Endungen sind bei IT-Lehnwörtern zuverlässig „die"? (mehrere richtig)
+* -ität
+x -er
+x -ing
 * -tion
 * -ung
 * -heit
 * -keit
-* -ität
-x -er
-x -ing
 ! *-er* → der, *-ing* → das. Die *die*-Gruppe ist dieselbe wie im allgemeinen Deutsch — deshalb überträgt sich das Wissen aus Phase 1 direkt.
 ```
 
@@ -72,9 +72,9 @@ x Zugriff
 ! Kopf-final: der **letzte** Teil regiert. *die Berechtigung* → *die Zugriffsberechtigung*.
 
 ? das Datenbankverbindungsproblem
-x Datenbank
 x Verbindung
 * Problem
+x Datenbank
 ! Von rechts: Problem ← Verbindung ← Datenbank. Egal wie viele Teile — nur der letzte zählt.
 
 ? die Benutzerauthentifizierung
@@ -83,22 +83,22 @@ x Benutzer
 ! *die Authentifizierung*.
 
 ? das Ausfallsicherheitskonzept
+* Konzept
 x Ausfall
 x Sicherheit
-* Konzept
 ! *das Konzept*.
 
 ? Was ist das „-s-" in „Zugriff**s**berechtigung"?
+x ein Tippfehler
 * ein Fugenelement — ohne eigene Bedeutung
 x ein Genitiv
 x ein Plural
-x ein Tippfehler
 ! Fugenelemente (*-s-*, *-en-*, *-es-*) verbinden nur die Teile. Für die Bedeutung ignorieren.
 
 ? Wie liest man ein langes Kompositum?
-* von rechts nach links
 x von links nach rechts
 x in der Mitte anfangen
+* von rechts nach links
 ! Kopf zuerst, dann die Einschränkungen davor.
 ```
 
@@ -206,16 +206,16 @@ x falscher Freund
 
 ```uebung
 ? „to deploy" im formellen Text
-* bereitstellen
 x zusammenfassen
 x einrichten
 x verteilen
+* bereitstellen
 ! *bereitstellen* / *die Bereitstellung*. Umgangssprachlich auch *deployen*.
 
 ? „to roll out"
-* ausrollen
 x abrollen
 x aufrollen
+* ausrollen
 ! *ausrollen* — ein Feature wird ausgerollt.
 
 ? „to throw an exception"
@@ -225,15 +225,15 @@ x eine Ausnahme machen
 ! *werfen*; das Gegenstück ist *abfangen*.
 
 ? „to meet a requirement"
+x eine Anforderung halten
 * eine Anforderung erfüllen
 x eine Anforderung treffen
-x eine Anforderung halten
 ! *erfüllen*. *treffen* gehört zu *eine Entscheidung*.
 
 ? „to maintain a system"
-* ein System warten
 x ein System halten
 x ein System pflegen — auch möglich
+* ein System warten
 ! *warten* ist der Fachbegriff (*die Wartung*). *pflegen* geht bei Code/Doku ebenfalls.
 
 ? „downtime"

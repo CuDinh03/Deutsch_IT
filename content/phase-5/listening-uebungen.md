@@ -40,10 +40,10 @@ x eine
 ! Sie zählt sie sogar durch: erstens, zweitens, drittens. Diese Nummerierung ist dein Geschenk — schreib drei Spiegelstriche.
 
 ? Welche Frage kam NICHT vor?
-* nach dem frühesten Eintrittstermin
-x nach der Kündigungsfrist
 x nach der Gehaltsvorstellung
 x nach der Anwesenheit vor Ort
+* nach dem frühesten Eintrittstermin
+x nach der Kündigungsfrist
 ! Der Eintrittstermin folgt aus der Kündigungsfrist — danach wird meist erst im Gespräch gefragt. Genau hinhören lohnt sich: verwandte Fragen sind nicht dieselbe Frage.
 ```
 
@@ -55,10 +55,10 @@ Wie ich sehe, bringen Sie einiges an Erfahrung mit. Erzählen Sie doch mal ein b
 
 ```uebung
 ? „Erzählen Sie doch mal ein bisschen von sich.“ Was wird erwartet?
-* der vorbereitete Pitch von etwa 90 Sekunden
 x ein kurzes „Ja, gern“
 x die private Lebensgeschichte
 x eine Rückfrage
+* der vorbereitete Pitch von etwa 90 Sekunden
 ! Die Formulierung klingt beiläufig, die Erwartung ist es nicht. *doch mal ein bisschen* ist Höflichkeitsverpackung, keine Einladung zur Kürze.
 
 ? „Was reizt Sie konkret an unserem Team?“ Die direkte Frage dahinter lautet …
@@ -69,10 +69,10 @@ x Wie viel möchten Sie verdienen?
 ! *Was reizt Sie …?* ist die Standardverpackung für „warum wir“. Die Antwort braucht einen überprüfbaren Bezug zur Firma.
 
 ? Was will die letzte Frage wirklich wissen?
+x wie lange deine Sprints sind
 * ob du mit Rufbereitschaft einverstanden bist
 x wie viel du über Scrum weißt
 x ob du Retros magst
-x wie lange deine Sprints sind
 ! Die drei Prozessdetails sind Kontext; die Frage steckt im letzten Satz. Bei „Wie stehen Sie dazu?“ geht es fast immer um Zustimmung, nicht um Wissen.
 ```
 
@@ -94,17 +94,17 @@ Ab hier beliebig oft hören.
 ! „zwei bis drei Tage pro Woche“ — eine Spanne, keine feste Zahl. Genau darüber lässt sich später verhandeln.
 
 ? Wonach fragt sie in Bezug auf die aktuelle Stelle? (zwei Dinge)
-* Festanstellung und Kündigungsfrist
-x Gehalt und Urlaub
 x Position und Team
 x Standort und Arbeitszeit
+* Festanstellung und Kündigungsfrist
+x Gehalt und Urlaub
 ! Beide Angaben zusammen ergeben deinen frühesten Starttermin — deshalb kommen sie immer als Paar.
 
 ? „Ich hoffe, ich störe nicht.“ Was ist das?
-* eine Höflichkeitsformel am Telefonanfang
 x eine echte Frage, ob du Zeit hast
 x eine Entschuldigung für einen Fehler
 x der Hinweis, dass es kurz wird
+* eine Höflichkeitsformel am Telefonanfang
 ! Die erwartete Antwort ist *Überhaupt nicht* oder *Gar nicht, passt gut*. Wenn es wirklich nicht passt, darfst du das aber sagen: *Könnten wir in einer Stunde telefonieren?*
 
 ? Wie antwortest du, wenn du gerade nicht sprechen kannst?
@@ -123,24 +123,24 @@ x deiner Kündigungsfrist
 ! Die Antwort soll zeigen, dass deine Richtung zu dieser Stelle passt — nicht, dass du übermorgen Chef sein willst.
 
 ? „Ab wann wären Sie verfügbar?“ — gefragt wird nach …
+x deiner Erreichbarkeit
 * Starttermin und Kündigungsfrist
 x deiner Wochenarbeitszeit
 x deiner Urlaubsplanung
-x deiner Erreichbarkeit
 ! *verfügbar sein* meint hier ausschließlich den Eintrittstermin.
 
 ? „Haben Sie noch Fragen an uns?“ — was ist gemeint?
-* Jetzt sind deine vorbereiteten Fragen dran.
-x Das Gespräch ist beendet.
 x Es geht um Verständnisfragen zum Gesagten.
 x Eine reine Höflichkeitsfloskel ohne Erwartung.
+* Jetzt sind deine vorbereiteten Fragen dran.
+x Das Gespräch ist beendet.
 ! Es ist ein bewerteter Teil des Gesprächs. „Nein, alles klar“ ist die teuerste Antwort im ganzen Termin.
 
 ? „Wie stehen Sie zur Rufbereitschaft?“ — gefragt wird nach …
-* deiner Bereitschaft, sie zu übernehmen
 x deiner Erfahrung mit Incidents
 x deiner Meinung über On-Call-Modelle allgemein
 x deiner Verfügbarkeit am Wochenende
+* deiner Bereitschaft, sie zu übernehmen
 ! *Wie stehen Sie zu …?* fragt nach Zustimmung. Eine ehrliche Bedingung ist erlaubt: *Grundsätzlich ja — mich würde interessieren, wie oft und mit welchem Ausgleich.*
 
 ? „Wie ich sehe, bringen Sie einiges an Erfahrung mit — was reizt Sie an unserem Team?“ Wo steckt die Frage?
@@ -195,10 +195,10 @@ Ich freue mich, Ihnen sagen zu können, dass wir Ihnen die Stelle anbieten möch
 ! Bei Zahlen ist Nachfragen Pflicht, nicht Option. Niemand hält das für ein Sprachproblem — Telefonleitungen sind schlecht.
 
 ? Du willst sichergehen, dass du die Bedingung richtig verstanden hast.
+x Können Sie langsamer sprechen?
 * Habe ich das richtig verstanden — Sie meinen zwei Tage vor Ort pro Woche?
 x Ja, ja, alles klar.
 x Das habe ich nicht verstanden.
-x Können Sie langsamer sprechen?
 ! Paraphrasieren ist die stärkste Technik: Du prüfst dein Verständnis und zeigst gleichzeitig, dass du zugehört hast.
 
 ? Ein Fachbegriff ist unklar. Wie klärst du ihn?

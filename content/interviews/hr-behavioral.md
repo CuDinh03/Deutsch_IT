@@ -135,24 +135,24 @@ x eine allgemeine Beschreibung der eigenen Arbeitsweise
 ! STAR. Ohne Zahl im Ergebnis bleibt von der Geschichte nur ein Eindruck übrig.
 
 ? Du erzählst von einem Konflikt. Was darf NICHT passieren?
+x dass es einen Kompromiss gab
 * dass die andere Person unvernünftig wirkt
 x dass du eine klare Position hattest
 x dass der Konflikt lange gedauert hat
-x dass es einen Kompromiss gab
 ! Wer den Konflikt so erzählt, dass die Gegenseite dumm war, hat nicht gelöst, sondern gewonnen — und wird genau so gelesen.
 
 ? Welche Konsequenz aus einem Fehler zählt?
-* eine strukturelle: ein Lasttest, ein dokumentierter Grenzwert, ein geänderter Prozess
-x „Ich passe jetzt besser auf."
 x „Das kann jedem passieren."
 x „Wir haben daraus gelernt."
+* eine strukturelle: ein Lasttest, ein dokumentierter Grenzwert, ein geänderter Prozess
+x „Ich passe jetzt besser auf."
 ! Vorsätze sind keine Maßnahmen. Gefragt ist, was sich am System geändert hat, nicht an deiner Aufmerksamkeit.
 
 ? Was ist bei der Frage nach einem Misserfolg der häufigste Fehler?
-* eine getarnte Erfolgsgeschichte zu erzählen
 x zu viele Details zu nennen
 x den eigenen Anteil zu nennen
 x eine Zahl zu nennen
+* eine getarnte Erfolgsgeschichte zu erzählen
 ! „Wir waren einfach zu ambitioniert" gilt als Ausweichen. Und der Beweis für die Lehre ist das nächste Projekt, nicht der Vorsatz.
 
 ? Wonach priorisierst du in der Musterantwort?
@@ -163,17 +163,17 @@ x nach Wunsch der Führungskraft
 ! Ein genanntes Kriterium schlägt jedes Gefühl. Und die Kommunikation der Entscheidung ist die halbe Antwort.
 
 ? Kritik im Review: Was tust du zuerst?
+x widersprechen
 * zuhören und konkret nachfragen, wo genau
 x erklären, warum es so gekommen ist
 x sofort ändern
-x widersprechen
 ! Beim Verteidigen erfährst du nie, dass es nur um zwei Felder ging. Nachfragen verkleinert die Kritik fast immer.
 
 ? Darfst du im Interview begründet widersprechen?
-* Ja — wer jede Kritik kommentarlos umsetzt, wirkt beliebig.
-x Nein, das gilt als schwierig.
 x Nur bei technischen Fragen.
 x Nur gegenüber Kollegen, nicht gegenüber Vorgesetzten.
+* Ja — wer jede Kritik kommentarlos umsetzt, wirkt beliebig.
+x Nein, das gilt als schwierig.
 ! Annehmen **und** begründet ablehnen — beides zu zeigen, ist die stärkere Antwort.
 
 ? Wie formulierst du die Wechselmotivation?
@@ -181,10 +181,10 @@ x Nur gegenüber Kollegen, nicht gegenüber Vorgesetzten.
 ! Nach vorn gerichtet. Ein struktureller Satz über den jetzigen Arbeitgeber ist erlaubt, ein persönlicher nicht.
 
 ? „Nicht entscheiden ist auch eine Entscheidung.“ Welche Struktur ist das?
-* ein substantivierter Infinitiv als Subjekt
 x ein Passivsatz
 x ein Konjunktiv
 x eine indirekte Frage
+* ein substantivierter Infinitiv als Subjekt
 ! *Nicht entscheiden*, *Stabilisieren vor Verstehen* — kompakte, sehr deutsche Konstruktionen, ideal als Schlusssatz.
 ```
 

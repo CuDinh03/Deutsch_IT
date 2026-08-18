@@ -1,6 +1,6 @@
 # BACKLOG — việc chưa thi công
 
-> **Đo lần cuối: 19.08.2026**, tại commit `03a9c22` (Goethe B1 · Meilenstein Woche 8).
+> **Đo lần cuối: 19.08.2026**, sau khi sửa §2 (vị trí đáp án).
 > Mọi con số dưới đây đo bằng lệnh ghi kèm — **chạy lại lệnh trước khi tin bảng**, đừng chép số.
 >
 > Ba tài liệu kia không đổi vai trò: [UPGRADE-PLAN.md](UPGRADE-PLAN.md) là *cái gì và vì sao*,
@@ -53,9 +53,37 @@ nguyên tắc "không viết 2 lần" của §5.2. Schema quiz ở [AUTHORING §
 
 ---
 
-## 2. Vị trí đáp án trắc nghiệm bị lệch nặng
+## 2. ~~Vị trí đáp án trắc nghiệm bị lệch nặng~~ ✅ XONG 19.08.2026
 
-**Trạng thái:** **736 / 994 câu (74,0%)** có đáp án đúng ở **vị trí 1**. Học viên bấm option đầu mà
+Giữ lại mục này vì **lệnh đo và cách làm vẫn dùng được cho nội dung viết sau này**.
+
+| | Trước | Sau | Sàn lý thuyết |
+|---|---:|---:|---:|
+| `uebung` (994 câu) — vị trí 1 | 74,0% | **31,5%** | 29,3% |
+| `quizzes.js` (186 câu) — vị trí cao nhất | 54,3% (vị trí 2) | **26,3%** | 25,0% |
+
+Sàn của `uebung` là 29,3% chứ không phải 25% vì **130 câu chỉ có 2 lựa chọn** — không thể rải đều
+hơn. 31,5% coi như đã chạm đáy. `quizzes.js` không nằm trong phạm vi §2 lúc viết doc; đo ra cùng lỗi
+nên sửa luôn.
+
+**Cách làm — dùng lại nguyên vẹn nếu viết thêm nội dung:**
+
+1. Xoay **tại chỗ** danh sách option: chỉ hoán vị các dòng `*`/`x`, giữ nguyên dòng `?`, `=`, `!` và
+   dòng trống. Đích mỗi câu chạy vòng 0,1,2,3 nên phân bố tự đều.
+2. **Chừa nhóm dùng chung bộ lựa chọn.** Drill mạo từ (`der/die/das` lặp 8 câu), `richtig/falsch`,
+   `Teil 1/2/3` — người học cần cùng bộ nút ở cùng vị trí, và đáp án các câu đó vốn đã khác nhau nên
+   tự phân bố rồi. Lần này chừa **110 câu `uebung` + 14 câu quiz**. Bỏ bước này là hỏng UX: lần chạy
+   đầu tôi xoay cả chúng rồi phải hoàn nguyên.
+3. **Kiểm ngữ nghĩa so với HEAD trước khi commit.** Mỗi câu: nội dung câu hỏi, *tập* lựa chọn, *tập*
+   đáp án đúng, đáp án điền từ, dòng giải thích phải y hệt — chỉ thứ tự được đổi. Lần này 1.768 câu
+   `uebung` + 186 câu quiz, **0 khác biệt**.
+
+**Còn 4 nhóm thứ tự chưa nhất quán**, đã lệch sẵn từ trước khi sửa nên cố ý để nguyên:
+`exams/telc-b2-hoeren.md`, `phase-1/speaking-uebungen.md` (2 nhóm), `phase-6/grammar-uebungen.md`.
+
+<details><summary>Bối cảnh gốc — giữ để tham khảo</summary>
+
+**Trạng thái cũ:** **736 / 994 câu (74,0%)** có đáp án đúng ở **vị trí 1**. Học viên bấm option đầu mà
 không đọc vẫn được ~74%.
 
 ```bash
@@ -96,7 +124,9 @@ xáo. Nên `*` đứng đầu = đáp án luôn là nút radio đầu tiên.
    theo nội dung option, không theo chỉ số.
 
 **Ý kiến:** làm cách 1. Rẻ hơn, không đụng dữ liệu đã lưu, và kết quả kiểm tra được bằng chính lệnh
-đo ở trên.
+đo ở trên. → **Đã chọn cách 1.**
+
+</details>
 
 ---
 
@@ -140,7 +170,7 @@ lỗi lặp lại trong hàng ôn), không phải từ một danh sách từ. Ch
 
 ## Đề xuất thứ tự cho phiên sau
 
-1. **§2 — sửa vị trí đáp án.** Rẻ, tự động hoá được, ảnh hưởng mọi bài tập trong app. Làm trước.
+1. ~~**§2 — sửa vị trí đáp án.**~~ ✅ xong 19.08.2026.
 2. **§4.2 — cho `--strict` fail khi có file mồ côi.** Một dòng, chặn đúng lỗi đã xảy ra thật.
 3. **§1 phương án A — 6 Phase Final Quiz.** Phần duy nhất của workstream quiz mà workbook không
    thay thế được.

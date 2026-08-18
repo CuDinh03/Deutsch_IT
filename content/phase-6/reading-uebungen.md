@@ -24,10 +24,10 @@ Musterlösungen am Ende.
 
 ```uebung
 ? „Die Beantragung erfolgt über das Zeiterfassungssystem. Die Genehmigung erfolgt durch die Führungskraft.“
+x Chat-Nachricht
 * Richtlinie oder Betriebsvereinbarung
 x Wiki-Anleitung
 x ADR
-x Chat-Nachricht
 ! Doppelter Nominalstil plus *erfolgt durch* — die Handschrift verbindlicher Regelwerke. In einem Wiki stünde schlicht *Du beantragst … , deine Führungskraft genehmigt.*
 
 ? „Kontext · Entscheidung · Konsequenzen“ — welche Textsorte?
@@ -38,10 +38,10 @@ x Betriebsvereinbarung
 ! Der ADR hält fest, **warum** etwas entschieden wurde. Du liest ihn nicht für das Wie, sondern für die Begründung — meist Jahre später.
 
 ? „Wir bitten Sie, den Arbeitsvertrag bis zum 30.06. unterschrieben zurückzusenden.“
+x Betriebsvereinbarung
 x Wiki
 x ADR
 * HR-Mail
-x Betriebsvereinbarung
 ! HR-Mails sind formell, aber handlungsorientiert. Zwei Dinge suchst du sofort: die Handlung und die Frist.
 
 ? Welche Textsorte liest du für „wer macht was, in welcher Reihenfolge“?
@@ -56,25 +56,25 @@ x HR-Mail
 
 ```uebung
 ? Welche Formulierungen binden dich hart? (mehrere richtig)
-* ist verpflichtet
-* hat zu erfolgen
 * ist untersagt
 x wird empfohlen
 x kann erfolgen
+* ist verpflichtet
+* hat zu erfolgen
 ! *hat zu erfolgen* ist die härteste Verwaltungsform überhaupt: *sein/haben* + *zu* + Infinitiv drückt Notwendigkeit aus.
 
 ? „Die Meldung hat unverzüglich zu erfolgen.“ Was bedeutet *unverzüglich*?
-* ohne schuldhaftes Zögern — also sofort, nicht „bald“
-x innerhalb einer Woche
 x wenn es passt
 x am nächsten Werktag
+* ohne schuldhaftes Zögern — also sofort, nicht „bald“
+x innerhalb einer Woche
 ! Ein Rechtsbegriff, kein Alltagswort. Bei der Krankmeldung heißt das: am ersten Tag, vor Arbeitsbeginn.
 
 ? „Abweichungen bedürfen der Zustimmung des Betriebsrats.“ Was heißt *bedürfen*?
-* brauchen, erfordern — mit Genitiv
 x ablehnen
 x empfehlen
 x ermöglichen
+* brauchen, erfordern — mit Genitiv
 ! *bedürfen* + Genitiv ist reines Amtsdeutsch: *bedarf der Zustimmung, bedarf der Schriftform*.
 
 ? „Die Regelung gilt entsprechend für Teilzeitbeschäftigte.“ Was bedeutet *entsprechend*?
@@ -85,10 +85,10 @@ x nur auf Antrag
 ! *gilt entsprechend* überträgt eine Regel auf einen weiteren Fall, ohne sie noch einmal auszuschreiben.
 
 ? „Im Übrigen bleibt § 4 unberührt.“ Was heißt das?
+x Paragraf 4 gilt nur noch teilweise.
 * Paragraf 4 gilt weiterhin unverändert.
 x Paragraf 4 wird gestrichen.
 x Paragraf 4 wird geändert.
-x Paragraf 4 gilt nur noch teilweise.
 ! *unberührt bleiben* ist die Standardformel dafür, dass eine andere Regel von dieser Änderung nicht betroffen ist.
 ```
 
@@ -104,10 +104,10 @@ x Paragraf 4 gilt nur noch teilweise.
 ! *durch* + Person nennt den Handelnden im Nominalstil. Genau danach fragst du: **Wer** macht das eigentlich?
 
 ? Welche drei Fragen entschärfen jeden Verwaltungssatz?
-* Wer? Macht was? Bis wann?
-x Warum? Wieso? Weshalb?
 x Wo? Wann? Wie?
 x Was kostet es? Wer zahlt? Wann?
+* Wer? Macht was? Bis wann?
+x Warum? Wieso? Weshalb?
 ! Nominalstil versteckt genau diese drei. Wer sie herausfragt, hat den Satz verstanden.
 ```
 
@@ -140,10 +140,10 @@ x Was kostet es? Wer zahlt? Wann?
 ! „bis zu drei“ — eine Obergrenze, keine Zusage. Der Unterschied entscheidet, ob du drei Tage **darfst** oder **bekommst**.
 
 ? Hast du Anspruch auf einen bestimmten Wochentag?
-* Nein — die Tage werden im Team abgestimmt.
 x Ja, du wählst frei.
 x Ja, nach Betriebszugehörigkeit.
 x Das steht nicht im Text.
+* Nein — die Tage werden im Team abgestimmt.
 ! §2 sagt es ausdrücklich: „Ein Anspruch auf bestimmte Wochentage besteht nicht.“ Verneinte Sätze sind in solchen Texten oft die wichtigsten.
 
 ? Musst du abends nach Feierabend erreichbar sein?
@@ -154,24 +154,24 @@ x Der Text sagt dazu nichts.
 ! Und beachte den Nachsatz: „§ 5 (Rufbereitschaft) bleibt unberührt.“ Genau dort steckt die Ausnahme.
 
 ? Darfst du deinen privaten Laptop dienstlich nutzen?
+x Nur im Homeoffice.
 * Nur mit vorheriger Zustimmung der IT-Sicherheit.
 x Ja, uneingeschränkt.
 x Nein, niemals.
-x Nur im Homeoffice.
 ! Drei Bedingungen in einem Halbsatz: *vorherig*, *Zustimmung*, *IT-Sicherheit*. Fehlt eine, gilt die Erlaubnis nicht.
 
 ? Du brauchst einen vierten mobilen Tag. Was ist nötig?
-* Zustimmung der Führungskraft und Anzeige gegenüber dem Betriebsrat
-x nur die Zustimmung der Führungskraft
 x nur eine Meldung an den Betriebsrat
 x gar nichts, §2 ist eine Empfehlung
+* Zustimmung der Führungskraft und Anzeige gegenüber dem Betriebsrat
+x nur die Zustimmung der Führungskraft
 ! *sowie* verbindet zwei Bedingungen, nicht eine Alternative. Beides ist nötig.
 
 ? „Die Arbeitsmittel werden vom Arbeitgeber gestellt.“ Was bedeutet *stellen* hier?
-* zur Verfügung stellen — der Arbeitgeber bezahlt und liefert sie
 x aufstellen
 x in Rechnung stellen
 x beantragen
+* zur Verfügung stellen — der Arbeitgeber bezahlt und liefert sie
 ! *jemandem etwas stellen* = bereitstellen. Häufig in Verträgen und Vereinbarungen.
 ```
 
@@ -208,17 +208,17 @@ x Nichts, die Vereinbarung gilt automatisch.
 ! Genau lesen lohnt: „Ein Nachteil entsteht Ihnen daraus nicht.“ Nicht jede Frist ist eine Drohung — aber du solltest wissen, welche.
 
 ? „fristgerecht“ bedeutet …
+x auf Antrag
 * innerhalb der genannten Frist
 x sofort
 x verspätet
-x auf Antrag
 ! Standardwort. Gegenstück: *verfristet* = zu spät und damit unwirksam.
 
 ? An welchen vier Terminen beginnen die Quartale?
-* 1.1. · 1.4. · 1.7. · 1.10.
-x 1.1. · 1.3. · 1.6. · 1.9.
 x 1.2. · 1.5. · 1.8. · 1.11.
 x 1.1. · 1.5. · 1.9. · 1.12.
+* 1.1. · 1.4. · 1.7. · 1.10.
+x 1.1. · 1.3. · 1.6. · 1.9.
 ! *zum Quartalsbeginn* und *zum Quartalsende* sind Standardtermine in Verträgen und Kündigungsfristen — vier feste Daten, die man einmal lernt und ständig braucht.
 ```
 
@@ -241,10 +241,10 @@ x 1.1. · 1.5. · 1.9. · 1.12.
 
 ```uebung
 ? Wofür liest man einen ADR?
-* für die Entscheidung und ihre Begründung
 x für eine Schritt-für-Schritt-Anleitung
 x für die Verantwortlichen
 x für die Fristen
+* für die Entscheidung und ihre Begründung
 ! Ein ADR beantwortet die Frage, die in zwei Jahren niemand mehr beantworten kann: **Warum haben wir das damals so gemacht?**
 
 ? Was war das Problem im Kontext?
@@ -255,17 +255,17 @@ x Der Betriebsaufwand war zu hoch.
 ! Der Kontext beschreibt den Zustand **vor** der Entscheidung — und was schon erfolglos versucht wurde („Erhöhung der Zeitüberschreitung“).
 
 ? Welchen Nachteil nennt der ADR ausdrücklich?
+x keinen
 * höherer Betriebsaufwand, die Warteschlange muss überwacht werden
 x höhere Kosten für den Anbieter
 x längere Entwicklungszeit
-x keinen
 ! Ein guter ADR nennt den Preis der Entscheidung. Steht dort nur Positives, ist es Werbung, kein ADR.
 
 ? „Es wurde entschieden, hierfür die bestehende Infrastruktur zu nutzen.“ Welche Form ist das?
-* Passiv ohne Akteur
-x Aktiv
 x Konjunktiv I
 x Zustandspassiv
+* Passiv ohne Akteur
+x Aktiv
 ! Typisch für Entscheidungstexte: Der Beschluss zählt, nicht wer ihn gefasst hat — siehe [Phase 4 · Grammar](#/phase-4/grammar).
 ```
 
@@ -290,10 +290,10 @@ x Zustandspassiv
 ! Ohne aktuelles Datum ist eine Anleitung ein Gerücht. Erst danach lohnt sich das Lesen.
 
 ? Der VPN-Zugang fehlt am ersten Tag. Was tust du?
-* Schritt 1 vorziehen, Schritt 2 verschieben
 x auf den VPN warten und nichts tun
 x einen anderen Zugang beantragen
 x mit Schritt 3 beginnen
+* Schritt 1 vorziehen, Schritt 2 verschieben
 ! Genau dafür existiert der Abschnitt „Bekannte Probleme“ — der oft nützlichste Teil einer deutschen Wiki-Seite.
 
 ? Welche Form haben die Schritte?
@@ -304,10 +304,10 @@ x Konjunktiv
 ! In deutscher Doku ist der Imperativ Standard: *richte ein, lass dir zeigen, übernimm*. Das Passiv wäre unnötig schwerfällig.
 
 ? „Lass dir von deiner Patin die Systemlandschaft zeigen.“ Was ist eine *Patin* hier?
+x die Betriebsrätin
 * eine feste Ansprechperson für die Einarbeitung
 x die Vorgesetzte
 x eine externe Beraterin
-x die Betriebsrätin
 ! *Pate/Patin* oder *Buddy* — die zugeteilte Begleitung für die ersten Wochen. Sehr verbreitet in deutschen Firmen.
 ```
 

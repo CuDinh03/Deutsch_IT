@@ -23,17 +23,17 @@ Spiele jeden Hörtext **einmal** und antworte aus dem Gedächtnis.
 
 ```uebung
 ? Ist der Sprecher für oder gegen die Aufteilung?
+x er sagt es nicht
 x klar dafür
 * skeptisch — aber nicht grundsätzlich dagegen
 x völlig dagegen
-x er sagt es nicht
 ! „Ich würde vorschlagen, dass wir zuerst den Zahlungsteil herauslösen" — er will einen kleineren Schritt, keine Absage.
 
 ? Was schlägt er konkret vor?
-* zuerst nur den Zahlungsteil herauslösen
 x alle fünf Services auf einmal bauen
 x den Monolithen behalten
 x mehr Leute einstellen
+* zuerst nur den Zahlungsteil herauslösen
 ! Schrittweises Vorgehen mit Zwischenauswertung.
 ```
 
@@ -69,17 +69,17 @@ x nur Fakten
 
 ```uebung
 ? Was ist die Kernthese?
-* Das Werkzeug ist weniger wichtig als die Disziplin.
-x Moderne Sprachen machen Code wartbarer.
 x Alte Systeme sind grundsätzlich schlecht.
 x Architektur spielt keine Rolle.
+* Das Werkzeug ist weniger wichtig als die Disziplin.
+x Moderne Sprachen machen Code wartbarer.
 ! „Unterm Strich ist das Werkzeug weniger wichtig als die Disziplin."
 
 ? Wo räumt der Sprecher etwas ein?
-* bei „Zwar stimmt es, dass die Sprache die Einstiegshürde senkt"
 x im letzten Satz
 x gar nicht
 x bei der Erwähnung alter Systeme
+* bei „Zwar stimmt es, dass die Sprache die Einstiegshürde senkt"
 ! *Zwar …* leitet im Deutschen fast immer eine Einräumung ein, auf die ein *aber* folgt.
 ```
 
@@ -94,10 +94,10 @@ x um Urlaub zu beantragen
 ! „Der Termin am Donnerstag passt uns leider nicht mehr."
 
 ? Welche zwei Alternativen nennt sie? (mehrere richtig)
+x Freitagnachmittag
 * Dienstag ab 14 Uhr
 * Donnerstag der Folgewoche
 x Mittwochvormittag
-x Freitagnachmittag
 ! Beide werden ausdrücklich genannt.
 ```
 
@@ -133,10 +133,10 @@ x falsch
 
 ```uebung
 ? Welchen zweiteiligen Konnektor benutzt der Sprecher, und was signalisiert er?
-* weder … noch — beides fehlt
-x sowohl … als auch — beides ist vorhanden
 x entweder … oder — eine Wahl
 x je … desto — eine Steigerung
+* weder … noch — beides fehlt
+x sowohl … als auch — beides ist vorhanden
 ! *weder … noch* ist die negative Entsprechung von *sowohl … als auch*.
 ```
 
@@ -148,10 +148,10 @@ x je … desto — eine Steigerung
 ! „rund zwei Drittel der befragten Betriebe".
 
 ? Wovor warnen Kritiker?
-* vor der wachsenden Abhängigkeit von wenigen großen Anbietern
 x vor zu hohen Kosten
 x vor Datenverlust
 x vor Fachkräftemangel
+* vor der wachsenden Abhängigkeit von wenigen großen Anbietern
 ! Wörtlich im Text.
 
 ? Was fordern Datenschützer?
@@ -178,17 +178,17 @@ x mehr Rechenzentren
 ! „erstens Canary-Deployments für alle Dienste".
 
 ? Welche grammatische Struktur benutzt der Sprecher für die Hypothese?
+x Imperativ
 * Konjunktiv II der Vergangenheit (hätten … gehabt, wäre … aufgefallen)
 x Passiv Präsens
 x Futur
-x Imperativ
 ! Das ist die Standardstruktur jedes deutschen Post-Mortems.
 
 ? Welche Form steht im Passiv? (mehrere richtig)
-* Ausgelöst wurde er durch eine fehlerhafte Konfiguration
-* die am Montagabend ausgerollt worden ist
 x Wir haben drei Maßnahmen beschlossen
 x Der Ausfall hat sechsundfünfzig Minuten gedauert
+* Ausgelöst wurde er durch eine fehlerhafte Konfiguration
+* die am Montagabend ausgerollt worden ist
 ! Beide Passivformen: Präteritum und Perfekt (mit **worden**).
 ```
 
@@ -202,11 +202,11 @@ x neutral
 ! Er hält die Diskussion für „überbewertet".
 
 ? Welche Wörter verraten seine Meinung? (mehrere richtig)
-* ehrlich gesagt
 * überbewertet
 * unterm Strich
 x insgesamt
 x laut
+* ehrlich gesagt
 ! *insgesamt* und *laut* sind neutrale Signalwörter, die anderen drei markieren Haltung.
 
 ? Wie lautet sein Fazit-Signalwort?
@@ -218,10 +218,10 @@ x laut
 
 ```uebung
 ? Warum fällt der Donnerstagstermin weg?
+x wegen eines Releases
 * weil die Kollegin aus dem Datenschutzteam verhindert ist
 x weil der Raum belegt ist
 x wegen eines Feiertags
-x wegen eines Releases
 ! „weil die Kollegin aus dem Datenschutzteam an dem Tag verhindert ist".
 
 ? Ab wann wäre der Dienstagstermin möglich?
@@ -229,17 +229,17 @@ x wegen eines Releases
 ! „dann allerdings erst ab vierzehn Uhr".
 
 ? Welchen Termin bevorzugt die Sprecherin?
-* Dienstag
-x Donnerstag der Folgewoche
 x Mittwoch
 x sie hat keine Präferenz
+* Dienstag
+x Donnerstag der Folgewoche
 ! „Mir persönlich wäre Dienstag lieber."
 
 ? Warum?
-* weil man sonst zu nah an den Release kommt
 x weil dienstags mehr Leute da sind
 x weil der Raum frei ist
 x weil sie donnerstags Urlaub hat
+* weil man sonst zu nah an den Release kommt
 ! „weil wir sonst zu nah an den Release kommen".
 ```
 
@@ -262,10 +262,10 @@ x insgesamt
 
 ```uebung
 ? In Hörtext 1 sagt der Sprecher „Ich würde vorschlagen …". Welche Funktion hat der Konjunktiv II hier?
+x Zukunft
 * Abschwächung eines Vorschlags
 x Irrealis der Vergangenheit
 x Höflichkeitsbitte an eine fremde Person
-x Zukunft
 ! In Hörtext 3 („hätten … gehabt, wäre … aufgefallen") macht dasselbe Werkzeug etwas völlig anderes: kontrafaktische Ursachenanalyse. Gleiche Grammatik, zwei Jobs.
 ```
 

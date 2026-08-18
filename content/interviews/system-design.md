@@ -127,10 +127,10 @@ Zwei Wörter, die du dafür brauchst: **überschlagen** (to estimate roughly) un
 
 ```uebung
 ? Womit beginnst du eine System-Design-Aufgabe?
-* mit zwei bis drei Klärungsfragen
 x mit dem Zeichnen
 x mit der Datenbankwahl
 x mit einer Aufzählung möglicher Technologien
+* mit zwei bis drei Klärungsfragen
 ! Neunzig Sekunden Klärung ersparen dir, die falsche Aufgabe zu lösen. Und du übernimmst damit die Moderation.
 
 ? Welche Klärungsfrage ist am wertvollsten?
@@ -141,10 +141,10 @@ x Darf ich zeichnen?
 ! Sie zwingt die andere Seite, die echte Priorität zu nennen. Aus der Antwort folgt fast der ganze Entwurf.
 
 ? Warum darfst du im deutschen Fachgespräch nicht lange schweigen?
+x Weil man dann durchfällt.
 * Schweigen wird als Steckenbleiben gelesen, nicht als Konzentration.
 x Weil Schweigen unhöflich ist.
 x Weil die Zeit knapp ist.
-x Weil man dann durchfällt.
 ! Deshalb die Signalsätze: „Ich nehme für den Moment an, dass …", „Der kritische Punkt ist hier …".
 
 ? Welcher Satz gehört zu jeder Entwurfsentscheidung?
@@ -160,17 +160,17 @@ x Weil man dann durchfällt.
 ! Und *1,5 Mio.* wird zu *eineinhalb Millionen*. Deutsche Zahlwörter im Kopf haben ist Teil der Vorbereitung.
 
 ? Nach welchem Kriterium ordnest du Skalierungsschritte?
-* nach Umkehrbarkeit — billige und reversible Schritte zuerst
-x nach Eleganz
 x nach Neuheit der Technologie
 x nach persönlicher Erfahrung
+* nach Umkehrbarkeit — billige und reversible Schritte zuerst
+x nach Eleganz
 ! Abfragen optimieren ist reversibel, Daten aufteilen kaum. Diese Reihenfolge zu nennen, zeigt Betriebserfahrung.
 
 ? Was macht eine gute Ausfall-Antwort vollständig?
-* dass sie bis zur Wiederherstellung weiterdenkt
 x dass sie alle Komponenten nennt
 x dass sie eine Zahl enthält
 x dass sie kurz ist
+* dass sie bis zur Wiederherstellung weiterdenkt
 ! Der zweite Ausfall passiert beim Hochfahren, wenn alle Wiederholungsversuche gleichzeitig kommen. Deshalb: wachsender Abstand plus Obergrenze.
 
 ? Du kennst eine Technologie nicht, nach der gefragt wird.
@@ -181,10 +181,10 @@ x sagen, die Technologie sei ungeeignet
 ! Ehrlichkeit plus Vorgehen. Geraten fällt in dieser Runde spätestens bei der zweiten Nachfrage auf.
 
 ? Was tust du nach etwa fünf Minuten Entwurf?
+x um Feedback bitten
 * kurz bündeln: „Bis hierher haben wir also: …"
 x weiterzeichnen
 x nach der Zeit fragen
-x um Feedback bitten
 ! Bündeln behält die Führung und gibt der anderen Seite die Chance zu korrigieren, bevor der Entwurf in die falsche Richtung wächst.
 ```
 

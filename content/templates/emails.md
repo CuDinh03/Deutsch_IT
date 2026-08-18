@@ -38,8 +38,8 @@ Nach dem Komma der Anrede geht es **klein** weiter — der sichtbarste Anfänger
 
 ```uebung
 ? „Sehr geehrter Herr Schulz," — wie geht es weiter?
-* im Anhang finden Sie das Protokoll.
 x Im Anhang finden Sie das Protokoll.
+* im Anhang finden Sie das Protokoll.
 ! Die Anrede ist keine Überschrift, sondern der Satzanfang. Komma, dann klein.
 
 ? Welcher Betreff ist am nützlichsten?
@@ -50,10 +50,10 @@ x Kurze Info
 ! Sache **und** Frist. So sieht die empfangende Person in der Liste, ob sie heute handeln muss.
 
 ? Welche Kombination ist ein Registerbruch?
+x Sehr geehrte Damen und Herren, … Mit freundlichen Grüßen
 * Hallo Herr Schulz, … Mit freundlichen Grüßen
 x Sehr geehrter Herr Schulz, … Mit freundlichen Grüßen
 x Hallo Thomas, … Viele Grüße
-x Sehr geehrte Damen und Herren, … Mit freundlichen Grüßen
 ! *Hallo* ist kollegial, *Sehr geehrter* ist formell. Beides in einer Mail wirkt, als hättest du eine Vorlage halb überschrieben.
 ```
 
@@ -131,17 +131,17 @@ jemand nicht geantwortet hat: Sie verteilt keine Schuld. Dieselbe unpersönliche
 
 ```uebung
 ? Du erinnerst zum ersten Mal an eine offene Antwort. Welche Formulierung?
-* Ich wollte kurz nachfassen wegen …
-x Sie haben mir immer noch nicht geantwortet.
 x Bitte antworten Sie endlich.
 x Dritte Erinnerung!
+* Ich wollte kurz nachfassen wegen …
+x Sie haben mir immer noch nicht geantwortet.
 ! Stufe 1. Die Eskalationsleiter beginnt unten — wer oben einsteigt, hat für den Wiederholungsfall nichts mehr übrig.
 
 ? Was bedeutet „Die Mail ist wohl untergegangen"?
-* Sie wurde übersehen — ohne dass jemandem ein Vorwurf gemacht wird.
 x Die Mail wurde technisch nicht zugestellt.
 x Die Mail wurde gelöscht.
 x Der Empfänger hat sie absichtlich ignoriert.
+* Sie wurde übersehen — ohne dass jemandem ein Vorwurf gemacht wird.
 ! Eine Gesichtswahrungsformel. Inhaltlich sagst du „bitte antworte", grammatisch sagst du niemandem etwas nach.
 
 ? Wann nimmst du eine dritte Person in Kopie?
@@ -260,24 +260,24 @@ zuerst noch überhaupt.
 
 ```uebung
 ? Welche Reihenfolge hat eine gute deutsche Absage?
+x Alternative · Dank · Absage
 * Dank · Absage mit Grund · Alternative · Rückfrage
 x Absage · Entschuldigung · Erklärung
 x Erklärung · Erklärung · Absage
-x Alternative · Dank · Absage
 ! Die Alternative macht aus dem Nein einen Verhandlungszug. Ohne sie klingt dieselbe Absage endgültig.
 
 ? Welche drei Zeilen bilden eine Statusmeldung?
-* Stand · Risiko · nächster Schritt
-x Was ich diese Woche gemacht habe
 x Probleme · Schuldige · Lösung
 x Zahlen · Diagramme · Fazit
+* Stand · Risiko · nächster Schritt
+x Was ich diese Woche gemacht habe
 ! Stakeholder lesen Status, um zu entscheiden, ob sie eingreifen müssen. Ein Tätigkeitsbericht beantwortet diese Frage nicht.
 
 ? Was fehlt einer kommentarlosen Weiterleitung?
-* der Kontext — warum diese Mail für die empfangende Person relevant ist
 x die Anrede
 x der Betreff
 x der Anhang
+* der Kontext — warum diese Mail für die empfangende Person relevant ist
 ! Zwei Zeilen Einordnung sparen der anderen Person das Lesen von drei Absätzen fremder Korrespondenz.
 
 ? „Ich bin bis 12.09. nicht erreichbar." Was ist unklar?

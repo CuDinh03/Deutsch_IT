@@ -49,17 +49,17 @@ länger — dort sind Gremien und feste Sitzungstermine beteiligt.
 
 ```uebung
 ? Wie lange dauert ein deutscher Bewerbungsprozess typischerweise?
-* vier bis zehn Wochen
-x zwei bis drei Tage
 x eine Woche
 x sechs Monate
+* vier bis zehn Wochen
+x zwei bis drei Tage
 ! Mehrere Beteiligte, Urlaubszeiten, feste Termine. Zwei Wochen Stille sind Kalender, kein Signal.
 
 ? Was passiert im Screening-Call?
-* Verfügbarkeit, Gehaltsrahmen und Motivation werden geklärt
 x die technische Tiefe wird geprüft
 x der Vertrag wird verhandelt
 x du lernst das Team kennen
+* Verfügbarkeit, Gehaltsrahmen und Motivation werden geklärt
 ! Zwanzig bis dreißig Minuten mit HR, oft unangekündigt am Telefon. Vorbereitung: [Phase 5 · Listening · Übungsteil](#/phase-5/listening-uebungen).
 
 ? Wann wird das Gehalt zum ersten Mal Thema?
@@ -70,10 +70,10 @@ x im Fachgespräch
 ! Deshalb musst du deine Zahl **vor** dem ersten Anruf kennen — sie wird oft in Minute fünf abgefragt.
 
 ? Wie viel Bedenkzeit ist nach einem Angebot üblich?
+x gar keine
 * zwei bis fünf Tage
 x eine Stunde
 x vier Wochen
-x gar keine
 ! Zwei bis fünf Tage werden ohne Nachfrage gewährt. Nutze sie — eine Zusage gilt in Deutschland als verbindlich.
 ```
 
@@ -109,17 +109,17 @@ Steht ein Adjektiv da, ist es Verhandlungssache — und dein Anschreiben ist der
 
 ```uebung
 ? Was bedeutet „(m/w/d)“ in einer Anzeige?
-* männlich / weiblich / divers — die Stelle ist geschlechtsneutral ausgeschrieben
-x eine Erfahrungsstufe
 x mit / ohne Diplom
 x Vollzeit / Teilzeit / Werkstudent
+* männlich / weiblich / divers — die Stelle ist geschlechtsneutral ausgeschrieben
+x eine Erfahrungsstufe
 ! Seit der Einführung der dritten Geschlechtsoption ist die neutrale Ausschreibung Standard. Auch üblich: *(all genders)* oder Doppelformen wie *Entwickler:in*.
 
 ? „Verhandlungssicheres Deutsch“ entspricht ungefähr …
-* C1
 x A2
 x B1
 x C2
+* C1
 ! Gemeint ist: Du kannst verhandeln, widersprechen und Nuancen treffen — genau das, was Phase 5 und 6 trainieren.
 
 ? In der Anzeige steht „Deutsch mind. B2“ und du hast C1. Was tust du?
@@ -130,10 +130,10 @@ x das Zertifikat mitschicken, aber nicht erwähnen
 ! Eine geforderte Anforderung, die du übererfüllst, gehört sichtbar in die Bewerbung. Wer sie nicht nennt, lässt eine offene Frage im Kopf der lesenden Person.
 
 ? Was ist ein „AT-Vertrag“?
+x ein Vertrag mit Arbeitnehmerüberlassung
 * außertariflich — das Gehalt ist frei verhandelbar statt tariflich eingruppiert
 x ein Arbeitsvertrag auf Zeit
 x ein Ausbildungsvertrag
-x ein Vertrag mit Arbeitnehmerüberlassung
 ! In tarifgebundenen Firmen liegt das Gehalt in einer Entgeltgruppe fest; AT-Verträge liegen darüber und werden verhandelt.
 ```
 
@@ -157,17 +157,17 @@ sinnvoll.
 
 ```uebung
 ? Warum ist ein grafisch aufwendiger Lebenslauf riskant?
-* Bewerbermanagementsysteme lesen Spalten, Icons und Grafiken oft schlecht aus.
-x weil er unprofessionell wirkt
 x weil er zu lang ist
 x weil Farben verboten sind
+* Bewerbermanagementsysteme lesen Spalten, Icons und Grafiken oft schlecht aus.
+x weil er unprofessionell wirkt
 ! Struktur schlägt Gestaltung. Ein klar gegliedertes PDF mit normalen Überschriften ist die sichere Wahl.
 
 ? Die Anzeige sagt „Spring Boot“, dein Lebenslauf sagt „Spring“. Was tust du?
-* den Begriff der Anzeige übernehmen, sofern er stimmt
 x nichts, das ist dasselbe
 x beides weglassen
 x nur „Java“ schreiben
+* den Begriff der Anzeige übernehmen, sofern er stimmt
 ! Für eine Suchmaske sind das zwei Begriffe. Spiegeln ist Präzision — erfinden wäre etwas anderes.
 
 ? Wer liest deine Bewerbung?
@@ -202,17 +202,17 @@ Lesetraining für genau die Register aus dem [Phase 6 · Reading · Übungsteil]
 
 ```uebung
 ? Wo prüfst du die aktuellen Voraussetzungen für die EU-Blaue Karte?
+x in Lernmaterialien
 * auf offiziellen Portalen wie Make it in Germany, BAMF oder der Bundesagentur für Arbeit
 x in Foren und Facebook-Gruppen
 x beim künftigen Arbeitgeber
-x in Lernmaterialien
 ! Gehaltsschwellen und Verfahren ändern sich regelmäßig. Nur amtliche Quellen sind aktuell — auch dieses Modul nennt bewusst keine Zahl.
 
 ? Was verbindet fast alle Wege für Fachkräfte aus Nicht-EU-Staaten?
-* eine anerkannte Qualifikation plus ein konkretes Stellenangebot
-x ein Sprachzertifikat C2
 x ein Wohnsitz in Deutschland
 x eine Einladung eines Verwandten
+* eine anerkannte Qualifikation plus ein konkretes Stellenangebot
+x ein Sprachzertifikat C2
 ! Qualifikation und Angebot sind der Kern. Die Chancenkarte ist die Ausnahme — sie dient gerade der Suche.
 
 ? Wo lässt du einen ausländischen Hochschulabschluss einstufen?

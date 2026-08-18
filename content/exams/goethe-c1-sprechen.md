@@ -47,17 +47,17 @@ x nichts, man improvisiert
 ! Ausformulierte Sätze werden vorgelesen, und Vorlesen klingt nie frei. Stichworte zwingen dich, zu sprechen statt abzulesen.
 
 ? Welche zwei Sätze darfst du vorformulieren?
+x die Beispiele
 * der erste und der letzte
 x alle Übergänge
 x die Argumente
-x die Beispiele
 ! Der Einstieg trägt dich durch die Nervosität, der Schluss verhindert das Verstummen. Alles dazwischen bleibt frei.
 
 ? Wie viele Hauptpunkte hat ein guter C1-Vortrag?
-* drei
-x fünf bis sechs
 x einer
 x so viele wie möglich
+* drei
+x fünf bis sechs
 ! Drei Punkte kann man ausführen. Fünf werden aufgezählt — und Aufzählen ist B2.
 ```
 
@@ -83,10 +83,10 @@ die Interaktion, die bewertet wird — und du bestimmst, worüber gesprochen wir
 
 ```uebung
 ? Woran erkennt die Prüferin die Struktur deines Vortrags?
-* an den angekündigten Schritten und den Übergangssätzen
 x an der Länge
 x am Fachvokabular
 x an der Lautstärke
+* an den angekündigten Schritten und den Übergangssätzen
 ! „Ich gehe in drei Schritten vor" plus „Damit komme ich zum zweiten Punkt" — das ist die Struktur, hörbar gemacht.
 
 ? Wie beendest du deinen Vortragsteil?
@@ -97,10 +97,10 @@ x mit einer Entschuldigung
 ! *Soweit von meiner Seite — wie siehst du das?* eröffnet die Diskussion und gibt dir die Themenhoheit.
 
 ? „Dagegen ließe sich einwenden, dass …“ Was zeigt dieser Satz?
+x dass du der Gegenseite zustimmst
 * dass du die Gegenseite mitdenkst — ein C1-Merkmal
 x dass du unsicher bist
 x dass du das Thema wechselst
-x dass du der Gegenseite zustimmst
 ! Auf C1 wird Abwägung erwartet. Wer nur eine Seite vertritt, klingt wie eine Meinung, nicht wie eine Analyse.
 ```
 
@@ -123,17 +123,17 @@ seid und worin nicht**, zeigt in einem Satz, dass er die ganze Diskussion überb
 
 ```uebung
 ? Was macht aus zwei Vorträgen eine Diskussion?
-* dass ihr die Beiträge des anderen aufgreift und darauf antwortet
-x dass ihr abwechselnd sprecht
 x dass ihr gleich lang sprecht
 x dass ihr verschiedener Meinung seid
+* dass ihr die Beiträge des anderen aufgreift und darauf antwortet
+x dass ihr abwechselnd sprecht
 ! Abwechseln ist noch keine Interaktion. Bewertet wird das Aufgreifen: namentlich, inhaltlich, mit Bezug.
 
 ? Welcher Zug zeigt am deutlichsten, dass du die Diskussion überblickst?
-* das Bündeln am Ende: worin ihr einig seid, worin nicht
 x häufiges Widersprechen
 x langes Sprechen
 x viele Fachbegriffe
+* das Bündeln am Ende: worin ihr einig seid, worin nicht
 ! „Wir sind uns offenbar einig, dass … Unterschiedlich sehen wir …" — ein Satz, der die ganze Diskussion sortiert.
 
 ? Deine Partnerin sagt etwas, das du gut findest. Was ist stärker als „Ja, genau"?
@@ -167,24 +167,24 @@ Zwei gute Züge wiegen mehr als vier Minuten Redefluss.
 
 ```uebung
 ? Deine Partnerin sagt kaum etwas. Was tust du?
+x die Prüferin ansprechen
 * sie mit einer konkreten Frage hereinholen
 x ihre Redezeit mit übernehmen
 x abwarten
-x die Prüferin ansprechen
 ! Beide werden getrennt bewertet — aber Interaktionsfähigkeit ist Teil **deiner** Note. Sie hereinzuholen zeigt genau die.
 
 ? Deine Partnerin redet ohne Pause. Was tust du?
-* höflich einhaken: „Darf ich an der Stelle kurz einhaken?"
-x sie ausreden lassen und hoffen
 x lauter sprechen
 x der Prüferin ein Zeichen geben
+* höflich einhaken: „Darf ich an der Stelle kurz einhaken?"
+x sie ausreden lassen und hoffen
 ! Dieselbe Technik wie im Meeting. Höflich unterbrechen ist eine Kompetenz, keine Unhöflichkeit — und wird hier ausdrücklich gebraucht.
 
 ? Was zählt mehr: Redezeit oder Qualität der Beiträge?
-* die Qualität
 x die Redezeit
 x beides gleich
 x die Lautstärke
+* die Qualität
 ! Zwei präzise Züge — ein Aufgreifen und ein Bündeln — wiegen mehr als vier Minuten ununterbrochenes Sprechen.
 ```
 

@@ -60,24 +60,24 @@ Lies den Text und beantworte die Fragen. Erst danach prüfen.
 
 ```uebung
 ? Wie viele Beschäftigte in Bürojobs arbeiten mindestens einen Tag pro Woche zu Hause?
+x nur eine kleine Minderheit
 x rund 15 Prozent
 * rund 55 Prozent
 x die große Mehrheit
-x nur eine kleine Minderheit
 ! Steht direkt im Text. Die „kleine Minderheit" bezieht sich auf **vollständig** remote — ein klassischer Verwechslungstyp: zwei Zahlen im selben Satz, aber zu verschiedenen Aussagen.
 
 ? Warum nutzen kleinere Unternehmen Homeoffice als Argument?
-x Weil sie keine Büros mehr haben.
-* Weil sie bei den Gehältern nicht mithalten können.
 x Weil die Betriebsräte es fordern.
 x Weil große Konzerne es ihnen vorschreiben.
+x Weil sie keine Büros mehr haben.
+* Weil sie bei den Gehältern nicht mithalten können.
 ! Direktes Zitat der Geschäftsführerin. Die anderen Optionen klingen plausibel, stehen aber nicht im Text — genau darum geht es beim Detailverstehen.
 
 ? Was kritisieren Betriebsräte?
-x dass zu wenige Menschen im Homeoffice arbeiten
-x dass kleine Unternehmen zu niedrige Gehälter zahlen
 * dass Arbeit und Freizeit nicht klar getrennt sind
 x dass die Zeiterfassung zu streng ist
+x dass zu wenige Menschen im Homeoffice arbeiten
+x dass kleine Unternehmen zu niedrige Gehälter zahlen
 ! „die unklare Trennung von Arbeit und Freizeit". Option 4 dreht die Kritik um: bemängelt wird, dass Zeit **nicht** erfasst wird.
 
 ? Welche Aussage passt zum letzten Absatz?
@@ -116,9 +116,9 @@ x trotzdem
 ! *weil* ist subordinierend und leitet den Grund ein — das Verb *war* steht am Ende. *deshalb* und *trotzdem* würden Inversion auslösen und passen hier syntaktisch nicht.
 
 ? Der Build hängt ___ der Datenbank ab.
+x an
 x auf
 * von
-x an
 ! Feste Verbsignatur: **abhängen von + Dativ**. Solche Verb-Präposition-Paare sind nicht logisch herleitbar — sie müssen als Einheit gelernt werden.
 
 ? Die Migration muss vor dem Deployment ___ werden.
@@ -128,15 +128,15 @@ x zu testen
 ! Passiv mit Modalverb: Modalverb + **Partizip II + werden** am Satzende. Also: *muss getestet werden*.
 
 ? ___ mehr Abhängigkeiten ein System hat, desto schwieriger wird die Wartung.
+x Als
 * Je
 x Wenn
-x Als
 ! *je … desto*. Nach *je* steht ein Nebensatz (Verb am Ende), nach *desto* folgt Inversion.
 
 ? Der Kollege, ___ ich den Zugang gegeben habe, ist im Urlaub.
+x der
 x den
 * dem
-x der
 ! *geben* verlangt den Dativ für die Person. Das Relativpronomen nimmt das **Genus vom Bezugswort**, den **Kasus aber aus seinem eigenen Satz** — daher *dem*.
 
 ? Wenn wir das Monitoring früher eingerichtet ___, wäre der Ausfall kürzer gewesen.
@@ -146,15 +146,15 @@ x würden
 ! Irrealis der Vergangenheit: *hätte/wäre* + Partizip II in beiden Satzhälften. Das ist die Standardstruktur jeder Fehleranalyse.
 
 ? Der Bug ist gestern behoben ___.
+x gewesen
 * worden
 x geworden
-x gewesen
 ! Passiv Perfekt nutzt **worden**. *geworden* ist das Partizip von *werden* als Vollverb („Er ist Entwickler geworden"). Dieser eine Buchstabe unterscheidet B1 von B2.
 
 ? Bitte melden Sie sich, ___ Sie Fragen haben.
-* falls
 x damit
 x obwohl
+* falls
 ! *falls* = wenn/im Fall dass. *damit* leitet einen Zweck ein, *obwohl* einen Gegensatz — beides passt inhaltlich nicht.
 ```
 
@@ -214,17 +214,17 @@ Die ~90 Minuten teilen sich Lesen **und** Sprachbausteine. Ein Budget, das funkt
 
 ```uebung
 ? Womit solltest du im Prüfungsblock anfangen?
-* mit den Sprachbausteinen
 x mit dem längsten Lesetext
 x mit dem Antwortbogen
 x egal, Hauptsache der Reihe nach
+* mit den Sprachbausteinen
 ! Sprachbausteine sind die schnellsten und sichersten Punkte. Am Ende gemacht, werden sie geraten.
 
 ? Du kommst bei einer Aufgabe nicht weiter. Was tust du?
-x so lange überlegen, bis du sie löst
 * markieren, weitergehen, später zurückkommen
 x die Aufgabe leer lassen und vergessen
 x raten und nie zurückkommen
+x so lange überlegen, bis du sie löst
 ! Zeit ist die knappe Ressource. Aber: am Ende **muss** dort etwas stehen — leer lassen bringt garantiert null Punkte.
 
 ? Wie viel Zeit reservierst du für den Antwortbogen?
@@ -235,10 +235,10 @@ x 2 Minuten reichen
 ! Bei manchen Formaten wird ausschließlich der Antwortbogen gewertet. Zehn Minuten sind Versicherung, keine Verschwendung.
 
 ? Bringt eine falsche Antwort Punktabzug?
+x nur im Leseverstehen
 x ja, deshalb lieber leer lassen
 * nein — deshalb nie leer lassen
 x nur bei den Sprachbausteinen
-x nur im Leseverstehen
 ! Es gibt keinen Malus für Falsches. Jede leere Lücke ist ein sicher verlorener Punkt, jede geratene hat eine Chance.
 ```
 

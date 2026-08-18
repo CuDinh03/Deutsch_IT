@@ -21,17 +21,17 @@ lesen. Block C und D sind freie Produktion mit Musterlösungen am Ende.
 
 ```uebung
 ? Welcher Satz gehört so in ein Protokoll?
+x Der Bug ist weg.
 x Ich hab den Bug gefixt.
 * Der Fehler wurde behoben.
 x Wir haben das dann irgendwie hinbekommen.
-x Der Bug ist weg.
 ! Ein Protokoll berichtet, **was mit dem System passiert ist**, nicht wer es war. Passiv + Präteritum ist die Standardform.
 
 ? „Wir sind hier alle per du." Was heißt das für das schriftliche Protokoll?
-* Nichts — das Protokoll bleibt neutral und formal.
 x Das Protokoll wird ebenfalls im Du geschrieben.
 x Man schreibt gar kein Protokoll mehr.
 x Man duzt nur die Anwesenden im Kopf des Protokolls.
+* Nichts — das Protokoll bleibt neutral und formal.
 ! Anrede und Register sind zwei verschiedene Dinge. Das Daily kann komplett per du laufen — der Text, den ein Dritter in sechs Monaten liest, bleibt sachlich.
 
 ? Welche Wörter sind Hedging-Signale? (mehrere richtig)
@@ -44,10 +44,10 @@ x auf jeden Fall
 ! Hedging kauft dir Spielraum: du sagst etwas, ohne dich festzulegen. *definitiv* und *auf jeden Fall* tun das Gegenteil — sie verstärken.
 
 ? Welcher Satz ist im Kundengespräch am unpassendsten?
+x Da bin ich mir nicht ganz sicher.
 * Das geht nicht.
 x Das lässt sich so leider nicht umsetzen.
 x Das wird schwierig.
-x Da bin ich mir nicht ganz sicher.
 ! Inhaltlich sind alle vier eine Absage. Nur die erste klingt wie eine Tür, die zufällt. „Klar" heißt im deutschen Berufsdeutsch **eindeutig**, nicht **schroff**.
 ```
 
@@ -55,36 +55,36 @@ x Da bin ich mir nicht ganz sicher.
 
 ```uebung
 ? „Er sagt, das Release sei fertig."
-* Konjunktiv I
 x Konjunktiv II
 x Indikativ
+* Konjunktiv I
 ! *sei* ist die Konjunktiv-I-Form von *sein*, 3. Person Singular — die häufigste Form im ganzen Protokoll.
 
 ? „Sie sagen, sie hätten keine Kapazität." Warum hier Konjunktiv II?
-* Weil Konjunktiv I im Plural (*haben*) genauso aussieht wie der Indikativ.
 x Weil Konjunktiv I nur mit *sein* funktioniert.
 x Weil die Aussage in der Vergangenheit liegt.
 x Weil der Sprecher der Aussage nicht glaubt.
+* Weil Konjunktiv I im Plural (*haben*) genauso aussieht wie der Indikativ.
 ! Die Ausweichregel: Sieht Konjunktiv I aus wie der Indikativ, verlierst du das Signal „fremde Aussage". Dann nimmst du Konjunktiv II (*hätten*) oder *würde* + Infinitiv.
 
 ? „Er sagte, er habe den Bericht gelesen." Welche Zeit wird berichtet?
+x Zukunft
 * Vergangenheit
 x Gegenwart
-x Zukunft
 ! Indirekte Rede kennt nur drei Zeitstufen. Jede Vergangenheit — Perfekt, Präteritum, Plusquamperfekt — wird zu *habe / sei* + Partizip II.
 
 ? „Der Product Owner teilte mit, die Ursache sei bereits bekannt." Was signalisiert *sei*?
+x Es handelt sich um eine Vermutung des Schreibers.
 * Das ist seine Aussage — der Schreiber übernimmt sie nicht als eigene Behauptung.
 x Der Schreiber hält die Aussage für falsch.
 x Die Ursache ist tatsächlich bekannt.
-x Es handelt sich um eine Vermutung des Schreibers.
 ! Konjunktiv I ist **kein Zweifel**, sondern **Distanz**: „so wurde es gesagt". Genau deshalb ist er die Grammatik von Protokoll, Nachricht und Post-Mortem.
 
 ? „Er sagte, das Deployment sei geplant." und „Er sagte, dass das Deployment geplant sei." — was stimmt?
-* Beide sind korrekt; mit *dass* wandert das Verb ans Ende.
-x Nur die Variante mit *dass* ist korrekt.
 x Nur die Variante ohne *dass* ist korrekt.
 x Beide sind falsch, es muss *würde* heißen.
+* Beide sind korrekt; mit *dass* wandert das Verb ans Ende.
+x Nur die Variante mit *dass* ist korrekt.
 ! Ohne *dass* bleibt es ein Hauptsatz — Verb an Position 2. Mit *dass* wird es ein Nebensatz — Verb ans Ende. Die Wahl ist Stil, nicht Grammatik.
 ```
 
@@ -92,24 +92,24 @@ x Beide sind falsch, es muss *würde* heißen.
 
 ```uebung
 ? „Ist der Fix schon deployt?" — die indirekte Frage braucht …
-* ob
 x dass
 x wann
 x wenn
+* ob
 ! Ja/Nein-Frage → immer *ob*. **Nie** *wenn* — das ist eine Bedingung, keine Frage.
 
 ? „Wann kommt das Release?" — die indirekte Frage braucht …
-x ob
 * wann
 x dass
 x warum
+x ob
 ! W-Frage → das W-Wort bleibt und wird zur Konjunktion.
 
 ? Wo steht das konjugierte Verb in einer indirekten Frage?
+x am Anfang
 * am Ende des Nebensatzes
 x an Position 2
 x direkt nach *ob*
-x am Anfang
 ! Indirekte Fragen sind Nebensätze. Dieselbe Regel wie *weil* und *dass* aus [Phase 1 · Grammar](#/phase-1/grammar) — nur in einem neuen Anzug.
 ```
 
@@ -133,10 +133,10 @@ x Aktiv
 ! *worden* (nie *geworden*) ist das Passiv-Partizip von *werden*. Der Vorgang ist abgeschlossen — beschrieben wird trotzdem der Vorgang, nicht der Zustand.
 
 ? „Man hat den Server neu gestartet." Was ist das?
+x indirekte Rede
 * Aktiv mit einem unbestimmten Akteur
 x Vorgangspassiv
 x Zustandspassiv
-x indirekte Rede
 ! *man* ist die leichte Alternative zum Passiv: kein Name, aber ein Subjekt. In Anleitungen liest sich *man* flüssiger, im Protokoll ist das Passiv üblicher.
 ```
 
@@ -240,10 +240,10 @@ x indirekte Rede
 ! *wäre* + *könnten*: doppelt abgeschwächt. Im Deutschen kein Zeichen von Schwäche, sondern von Erfahrung.
 
 ? Wie widersprichst du einem Vorschlag am diplomatischsten?
+x Das haben wir doch schon besprochen.
 x Das ist falsch.
 * Da sehe ich das etwas anders, und zwar …
 x Nein, das stimmt nicht.
-x Das haben wir doch schon besprochen.
 ! „Ich sehe das anders" verlegt den Widerspruch von der **Sache** zur **Perspektive** — und lädt zur Begründung ein, statt die Diskussion zu schließen.
 
 ? Hedging einsetzen: „Das ist ___ machbar, aber die Frist müssten wir verschieben."

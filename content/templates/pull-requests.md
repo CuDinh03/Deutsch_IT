@@ -55,10 +55,10 @@ Unsicherheit zu benennen, nicht als Schwäche.
 
 ```uebung
 ? Welcher Abschnitt beschleunigt ein Review am stärksten?
-* Hinweis für das Review — wo soll die reviewende Person genau hinsehen
 x eine möglichst lange Liste der Änderungen
 x der Ticketlink allein
 x die Anzahl der geänderten Zeilen
+* Hinweis für das Review — wo soll die reviewende Person genau hinsehen
 ! Reviewzeit ist knapp. Wer sie lenkt, bekommt eine bessere Rückmeldung an der Stelle, an der es zählt.
 
 ? Warum steht „Nicht enthalten" auch im PR?
@@ -69,10 +69,10 @@ x weil GitHub das verlangt
 ! Dieselbe Abgrenzung wie im [Ticket](#/templates/tickets) — hier verhindert sie Kommentare zu Dingen, die bewusst fehlen.
 
 ? Was gehört unter „Wie geprüft"?
+x welche Werkzeuge benutzt wurden
 * welche Tests es gibt und was manuell geprüft wurde
 x wie lange die Umsetzung gedauert hat
 x wer den Code geschrieben hat
-x welche Werkzeuge benutzt wurden
 ! Die reviewende Person muss entscheiden, wie tief sie prüft. Diese Entscheidung triffst du für sie, indem du deine eigene Prüfung offenlegst.
 ```
 
@@ -143,24 +143,24 @@ Geschmacksfrage — und wird auch so behandelt.
 ! Der Code steht im Mittelpunkt, nicht die Person. Inhaltlich identisch, in der Wirkung völlig anders.
 
 ? Welcher Kommentar ist am besten?
+x Bitte nochmal überarbeiten.
 * Änderungswunsch: Ich würde den Fehlerfall protokollieren, weil wir sonst einen Ausfall im Betrieb nicht sehen.
 x Fehlerbehandlung fehlt.
 x Das macht man nicht so.
-x Bitte nochmal überarbeiten.
 ! Stufe, Vorschlag und Begründung in einem Satz. Die anderen drei zwingen zu einer Rückfrage.
 
 ? Wann ist die Frageform besser als der Änderungswunsch?
-* wenn es einen Grund geben könnte, den du nicht kennst
-x immer
 x nie, sie wirkt unsicher
 x nur bei Kleinigkeiten
+* wenn es einen Grund geben könnte, den du nicht kennst
+x immer
 ! Die Frage lässt Raum für eine Antwort wie „bewusst so, weil …". Ein Änderungswunsch dagegen zwingt die andere Seite in die Verteidigung.
 
 ? Was fehlt: „Ich würde hier lieber ein Repository verwenden."
-* die Begründung
 x der Marker
 x die Höflichkeit
 x der Bezug zum Ticket
+* die Begründung
 ! *weil …* macht aus einer Meinung ein Argument. Ohne sie diskutiert ihr Geschmack.
 ```
 
@@ -191,17 +191,17 @@ x Kann man so lassen.
 ! Zustimmung, Grund, konkreter nächster Schritt. Ohne das angelegte Ticket ist es nur eine Absichtserklärung.
 
 ? Du bist anderer Meinung als die reviewende Person. Was tust du?
+x die Diskussion in den Chat verlagern
 * Widersprechen mit Begründung: „Da sehe ich das anders, weil …"
 x kommentarlos umsetzen
 x den Kommentar ignorieren
-x die Diskussion in den Chat verlagern
 ! In einem deutschen Team ist ein begründeter Widerspruch der Normalfall — und er verbessert die Entscheidung.
 
 ? „Von meiner Seite passt das." Was bedeutet das?
-* Freigabe — du kannst mergen.
-x Es fehlt noch etwas.
 x Die Person hat nicht geprüft.
 x Es ist nur eine vorläufige Meinung.
+* Freigabe — du kannst mergen.
+x Es fehlt noch etwas.
 ! Deutsche Zustimmung ist oft leiser, als Lernende erwarten. Das ist ein volles „ja".
 
 ? Wie meldest du, dass alle Kommentare eingearbeitet sind?

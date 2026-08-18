@@ -27,16 +27,16 @@ So, dann fangen wir an. Es geht heute nur um einen Punkt, nämlich den Termin f�
 
 ```uebung
 ? Worum geht es in dieser Besprechung?
-* um den Termin für die Datenbankmigration
 x um die Kosten der Migration
 x um einen Ausfall am Wochenende
 x um die Einstellung neuer Kolleginnen
+* um den Termin für die Datenbankmigration
 ! „Es geht heute nur um einen Punkt, nämlich …" — der Moderator nennt das Thema im zweiten Satz. Genau darauf wartest du am Anfang.
 
 ? Wurde eine Entscheidung getroffen?
+x nein, es gab Einwände
 * ja
 x nein, es wurde vertagt
-x nein, es gab Einwände
 ! „Gibt es Einwände? Gut, dann halten wir das so fest." — die deutsche Standardformel für einen Beschluss.
 
 ? Wie viele Aufgaben werden am Ende verteilt?
@@ -55,16 +55,16 @@ Guten Morgen und vielen Dank, dass Sie da sind. Ich möchte Ihnen heute vorstell
 
 ```uebung
 ? In wie viele Teile ist der Vortrag gegliedert?
+x das wird nicht gesagt
 x zwei
 * drei
 x vier
-x das wird nicht gesagt
 ! „Ich habe den Vortrag in drei Teile gegliedert" — die Gliederungsansage kommt im deutschen Vortrag fast immer im dritten oder vierten Satz.
 
 ? Welchen Teil hält der Sprecher selbst für den wichtigsten?
-x den ersten — den alten Stand
 x den zweiten — die Änderungen
 * den dritten — die offenen Risiken
+x den ersten — den alten Stand
 ! „Entscheidend ist dabei vor allem der letzte Teil". *Entscheidend ist* ist das Signalwort für Betonung — es lohnt sich, genau darauf zu warten.
 
 ? Wann sind Fragen vorgesehen?
@@ -105,10 +105,10 @@ Ab hier: beliebig oft hören. Transkript erst **nach** dem Antworten aufklappen.
 ! „bis Mittwoch" — die Frist steht am Ende der Anweisung.
 
 ? Warum hält der Product Owner den Samstag für vertretbar?
+x weil die Migration dann schneller läuft
 * weil ein Samstag fachlich unkritisch ist
 x weil der Betrieb dann Bereitschaft hat
 x weil die Kunden es so wollten
-x weil die Migration dann schneller läuft
 ! Indirekte Rede im Original: „der Product Owner sagt, ein Samstag **sei** fachlich unkritisch" — genau die Form aus dem [Grammatik-Übungsteil](#/phase-4/grammar-uebungen).
 ```
 
@@ -120,10 +120,10 @@ x weil die Migration dann schneller läuft
 ! Ein Protokoll braucht kein Verb. *Beschluss: Migration am 07.09., ab 06:00.*
 
 ? Offener Punkt aus Hörtext 1:
-* Abstimmung mit dem Betrieb
-x Zustimmung des Kunden
 x Dauer der Migration
 x Wahl des Wartungsfensters
+* Abstimmung mit dem Betrieb
+x Zustimmung des Kunden
 ! Sie ist beschlossen, aber noch nicht erledigt — genau das gehört unter „offene Punkte".
 
 ? Was gehört NICHT in ein deutsches Protokoll?
@@ -153,10 +153,10 @@ x Fehler spielen keine Rolle mehr.
 ! Die Modalpartikel *eben* markiert das als unvermeidliche Kehrseite — nicht als Kritik am Verfahren.
 
 ? Was heißt „im Anschluss"?
+x schriftlich
 * danach
 x gleichzeitig
 x vorher
-x schriftlich
 ! *im Anschluss (an etwas)* = direkt danach. Häufige Formel am Ende von Vorträgen und Einladungen.
 ```
 
@@ -180,10 +180,10 @@ Liebe Kolleginnen und Kollegen, zur Verbesserung der Informationssicherheit gilt
 ! Am Ende jeder deutschen Rundmail steht der Ansprechpartner. Das ist der Satz, den du beim Überfliegen zuerst suchst.
 
 ? Wie stark ist „sind verpflichtet"?
-* Pflicht — keine Wahl
-x Empfehlung
 x Vorschlag
 x Ausnahme
+* Pflicht — keine Wahl
+x Empfehlung
 ! *ist verpflichtet / muss / ist untersagt* = harte Regeln. *sollte / wird empfohlen* wäre weich.
 ```
 
@@ -191,12 +191,12 @@ x Ausnahme
 
 ```uebung
 ? Welche Wörter tragen in einer Besprechung meist **keine** Information? (mehrere richtig)
-* also
-* genau
-* im Prinzip
 * sozusagen
 x deshalb
 x allerdings
+* also
+* genau
+* im Prinzip
 ! Fülllaute geben dem Sprecher Zeit. *deshalb* und *allerdings* dagegen sind Textstruktur — die musst du hören.
 
 ? „Also im Prinzip sind wir uns einig — wir deployen Freitag." Welche zwei Wörter tragen alles?
@@ -207,17 +207,17 @@ x sind und uns
 ! Das ist die ganze Technik: Beschluss (*einig*) plus Termin (*Freitag*). Der Rest ist Polster.
 
 ? Was signalisiert „Was noch offen ist: …"?
+x Jetzt kommt eine Frage an dich.
 * Jetzt kommt ein offener Punkt fürs Protokoll.
 x Jetzt kommt der Beschluss.
 x Jetzt endet die Besprechung.
-x Jetzt kommt eine Frage an dich.
 ! Solche Ansagen sind Geschenke: Der Sprecher sortiert deinen Mitschrieb für dich.
 
 ? Was signalisiert „Dann halten wir das so fest."?
-* Jetzt ist etwas beschlossen.
-x Jetzt wird noch diskutiert.
 x Jetzt ist die Besprechung vertagt.
 x Jetzt widerspricht jemand.
+* Jetzt ist etwas beschlossen.
+x Jetzt wird noch diskutiert.
 ! *festhalten* heißt hier „ins Protokoll aufnehmen". Nach diesem Satz schreibst du.
 ```
 

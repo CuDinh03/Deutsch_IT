@@ -70,17 +70,17 @@ x Weil man dann durchfällt.
 ! Laut bemerken und beheben wirkt besser als fehlerfreier Code: Es zeigt, dass du prüfst statt hoffst.
 
 ? Wie kommentierst du beim Tippen?
+x nur bei Problemen
 * in kurzen Ansagen, was du gerade tust
 x mit ausführlichen Erklärungen zur Theorie
 x gar nicht, danach erklären
-x nur bei Problemen
 ! „Jetzt gehe ich einmal durch die Liste" reicht. Vorlesungen über Datenstrukturen kosten Zeit und Konzentration.
 
 ? Womit fängst du an?
-* mit der einfachen Variante, und sagst das ausdrücklich
-x mit der optimalen Lösung
 x mit den Tests
 x mit dem Randfall
+* mit der einfachen Variante, und sagst das ausdrücklich
+x mit der optimalen Lösung
 ! *„Ich fange mit der einfachen Variante an und optimiere danach"* holt dir ausdrücklich die Erlaubnis — und fast alle Prüferinnen sagen ja.
 ```
 
@@ -106,10 +106,10 @@ einen Hinweis wegzuerklären.
 
 ```uebung
 ? Du steckst fest. Was tust du zuerst?
-* deinen Denkstand offenlegen: was du weißt und was dir fehlt
 x um einen Hinweis bitten
 x still weiterprobieren
 x die Aufgabe wechseln
+* deinen Denkstand offenlegen: was du weißt und was dir fehlt
 ! Erst offenlegen, dann Optionen, dann Hinweis. Wer sofort um Hilfe bittet, überspringt den bewertbaren Teil.
 
 ? Wie erbittest du einen Hinweis?
@@ -124,10 +124,10 @@ x um einen anderen Hinweis bitten
 ! Einen Hinweis wegzuerklären ist der häufigste vermeidbare Fehler dieser Runde. Er wird als mangelnde Zusammenarbeit gelesen, nicht als Selbstbewusstsein.
 
 ? Wie lange schweigst du höchstens am Stück?
+x gar nicht
 * etwa zehn bis fünfzehn Sekunden
 x eine Minute
 x so lange du brauchst
-x gar nicht
 ! Länger wirkt wie ein Blackout. Und eine angekündigte Pause („Lassen Sie mich kurz überlegen") ist völlig in Ordnung — stilles Starren nicht.
 ```
 
@@ -167,17 +167,17 @@ wird.
 ! Und *O(n²)* ist *quadratisch*, *O(log n)* *logarithmisch*, *O(1)* *konstant*. Fünf Wörter, die man einmal lernt.
 
 ? „Der Speicherbedarf ist ebenfalls linear.“ Wovon spricht der Satz?
-* von der Speicherkomplexität
-x von der Laufzeit
 x von der Dateigröße
 x von der Netzwerklast
+* von der Speicherkomplexität
+x von der Laufzeit
 ! *die Laufzeit* = Zeit, *der Speicherbedarf* = Platz. Beide gehören in die Antwort, nicht nur die erste.
 
 ? Wann nennst du Randfälle?
-* von dir aus, direkt nachdem die Lösung steht
 x wenn gefragt wird
 x gar nicht
 x vor dem Schreiben
+* von dir aus, direkt nachdem die Lösung steht
 ! Wer sie ungefragt nennt, hebt sich ab. Die meisten warten — und wirken dadurch, als hätten sie nicht daran gedacht.
 
 ? Welche Randfälle nennst du bei einer Listenfunktion mindestens?
@@ -188,17 +188,17 @@ x gar keine, das macht die Testabteilung
 ! Leer und Eins fangen die meisten echten Fehler. Große Listen sind eine Performance-, keine Korrektheitsfrage.
 
 ? „Ich gehe das einmal mit dem Beispiel durch.“ Warum ist dieser Satz stark?
+x Er ist nur höflich.
 * Er zeigt, dass du deinen Code prüfst, statt auf Korrektheit zu hoffen.
 x Er füllt Zeit.
 x Er zeigt Nervosität.
-x Er ist nur höflich.
 ! Den eigenen Code laut an einem Beispiel durchzuspielen findet Fehler — und wird als Methode bewertet.
 
 ? Der Code läuft, es sind noch fünf Minuten übrig. Was tust du?
-* Randfälle prüfen und laut eine mögliche Optimierung skizzieren
-x still warten
 x die Lösung umschreiben
 x nach dem Ergebnis fragen
+* Randfälle prüfen und laut eine mögliche Optimierung skizzieren
+x still warten
 ! Die verbleibende Zeit gehört noch dir. Randfälle plus eine skizzierte Optimierung sind der beste Abschluss.
 ```
 

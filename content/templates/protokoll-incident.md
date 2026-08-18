@@ -59,24 +59,24 @@ Amtsbescheid.
 
 ```uebung
 ? Was gehört NICHT in ein deutsches Protokoll?
+x die offenen Punkte
 * der vollständige Gesprächsverlauf
 x die Beschlüsse
 x die Maßnahmen mit Verantwortlichen und Fristen
-x die offenen Punkte
 ! Ein Protokoll ist ein Ergebnisdokument. Wer mitstenografiert, produziert etwas, das niemand liest — und übersieht dabei den Beschluss.
 
 ? In welcher Form steht ein Beschluss?
-* Es wurde beschlossen, die Migration am 07.09. durchzuführen.
-x Wir haben beschlossen, dass wir am 07.09. migrieren.
 x Ich beschließe die Migration für den 07.09.
 x Die Migration wäre am 07.09. möglich.
+* Es wurde beschlossen, die Migration am 07.09. durchzuführen.
+x Wir haben beschlossen, dass wir am 07.09. migrieren.
 ! Passiv, kein Subjekt, Vergangenheit. So bleibt der Beschluss auch gültig, wenn niemand aus der Runde mehr in der Firma ist.
 
 ? In welcher Form steht die Diskussion?
-* Herr Klein berichtete, die Testmigration sei durchgelaufen.
 x Herr Klein sagte: „Die Testmigration ist durchgelaufen."
 x Die Testmigration ist durchgelaufen.
 x Herr Klein hat gesagt, dass die Testmigration durchgelaufen ist.
+* Herr Klein berichtete, die Testmigration sei durchgelaufen.
 ! Konjunktiv I hält Aussage und Feststellung auseinander. Ohne ihn steht im Protokoll, das Protokoll behaupte es selbst.
 
 ? Was fehlt einer Maßnahme, wenn nur „Kunden informieren" dasteht?
@@ -87,10 +87,10 @@ x ein Ticketlink
 ! Ohne Namen und Datum ist es eine Absichtserklärung. Die Tabelle hat genau deshalb drei Spalten.
 
 ? Was bedeutet „vertagt"?
+x an eine andere Abteilung abgegeben
 * auf eine spätere Sitzung verschoben
 x abgelehnt
 x beschlossen
-x an eine andere Abteilung abgegeben
 ! *vertagen* = auf einen anderen Tag legen. Im Protokoll steht das Thema damit weiterhin offen — nicht erledigt.
 ```
 
@@ -151,17 +151,17 @@ jedoch nicht geprüft."* Sachlich vollständig — und ohne ein einziges *du*.
 
 ```uebung
 ? Wie formulierst du die Ursache blamefrei?
-* Die Auswirkung der Änderung auf die Last wurde nicht geprüft.
-x Thomas hat vergessen, die Last zu prüfen.
 x Der Betrieb hätte das merken müssen.
 x Das war ein klassischer Anfängerfehler.
+* Die Auswirkung der Änderung auf die Last wurde nicht geprüft.
+x Thomas hat vergessen, die Last zu prüfen.
 ! Passiv ohne Akteur. Der Inhalt bleibt vollständig, die Zuweisung fällt weg — und genau die blockiert sonst die Suche nach der systemischen Ursache.
 
 ? Warum enthält der Report eine Zeitlinie mit Uhrzeiten?
-* weil sich daran ablesen lässt, wo Zeit verloren ging
 x weil es offizieller aussieht
 x weil die Versicherung das verlangt
 x weil sie den Ursachenabschnitt ersetzt
+* weil sich daran ablesen lässt, wo Zeit verloren ging
 ! Zwischen erstem Alarm (14:20) und Rollback-Entscheidung (14:41) liegen 21 Minuten. Diese Lücke ist die eigentliche Erkenntnis.
 
 ? Welcher Abschnitt fehlt in vielen schlechten Reports?
@@ -172,17 +172,17 @@ x die Maßnahmen
 ! Ohne ihn liest sich jedes Post-Mortem wie eine Anklageschrift — und niemand meldet freiwillig den nächsten Vorfall.
 
 ? „Nach einem Rollback normalisierte sich die Fehlerrate." Welche Zeitform?
+x Konjunktiv
 * Präteritum — die Erzählzeit des Berichts
 x Perfekt
 x Präsens
-x Konjunktiv
 ! Berichte über Abgeschlossenes stehen im Präteritum. Das Perfekt wirkt gesprochen, das Präsens verwischt, ob es vorbei ist.
 
 ? Was gehört in „Auswirkung"?
-* Zahlen: wie viele Vorgänge, welcher Schaden, welche Daten
-x die Vermutung über die Ursache
 x die Namen der Beteiligten
 x die geplanten Maßnahmen
+* Zahlen: wie viele Vorgänge, welcher Schaden, welche Daten
+x die Vermutung über die Ursache
 ! Die Auswirkung entscheidet über die Priorität der Maßnahmen. Ohne Zahlen wird sie zur Meinungsfrage.
 ```
 
@@ -225,10 +225,10 @@ und wird fast immer vergessen.
 
 ```uebung
 ? Welche vier Blöcke hat eine Übergabe?
-* Stand · offene Punkte · Zugänge · Ansprechpartner
 x Was ich gemacht habe · Was ich nicht geschafft habe · Warum · Entschuldigung
 x Aufgaben · Termine · Kosten · Risiken
 x Einleitung · Hauptteil · Schluss · Anhang
+* Stand · offene Punkte · Zugänge · Ansprechpartner
 ! Die vertretende Person muss handeln können, nicht nachvollziehen, was du getan hast.
 
 ? Warum steht „Nicht übernommen" in der Übergabe?
@@ -239,17 +239,17 @@ x weil es Pflicht ist
 ! Ohne diesen Abschnitt sucht die Vertretung nach Aufgaben, die bewusst ruhen — oder übersieht, dass etwas ruht.
 
 ? Was ist der wertvollste Teil einer Projektübergabe?
+x die Zugangsdaten
 * die Wissenslücken — „was nur ich weiß"
 x die Aufgabenliste
 x die Terminübersicht
-x die Zugangsdaten
 ! Alles andere steht irgendwo geschrieben. Implizites Wissen verschwindet mit der Person, wenn es nicht ausdrücklich benannt wird.
 
 ? „Noch unterhalb des Alarms, Beobachtung läuft." Was heißt das?
-* Der Wert ist auffällig, aber noch nicht kritisch; jemand schaut hin.
-x Der Alarm ist ausgefallen.
 x Es liegt ein Vorfall vor.
 x Nichts ist zu tun.
+* Der Wert ist auffällig, aber noch nicht kritisch; jemand schaut hin.
+x Der Alarm ist ausgefallen.
 ! Genau diese Zwischenkategorie braucht eine Bereitschaftsübergabe: nicht „alles gut", nicht „Vorfall", sondern „im Blick behalten".
 ```
 

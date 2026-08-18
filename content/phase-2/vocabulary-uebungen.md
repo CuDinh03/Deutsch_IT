@@ -65,10 +65,10 @@ whole point. Block C is where the argument phrases get used for real.
 
 ```uebung
 ? Neun der zehn Nomen oben waren „die". Was folgt daraus?
-* Die ganze abstrakte Ebene des Deutschen ist überwiegend feminin — man muss sie nicht einzeln lernen.
-x Es ist Zufall.
 x Abstrakte Nomen sind meist neutrum.
 x Man muss jedes Wort einzeln nachschlagen.
+* Die ganze abstrakte Ebene des Deutschen ist überwiegend feminin — man muss sie nicht einzeln lernen.
+x Es ist Zufall.
 ! Die einzige Ausnahme war der nominalisierte Infinitiv (*das Testen*). Wer die Suffixe kennt, hört auf zu raten — das ist der eigentliche Ertrag dieses Moduls.
 ```
 
@@ -104,10 +104,10 @@ x abwägen
 ! Zusammenfassender Schluss.
 
 ? „Zwar …, aber …"
+x Fazit
 x Meinung äußern
 x begründen
 * abwägen (einräumen)
-x Fazit
 ! Einräumung: der Gegenseite etwas zugestehen und dann einschränken.
 ```
 
@@ -115,29 +115,29 @@ x Fazit
 
 ```uebung
 ? Welche sind koordinierend? (mehrere richtig)
-* denn
-* sondern
 x obwohl
 x damit
 x trotzdem
+* denn
+* sondern
 ! *denn* und *sondern* ändern die Wortstellung nicht.
 
 ? Welche lösen Inversion aus? (mehrere richtig)
+x sodass
 * trotzdem
 * dennoch
 * allerdings
 * außerdem
 x weil
-x sodass
 ! Adverbiale Konnektoren besetzen Position 1.
 
 ? Welche schicken das Verb ans Ende? (mehrere richtig)
+x dennoch
+x denn
 * obwohl
 * damit
 * sodass
 * weil
-x dennoch
-x denn
 ! Subordinierende Konnektoren.
 ```
 
@@ -145,10 +145,10 @@ x denn
 
 ```uebung
 ? Welcher Satz räumt etwas ein und widerspricht dann?
-x Kubernetes ist mächtig und flexibel.
-* Kubernetes ist mächtig; allerdings ist die Lernkurve steil.
 x Kubernetes ist mächtig, deshalb nutzen wir es.
 x Kubernetes ist mächtig, weil es viele Features hat.
+x Kubernetes ist mächtig und flexibel.
+* Kubernetes ist mächtig; allerdings ist die Lernkurve steil.
 ! *allerdings* gesteht die Stärke zu und schränkt sie dann ein. Die anderen drei ergänzen, folgern oder begründen.
 ```
 
@@ -167,10 +167,10 @@ x ok
 ! Die formelle Gruppe ersetzt *also, und auch, aber, deshalb, weil* im geschriebenen Deutsch.
 
 ? Welches Wort bezeichnet den Engpass (bottleneck)?
+x die Abhängigkeit
 * der Engpass
 x der Ausfall
 x die Wartung
-x die Abhängigkeit
 ! *der Ausfall* = outage, *die Wartung* = maintenance, *die Abhängigkeit* = dependency.
 ```
 
@@ -250,11 +250,11 @@ x die Abhängigkeit
 ! *Ein gutes Beispiel dafür ist …*
 
 ? Welche Elemente gehören zu einem vollständigen B2-Argument? (mehrere richtig)
-* Meinung
 * Begründung
 * Beispiel
 * Fazit
 x Gegenfrage
+* Meinung
 ! Bei der Meinung stehen zu bleiben ist die typischste B1-Gewohnheit. Die Kette macht den Unterschied.
 ```
 
@@ -362,15 +362,15 @@ x Gegenfrage
 
 ```uebung
 ? Was ist falsch? „Sehr geehrte Frau Weber, das Tool ist echt super."
+x das Komma fehlt
 * Umgangssprache passt nicht zur formellen Anrede
 x die Anrede ist falsch
-x das Komma fehlt
 ! Registerbruch innerhalb eines Satzes.
 
 ? Was ist falsch? „In diesem Text geht's um die Frage, ob wir refactoren sollten."
-* die Kurzform „geht's"
 x „In diesem Text" ist falsch
 x das Komma ist falsch
+* die Kurzform „geht's"
 ! Im Prüfungstext keine Kurzformen: *geht es*.
 
 ? Was ist im Prüfungstext falsch? „Die Lösung ist z. B. schneller."

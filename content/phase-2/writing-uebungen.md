@@ -64,10 +64,10 @@ x Sehr geehrte Frau Weber, Ich schreibe Ihnen, weil …
 
 ```uebung
 ? Welche Reihenfolge ist richtig?
+x These → Fazit → Argument → Gegenargument
 * Einleitung/These → Argument mit Beispiel → Gegenargument einräumen → Fazit
 x Fazit → These → Argument → Gegenargument
 x Argument → These → Fazit → Gegenargument
-x These → Fazit → Argument → Gegenargument
 ! Die Einräumung kommt **nach** dem eigenen Argument und **vor** dem Fazit — so bleibt deine Position der letzte Eindruck.
 ```
 
@@ -75,21 +75,21 @@ x These → Fazit → Argument → Gegenargument
 
 ```uebung
 ? Welche Wörter gehören in einen Prüfungstext? (mehrere richtig)
-* folglich
-* darüber hinaus
 * jedoch
 * somit
 * da
 x mega
 x gibt's
 x ok
+* folglich
+* darüber hinaus
 ! Die informelle Gruppe kostet bei „Angemessenheit".
 
 ? Wie schreibt man „z. B." im Prüfungstext?
-* zum Beispiel
 x z. B.
 x zb
 x z.B
+* zum Beispiel
 ! Abkürzungen ausschreiben — gratis Punkte.
 ```
 
@@ -104,9 +104,9 @@ x so viele, wie in die Wortzahl passen
 ! Inhaltspunkte werden **einzeln** abgehakt.
 
 ? Was ist schlimmer?
-x drei kleine Grammatikfehler
 * ein nicht beantworteter Inhaltspunkt
 x eine kurze Einleitung
+x drei kleine Grammatikfehler
 ! Grammatikfehler gehen in eine Gesamteinschätzung ein; ein fehlender Inhaltspunkt ist ein direkter Abzug. Vier Punkte in einfachem Deutsch schlagen drei Punkte in schönem Deutsch.
 ```
 
@@ -114,10 +114,10 @@ x eine kurze Einleitung
 
 ```uebung
 ? „Ich habe Ihre E-Mail erhalten."
-* Bezug auf den Prompt
-x Vorschlag
 x Struktur
 x Schluss
+* Bezug auf den Prompt
+x Vorschlag
 ! Standardeinstieg.
 
 ? „Ich schlage vor, dass …"
@@ -229,10 +229,10 @@ fragen, (4) sich für die Verspätung entschuldigen.
 ! Direkte oder indirekte Frage, beides zählt.
 
 ? Wie machst du dem Prüfer die vier Punkte am leichtesten erkennbar?
-* je ein eigener Absatz oder klar abgegrenzter Satz pro Punkt
-x alle Punkte in einem langen Absatz verweben
 x die Punkte am Ende auflisten
 x die Punkte durchnummerieren wie im Aufgabenblatt
+* je ein eigener Absatz oder klar abgegrenzter Satz pro Punkt
+x alle Punkte in einem langen Absatz verweben
 ! Der Prüfer hakt ab. Nummerieren wirkt allerdings wie eine Liste, nicht wie ein Brief.
 ```
 
@@ -258,15 +258,15 @@ x es fehlt ein Komma
 ! Registerbruch.
 
 ? Was ist falsch? „Sehr geehrte Damen und Herren, ich hab da mal 'ne Frage."
+x die Frage ist unhöflich
 * Kurzformen und Umgangssprache im formellen Brief
 x die Anrede ist falsch
-x die Frage ist unhöflich
 ! *ich habe eine Frage* wäre korrekt.
 
 ? Was ist falsch? „Mit freundlichen Grüßen, dein Huy"
-* formeller Gruß mit informeller Signatur gemischt
 x der Gruß ist falsch
 x der Name fehlt
+* formeller Gruß mit informeller Signatur gemischt
 ! Entweder *Mit freundlichen Grüßen, Huy Nguyen* oder *Viele Grüße, dein Huy*.
 ```
 
@@ -283,9 +283,9 @@ x die Anrede ist zu formell
 ! Nach dem Anrede-Komma klein weiter.
 
 ? Welches Satzzeichen fehlt zweimal?
+x das Fragezeichen
 * das Komma vor dem Nebensatz
 x der Punkt am Satzende
-x das Fragezeichen
 ! *Ich schreibe Ihnen**,** weil …* und *Ich würde mich freuen**,** wenn …*
 
 ? Welche Wörter müssen großgeschrieben werden? (mehrere richtig)
@@ -306,12 +306,12 @@ x nichts
 
 ```uebung
 ? Welche fünf Punkte prüfst du in den letzten vier Minuten? (mehrere richtig)
-* alle Inhaltspunkte beantwortet
-* Verbposition im Haupt- und Nebensatz
 * Komma vor jedem Nebensatz
 * Nomen groß, nach der Anrede klein
 * durchgehend Sie
 x die Wortzahl möglichst weit überschreiten
+* alle Inhaltspunkte beantwortet
+* Verbposition im Haupt- und Nebensatz
 ! Die Wortzahl deutlich zu überschreiten hilft nicht — die vier mechanischen Prüfungen dagegen holen zuverlässig Punkte zurück.
 ```
 

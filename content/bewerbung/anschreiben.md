@@ -45,22 +45,22 @@ x Woher komme ich? und Wohin will ich?
 ! Die Einleitung beantwortet *Warum ihr*, der Hauptteil *Warum ich*. Wer beides vermischt, schreibt eine Selbstbeschreibung ohne Bezug zur Stelle.
 
 ? „Sehr geehrte Frau Berger,“ — wie geht es weiter?
-* mit großem Interesse habe ich Ihre Stellenanzeige gelesen.
 x Mit großem Interesse habe ich Ihre Stellenanzeige gelesen.
+* mit großem Interesse habe ich Ihre Stellenanzeige gelesen.
 ! Das Komma nach der Anrede setzt den Satz fort — also klein. Der sichtbarste Fehler in Bewerbungen von Nicht-Muttersprachlern.
 
 ? Was ist nach „Mit freundlichen Grüßen“ richtig?
-* kein Satzzeichen, Name in der nächsten Zeile
-x ein Komma
 x ein Punkt
 x ein Ausrufezeichen
+* kein Satzzeichen, Name in der nächsten Zeile
+x ein Komma
 ! Die Grußformel bekommt kein Satzzeichen. Darunter der Name, darunter die Anlagenzeile.
 
 ? Wie lang ist ein Anschreiben?
-* eine Seite
 x zwei Seiten
 x eine halbe Seite
 x so lang wie nötig
+* eine Seite
 ! Eine Seite ist die Konvention und die Obergrenze. Wer mehr braucht, hat den Hauptteil nicht priorisiert.
 ```
 
@@ -110,24 +110,24 @@ x im Lebenslauf
 ! Ans Ende, in zwei knappe Sätze. Und die Gehaltszahl nur, wenn die Anzeige ausdrücklich danach fragt.
 
 ? Die Anzeige fragt NICHT nach der Gehaltsvorstellung. Was tust du?
+x nach dem Rahmen fragen
 * weglassen
 x trotzdem nennen, um transparent zu sein
 x eine Spanne nennen
-x nach dem Rahmen fragen
 ! Ungefragt eine Zahl zu nennen, verengt deinen Spielraum ohne Gegenleistung. Verhandelt wird später — siehe [Dialogue · Gehaltsgespräch](#/dialogues/gehaltsgespraech).
 
 ? Du erfüllst ein Kann-Kriterium nicht. Was schreibst du?
-* die Lücke benennen und einordnen, woher verwandte Erfahrung kommt
-x nichts dazu schreiben
 x behaupten, du könntest es
 x dich dafür entschuldigen
+* die Lücke benennen und einordnen, woher verwandte Erfahrung kommt
+x nichts dazu schreiben
 ! Benennen plus Einordnen. Eine verschwiegene Lücke wird im Fachgespräch geprüft; eine benannte ist bereits erklärt.
 
 ? Was macht eine Einleitung schwach?
-* Sie könnte an jede beliebige Firma gehen.
 x Sie ist zu kurz.
 x Sie nennt die Kennziffer.
 x Sie beginnt mit „Mit großem Interesse“.
+* Sie könnte an jede beliebige Firma gehen.
 ! „Mit großem Interesse habe ich Ihre Anzeige gelesen“ ist völlig in Ordnung — als **erster** Satz. Der zweite muss firmenspezifisch sein.
 ```
 
@@ -199,17 +199,17 @@ x das Gehalt nennen
 ! Ohne ausgeschriebene Stelle ist der Anlass **dein** Grund. Ein Vortrag, ein Tech-Blog, ein Produkt, das du benutzt — irgendetwas Überprüfbares.
 
 ? Wie endet eine Initiativbewerbung?
+x mit der Ankündigung, nachzufassen
 * mit der Bitte um ein Gespräch, falls jetzt oder absehbar etwas passt
 x mit einer Frist
 x mit einer Gehaltsforderung
-x mit der Ankündigung, nachzufassen
 ! Weicher Schluss. Du bittest um einen Austausch, nicht um eine Entscheidung über eine Stelle, die es noch nicht gibt.
 
 ? Wann nennst du in einer Initiativbewerbung dein Gehalt?
-* gar nicht
-x immer
 x nur bei großen Firmen
 x nur wenn du wechseln willst
+* gar nicht
+x immer
 ! Ohne Stelle gibt es keinen Rahmen, in den eine Zahl passt. Sie würde dich nur festlegen.
 
 ? Welche Anrede nimmst du, wenn kein Name bekannt ist?
@@ -232,10 +232,10 @@ etwas, das ich getan habe, oder etwas, das ich über mich behaupte?* Behauptunge
 
 ```uebung
 ? Warum streicht man „Ich bin teamfähig und motiviert“?
-* Behauptete Eigenschaften sind nicht überprüfbar; belegte Handlungen schon.
 x Weil es zu kurz ist.
 x Weil man das nicht sagen darf.
 x Weil es unhöflich klingt.
+* Behauptete Eigenschaften sind nicht überprüfbar; belegte Handlungen schon.
 ! Statt *teamfähig*: *Ich habe zwei neue Kolleginnen eingearbeitet.* Die Eigenschaft schließt die lesende Person dann selbst.
 
 ? Was ersetzt „Über eine positive Rückmeldung würde ich mich freuen“?

@@ -118,15 +118,15 @@ x wie „s"
 ! *z* ist immer **ts**. „Zeit" klingt wie „tsyt".
 
 ? s vor Vokal, z. B. „die Sache"
+x stumm
 x wie englisch s
 * wie englisch z
-x stumm
 ! Vor einem Vokal wird *s* stimmhaft — wie englisches z.
 
 ? st- am Wortanfang, z. B. „der Stack"
-x wie „st"
 * wie „scht"
 x wie „s"
+x wie „st"
 ! Am Wortanfang wird *st-* zu **scht**.
 
 ? sp- am Wortanfang, z. B. „sprechen"
@@ -140,10 +140,10 @@ x wie „s"
 
 ```uebung
 ? schön · können · hören · kommen
-x schön
 x können
 x hören
 * kommen
+x schön
 ! Drei haben den **ö**-Laut, *kommen* hat ein normales o.
 
 ? über · die Tür · für · der Server
@@ -158,15 +158,15 @@ x für
 
 ```uebung
 ? Du hast es akustisch nicht verstanden.
+x Habe ich das richtig verstanden: …?
 * Könntest du das bitte wiederholen?
 x Wie sagt man … auf Deutsch?
-x Habe ich das richtig verstanden: …?
 ! Wiederholung erbitten, wenn du es schlicht nicht gehört hast.
 
 ? Die Person spricht zu schnell.
+x Wie sagt man … auf Deutsch?
 x Könntest du das bitte wiederholen?
 * Entschuldigung, etwas langsamer bitte.
-x Wie sagt man … auf Deutsch?
 ! Tempo ansprechen, nicht Wiederholung.
 
 ? Dir fehlt ein deutsches Wort.
@@ -202,9 +202,9 @@ x Entschuldigung, etwas langsamer bitte.
 ! *um … zu* + Infinitiv am Ende.
 
 ? Wo steht das Verb in „um in Deutschland zu arbeiten"?
-* am Ende, als zu-Infinitiv
 x an Position 2
 x direkt nach „um"
+* am Ende, als zu-Infinitiv
 ! *um* … *zu arbeiten* — der Infinitiv schließt die Konstruktion ab.
 ```
 
@@ -224,10 +224,10 @@ x direkt nach „um"
 ! Alle drei sind im Daily üblich. *Blocker habe ich keine* klingt am idiomatischsten.
 
 ? Welche drei Elemente gehören in deinen Standup-Beitrag? (mehrere richtig)
+x eine ausführliche technische Erklärung
 * was du gestern gemacht hast
 * was du heute machst
 * ob du Blocker hast
-x eine ausführliche technische Erklärung
 ! Deutsche Dailys sind kurz und strukturiert. Tiefe Diskussion wird vertagt: *„Lass uns das nach dem Daily klären."*
 ```
 
@@ -263,10 +263,10 @@ x eine ausführliche technische Erklärung
 ! *siehst* → *sehen*.
 
 ? Wer bekommt im deutschen Dev-Team normalerweise „du"? (mehrere richtig)
-* Teamkollegen
-* meist auch die Teamleitung
 x Kunden
 x die Geschäftsführung beim ersten Kontakt
+* Teamkollegen
+* meist auch die Teamleitung
 ! Intern fast immer *du*, nach außen *Sie* — bis das *du* ausdrücklich angeboten wird.
 ```
 
@@ -274,9 +274,9 @@ x die Geschäftsführung beim ersten Kontakt
 
 ```uebung
 ? „Was machst du beruflich?" — welche Antwort ist idiomatisch?
-* Ich bin Backend-Entwickler und arbeite hauptsächlich mit Java.
 x Ich bin ein Backend-Entwickler.
 x Mein Beruf ist Backend-Entwickler zu sein.
+* Ich bin Backend-Entwickler und arbeite hauptsächlich mit Java.
 ! Berufsbezeichnung **ohne Artikel**: *Ich bin Entwickler.*
 
 ? Ergänze: „Ich arbeite ___ fünf Jahren als Entwickler."

@@ -105,9 +105,9 @@ x Kommentar
 
 ```uebung
 ? Welcher Text hat eine erkennbare Haltung, und woran siehst du das in zehn Sekunden?
-* Text 2 — Imperativ in der Überschrift und „Es ist höchste Zeit, dass …"
 x Text 1 — wegen der Zahlen
 x Text 3 — wegen der Fachbegriffe
+* Text 2 — Imperativ in der Überschrift und „Es ist höchste Zeit, dass …"
 ! Nachrichten schreiben zu (*Kritiker warnen*), ein Kommentar behauptet in eigener Stimme.
 ```
 
@@ -147,31 +147,31 @@ x Text 3 — wegen der Fachbegriffe
 
 ```uebung
 ? Welches Signalwort leitet die These ein?
-* Es ist höchste Zeit, dass …
-x Denn …
 x Zwar …
 x Unterm Strich …
+* Es ist höchste Zeit, dass …
+x Denn …
 ! Der Anspruch des Autors, direkt im ersten Satz.
 
 ? Welches Signalwort leitet das Hauptargument ein?
-x Es ist höchste Zeit …
-* Denn die Rechnung ist einfach.
 x Zwar wird gern eingewendet …
 x Unterm Strich …
+x Es ist höchste Zeit …
+* Denn die Rechnung ist einfach.
 ! *Denn* begründet.
 
 ? Welches Signalwort leitet die Einräumung ein?
-x Denn …
 * Zwar wird gern eingewendet …
 x Unterm Strich …
 x Es ist höchste Zeit …
+x Denn …
 ! *Zwar* und *Natürlich* kündigen im Deutschen fast immer ein folgendes *aber* an.
 
 ? Welches Signalwort leitet das Fazit ein?
-x Denn …
 x Zwar …
 * Unterm Strich …
 x Natürlich …
+x Denn …
 ! Klassischer Schlussmarker.
 ```
 
@@ -179,14 +179,14 @@ x Natürlich …
 
 ```uebung
 ? Welche Ausdrücke signalisieren eine **Meinung**? (mehrere richtig)
+x üblicherweise
+x grundsätzlich
 * höchste Zeit
 * in Wahrheit
 * unterm Strich
 * vermutlich
 x rund zwei Drittel
 x nach einer Erhebung
-x üblicherweise
-x grundsätzlich
 ! Die neutralen Ausdrücke schreiben zu oder beschreiben Übliches; die anderen bewerten.
 ```
 
@@ -194,10 +194,10 @@ x grundsätzlich
 
 ```uebung
 ? „nach einer aktuellen Erhebung des Branchenverbands" — die Erhebung ist …
-* eine Umfrage/Studie
 x eine Erhöhung
 x eine Beschwerde
 x eine Verordnung
+* eine Umfrage/Studie
 ! Formeller als *Umfrage*, gleiche Bedeutung.
 
 ? „bis Montagmorgen praktisch nicht handlungsfähig" — handlungsfähig heißt …
@@ -208,24 +208,24 @@ x rechtlich zuständig
 ! *Handlung* + *fähig*.
 
 ? „keine Bevormundung, sondern Risikomanagement" — Bevormundung heißt …
+x eine Verzögerung
 * jemandem vorschreiben, was er zu tun hat
 x eine Warnung
 x eine Belohnung
-x eine Verzögerung
 ! *vor* + *Mund* → jemandem den Mund vorschreiben.
 
 ? „an einen nachgelagerten Dienst weitergereicht" — nachgelagert heißt …
-* downstream, weiter hinten in der Kette
-x veraltet
 x optional
 x extern
+* downstream, weiter hinten in der Kette
+x veraltet
 ! Gegenteil: *vorgelagert* (upstream).
 
 ? „nur bei idempotenten Operationen unbedenklich" — unbedenklich heißt …
-* ungefährlich, ohne Risiko
 x nicht empfohlen
 x kompliziert
 x kostenlos
+* ungefährlich, ohne Risiko
 ! *un-* + *bedenklich* (worrying).
 ```
 
@@ -266,24 +266,24 @@ x falsch
 
 ```uebung
 ? Welche zwei Dinge verliert man laut Kritikern beim vollständigen Auslagern? (mehrere richtig)
+x Rechenzentren
 * technisches Wissen
 * Verhandlungsmacht
 x Kunden
-x Rechenzentren
 ! „verliert nicht nur technisches Wissen, sondern auch Verhandlungsmacht".
 
 ? Warum nennen die Befragten Skalierbarkeit als Hauptgrund?
-* weil sich Rechenleistung kurzfristig zubuchen lässt, ohne Hardware zu beschaffen
-x weil es billiger ist als eigene Server
 x weil Kunden es verlangen
 x weil es gesetzlich gefordert ist
+* weil sich Rechenleistung kurzfristig zubuchen lässt, ohne Hardware zu beschaffen
+x weil es billiger ist als eigene Server
 ! Wörtlich im zweiten Absatz.
 
 ? Warum ist eine Rückverlagerung unwahrscheinlich?
-* weil sie wirtschaftlich kaum darstellbar ist
 x weil es verboten ist
 x weil die Anbieter es nicht zulassen
 x weil das Wissen fehlt
+* weil sie wirtschaftlich kaum darstellbar ist
 ! „für die meisten Betriebe wirtschaftlich kaum darstellbar".
 ```
 
@@ -298,17 +298,17 @@ x Teams arbeiten am Wochenende zu wenig.
 ! „Am Freitagnachmittag wird nichts mehr ausgeliefert."
 
 ? Was räumt der Autor ein?
+x dass die Regel unnötig ist
 * dass moderne Pipelines und Rollbacks vieles abfangen
 x dass Freitagsdeployments bequem sind
 x dass sein Team es anders macht
-x dass die Regel unnötig ist
 ! „Zwar wird gern eingewendet, moderne Pipelines … hätten dieses Problem gelöst. Natürlich ist an diesem Einwand etwas dran."
 
 ? Wie entkräftet er die Einräumung?
-* Gerade die Fehler, die ein Rollback nicht auffängt, treten weiter auf.
-x Er ignoriert sie.
 x Er sagt, Rollbacks funktionieren nie.
 x Er verweist auf ein Gesetz.
+* Gerade die Fehler, die ein Rollback nicht auffängt, treten weiter auf.
+x Er ignoriert sie.
 ! Einräumen, teilweise zugestehen, dann so weit einschränken, dass es den eigenen Fall nicht mehr deckt — das deutsche Standardmuster der Argumentation.
 ```
 
@@ -316,31 +316,31 @@ x Er verweist auf ein Gesetz.
 
 ```uebung
 ? Was macht ein Timeout?
-* begrenzt die Wartezeit
 x verhindert weitere Anfragen
 x wiederholt die Anfrage
 x speichert das Ergebnis
+* begrenzt die Wartezeit
 ! Erster der drei Mechanismen.
 
 ? Was macht ein Circuit Breaker?
-x begrenzt die Wartezeit
 * verhindert weitere Anfragen an einen überlasteten Dienst
 x wiederholt die Anfrage sofort
 x protokolliert Fehler
+x begrenzt die Wartezeit
 ! Zweiter Mechanismus.
 
 ? Was macht die Wiederholungsstrategie?
-x begrenzt die Wartezeit
 x blockiert den Dienst
 * wiederholt mit wachsenden Abständen, um nicht zusätzlich zu belasten
 x verwirft die Anfrage
+x begrenzt die Wartezeit
 ! Exponentiell wachsende Abstände.
 
 ? Warum sind Wiederholungen bei nicht-idempotenten Operationen riskant?
-* derselbe Vorgang kann mehrfach ausgeführt werden — z. B. eine Zahlung doppelt
-x sie dauern zu lange
 x sie brauchen mehr Speicher
 x sie funktionieren technisch nicht
+* derselbe Vorgang kann mehrfach ausgeführt werden — z. B. eine Zahlung doppelt
+x sie dauern zu lange
 ! Das Beispiel steht wörtlich im Text.
 ```
 
@@ -376,10 +376,10 @@ x sie funktionieren technisch nicht
 
 ```uebung
 ? Welche Formen sind Passiv? (mehrere richtig)
-* muss davon ausgegangen werden
 * wird weitergereicht
 * werden kombiniert
 x kann beantwortet werden — ja, auch das ist Passiv
+* muss davon ausgegangen werden
 ! Alle vier sind Passiv. Fachtexte im Deutschen sind fast durchgehend passivisch, weil der Handelnde bewusst offenbleibt.
 
 ? Wandle um in einen man-Satz: „In verteilten Systemen muss davon ausgegangen werden, dass …"

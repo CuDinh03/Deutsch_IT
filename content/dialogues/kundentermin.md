@@ -213,10 +213,10 @@ flowchart LR
 
 ```uebung
 ? Wie berichtest du den Stand in einem Kundentermin?
-* Fertig und abgenommen ist X. In Arbeit ist Y. Offen ist Z.
 x chronologisch, was das Team diese Woche gemacht hat
 x nur die Probleme
 x nur die Erfolge
+* Fertig und abgenommen ist X. In Arbeit ist Y. Offen ist Z.
 ! Drei Zeilen, drei Zustände. Ein Tätigkeitsbericht beantwortet nicht die einzige Frage der Kundin: Kann ich planen?
 
 ? Der Termin ist nicht zu halten. Wann sagst du es?
@@ -227,24 +227,24 @@ x erst, wenn du eine Lösung hast
 ! Vier Wochen vorher ist es ein Planungsthema, am Stichtag ein Vertrauensbruch. Die Lösung darfst du nachliefern — die Information nicht.
 
 ? Welche Zeitangabe ist im deutschen Kundengespräch die richtige?
+x Ein paar Tage.
 * Realistisch zehn Arbeitstage.
 x Wir versuchen, es irgendwie zu schaffen.
 x Vielleicht schaffen wir es doch.
-x Ein paar Tage.
 ! Eine Zahl, die hält, schlägt eine optimistische, die korrigiert werden muss. Und *Arbeitstage* statt *Tage* — der Unterschied sind zwei Wochenenden.
 
 ? Was gehört NICHT in die Meldung einer Verzögerung?
-* eine lange Entschuldigung
-x der neue realistische Termin
 x der Grund in einem Satz
 x zwei Optionen mit ihren Konsequenzen
+* eine lange Entschuldigung
+x der neue realistische Termin
 ! Eine ausführliche Entschuldigung verlagert die Arbeit auf die andere Seite: Sie muss dich dann auch noch beruhigen. Ein Satz genügt, dann die Sache.
 
 ? „Unter der Voraussetzung, dass wir bis Freitag die Zugänge bekommen.“ Was ist das?
-* eine bedingte Zusage — die Abhängigkeit wird vorher genannt
 x eine Ausrede
 x eine Absage
 x eine Bitte
+* eine bedingte Zusage — die Abhängigkeit wird vorher genannt
 ! Vorher genannt ist es eine Bedingung, hinterher genannt klingt dieselbe Abhängigkeit wie eine Ausrede. Das ist der ganze Unterschied.
 
 ? Warum bietest du zwei Optionen statt einer Empfehlung?
@@ -255,10 +255,10 @@ x weil es länger dauert
 ! Du kennst den technischen Preis jeder Option, sie kennt den geschäftlichen. Eine Empfehlung darfst du danach trotzdem geben.
 
 ? „Ich melde mich unaufgefordert, sobald sich etwas ändert.“ Warum ist der Satz stark?
+x Er ist reine Höflichkeit.
 * Er nimmt der Kundin das Nachfragen ab — genau das ist Verlässlichkeit.
 x Er verspricht einen früheren Termin.
 x Er verschiebt die Verantwortung.
-x Er ist reine Höflichkeit.
 ! *Verlässlichkeit* ist im deutschen Berufsleben eine höhere Währung als Geschwindigkeit. Wer von selbst meldet, muss seltener erklären.
 
 ? Formuliere sachlich: „Es tut mir wirklich sehr leid, wir schaffen das leider vielleicht nicht ganz.“
@@ -266,10 +266,10 @@ x Er ist reine Höflichkeit.
 ! *Nach heutigem Stand* bindet die Aussage an einen Zeitpunkt und macht sie überprüfbar. *vielleicht nicht ganz* ist keine Information.
 
 ? Womit endet ein guter Kundentermin?
-* Beschluss, Bedingung, nächster Schritt und Termin des nächsten Berichts
-x einem Dank
 x einer Zusammenfassung der Probleme
 x der Zusage, sich bald zu melden
+* Beschluss, Bedingung, nächster Schritt und Termin des nächsten Berichts
+x einem Dank
 ! „Bald“ ist kein Termin. Der Dienstags-Statusbericht ist einer — und macht den nächsten Anruf überflüssig.
 ```
 

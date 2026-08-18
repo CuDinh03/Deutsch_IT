@@ -81,10 +81,10 @@ gezahlt wird. Wenn diese Klausel im Vertrag steht, frag ausdrücklich, was sie i
 
 ```uebung
 ? „Mehrarbeit ist mit dem Gehalt abgegolten.“ Was heißt das?
-* Überstunden werden nicht zusätzlich bezahlt.
 x Überstunden werden ausgezahlt.
 x Überstunden sind verboten.
 x Überstunden werden immer in Freizeit ausgeglichen.
+* Überstunden werden nicht zusätzlich bezahlt.
 ! *abgegolten* = mit abgedeckt. Wie viel Mehrarbeit tatsächlich anfällt und wie sie in der Praxis ausgeglichen wird, ist die Frage, die du stellen musst.
 
 ? Was ist eine Karenzentschädigung?
@@ -99,17 +99,17 @@ x eine Zahlung während der Probezeit
 ! Sechs Monate sind die gesetzliche Höchstdauer. In dieser Zeit sind die Kündigungsfristen für beide Seiten kurz — das ist normal, kein Warnsignal.
 
 ? Du willst nebenbei an Open Source arbeiten. Welche Klausel prüfst du?
+x die Rückzahlungsklausel
 * die Nebentätigkeitsklausel
 x das Wettbewerbsverbot
 x die Verschwiegenheitsklausel
-x die Rückzahlungsklausel
 ! Nebentätigkeiten sind häufig genehmigungspflichtig. Für Entwicklerinnen und Entwickler mit öffentlichen Repositories ist das ein echtes Thema — vorher klären, nicht nachher.
 
 ? Der Arbeitgeber zahlt eine teure Zertifizierung. Worauf achtest du?
-* auf die Rückzahlungsklausel: Bindungsdauer und Betrag
-x auf die Probezeit
 x auf die Urlaubsregelung
 x auf gar nichts, Fortbildung ist immer frei
+* auf die Rückzahlungsklausel: Bindungsdauer und Betrag
+x auf die Probezeit
 ! Üblich ist eine gestaffelte Rückzahlung, wenn du innerhalb einer bestimmten Frist kündigst. Fair, aber du solltest die Zahlen kennen.
 ```
 
@@ -134,10 +134,10 @@ die ganze Anzeige.
 
 ```uebung
 ? Wann klärst du Vertragsfragen?
-* vor der Unterschrift
 x nach der Probezeit
 x im ersten Mitarbeitergespräch
 x gar nicht, das steht ja im Vertrag
+* vor der Unterschrift
 ! Nach der Unterschrift verhandelst du gegen einen bestehenden Vertrag. Vorher verhandelst du über ein Angebot.
 
 ? Welche Frage verrät am meisten über die Stelle?
@@ -148,24 +148,24 @@ x Wann kann ich anfangen?
 ! Die Antwort zeigt, ob die Erwartungen realistisch, konkret und überhaupt formuliert sind. Ist sie vage, weiß niemand, wofür die Stelle da ist.
 
 ? Der variable Anteil ist an Unternehmensziele gekoppelt. Was bedeutet das?
+x Er wird monatlich ausgezahlt.
 * Er hängt am Gesamtergebnis, das du kaum beeinflussen kannst.
 x Er hängt an deiner Leistung.
 x Er ist garantiert.
-x Er wird monatlich ausgezahlt.
 ! Deshalb die Frage. An Teamziele gekoppelte Anteile sind beeinflussbarer — und in der Vergangenheit ausgezahlte Quoten sind eine legitime Nachfrage.
 
 ? Was ist der am meisten unterschätzte Verhandlungspunkt?
-* ein Gehaltsreview nach sechs Monaten
-x ein Firmenwagen
 x ein höherer Bonus
 x mehr Urlaubstage
+* ein Gehaltsreview nach sechs Monaten
+x ein Firmenwagen
 ! Er kostet heute nichts und verschiebt die Entscheidung auf einen Zeitpunkt, an dem du geliefert hast. Schriftlich festhalten lassen.
 
 ? Eine Klausel beunruhigt dich, und du verstehst sie nicht ganz.
-* Betriebsrat, Gewerkschaft oder Fachanwältin für Arbeitsrecht fragen
 x unterschreiben und hoffen
 x im Internet nachlesen und entscheiden
 x den Arbeitgeber um eine Einschätzung bitten
+* Betriebsrat, Gewerkschaft oder Fachanwältin für Arbeitsrecht fragen
 ! Die Beratung kostet weniger als der Fehler. Und den Arbeitgeber nach der Auslegung seiner eigenen Klausel zu fragen, ist keine unabhängige Auskunft.
 ```
 

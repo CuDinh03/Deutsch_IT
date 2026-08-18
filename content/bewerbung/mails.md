@@ -51,24 +51,24 @@ Viele Firmen nutzen ein Portal. Wenn nicht, gilt:
 
 ```uebung
 ? Wie lang ist der Text der Bewerbungsmail selbst?
+x ein Wort
 * drei bis vier Zeilen — das Anschreiben liegt im Anhang
 x eine Seite
 x identisch mit dem Anschreiben
-x ein Wort
 ! Die Mail ist der Umschlag. Wer das Anschreiben zusätzlich in die Mail kopiert, lässt dieselbe Person denselben Text zweimal lesen.
 
 ? Wie benennst du die Dateien?
-* Bewerbung_Dinh_BE-2291.pdf
-x bewerbung_final_v3.pdf
 x Dokument1.pdf
 x cv.pdf
+* Bewerbung_Dinh_BE-2291.pdf
+x bewerbung_final_v3.pdf
 ! Name plus Kennziffer. In der Ablage der Personalabteilung liegen dreißig Dateien namens *Bewerbung*.
 
 ? Wie viele Anhänge sind ideal?
-* ein zusammengefasstes PDF oder wenige, klar benannte
 x jedes Dokument einzeln, gern zehn
 x gar keine, alles in die Mail
 x nur der Lebenslauf
+* ein zusammengefasstes PDF oder wenige, klar benannte
 ! Ein PDF, das alles enthält, ist am angenehmsten. Mehrere sind in Ordnung, wenn sie sprechend heißen.
 ```
 
@@ -102,17 +102,17 @@ x gar nicht
 ! Deutsche Prozesse laufen oft langsamer, als sie sich anfühlen — Urlaubszeiten, Gremien, mehrere Beteiligte. Zwei Wochen sind normal.
 
 ? Wie oft fasst du nach?
+x zweimal, dann telefonisch
 * einmal
 x bis eine Antwort kommt
 x wöchentlich
-x zweimal, dann telefonisch
 ! Einmal ist professionell, zweimal wirkt bedrängend. Danach ist Stille selbst eine Antwort.
 
 ? Welcher Einstieg ist der richtige?
-* Da Sie eine Rückmeldung bis Ende September in Aussicht gestellt hatten, darf ich höflich nach dem Stand fragen.
-x Leider habe ich bis heute nichts von Ihnen gehört.
 x Ich warte immer noch auf eine Antwort.
 x Haben Sie meine Bewerbung überhaupt bekommen?
+* Da Sie eine Rückmeldung bis Ende September in Aussicht gestellt hatten, darf ich höflich nach dem Stand fragen.
+x Leider habe ich bis heute nichts von Ihnen gehört.
 ! Bezug auf ihre eigene Zusage statt Vorwurf. Damit ist die Nachfrage begründet, ohne dass jemand sich rechtfertigen muss.
 ```
 
@@ -147,10 +147,10 @@ Frühzeitig abzusagen wird im deutschen Prozess ausdrücklich geschätzt.
 
 ```uebung
 ? Wie schnell antwortest du auf eine Einladung?
-* möglichst innerhalb eines Werktags
 x innerhalb einer Woche
 x wenn du Zeit hast
 x erst nach dem Termin
+* möglichst innerhalb eines Werktags
 ! Terminplanung ist der Engpass in jedem Prozess. Schnelle Antworten fallen positiv auf, weil sie selten sind.
 
 ? Du kannst am vorgeschlagenen Termin nicht. Was bietest du an?
@@ -161,17 +161,17 @@ x nur einen Alternativtermin
 ! Zwei Alternativen lassen der anderen Seite eine Wahl und sparen eine Runde Hin und Her.
 
 ? Du hast dich anders entschieden. Wie sagst du ab?
+x erst nach dem Termin
 * kurz, frühzeitig, ohne ausführliche Begründung, mit guten Wünschen
 x gar nicht — einfach nicht erscheinen
 x mit einer langen Erklärung
-x erst nach dem Termin
 ! Nicht zu erscheinen ist der einzige echte Fehler. Eine frühe Absage wird geschätzt, weil sie einen Termin freigibt.
 
 ? Was bestätigst du in der Zusage mit?
-* Datum, Uhrzeit und Format des Gesprächs
-x nur „Ja, passt“
 x deine Gehaltsvorstellung
 x den Namen der Ansprechpartnerin
+* Datum, Uhrzeit und Format des Gesprächs
+x nur „Ja, passt“
 ! Die Details zurückzuspiegeln, deckt Missverständnisse auf, solange sie noch billig sind — dieselbe Technik wie beim [Zuhören](#/phase-5/listening-uebungen).
 ```
 
@@ -212,10 +212,10 @@ Angebot. Das kostet nur — und die Branche ist kleiner, als sie sich anfühlt.
 
 ```uebung
 ? Wann sagst du einem Angebot zu?
-* nachdem du den Vertrag schriftlich geprüft hast
 x sofort am Telefon
 x sobald das Gehalt genannt wurde
 x nach der ersten Runde
+* nachdem du den Vertrag schriftlich geprüft hast
 ! Kein Ja am Telefon. Eine Zusage gilt in Deutschland als verbindlich — auch bevor der Vertrag unterschrieben ist.
 
 ? Was gehört NICHT in eine Absage an ein Unternehmen?
@@ -226,10 +226,10 @@ x der Wunsch, in Kontakt zu bleiben
 ! Auch das Gehalt des anderen Angebots bleibt draußen. Der Grund kann allgemein bleiben: fachlich näher, Standort, Zeitpunkt.
 
 ? Du hast bereits mündlich zugesagt und bekommst ein besseres Angebot. Was gilt?
+x Das ist in Deutschland üblich.
 * Eine Zusage gilt als verbindlich — ein Rückzug beschädigt deinen Ruf.
 x Bis zur Unterschrift ist alles offen.
 x Man darf einmal zurücktreten.
-x Das ist in Deutschland üblich.
 ! Rechtlich ist vor der Unterschrift vieles möglich; **beruflich** ist es teuer. Deshalb: erst prüfen, dann zusagen — und die Bedenkzeit nutzen, die dir ohnehin zusteht.
 ```
 

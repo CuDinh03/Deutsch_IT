@@ -19,24 +19,24 @@ Everything marked 🎙 is a recording task.
 
 ```uebung
 ? „Im Großen und Ganzen besteht das System aus drei Diensten."
-* Überblick geben
 x Einstiegspunkt nennen
 x Grund nennen
 x Ergebnis nennen
+* Überblick geben
 ! Big picture zuerst — Struktur vor Detail.
 
 ? „Die Anfrage kommt zuerst beim API-Gateway an."
-x Überblick
 * Einstiegspunkt nennen
 x Grund
 x Ergebnis
+x Überblick
 ! Wo der Datenfluss beginnt.
 
 ? „Anschließend wird sie an den Bestellservice weitergeleitet."
-x Überblick
 x Einstiegspunkt
 * nächster Schritt
 x Grund
+x Überblick
 ! Sequenzmarker *anschließend*.
 
 ? „Der Grund dafür ist, dass wir die Datenbank entlasten wollen."
@@ -47,10 +47,10 @@ x Ergebnis
 ! *Der Grund dafür ist, dass …* — Verb am Ende.
 
 ? „Dadurch sinkt die Latenz."
+x Einstiegspunkt
 x Grund
 x Überblick
 * Ergebnis nennen
-x Einstiegspunkt
 ! *dadurch* löst Inversion aus: Verb direkt danach.
 
 ? „So wie ich das sehe, liegt es am Connection-Pool."
@@ -64,10 +64,10 @@ x Ergebnis
 
 ```uebung
 ? Welcher Marker steht am Anfang einer Beschreibung?
+x dadurch
 * zuerst
 x anschließend
 x schließlich
-x dadurch
 ! *zuerst* eröffnet die Sequenz.
 
 ? Welcher Marker steht am Ende?
@@ -78,12 +78,12 @@ x dadurch
 ! *schließlich* = zuletzt.
 
 ? Welche Marker lösen Inversion aus? (mehrere richtig)
-* dann
-* anschließend
-* dadurch
 * deshalb
 x und
 x weil
+* dann
+* anschließend
+* dadurch
 ! Alle vier besetzen Position 1 → Verb zweitens.
 
 ? „___ wird die Antwort an den Client zurückgegeben." (zuletzt)
@@ -102,18 +102,18 @@ x ins Englische wechseln
 ! Deutsche Teams bewerten **nachvollziehbares Denken**. Stille wirkt wie Blockade, nicht wie Konzentration.
 
 ? Welche Formulierungen kaufen dir Zeit? (mehrere richtig)
-* Lass mich kurz überlegen …
 * Moment, ich denke laut …
 * Das ist eine gute Frage.
 x (nichts sagen)
 x Ähm … ähm …
+* Lass mich kurz überlegen …
 ! Ein gefüllter deutscher Übergang wirkt souverän; eine stumme Pause nicht.
 
 ? „Es könnte sein, dass der Cache veraltet ist." — was tust du damit?
-* eine Hypothese aufstellen, ohne dich festzulegen
-x eine Tatsache behaupten
 x eine Frage stellen
 x zustimmen
+* eine Hypothese aufstellen, ohne dich festzulegen
+x eine Tatsache behaupten
 ! *Es könnte sein, dass …* + Verb am Ende. Genau der Ton, den man beim Debuggen braucht.
 ```
 
@@ -209,9 +209,9 @@ x zustimmen
 ! Bedenken äußern statt Bewertung fällen.
 
 ? Was tust du, bevor du widersprichst?
+x auf ein anderes Thema wechseln
 * die Stärke des Vorschlags anerkennen (zwar … aber)
 x sofort das Gegenargument nennen
-x auf ein anderes Thema wechseln
 ! Einräumen und dann einschränken — das deutsche Standardmuster, auch im Technikgespräch.
 ```
 

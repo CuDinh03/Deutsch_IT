@@ -73,13 +73,13 @@ x das
 
 ```uebung
 ? Welche Endungen sind IMMER feminin? (mehrere richtig)
+x -er
 * -ung
 * -heit
 * -keit
 * -ion
 * -tät
 x -ment
-x -er
 ! Diese fünf decken einen enormen Teil der abstrakten Nomen ab. Wer sie kann, muss beim Artikel nicht mehr raten — das ist die höchste Rendite in der ganzen deutschen Grammatik.
 ```
 
@@ -101,10 +101,10 @@ x Nutzer
 ! Drei *-er*-Nomen (alle *der*) und **die Schnittstelle** (Endung *-e*).
 
 ? Dokument · Argument · Deployment · Version
+* Version
 x Dokument
 x Argument
 x Deployment
-* Version
 ! Drei *-ment*-Nomen (alle *das*) und **die Version** (Endung *-ion*).
 ```
 
@@ -117,8 +117,8 @@ x Daten
 ! Komposita sind **kopf-final**: der **letzte** Teil bestimmt Genus und Grundbedeutung. *die Bank* → *die Datenbank*.
 
 ? das Betriebssystem
-x Betrieb
 * System
+x Betrieb
 ! *das System* → *das Betriebssystem*. Von rechts nach links lesen: ein System, und zwar für den Betrieb.
 
 ? die Benutzeroberfläche
@@ -127,8 +127,8 @@ x Benutzer
 ! *die Oberfläche* → *die Benutzeroberfläche*. Wäre *Benutzer* entscheidend, hieße es *der*.
 
 ? die Programmiersprache
-x programmier(en)
 * Sprache
+x programmier(en)
 ! *die Sprache* → *die Programmiersprache*.
 
 ? die Umgebungsvariable
@@ -137,9 +137,9 @@ x Umgebung
 ! *die Variable* → *die Umgebungsvariable*. Hier sind zufällig beide feminin — das Prinzip bleibt trotzdem: der letzte Teil zählt.
 
 ? die Fehlerbehebungsstrategie
+* Strategie
 x Fehler
 x Behebung
-* Strategie
 ! Egal wie lang das Wort ist: nur der **letzte** Baustein zählt. *die Strategie* → *die Fehlerbehebungsstrategie*.
 ```
 
@@ -153,9 +153,9 @@ x Deploymenten
 ! Fremd-/Lehnwörter nehmen **-s**, genau wie im Englischen.
 
 ? die Anwendung → Plural
+x Anwendungs
 x Anwendunge
 * Anwendungen
-x Anwendungs
 ! *-ung*-Nomen nehmen **-en**.
 
 ? der Server → Plural
@@ -165,21 +165,21 @@ x Servern
 ! Maskulina und Neutra auf **-er/-el/-en** bleiben im Plural **unverändert**. *die Server*.
 
 ? der Termin → Plural
+x Terminen
 * Termine
 x Termins
-x Terminen
 ! Viele Maskulina nehmen **-e**.
 
 ? der Bug → Plural
+x Bügen
 x Buge
 * Bugs
-x Bügen
 ! Englisches Lehnwort → **-s**.
 
 ? die Datei → Plural
-x Dateis
 * Dateien
 x Dateie
+x Dateis
 ! Feminina auf *-ei* nehmen **-en**: die Datei**en**.
 ```
 
@@ -211,10 +211,10 @@ x falsch
 
 ```uebung
 ? Welche Wörter bedeuten NICHT das, was sie auf Englisch zu bedeuten scheinen? (mehrere richtig)
+x die Analyse
 * zusammenfassen
 * bekommen
 x das System
-x die Analyse
 ! *zusammenfassen* = to **summarize**, nicht „to merge" (das ist *zusammenführen*). *bekommen* = to **get**, nicht „to become" (das ist *werden*). *System* und *Analyse* sind echte Cognates.
 ```
 
@@ -402,18 +402,18 @@ x die Analyse
 
 ```uebung
 ? Welche dieser Nomen sind feminin (die)? (mehrere richtig)
-* Schnittstelle
-* Anforderung
-* Datenbank
-* Sicherheit
-* Version
-* Datei
 x Rechner
 x Deployment
 x Betriebssystem
 x Ordner
 x Speicher
 x Dokument
+* Schnittstelle
+* Anforderung
+* Datenbank
+* Sicherheit
+* Version
+* Datei
 ! *der*: Rechner, Ordner, Speicher · *das*: Deployment, Betriebssystem, Dokument · *die*: der Rest. Ziel: alle zwölf in unter 30 Sekunden, laut, ohne Nachdenken.
 ```
 

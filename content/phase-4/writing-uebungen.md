@@ -21,22 +21,22 @@ Musterlösungen am Ende.
 
 ```uebung
 ? „Sehr geehrte Frau Weber," — wie geht es weiter?
-* vielen Dank für Ihre Nachricht.
 x Vielen Dank für Ihre Nachricht.
+* vielen Dank für Ihre Nachricht.
 ! Die Anrede endet mit **Komma**, der Satz läuft weiter — also klein. Der häufigste sichtbare Anfängerfehler in deutschen E-Mails.
 
 ? Du kennst den Namen des Empfängers nicht. Welche Anrede?
-* Sehr geehrte Damen und Herren,
-x Sehr geehrter Herr oder Frau,
 x Hallo Team,
 x Guten Tag Unbekannt,
+* Sehr geehrte Damen und Herren,
+x Sehr geehrter Herr oder Frau,
 ! Die Standardformel, wenn kein Name bekannt ist. Sobald du den Namen hast, nutzt du ihn — *Sehr geehrte Frau Weber*.
 
 ? Welche Anrede ist falsch?
-* Sehr geehrte Frau Anna,
 x Sehr geehrte Frau Weber,
 x Hallo Anna,
 x Liebe Frau Weber,
+* Sehr geehrte Frau Anna,
 ! *Sehr geehrte/r* verlangt den **Nachnamen**. Vorname plus *Frau* wirkt im Deutschen entweder distanzlos oder wie ein Serienbrieffehler.
 
 ? Formeller Gruß in einer E-Mail an einen Kunden?
@@ -47,10 +47,10 @@ x Beste Grüße aus dem Team
 ! *Mit freundlichen Grüßen* ist die neutrale Standardform. *Viele Grüße* passt im per-du-Team, *LG* nur unter Freunden.
 
 ? Wo steht dein Anliegen in einer deutschen E-Mail?
+x nach der Begründung
 * im ersten Satz
 x im letzten Absatz
 x nur im Betreff
-x nach der Begründung
 ! Erst das Anliegen, dann die Details. Wer die Begründung voranstellt, zwingt den Lesenden zu raten, worum es geht.
 ```
 
@@ -58,17 +58,17 @@ x nach der Begründung
 
 ```uebung
 ? „Es wurde entschieden, den Hotfix am Freitag auszuliefern." Wohin gehört dieser Satz?
-* in die Beschlüsse eines Protokolls
-x in eine Anleitung
 x in ein Ticket
 x in eine Chat-Nachricht
+* in die Beschlüsse eines Protokolls
+x in eine Anleitung
 ! Passiv ohne Akteur, Vergangenheit, Ergebnis — die Grammatik der Beschlusszeile.
 
 ? „Herr Klein wies darauf hin, die Tests seien noch nicht vollständig." Was ist das?
-* Diskussionswiedergabe in indirekter Rede
 x ein Beschluss
 x eine Maßnahme
 x eine Akzeptanzbedingung
+* Diskussionswiedergabe in indirekter Rede
 ! Konjunktiv I markiert: Das ist seine Aussage, nicht die Feststellung des Protokollführers.
 
 ? „Kopiere die Beispiel-Konfiguration und passe die Datenbank-URL an." Welche Textsorte?
@@ -79,10 +79,10 @@ x Richtlinie
 ! Imperativ + kurzer Satz. In deutscher Doku ist der Imperativ (*klone, kopiere, starte*) üblich; das Passiv wirkt dort unnötig schwerfällig.
 
 ? „Fertig, wenn der Login mit allen gültigen Sonderzeichen funktioniert." Was ist das?
+x ein Beschluss
 * ein Akzeptanzkriterium
 x eine Beschreibung
 x ein Reproduktionsschritt
-x ein Beschluss
 ! Ein Akzeptanzkriterium ist **binär prüfbar**: erfüllt oder nicht. „Der Login soll besser funktionieren" ist keines.
 ```
 
@@ -134,10 +134,10 @@ x ein Beschluss
 ! Register heißt nicht nur Anrede: *zukommen lassen* klingt im Du-Kontext gestelzt, *schicken* passt besser.
 
 ? Welche Aussage über Sie und du stimmt?
-* Ein internes Protokoll bleibt sachlich, auch wenn das Team per du ist.
-x Wer per du ist, schreibt auch das Protokoll im Du.
 x Mit Kunden ist du inzwischen üblich.
 x Nach dem ersten Treffen wechselt man automatisch zu du.
+* Ein internes Protokoll bleibt sachlich, auch wenn das Team per du ist.
+x Wer per du ist, schreibt auch das Protokoll im Du.
 ! Anrede und Register sind unabhängig. Das Du regelt die **Nähe**, das Register die **Textsorte**.
 ```
 
@@ -153,11 +153,11 @@ x Nach dem ersten Treffen wechselt man automatisch zu du.
 ! Konjunktiv I *seien* (Plural von *sei*). Einleitungsverben im Protokoll: *wies darauf hin, teilte mit, gab zu bedenken, schlug vor*.
 
 ? Welche Angaben gehören in den **Kopf** eines Protokolls? (mehrere richtig)
-* Datum
 * Teilnehmende
 * Protokollant/in
 x Beschlüsse
 x Maßnahmen
+* Datum
 ! Kopf = Metadaten. Beschlüsse und Maßnahmen sind eigene Abschnitte weiter unten.
 
 ? Welche drei Spalten hat die Maßnahmentabelle?
@@ -176,18 +176,18 @@ x Wer · Wann · Warum
 
 ```uebung
 ? Welcher Titel ist der bessere?
+x Login kaputt, bitte fixen
 * Login schlägt bei Sonderzeichen im Passwort fehl
 x Problem beim Login
 x Bug
-x Login kaputt, bitte fixen
 ! Ein guter Titel nennt **Symptom und Bedingung**. Wer nur „Problem beim Login" liest, muss das Ticket öffnen, um zu wissen, ob es ihn betrifft.
 
 ? Welche Felder braucht ein Fehlerticket mindestens? (mehrere richtig)
+x Schätzung in Stunden
+x Name des Verursachers
 * Schritte zur Reproduktion
 * erwartetes und tatsächliches Verhalten
 * Akzeptanzkriterien
-x Schätzung in Stunden
-x Name des Verursachers
 ! Die ersten drei machen das Ticket bearbeitbar. Der Verursacher ist in einer deutschen Fehlerkultur ausdrücklich kein Ticketfeld.
 
 ? Formuliere als Akzeptanzkriterium: „Der Login soll besser funktionieren."
@@ -199,10 +199,10 @@ x Name des Verursachers
 ! Das Gegensatzpaar *Erwartet / Tatsächlich* ist der Kern jedes deutschen Fehlertickets — zwei Zeilen, die eine halbe Stunde Rückfragen sparen.
 
 ? Welche Zeitform passt in die Reproduktionsschritte?
-* Imperativ: „Setze ein Passwort mit &."
 x Perfekt: „Ich habe ein Passwort gesetzt."
 x Konjunktiv: „Man könnte ein Passwort setzen."
 x Passiv: „Ein Passwort wurde gesetzt."
+* Imperativ: „Setze ein Passwort mit &."
 ! Schritte sind Anweisungen an die lesende Person. Imperativ oder Infinitiv (*Passwort mit & setzen*) — beides üblich, Perfekt nicht.
 ```
 

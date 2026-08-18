@@ -79,30 +79,30 @@ x Aktiv
 
 ```uebung
 ? Welche Konnektoren sind koordinierend (ändern nichts)? (mehrere richtig)
-* und
-* aber
-* denn
 * sondern
 x weil
 x obwohl
+* und
+* aber
+* denn
 ! Koordinierende Konnektoren stehen auf „Position 0" und lassen die Wortstellung unberührt.
 
 ? Welche lösen Inversion aus? (mehrere richtig)
-* deshalb
-* trotzdem
 * außerdem
 * dennoch
 x weil
 x damit
+* deshalb
+* trotzdem
 ! Adverbiale Konnektoren besetzen Position 1 → Verb auf 2, Subjekt auf 3.
 
 ? Welche schicken das Verb ans Ende? (mehrere richtig)
-* weil
 * obwohl
 * damit
 * sodass
 x trotzdem
 x denn
+* weil
 ! Subordinierende Konnektoren leiten Nebensätze ein. *trotzdem* und *obwohl* bedeuten Ähnliches, verhalten sich aber gegensätzlich — die häufigste Verwechslung auf B2.
 ```
 
@@ -138,18 +138,18 @@ x Akkusativ
 
 ```uebung
 ? Welche sind Partizip I (laufend, aktiv)? (mehrere richtig)
+x die gelöste Aufgabe
+x der behobene Fehler
 * der laufende Prozess
 * die steigende Last
 * das wachsende Team
-x die gelöste Aufgabe
-x der behobene Fehler
 ! Partizip I endet auf **-end** und beschreibt etwas Andauerndes.
 
 ? Welche sind Partizip II (abgeschlossen, passivisch)? (mehrere richtig)
-* die gelöste Aufgabe
 * der behobene Fehler
 x der laufende Prozess
 x die steigende Last
+* die gelöste Aufgabe
 ! Partizip II beschreibt ein Ergebnis: die Aufgabe **wurde** gelöst.
 ```
 

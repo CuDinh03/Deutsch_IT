@@ -72,10 +72,10 @@ x Kündigungsbedingungen
 ! Vier bis fünf feste Blöcke plus Kontakt. Gehalt und Vertragsdetails stehen fast nie drin — deshalb fragt die Anzeige stattdessen **dich** nach deiner Gehaltsvorstellung.
 
 ? Die Anzeige schreibt „Deine Aufgaben“ statt „Ihre Aufgaben“. Was sagt das?
-* ein Signal für eine Du-Kultur, typisch für Start-ups und Scale-ups
 x dass die Stelle für Berufseinsteiger ist
 x dass es ein Praktikum ist
 x nichts, das ist Zufall
+* ein Signal für eine Du-Kultur, typisch für Start-ups und Scale-ups
 ! Die Anrede in der Anzeige ist das erste Kulturzeichen. Konzerne schreiben *Ihre Aufgaben*; ein Wechsel mitten in der Anzeige verrät meist eine kopierte Vorlage.
 
 ? Was bedeutet „(m/w/d)“?
@@ -86,10 +86,10 @@ x Vollzeit / Teilzeit / Werkstudent
 ! Seit dem Personenstandsrecht mit dritter Option ist die neutrale Ausschreibung Pflicht. Man sieht auch *(all genders)* oder die Doppelform *Entwickler:in*.
 
 ? Wozu dient die „Kennziffer BE-2291“?
+x Sie ist eine interne Kostenstelle ohne Bedeutung für dich.
 * Sie identifiziert die Stelle — man nennt sie im Betreff der Bewerbung.
 x Sie gibt die Gehaltsstufe an.
 x Sie nennt die Teamgröße.
-x Sie ist eine interne Kostenstelle ohne Bedeutung für dich.
 ! Bei mehreren offenen Stellen ist sie das Einzige, was deine Bewerbung eindeutig zuordnet. Ins Anschreiben: *Bewerbung als Backend-Entwickler:in (m/w/d), Kennziffer BE-2291*.
 ```
 
@@ -117,11 +117,11 @@ x Muss
 ! Doppelt entschärft: *erste Erfahrung* (nicht *mehrjährige*) plus *wünschenswert*. Ein Nebenprojekt reicht hier oft.
 
 ? Welche Formulierungen markieren ein Muss? (mehrere richtig)
+x von Vorteil
+x idealerweise
 * setzen wir voraus
 * zwingend erforderlich
 * bringst du mit
-x von Vorteil
-x idealerweise
 ! *bringst du mit* / *Sie bringen mit* klingt weich, steht aber im Profil-Block als Erwartung — es zählt zu den Mussanforderungen.
 ```
 
@@ -129,11 +129,11 @@ x idealerweise
 
 ```uebung
 ? Welche Angaben sind überprüfbare Fakten? (mehrere richtig)
-* 30 Urlaubstage
-* Weiterbildungsbudget von 1.500 €
 * zwei Tage mobiles Arbeiten pro Woche
 x flache Hierarchien
 x spannende Aufgaben
+* 30 Urlaubstage
+* Weiterbildungsbudget von 1.500 €
 ! Zahlen kann man nachhalten, Adjektive nicht. „Spannende Aufgaben“ steht in praktisch jeder Anzeige und trägt null Information.
 
 ? „Ein attraktives Gehalt, abhängig von Qualifikation und Erfahrung.“ Was heißt das praktisch?
@@ -144,10 +144,10 @@ x Das Gehalt ist verhandelbar, aber nach oben gedeckelt.
 ! Die Standardformel für „wir nennen keine Zahl“. Deshalb ist deine eigene Gehaltsvorstellung Pflichtvorbereitung — siehe [Vocabulary · Übungsteil](#/phase-5/vocabulary-uebungen).
 
 ? „Zwei Tage mobiles Arbeiten pro Woche **nach Absprache im Team**.“ Worauf achtest du?
+x Es gilt nur in der Probezeit.
 * Der Zusatz macht die Regel weich — im Gespräch fragen, wie die Absprache konkret läuft.
 x Es sind garantiert zwei feste Tage.
 x Es bedeutet vollständiges Homeoffice.
-x Es gilt nur in der Probezeit.
 ! *nach Absprache* ist die häufigste Weichmacher-Formel im Angebotsblock. Nicht negativ — aber eine Frage wert.
 ```
 
@@ -171,10 +171,10 @@ x Es gilt nur in der Probezeit.
 ! *mindestens B2* ist eine Mussanforderung. Wenn du dort stehst, gehört genau dieser Punkt sichtbar ins Anschreiben.
 
 ? Was gehört laut Anzeige zur Rolle, das viele übersehen?
-* Rufbereitschaft im Wechsel
-x Personalverantwortung
 x Reisetätigkeit
 x Schichtarbeit
+* Rufbereitschaft im Wechsel
+x Personalverantwortung
 ! Steht mitten im Aufgabenblock, in einem Nebensatz. Rufbereitschaft ist eine Lebensentscheidung, keine Fußnote — im Gespräch nach Häufigkeit und Ausgleich fragen.
 
 ? Wie viele Entwickelnde arbeiten dort?
@@ -182,10 +182,10 @@ x Schichtarbeit
 ! Zahlen im „Über uns“ verraten mehr als der Rest des Absatzes: 40 Leute in fünf Teams heißt Teams von etwa acht Personen.
 
 ? Wonach fragt die Anzeige dich ausdrücklich? (mehrere richtig)
-* Gehaltsvorstellung
 * frühestmöglicher Eintrittstermin
 x Kündigungsfrist
 x Referenzen
+* Gehaltsvorstellung
 ! Beides gehört damit in den Schlussabsatz des Anschreibens. Wer es weglässt, wirkt unaufmerksam.
 ```
 
@@ -212,17 +212,17 @@ x alle sechs Punkte
 ! Java (voraussetzen), Spring Boot und REST (zwingend erforderlich), Datenbanken und CI/CD (bringst du mit), Sprachen (mindestens). Kubernetes und Kafka sind Kann.
 
 ? Du erfüllst alle Mussanforderungen, aber weder Kubernetes noch Kafka. Was tust du?
+x im Anschreiben die fehlenden Punkte verschweigen
 * bewerben — die Kann-Liste ist eine Wunschliste
 x nicht bewerben
 x erst Kubernetes lernen, dann bewerben
-x im Anschreiben die fehlenden Punkte verschweigen
 ! Genau dafür existiert die Trennung. Deutsche Anzeigen listen bewusst mehr, als sie erwarten; erfüllte Mussanforderungen sind das Einladungskriterium.
 
 ? Wie gehst du im Anschreiben mit der Kubernetes-Lücke um?
-* offen benennen und den nächsten Schritt zeigen: „Mit Kubernetes arbeite ich bislang nur im Nebenprojekt — den Betrieb meiner Services verantworte ich seit zwei Jahren.“
-x gar nicht erwähnen
 x behaupten, du könntest es
 x dich dafür entschuldigen
+* offen benennen und den nächsten Schritt zeigen: „Mit Kubernetes arbeite ich bislang nur im Nebenprojekt — den Betrieb meiner Services verantworte ich seit zwei Jahren.“
+x gar nicht erwähnen
 ! Lücken werden im deutschen Bewerbungskontext akzeptiert, wenn sie benannt und eingeordnet sind. Nicht akzeptiert wird eine Übertreibung, die im Fachgespräch auffliegt.
 ```
 
@@ -230,10 +230,10 @@ x dich dafür entschuldigen
 
 ```uebung
 ? „end-to-end verantworten“ bedeutet …
-* von der Entwicklung bis zum Betrieb zuständig sein
 x nur die Schnittstellen bauen
 x das Projekt leiten
 x den Code review
+* von der Entwicklung bis zum Betrieb zuständig sein
 ! „You build it, you run it“ auf Deutsch. Der Betrieb — und damit die Rufbereitschaft — ist Teil der Rolle.
 
 ? „Betriebliche Altersvorsorge (bAV)“ ist …
@@ -244,17 +244,17 @@ x eine Abfindung
 ! Ein üblicher, verhandelbarer Bestandteil des Pakets. Wie hoch der Arbeitgeberanteil ist, steht selten in der Anzeige.
 
 ? „Zuschuss zum Deutschlandticket“ heißt …
+x Man darf im Zug arbeiten.
 * Der Arbeitgeber übernimmt einen Teil des Nahverkehrstickets.
 x Man bekommt einen Dienstwagen.
 x Die Bahnfahrt zur Bewerbung wird erstattet.
-x Man darf im Zug arbeiten.
 ! *der Zuschuss* = Teilbetrag, nicht Vollübernahme. Nach der Höhe fragt man im Gespräch.
 
 ? „schrittweise Ablösung des Monolithen“ heißt für dich …
-* Es gibt Legacy-Code, und die Migration läuft noch — beides ist Teil der Arbeit.
-x Der Monolith ist bereits abgeschaltet.
 x Es wird nur neu entwickelt.
 x Das Unternehmen plant eine Neugründung.
+* Es gibt Legacy-Code, und die Migration läuft noch — beides ist Teil der Arbeit.
+x Der Monolith ist bereits abgeschaltet.
 ! Ehrliche Formulierung, die viel verrät. Frag im Gespräch, wie weit sie sind — die Antwort sagt dir mehr über den Alltag als der ganze „Über uns“-Absatz.
 
 ? „fundierte Kenntnisse“ verlangt mehr als …

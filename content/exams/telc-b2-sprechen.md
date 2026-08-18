@@ -38,24 +38,24 @@ flowchart LR
 
 ```uebung
 ? Worauf wird Teil 2 vor allem bewertet?
+x auf die Aussprache
 x auf die Länge deines Redebeitrags
 * auf Interaktion — reagieren, nachfragen, den Partner einbeziehen
 x auf fehlerfreie Grammatik
-x auf die Aussprache
 ! Ein langer, korrekter Monolog erfüllt die Aufgabe nicht. Wer nicht auf den Partner eingeht, verliert Punkte — auch bei gutem Deutsch.
 
 ? Was muss am Ende von Teil 3 stehen?
-x eine Liste aller Vorschläge
-* eine ausgesprochene gemeinsame Entscheidung
 x deine persönliche Meinung
 x eine Zusammenfassung des Themas
+x eine Liste aller Vorschläge
+* eine ausgesprochene gemeinsame Entscheidung
 ! Die Aufgabe heißt „gemeinsam **planen**". Ohne ausgesprochenen Beschluss („Dann halten wir fest: …") ist sie nicht erfüllt.
 
 ? Dein Partner spricht sehr viel und lässt dich kaum zu Wort kommen. Was tust du?
-x abwarten, bis er fertig ist
 * höflich unterbrechen: „Darf ich kurz ergänzen?"
 x aufgeben und nur zuhören
 x lauter sprechen als er
+x abwarten, bis er fertig ist
 ! Du wirst auf **deinen** Anteil bewertet. Höfliches Unterbrechen ist eine geprüfte Fertigkeit, kein Regelverstoß.
 ```
 
@@ -73,10 +73,10 @@ dann stehen — das kostet mehr als jeder Grammatikfehler.
 
 ```uebung
 ? Welcher Teil fehlt am häufigsten in Prüfungspräsentationen?
-x die Einleitung
 x die Meinung
 * das Beispiel und das Fazit
 x die Begrüßung
+x die Einleitung
 ! Kandidaten sagen ihre Meinung mit Begründung und hören dann auf. Beispiel und Fazit sind die zwei Elemente, die eine Präsentation von einer Antwort unterscheiden.
 
 ? Ergänze die Einleitung: „Ich ___ heute über das Thema Homeoffice sprechen."
@@ -88,10 +88,10 @@ x die Begrüßung
 ! *Zusammenfassend* signalisiert dem Prüfer, dass du strukturiert schließt — nicht, dass dir die Worte ausgehen.
 
 ? Wie leitest du dein Beispiel ein?
-* Aus meiner Erfahrung als Entwickler …
-x Zum Beispiel gibt es viele Dinge.
 x Man sagt oft, dass …
 x Es ist bekannt, dass …
+* Aus meiner Erfahrung als Entwickler …
+x Zum Beispiel gibt es viele Dinge.
 ! Ein persönliches, konkretes Beispiel ist glaubwürdiger und leichter zu produzieren als eine allgemeine Behauptung — und es zeigt Wortschatz aus deinem echten Leben.
 ```
 
@@ -109,10 +109,10 @@ Drei Bewegungen, die du abwechselnd einsetzt:
 
 ```uebung
 ? Welche Antwort ist im Prüfungssinn am besten?
+x Ich stimme dir völlig zu, in allen Punkten, ohne Einschränkung.
 x Ja.
 x Ich weiß nicht.
 * Das sehe ich anders — ein Monolith wäre am Anfang einfacher. Und wie siehst du das?
-x Ich stimme dir völlig zu, in allen Punkten, ohne Einschränkung.
 ! Position + Begründung + Rückgabe. Option 4 ist grammatisch fein, produziert aber keine Interaktion.
 
 ? Du bist inhaltlich einverstanden, willst aber einschränken. Was sagst du?
@@ -155,17 +155,17 @@ Schritt 4 ist der, den fast alle vergessen — und der, auf den die Aufgabe abzi
 ! *Dann halten wir fest: …* Dieser eine Satz macht sichtbar, dass ihr die Aufgabe gelöst habt.
 
 ? Dein Partner schlägt einen Termin vor, der dir nicht passt. Beste Reaktion?
+x Das entscheidest du.
 x Nein.
 * Dienstag passt mir leider nicht — wäre Mittwoch eine Option?
 x Mir ist alles recht.
-x Das entscheidest du.
 ! Ablehnen **plus Gegenvorschlag**. Reines Ablehnen bremst die Verhandlung, reines Zustimmen zeigt keine Aushandlung.
 
 ? Welche Elemente gehören in eine vollständige Planung? (mehrere richtig)
-* ein konkreter Termin
 * ein Thema oder Inhalt
 * eine Einigung am Ende
 x eine Begründung deiner persönlichen Meinung
+* ein konkreter Termin
 ! Teil 3 ist Organisation, nicht Meinung. Wer hier lange begründet, verwechselt Teil 3 mit Teil 2.
 ```
 
@@ -180,10 +180,10 @@ x (schweigen)
 ! Höflich, vollständig, in Konjunktiv II. Nachfragen kostet keine Punkte — Schweigen schon.
 
 ? Du brauchst zwei Sekunden zum Nachdenken.
+x (lange Pause)
 * Moment, ich überlege kurz.
 x Ähm … ähm …
 x Sorry, one second.
-x (lange Pause)
 ! Ein gefüllter, deutscher Übergang wirkt souverän. Ein englisches Füllwort fällt sofort auf.
 
 ? Ergänze: „Das ist eine ___ Frage." (Zeit gewinnen, positiv)
@@ -191,10 +191,10 @@ x (lange Pause)
 ! *Das ist eine gute Frage.* — klassischer Zeitkauf, funktioniert in jeder Prüfung und in jedem Meeting.
 
 ? Du merkst mitten im Satz, dass du dich vertan hast.
-* Entschuldigung, ich formuliere das noch einmal.
-x (einfach weiterreden, als wäre nichts)
 x Sorry, my mistake.
 x (aufhören zu sprechen)
+* Entschuldigung, ich formuliere das noch einmal.
+x (einfach weiterreden, als wäre nichts)
 ! Selbstkorrektur ist ein **positives** Bewertungsmerkmal — sie zeigt Sprachbewusstsein. Nur muss sie auf Deutsch passieren.
 ```
 

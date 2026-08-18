@@ -50,17 +50,17 @@ das ist der eigentliche Übungsteil.
 
 ```uebung
 ? Welche drei Beats hat ein Daily-Update?
-* gestern · heute · Blocker
-x Problem · Ursache · Lösung
 x was ich mache · warum · wie lange
 x Begrüßung · Update · Frage
+* gestern · heute · Blocker
+x Problem · Ursache · Lösung
 ! Drei feste Slots, dreißig Sekunden. Wer erzählt, statt zu berichten, kostet zehn Leuten Zeit.
 
 ? Welches Update ist das beste?
-* Gestern habe ich den Login-Service refaktoriert. Heute nehme ich mir das Caching vor. Blocker habe ich keine.
 x Ich habe an verschiedenen Sachen gearbeitet und mache heute weiter.
 x Also, es war ziemlich kompliziert gestern, weil das Framework …
 x Bei mir gibt's nichts Neues.
+* Gestern habe ich den Login-Service refaktoriert. Heute nehme ich mir das Caching vor. Blocker habe ich keine.
 ! Konkret, drei Beats, ohne Umschweife. „Nichts Neues“ ist bei mehreren Tagen Arbeit auch eine Information — nur keine nützliche.
 
 ? Du steckst seit gestern fest. Was sagst du im Daily?
@@ -71,10 +71,10 @@ x Ich schaffe das schon irgendwie.
 ! Blocker früh nennen ist im deutschen Team kein Eingeständnis, sondern Pflicht. Wer drei Tage still festhängt, verliert mehr Ansehen als wer fragt.
 
 ? Wie lang sollte ein Daily-Beitrag sein?
+x fünf Sekunden
 * etwa 30 Sekunden
 x zwei bis drei Minuten
 x so lang wie nötig
-x fünf Sekunden
 ! Bei acht Leuten sind 30 Sekunden schon vier Minuten. Details werden nach dem Daily zu zweit geklärt.
 ```
 
@@ -82,17 +82,17 @@ x fünf Sekunden
 
 ```uebung
 ? Welcher Review-Kommentar ist kollegial formuliert?
-* Hier würde ich es anders lösen — was hältst du von einem Repository?
-x Das ist falsch.
 x Warum so kompliziert?
 x Fehlt.
+* Hier würde ich es anders lösen — was hältst du von einem Repository?
+x Das ist falsch.
 ! Alternative plus Rückfrage. Die anderen drei sind inhaltlich vielleicht richtig, lassen aber keinen Antwortraum.
 
 ? Wie beginnt ein deutsches Review idealerweise?
-* mit dem, was gut ist — dann die Kleinigkeit
 x direkt mit dem größten Problem
 x mit einer Entschuldigung
 x mit einer Frage nach dem Zeitplan
+* mit dem, was gut ist — dann die Kleinigkeit
 ! „Sieht insgesamt gut aus! Eine Kleinigkeit: …“ ist die Standardform. Das Lob ist keine Höflichkeitsfloskel, sondern die Kalibrierung: Es sagt, wie ernst die Kritik danach gemeint ist.
 
 ? Wie nimmst du Kritik im Review an?
@@ -111,26 +111,26 @@ x Sie machen den Kommentar verbindlicher.
 
 ```uebung
 ? Welche drei Spalten hat eine Retro?
+x Problem · Schuld · Lösung
 * was lief gut · was lief nicht so gut · was nehmen wir uns vor
 x Aufgaben · Aufwand · Termin
 x Lob · Kritik · Lob
-x Problem · Schuld · Lösung
 ! Die dritte Spalte ist die entscheidende: Ohne Maßnahme war es eine Aussprache, keine Retro.
 
 ? Was sagst du zuerst in einem Incident-Call?
-* den Stand: was ist gestört, seit wann, wie viele Nutzer betroffen
-x deine Vermutung zur Ursache
 x eine Entschuldigung
 x wer den Fehler verursacht hat
+* den Stand: was ist gestört, seit wann, wie viele Nutzer betroffen
+x deine Vermutung zur Ursache
 ! Beobachtung vor Interpretation. Rohdaten geben allen anderen die Möglichkeit, selbst zu denken — dieselbe Regel wie im [Deployment-Notfall](#/dialogues/deployment-notfall).
 
 ? Welche Smalltalk-Themen sind sicher? (mehrere richtig)
-* das Wochenende
 * das Wetter
 * Urlaub und Reisen
 * Kaffee und Essen
 x Gehalt
 x Politik
+* das Wochenende
 ! Gehalt und Politik sind im deutschen Büro tabu genug, dass ihr Ansprechen auffällt. Alles andere trägt problemlos fünf Minuten.
 
 ? Wie beendest du Smalltalk höflich?
@@ -221,10 +221,10 @@ x nur einer, immer
 
 ```uebung
 ? Welcher Widerspruch ist der stärkste?
+x Macht doch, was ihr wollt.
 * Ich sehe das etwas anders — aus Performance-Sicht wäre Caching besser. Können wir das kurz durchgehen?
 x Das funktioniert nicht.
 x Nein.
-x Macht doch, was ihr wollt.
 ! Meinung, Begründung, Angebot zum Weiterreden. Die anderen drei schließen das Gespräch, statt es zu öffnen.
 
 ? Zuerst anerkennen, dann einschränken: „Ich ___ den Punkt, aber langfristig wäre eine Queue robuster.“
@@ -236,10 +236,10 @@ x Macht doch, was ihr wollt.
 ! Anglizismus, aber völlig etabliert. Er beendet ein Nebenthema, ohne es abzuwerten.
 
 ? Ist Widerspruch in einem deutschen Team riskant?
-* Nein — begründeter Widerspruch gilt als Beteiligung, nicht als Angriff.
-x Ja, man sollte der Führungskraft nie widersprechen.
 x Nur unter Kollegen gleicher Stufe.
 x Nur schriftlich.
+* Nein — begründeter Widerspruch gilt als Beteiligung, nicht als Angriff.
+x Ja, man sollte der Führungskraft nie widersprechen.
 ! Wer nie widerspricht, wirkt eher unbeteiligt als höflich. Entscheidend ist die Sachebene: die Sache kritisieren, die Person respektieren.
 ```
 

@@ -220,26 +220,26 @@ x Weniger als 72.000 kommt für mich nicht infrage.
 ! Konjunktiv II der Vergangenheit macht aus der Zahl eine Vorstellung. Die anderen drei setzen eine Bedingung — und beenden damit die Verhandlung, bevor sie beginnt.
 
 ? Was gehört unmittelbar hinter deine Zahl?
+x eine Entschuldigung
 * eine Rückfrage nach ihrem Rahmen
 x eine Begründung, warum du das Geld brauchst
 x Schweigen von deiner Seite
-x eine Entschuldigung
 ! Ohne Rückfrage endet das Thema bei deiner Zahl. Private Gründe (Miete, Familie) gehören nicht ins Gespräch — verhandelt wird über Rolle und Erfahrung.
 
 ? „Bei zweiundsiebzig sind wir für diese Stufe am oberen Rand.“ Was signalisiert das?
-* Beim Fixgehalt ist wenig Spielraum — jetzt aufs Gesamtpaket wechseln.
-x Die Verhandlung ist beendet.
 x Die Zahl ist bereits zugesagt.
 x Man hält dich für zu teuer.
+* Beim Fixgehalt ist wenig Spielraum — jetzt aufs Gesamtpaket wechseln.
+x Die Verhandlung ist beendet.
 ! *am oberen Rand* ist eine Einladung, nicht eine Absage. Die passende Antwort ist *Mir geht es nicht ausschließlich um die Fixzahl.*
 
 ? Welche Bestandteile lassen sich neben dem Fixgehalt verhandeln? (mehrere richtig)
-* Weiterbildungsbudget
-* Urlaubstage
-* mobiles Arbeiten
 * ein früherer Gehaltsreview
 x die Steuerklasse
 x der Nettobetrag
+* Weiterbildungsbudget
+* Urlaubstage
+* mobiles Arbeiten
 ! Netto und Steuerklasse hängen an deiner privaten Situation, nicht am Arbeitgeber. Alles andere greift nicht in die Gehaltsstufe ein und ist deshalb leichter zu bewilligen.
 
 ? Formuliere höflich: „Erhöhen Sie das Weiterbildungsbudget auf 3.000 Euro.“
@@ -254,17 +254,17 @@ x Ich muss erst meine Familie fragen.
 ! Kein Ja am Telefon. Die Bitte um eine schriftliche Fassung ist Standard und wird nie als Misstrauen gelesen.
 
 ? „Ich hätte mit rund 72.000 gerechnet — auf Basis von vier Jahren Backend-Erfahrung.“ Wie viele Begründungen sind ideal?
+x keine
 * eine
 x drei bis vier
 x möglichst viele
-x keine
 ! Eine Begründung ist ein Argument. Drei klingen wie eine Rechtfertigung — und wer sich rechtfertigt, verhandelt aus der schwächeren Position.
 
 ? Nach deiner Zahl entsteht eine Pause. Was tust du?
-* die Pause aushalten
-x sofort eine niedrigere Zahl nachschieben
 x dich entschuldigen
 x das Thema wechseln
+* die Pause aushalten
+x sofort eine niedrigere Zahl nachschieben
 ! Die Pause ist im deutschen Verhandlungsgespräch normal — oft rechnet die andere Seite wirklich nach. Wer sie füllt, verhandelt gegen sich selbst.
 ```
 

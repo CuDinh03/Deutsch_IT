@@ -45,10 +45,10 @@ das ist der eigentliche Übungsteil.
 
 ```uebung
 ? Welche drei Bausteine hat die Selbstvorstellung?
-* Jetzt → Werdegang → Warum hier
 x Kindheit → Studium → Hobbys
 x Stärken → Schwächen → Ziele
 x Firma → Gehalt → Verfügbarkeit
+* Jetzt → Werdegang → Warum hier
 ! Gegenwart zuerst, dann zwei bis drei relevante Stationen, dann der Bezug zu **dieser** Stelle. Wer chronologisch bei der Schule anfängt, verliert die erste Minute.
 
 ? Wie beginnt ein guter Pitch?
@@ -59,17 +59,17 @@ x Mein Lebenslauf sagt eigentlich alles.
 ! Rolle plus Dauer plus Technologie in einem Satz. Die anderen drei geben die Führung ab oder kosten Zeit.
 
 ? Wie lang sollte der Pitch sein?
+x so lange, bis man unterbrochen wird
 * etwa 90 Sekunden
 x 15 Sekunden
 x fünf Minuten
-x so lange, bis man unterbrochen wird
 ! Lang genug für drei Stationen, kurz genug, dass niemand abschaltet. Übe mit Stoppuhr — im Gespräch fühlt sich eine Minute wie fünf an.
 
 ? Was gehört NICHT in den Pitch?
-* eine Kritik am jetzigen Arbeitgeber
-x die aktuelle Rolle
 x zwei bis drei Stationen
 x der Bezug zur ausgeschriebenen Stelle
+* eine Kritik am jetzigen Arbeitgeber
+x die aktuelle Rolle
 ! Die Wechselmotivation zeigt nach vorn. Kritik am jetzigen Arbeitgeber wird als Risikosignal gelesen — siehe [Vocabulary · Übungsteil](#/phase-5/vocabulary-uebungen).
 ```
 
@@ -77,10 +77,10 @@ x der Bezug zur ausgeschriebenen Stelle
 
 ```uebung
 ? Wofür steht STAR auf Deutsch?
-* Situation · Aufgabe · Aktion · Ergebnis
 x Struktur · Technik · Antwort · Resultat
 x Stärke · Team · Aufgabe · Rolle
 x Situation · Team · Ablauf · Regel
+* Situation · Aufgabe · Aktion · Ergebnis
 ! Vier Beats, immer in dieser Reihenfolge. Das *R* heißt auf Deutsch *Ergebnis* — das *Resultat* geht auch, ist aber seltener.
 
 ? „Unser Checkout war freitags oft überlastet.“ Welcher Beat?
@@ -105,10 +105,10 @@ x Aktion
 ! Und zwar richtig gemacht: mit Zahl. Ohne Zahl bleibt vom Ergebnis nur ein Adjektiv übrig.
 
 ? Welche STAR-Antwort ist die schwächste?
-* Ich habe das dann irgendwie hinbekommen, und danach lief es besser.
 x Konkret habe ich Caching mit Redis eingeführt und die Queries optimiert.
 x Die Situation war: Unser Checkout war freitags überlastet.
 x Das Ergebnis war eine Latenz von 180 statt 450 Millisekunden.
+* Ich habe das dann irgendwie hinbekommen, und danach lief es besser.
 ! „irgendwie“ und „besser“ sind im deutschen Fachgespräch fast Reizwörter. Erwartet werden nachprüfbare Schritte und Zahlen.
 ```
 
@@ -123,24 +123,24 @@ x Ich habe eigentlich keine Schwächen.
 ! Echte Schwäche plus Gegenmaßnahme. Die getarnte Stärke („zu viel arbeiten“) gilt als Ausweichmanöver und kostet Glaubwürdigkeit.
 
 ? Du kennst eine Technologie nicht, nach der gefragt wird. Was tust du?
+x sagen, dass die Technologie unwichtig ist
 * Das habe ich noch nicht gemacht — ich würde so vorgehen: …
 x etwas Plausibles erfinden
 x das Thema wechseln
-x sagen, dass die Technologie unwichtig ist
 ! Ehrlichkeit plus Vorgehen wird höher bewertet als eine geratene Antwort. Geraten fällt spätestens bei der Nachfrage auf.
 
 ? Wie strukturierst du eine offene Fachfrage?
-* Ich würde das in drei Schritten angehen: erstens …
-x Ich fange einfach an zu reden.
 x Ich frage zuerst nach dem Gehalt.
 x Ich beschreibe die Lösung ohne Begründung.
+* Ich würde das in drei Schritten angehen: erstens …
+x Ich fange einfach an zu reden.
 ! Die angekündigte Struktur ist im Deutschen halb die Bewertung. Sie zeigt, dass du sortierst, bevor du redest.
 
 ? „Haben Sie noch Fragen an uns?“ — was ist die schlechteste Antwort?
-* Nein, ich glaube, es wurde alles gesagt.
 x Wie ist das Team aufgestellt?
 x Wie stellen Sie Code-Qualität sicher?
 x Was soll ich in den ersten 90 Tagen erreicht haben?
+* Nein, ich glaube, es wurde alles gesagt.
 ! Keine Fragen liest sich als kein Interesse. Drei vorbereitete Fragen sind Pflichtprogramm, nicht Kür.
 ```
 
@@ -235,10 +235,10 @@ x nichts — Schweigen
 ! Ohne Rückfrage endet das Thema bei deiner Zahl. Mit Rückfrage bekommst du ihren Rahmen und hast weiter Gesprächsanteil.
 
 ? Welche Frage zeigt am meisten Vorbereitung?
+x Wann kann ich anfangen?
 * Ich habe in Ihrem Tech-Blog von der Umstellung auf Microservices gelesen — wie weit sind Sie damit?
 x Was macht Ihre Firma eigentlich?
 x Wie viele Urlaubstage gibt es?
-x Wann kann ich anfangen?
 ! Eine überprüfbare Recherche in einem Satz schlägt zehn allgemeine Komplimente — siehe [Reading · Übungsteil](#/phase-5/reading-uebungen).
 
 ? Rückfrage bei einem unbekannten Wort: „Darf ich kurz ___, ob Sie mit Rufbereitschaft den On-Call-Dienst meinen?“

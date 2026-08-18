@@ -65,24 +65,24 @@ wiederholst.
 
 ```uebung
 ? Zwei Themen laufen durcheinander, du willst sortieren. Was sagst du?
+x Können wir das später machen?
 * Darf ich kurz einhaken? Ich glaube, wir vermischen gerade zwei Themen.
 x Moment, das ist falsch.
 x Ich verstehe nichts mehr.
-x Können wir das später machen?
 ! Erst das Signal (*Darf ich kurz einhaken?*), dann die Beobachtung. Ohne Signal wirkt derselbe Satz im Deutschen deutlich schärfer, als er gemeint ist.
 
 ? Du bist Moderator und die Diskussion driftet ab.
-* Bleiben wir kurz beim Thema — dazu kommen wir gleich.
-x Das gehört hier nicht her.
 x Ihr redet am Thema vorbei.
 x Ruhe bitte.
+* Bleiben wir kurz beim Thema — dazu kommen wir gleich.
+x Das gehört hier nicht her.
 ! „dazu kommen wir gleich" nimmt dem Abbruch die Härte: Du lehnst den Beitrag nicht ab, du **verschiebst** ihn.
 
 ? Jemand stellt dir eine Frage, deren Antwort du nicht kennst.
-* Das kann ich Ihnen jetzt nicht sicher sagen — ich melde mich dazu.
 x Keine Ahnung.
 x Ich glaube, ungefähr die Hälfte.
 x Das müsste jemand anderes wissen.
+* Das kann ich Ihnen jetzt nicht sicher sagen — ich melde mich dazu.
 ! Verlässlichkeit schlägt Vollständigkeit. Eine geratene Zahl kostet dich beim zweiten Mal das Vertrauen; eine zugesagte Rückmeldung kostet nichts.
 
 ? Du willst dem Vorschlag zustimmen, hast aber eine Bedingung.
@@ -93,17 +93,17 @@ x Von mir aus.
 ! Bedingte Zustimmung ist ein eigener Zug: Du blockierst nicht — und gibst dein Argument trotzdem nicht auf.
 
 ? Die Frage passt nicht in die Sitzung, ist aber berechtigt.
+x Frag mich später einfach nochmal.
 * Das würde den Rahmen sprengen — können wir das offline klären?
 x Dazu sage ich nichts.
 x Das ist unwichtig.
-x Frag mich später einfach nochmal.
 ! „offline klären" ist im deutschen Berufsalltag ein völlig normaler Anglizismus. Wichtig ist, dass du die Frage anerkennst, bevor du sie vertagst.
 
 ? Du willst am Ende der Besprechung sicherstellen, dass die Beschlüsse stehen.
-* Fassen wir zusammen: Wir haben entschieden, dass … , und Anna übernimmt …
-x Gut, dann bis nächste Woche.
 x Ich glaube, das war es.
 x Schreibt mir einfach, falls noch was ist.
+* Fassen wir zusammen: Wir haben entschieden, dass … , und Anna übernimmt …
+x Gut, dann bis nächste Woche.
 ! Beschluss **und** Verantwortliche/r laut aussprechen. Was nicht laut gesagt wurde, taucht in der nächsten Besprechung wieder auf.
 ```
 
@@ -126,10 +126,10 @@ x Vorwurf
 ! Der Wunsch statt der Anweisung. Konjunktiv II (*würde … wünschen*) macht daraus eine Bitte auf Augenhöhe.
 
 ? Welche Reihenfolge hat gutes deutsches Feedback?
-* Situation → Wirkung → Wunsch
-x Wunsch → Situation → Wirkung
 x Wirkung → Person → Lösung
 x Lob → Kritik → Lob
+* Situation → Wirkung → Wunsch
+x Wunsch → Situation → Wirkung
 ! Erst was war, dann was es bewirkt, dann was du dir wünschst. Die „Sandwich"-Methode gilt im deutschen Berufskontext eher als durchschaubar.
 ```
 
@@ -189,10 +189,10 @@ x Lob → Kritik → Lob
 
 ```uebung
 ? Du willst mitten in einem Redebeitrag das Wort. Höflichste Variante?
-* Entschuldigung, wenn ich kurz unterbreche …
 x Kurz!
 x Stopp mal.
 x Ich muss da jetzt was sagen.
+* Entschuldigung, wenn ich kurz unterbreche …
 ! Entschuldigung + *kurz* + Konjunktion. Das Wörtchen *kurz* verspricht, dass du das Wort zurückgibst.
 
 ? Jemand unterbricht dich, du willst deinen Gedanken zu Ende bringen.

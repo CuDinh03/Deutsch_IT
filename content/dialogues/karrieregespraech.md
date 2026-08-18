@@ -210,10 +210,10 @@ flowchart LR
 
 ```uebung
 ? Welche Eröffnung ist im deutschen 1:1 die wirksamste?
-* Ich würde mich gern in Richtung Senior entwickeln — was fehlt dafür aus deiner Sicht noch?
 x Ich möchte mehr Gehalt.
 x Ich mache hier eigentlich schon Senior-Arbeit.
 x Wann werde ich endlich befördert?
+* Ich würde mich gern in Richtung Senior entwickeln — was fehlt dafür aus deiner Sicht noch?
 ! Richtung nennen **und** die Lücke erfragen. Die anderen drei fordern ein Ergebnis, ohne den Weg dorthin zu klären — und lassen der anderen Seite nur ja oder nein.
 
 ? Wie belegst du Leistung, ohne anzugeben?
@@ -224,24 +224,24 @@ x Ich arbeite sehr viel.
 ! Handlung plus Zahl. Selbsteinschätzungen sind im Deutschen wertlos; überprüfbare Fakten sind es nicht.
 
 ? „Wo ich noch Luft sehe, ist …“ Was ist das?
+x eine Frage
 * die eigentliche Kritik, höflich verpackt
 x ein Lob
 x eine Nebenbemerkung ohne Bedeutung
-x eine Frage
 ! Deutsche Führungskräfte verpacken Kritik im 1:1 oft in eine Möglichkeitsform. *Luft* heißt: Da fehlt etwas. Genau hier musst du nachhaken, nicht nicken.
 
 ? Welche Frage macht aus einem Eindruck ein Kriterium?
-* Woran würdest du in sechs Monaten sehen, dass ich so weit bin?
-x Findest du, dass ich gut arbeite?
 x Bin ich auf dem richtigen Weg?
 x Was denkst du über meine Leistung?
+* Woran würdest du in sechs Monaten sehen, dass ich so weit bin?
+x Findest du, dass ich gut arbeite?
 ! Die anderen drei laden zu einer freundlichen, unverbindlichen Antwort ein. *Woran würdest du sehen* verlangt ein beobachtbares Merkmal.
 
 ? Warum fragst du nach Budget- oder Stellenrahmen?
-* weil strukturelle Grenzen sonst ungenannt bleiben und dein Plan ins Leere läuft
 x um Druck aufzubauen
 x weil das Gehalt sonst nicht steigt
 x um zu zeigen, dass du dich auskennst
+* weil strukturelle Grenzen sonst ungenannt bleiben und dein Plan ins Leere läuft
 ! Eine Beförderung kann an einer Runde, einem Budget oder einer offenen Stelle hängen. Diese Frage kostet nichts und verhindert ein halbes Jahr Arbeit auf ein Ziel, das gar nicht offen ist.
 
 ? Wer schreibt die Zusammenfassung des Gesprächs?
@@ -256,17 +256,17 @@ x niemand, ein Gespräch reicht
 ! Annehmen, nicht verteidigen. Wer sofort erklärt, warum es so kommen musste, bekommt beim nächsten Mal kein ehrliches Feedback mehr.
 
 ? Die Führungskraft nennt noch keine Gehaltszahl. Was tust du?
+x mit einem anderen Angebot drohen
 * akzeptieren und die Zahl an die Beförderung koppeln
 x auf einer Zahl bestehen
 x das Gespräch beenden
-x mit einem anderen Angebot drohen
 ! Solange die Beförderung nicht steht, kann die Führungskraft oft wirklich nichts zusagen. Die Gehaltsverhandlung folgt dann dem Muster aus [Dialogue · Gehaltsgespräch](#/dialogues/gehaltsgespraech).
 
 ? „Onboarding auf mehrere Schultern verteilen“ bedeutet …
-* die Aufgabe auf mehrere Personen aufteilen, damit sie nicht an einer hängt
-x mehr Zeit dafür einplanen
 x das Onboarding abschaffen
 x die Verantwortung abgeben
+* die Aufgabe auf mehrere Personen aufteilen, damit sie nicht an einer hängt
+x mehr Zeit dafür einplanen
 ! Ein Kriterium, das oft übersehen wird: Ein Senior macht sich in Routineaufgaben **ersetzbar**, um für die schwierigen frei zu sein.
 ```
 

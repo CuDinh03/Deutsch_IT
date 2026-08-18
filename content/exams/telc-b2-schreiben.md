@@ -35,17 +35,17 @@ mehr wert als ein weiterer eleganter Nebensatz zu einem Punkt, den du schon hast
 
 ```uebung
 ? Der Prompt hat vier Vorgaben. Du hast 5 Minuten übrig und drei sehr gut beantwortet. Was tust du?
-x den schönsten Absatz noch verbessern
-* den vierten Punkt in einem einfachen Satz ergänzen
 x einen längeren Schlusssatz schreiben
 x mehr Konjunktiv II einbauen
+x den schönsten Absatz noch verbessern
+* den vierten Punkt in einem einfachen Satz ergänzen
 ! Inhaltspunkte werden einzeln gewertet. Ein fehlender Punkt kostet eine ganze Position; ein schlichter Satz sichert sie.
 
 ? Was ist schlimmer?
-x drei kleine Grammatikfehler
 * ein nicht beantworteter Inhaltspunkt
 x eine etwas kurze Einleitung
 x ein wiederholtes Wort
+x drei kleine Grammatikfehler
 ! Grammatikfehler gehen in eine Gesamteinschätzung ein. Ein fehlender Inhaltspunkt ist ein direkter Abzug.
 ```
 
@@ -67,24 +67,24 @@ Nur der mittlere Teil ändert sich. Alles andere schreibst du auswendig:
 
 ```uebung
 ? Wie geht es nach „Sehr geehrte Frau Weber," weiter?
+x ich Habe ihre E-Mail erhalten.
 * ich habe Ihre E-Mail erhalten.
 x Ich habe Ihre E-Mail erhalten.
 x Ich Habe Ihre E-Mail erhalten.
-x ich Habe ihre E-Mail erhalten.
 ! Nach der Anrede-Komma wird **klein** weitergeschrieben. Für englisch- und vietnamesischsprachige Lernende ist das kontraintuitiv — und genau deshalb ein sicheres Erkennungsmerkmal.
 
 ? Welcher Gruß passt zu „Sehr geehrte Damen und Herren,"?
-* Mit freundlichen Grüßen
-x Viele Grüße
 x VG
 x Liebe Grüße
+* Mit freundlichen Grüßen
+x Viele Grüße
 ! Formale Anrede verlangt formalen Gruß. Register-Bruch innerhalb eines Briefes kostet bei „kommunikative Gestaltung".
 
 ? Wie machst du einen Inhaltspunkt für den Prüfer **sichtbar**?
-* je ein eigener Absatz oder klar abgegrenzter Satz pro Punkt
 x alle Punkte in einem langen Absatz verweben
 x die Punkte am Ende auflisten
 x die Punkte nummerieren wie im Prompt
+* je ein eigener Absatz oder klar abgegrenzter Satz pro Punkt
 ! Der Prüfer hakt ab. Ein eigener Absatz pro Punkt macht das trivial. Nummerieren wie im Aufgabenblatt wirkt dagegen wie eine Liste, nicht wie ein Brief.
 ```
 
@@ -115,24 +115,24 @@ x Ich schreibe wegen der Sache.
 ! Formell, knapp, sofort verständlich. Ausrufezeichen und Kurzformen gehören nicht in den Prüfungsbrief.
 
 ? Einen Vorschlag machen:
+x Termin verschieben wäre gut.
 * Ich schlage vor, dass wir den Termin verschieben.
 x Wir verschieben den Termin.
 x Vielleicht könnte man eventuell den Termin verschieben.
-x Termin verschieben wäre gut.
 ! Option 2 ist eine Anweisung, nicht ein Vorschlag. Option 3 stapelt Hedges — im Deutschen wirkt das unsicher, nicht höflich.
 
 ? Höflich um etwas bitten:
-* Könnten Sie mir bitte bis Freitag Bescheid geben?
-x Geben Sie mir bis Freitag Bescheid.
 x Ich will bis Freitag eine Antwort.
 x Sie müssen mir bis Freitag antworten.
+* Könnten Sie mir bitte bis Freitag Bescheid geben?
+x Geben Sie mir bis Freitag Bescheid.
 ! Konjunktiv II (*könnten*) ist die Standardhöflichkeit im formellen Brief.
 
 ? Einen Nachteil einräumen und trotzdem widersprechen:
-* Zwar spart die Regel Zeit, allerdings steigt das Risiko.
 x Die Regel spart Zeit und das Risiko steigt.
 x Die Regel ist gut, aber auch schlecht.
 x Die Regel spart Zeit. Das Risiko steigt.
+* Zwar spart die Regel Zeit, allerdings steigt das Risiko.
 ! *zwar … allerdings* zeigt, dass du beide Seiten siehst — genau das erwartet die Bewertung bei „Wortschatz/Gestaltung".
 
 ? Schlusssatz:
@@ -165,24 +165,24 @@ Dieser Brief enthält typische Prüfungsfehler.
 
 ```uebung
 ? Was ist direkt nach der Anrede falsch?
+x nach der Anrede gehört ein Punkt
 * „Ich" muss kleingeschrieben werden
 x es fehlt ein Ausrufezeichen
 x die Anrede ist zu formell
-x nach der Anrede gehört ein Punkt
 ! Nach dem Komma der Anrede geht der Satz klein weiter: *…Weber,* → *ich schreibe …*
 
 ? Welches Satzzeichen fehlt zweimal?
-* das Komma vor dem Nebensatz
-x der Punkt am Satzende
 x das Fragezeichen
 x der Doppelpunkt
+* das Komma vor dem Nebensatz
+x der Punkt am Satzende
 ! *Ich schreibe Ihnen**,** weil …* und *Ich würde mich freuen**,** wenn …* — im Deutschen ist das Komma vor dem Nebensatz Pflicht, nicht optional wie im Englischen.
 
 ? Welche Wörter müssen großgeschrieben werden? (mehrere richtig)
-* build
 * logs
 * konfiguration
 * fehler
+* build
 ! Alle vier sind Nomen: der Build, die Logs, die Konfiguration, der Fehler. Auch englische Lehnwörter werden im Deutschen großgeschrieben.
 
 ? Was stimmt mit „Könnten sie" nicht?
@@ -193,10 +193,10 @@ x nichts, das ist korrekt
 ! Kleingeschriebenes *sie* heißt „they/she". In einem Sie-Brief ändert das die Bedeutung — und wird als Fehler gewertet.
 
 ? Was ist am Gruß falsch?
+x nichts
 * „Viele Grüße" passt nicht zur formellen Anrede
 x der Gruß fehlt ganz
 x es fehlt der Nachname — und der Gruß ist zu informell
-x nichts
 ! Zwei Dinge: Register-Bruch (formelle Anrede + neutraler Gruß) und der fehlende Nachname. Die beste Antwort nennt beides — hier zählt jedoch der Register-Bruch als Kernfehler.
 ```
 

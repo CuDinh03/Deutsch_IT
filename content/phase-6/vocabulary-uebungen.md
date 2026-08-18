@@ -55,31 +55,31 @@ x das
 
 ```uebung
 ? Welches Wort beschreibt KEIN Arbeitszeitmodell?
+* die Elternzeit
 x die Gleitzeit
 x die Kernzeit
 x die Vertrauensarbeitszeit
-* die Elternzeit
 ! Elternzeit ist eine Abwesenheit, kein Zeitmodell — trotz des ähnlichen Baus.
 
 ? Welches Wort gehört NICHT zur Abwesenheit?
-x der Urlaub
-x die Krankmeldung
 x die Elternzeit
 * die Fortbildung
+x der Urlaub
+x die Krankmeldung
 ! Eine Fortbildung ist Arbeitszeit, keine Abwesenheit — auch wenn du nicht am Schreibtisch sitzt.
 
 ? Welches Wort bezeichnet eine Institution, keine Person?
-x der Vorgesetzte
 x die Personalerin
 x der Betriebsratsvorsitzende
 * die Personalabteilung
+x der Vorgesetzte
 ! Die Abteilung ist die Organisationseinheit. Die Personen darin sind *Personaler* und *Personalerinnen*.
 
 ? Welche zwei Wörter bedeuten praktisch dasselbe? (mehrere richtig)
-* die Fortbildung
 * die Weiterbildung
 x die Ausbildung
 x die Einarbeitung
+* die Fortbildung
 ! *Fort-* und *Weiterbildung* überschneiden sich stark. *Die Ausbildung* ist die duale Berufsausbildung, *die Einarbeitung* das Onboarding.
 ```
 
@@ -94,24 +94,24 @@ x Kernzeit gilt nur für Führungskräfte.
 ! Gleitzeit = Spielraum, Kernzeit = Anwesenheitspflicht, typisch 10 bis 15 Uhr. Ohne Kernzeit heißt es meist *Vertrauensarbeitszeit*.
 
 ? Unterschied zwischen *Krankmeldung* und *Krankschreibung*?
+x Die Krankschreibung ist freiwillig.
 * Krankmeldung = du meldest dich beim Arbeitgeber; Krankschreibung = das Attest vom Arzt.
 x Beides ist dasselbe.
 x Krankmeldung kommt vom Arzt, Krankschreibung vom Arbeitgeber.
-x Die Krankschreibung ist freiwillig.
 ! Zwei getrennte Schritte, zwei getrennte Adressaten. Melden musst du dich sofort; die Krankschreibung reichst du nach.
 
 ? *Freizeitausgleich* bedeutet …
-* Überstunden werden durch freie Zeit abgegolten, nicht ausgezahlt.
-x zusätzlicher Urlaub für alle
 x eine Gehaltszahlung für Überstunden
 x eine Pause während der Kernzeit
+* Überstunden werden durch freie Zeit abgegolten, nicht ausgezahlt.
+x zusätzlicher Urlaub für alle
 ! Der übliche Umgang mit Überstunden in deutschen Tech-Firmen — verbucht auf dem *Gleitzeitkonto*.
 
 ? *Elternzeit* — was stimmt?
-* Beide Elternteile können sie nehmen; der Arbeitsplatz bleibt geschützt.
 x Nur Mütter können sie nehmen.
 x Sie beendet das Arbeitsverhältnis.
 x Sie ist auf zwei Wochen begrenzt.
+* Beide Elternteile können sie nehmen; der Arbeitsplatz bleibt geschützt.
 ! Elternzeit ist ein normaler, respektierter Schritt und kein Karriererisiko. Nicht zu verwechseln mit *Mutterschutz*, der gesetzlichen Schutzfrist rund um die Geburt.
 
 ? Was ist eine *Betriebsvereinbarung*?
@@ -162,10 +162,10 @@ x eine unverbindliche Empfehlung der Personalabteilung
 
 ```uebung
 ? *der Elternzeitantrag* — welches Wort bestimmt Artikel und Grundbedeutung?
+x alle drei gleich
 * Antrag
 x Eltern
 x Zeit
-x alle drei gleich
 ! Komposita sind kopf-final: Nur der letzte Teil regiert. Von rechts lesen — Antrag ← Zeit ← Eltern.
 
 ? Bilde: Gehalt + Verhandlung → ___
@@ -177,10 +177,10 @@ x alle drei gleich
 ! Wieder Fugen-s. Das *-s-* trägt keine Bedeutung — beim Lesen ignorieren.
 
 ? Was bedeutet *das Gleitzeitkonto*?
-* ein Konto, auf dem Plus- und Minusstunden verbucht werden
-x ein Bankkonto für das Gehalt
 x der Urlaubsanspruch in Tagen
 x ein Konto für Fortbildungen
+* ein Konto, auf dem Plus- und Minusstunden verbucht werden
+x ein Bankkonto für das Gehalt
 ! Kopf: *das Konto*. Darauf wandern Überstunden — und werden später als Freizeit abgebaut.
 
 ? Zerlege *die Arbeitsunfähigkeitsbescheinigung* und nenne den Kopf.

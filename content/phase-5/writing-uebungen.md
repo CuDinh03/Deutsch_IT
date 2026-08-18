@@ -21,39 +21,39 @@ Musterlösungen am Ende.
 
 ```uebung
 ? In welcher Reihenfolge stehen die Stationen?
-* umgekehrt chronologisch — die neueste zuerst
 x chronologisch — die älteste zuerst
 x nach Wichtigkeit
 x alphabetisch nach Firma
+* umgekehrt chronologisch — die neueste zuerst
 ! *Umgekehrt chronologisch* ist Standard. Die Person, die liest, will zuerst wissen, was du **jetzt** machst.
 
 ? Welche Angaben sind heute NICHT erforderlich? (mehrere richtig)
-* das Bewerbungsfoto
-* das Geburtsdatum
 * der Familienstand
 x der Name
 x die Kontaktdaten
+* das Bewerbungsfoto
+* das Geburtsdatum
 ! Seit dem Allgemeinen Gleichbehandlungsgesetz (AGG) sind Foto, Geburtsdatum und Familienstand freiwillig. Üblich sind sie trotzdem noch — du entscheidest.
 
 ? Wie lang darf ein Lebenslauf sein?
+x so lang wie nötig
 * ein bis zwei Seiten
 x mindestens drei Seiten
 x eine halbe Seite
-x so lang wie nötig
 ! Zwei Seiten sind die Obergrenze auch bei zehn Jahren Erfahrung. Ältere Stationen werden zu einer Zeile zusammengefasst.
 
 ? Welche Bulletzeile ist die bessere?
-* Latenz der Zahlungs-APIs von 450 auf 180 ms reduziert
-x Verantwortlich für verschiedene Aufgaben im Backend
 x Mitarbeit in einem agilen Team
 x Programmierung mit Java
+* Latenz der Zahlungs-APIs von 450 auf 180 ms reduziert
+x Verantwortlich für verschiedene Aufgaben im Backend
 ! Verb plus Zahl. „Mitarbeit“ und „verschiedene Aufgaben“ stehen in jedem zweiten Lebenslauf und tragen keine Information.
 
 ? Wie heißt die Datei sinnvollerweise?
-* Lebenslauf_Dinh.pdf
 x cv_final_v3.pdf
 x Dokument1.pdf
 x lebenslauf.docx
+* Lebenslauf_Dinh.pdf
 ! Sprechender Name plus PDF. Word-Dateien verschieben sich beim Öffnen — und in der Ablage der Personalabteilung liegen dreißig Dateien namens *Lebenslauf*.
 ```
 
@@ -68,24 +68,24 @@ x Einleitung · Hauptteil · Schluss
 ! Dazu die Grußformel und die Anlagenzeile. Alles auf **einer** Seite.
 
 ? Welche zwei Fragen beantwortet das Anschreiben?
+x Woher komme ich? und Wohin will ich?
 * Warum ihr? und Warum ich?
 x Wer bin ich? und Was verdiene ich?
 x Was kann ich? und Was will ich?
-x Woher komme ich? und Wohin will ich?
 ! Die Einleitung beantwortet *Warum ihr*, der Hauptteil *Warum ich*. Wer beides vermischt, schreibt eine Selbstbeschreibung ohne Bezug zur Stelle.
 
 ? Welcher Betreff ist der bessere?
-* Bewerbung als Backend-Entwickler:in (m/w/d), Kennziffer BE-2291
-x Bewerbung
 x Meine Bewerbung bei Ihnen
 x Sehr geehrte Damen und Herren
+* Bewerbung als Backend-Entwickler:in (m/w/d), Kennziffer BE-2291
+x Bewerbung
 ! Stelle plus Kennziffer. Ohne Kennziffer muss jemand deine Bewerbung von Hand zuordnen — bei zwölf offenen Stellen ist das ein echter Reibungspunkt.
 
 ? Womit beginnt eine gute Einleitung?
-* mit einem konkreten, recherchierten Bezug zur Firma
 x mit „Hiermit bewerbe ich mich auf Ihre Stellenanzeige.“
 x mit deinem Lebenslauf in Kurzform
 x mit deiner Gehaltsvorstellung
+* mit einem konkreten, recherchierten Bezug zur Firma
 ! „Hiermit bewerbe ich mich“ ist grammatisch korrekt und inhaltlich leer — es sagt nur, was ohnehin im Betreff steht.
 
 ? Wohin gehören Gehaltsvorstellung und Verfügbarkeit?
@@ -100,22 +100,22 @@ x gar nicht ins Anschreiben
 
 ```uebung
 ? „Sehr geehrte Frau Berger,“ — wie geht es weiter?
-* mit großem Interesse habe ich Ihre Stellenanzeige gelesen.
 x Mit großem Interesse habe ich Ihre Stellenanzeige gelesen.
+* mit großem Interesse habe ich Ihre Stellenanzeige gelesen.
 ! Das Komma nach der Anrede setzt den Satz fort — also klein weiter. Derselbe Fehler wie in [Phase 4 · Writing](#/phase-4/writing-uebungen), hier aber sichtbarer, weil eine Bewerbung gelesen **wird**.
 
 ? Der Name der Ansprechpartnerin steht in der Anzeige. Welche Anrede?
-* Sehr geehrte Frau Berger,
-x Sehr geehrte Damen und Herren,
 x Hallo Frau Berger,
 x Liebe Frau Berger,
+* Sehr geehrte Frau Berger,
+x Sehr geehrte Damen und Herren,
 ! Wenn der Name dasteht, benutzt man ihn — alles andere wirkt, als hättest du die Anzeige nicht gelesen. *Hallo* nur, wenn die Anzeige durchgehend duzt.
 
 ? Was ist nach „Mit freundlichen Grüßen“ richtig?
-* kein Komma, danach eine Leerzeile und der Name
 x ein Komma, dann der Name
 x ein Punkt
 x ein Ausrufezeichen
+* kein Komma, danach eine Leerzeile und der Name
 ! *Mit freundlichen Grüßen* steht ohne Satzzeichen. Das Komma dahinter ist einer der häufigsten Fehler in Bewerbungen von Nicht-Muttersprachlern.
 
 ? Wie sieht die Anlagenzeile aus?
@@ -158,24 +158,24 @@ x Attachments: CV, references
 
 ```uebung
 ? Wann schickst du die Dankes-Mail?
+x erst nach der Absage
 * am selben Tag
 x nach einer Woche
 x gar nicht, das ist unüblich
-x erst nach der Absage
 ! Am selben oder am folgenden Tag. Später wirkt es nachgeschoben.
 
 ? Wie lang ist sie?
-* vier bis fünf Zeilen
-x eine ganze Seite
 x zwei Sätze
 x so lang wie das Anschreiben
+* vier bis fünf Zeilen
+x eine ganze Seite
 ! Dank, ein konkreter Bezug aufs Gespräch, ein Schlusssatz. Mehr wird nicht gelesen.
 
 ? Was gehört NICHT in die Dankes-Mail?
-* die Gehaltsverhandlung
 x der Dank für das Gespräch
 x ein inhaltlicher Bezug auf das Gesprochene
 x die Bereitschaft für Rückfragen
+* die Gehaltsverhandlung
 ! Gehalt gehört ins Gespräch oder in die Verhandlung danach — nicht in eine Höflichkeitsmail.
 
 ? Bezug herstellen: „Unser ___ über Ihre Microservice-Architektur hat mein Interesse noch verstärkt.“

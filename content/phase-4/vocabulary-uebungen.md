@@ -54,10 +54,10 @@ x die
 
 ```uebung
 ? Welches Wort gehört NICHT zur Vorbereitung einer Besprechung?
-x der Termin
 x die Einladung
 x die Tagesordnung
 * das Protokoll
+x der Termin
 ! Das Protokoll entsteht **danach**. Die anderen drei kommen vorher.
 
 ? Welches Wort ist KEINE Besprechungsform?
@@ -68,10 +68,10 @@ x die Schulung
 ! Eine Rückmeldung ist ein Inhalt, kein Termin im Kalender.
 
 ? Welches Wort gehört NICHT zum Nachgang einer Besprechung?
+* der Tagesordnungspunkt
 x die Maßnahme
 x die Frist
 x der offene Punkt
-* der Tagesordnungspunkt
 ! Der TOP strukturiert die Sitzung selbst; Maßnahme, Frist und offener Punkt leben danach weiter.
 ```
 
@@ -79,24 +79,24 @@ x der offene Punkt
 
 ```uebung
 ? *die Abstimmung* hat zwei Bedeutungen. Welche? (mehrere richtig)
+x das Verschieben eines Termins
 * die Absprache / Koordination zwischen Personen
 * die Abstimmung im Sinne von Wählen
 x die Ablehnung eines Vorschlags
-x das Verschieben eines Termins
 ! „Ich muss mich noch mit dem Team abstimmen" = koordinieren. „Wir machen eine Abstimmung" = abstimmen lassen. Der Kontext klärt es immer.
 
 ? „Ich bitte um kurze Rückmeldung." Was ist gemeint?
-* Bitte antworte mir.
-x Bitte kritisiere meine Arbeit.
 x Bitte komm zur Besprechung.
 x Bitte gib mir die Unterlagen zurück.
+* Bitte antworte mir.
+x Bitte kritisiere meine Arbeit.
 ! Zwei Leben eines Wortes: In der Besprechung ist *Rückmeldung* das Feedback, in der E-Mail einfach „eine Antwort".
 
 ? Was ist *ein Vieraugengespräch*?
-* ein Gespräch zu zweit, ohne weitere Teilnehmende
 x eine Besprechung mit vier Personen
 x eine Videokonferenz
 x eine Schulung
+* ein Gespräch zu zweit, ohne weitere Teilnehmende
 ! Wörtlich „unter vier Augen" — zwei Personen, vier Augen. Das deutsche Wort für das 1:1.
 
 ? „Nach Absprache mit dem Kunden …" bedeutet …

@@ -22,18 +22,18 @@ lesen. Block C und D sind freie Produktion mit Musterlösungen am Ende.
 
 ```uebung
 ? „haben“ im Konjunktiv II, 1. Sg.
-* hätte
 x würde haben
+* hätte
 ! Hilfsverben, *werden* und die Modalverben haben eine eigene Kurzform. *würde haben* ist nicht falsch, klingt aber schwerfällig.
 
 ? „analysieren“ im Konjunktiv II, 1. Sg.
-x analysierte
 * würde analysieren
+x analysierte
 ! Bei fast allen Vollverben nimmt man *würde* + Infinitiv. *analysierte* ist formal Konjunktiv II, aber nicht von der Vergangenheit zu unterscheiden.
 
 ? „können“ im Konjunktiv II, 3. Sg.
-* könnte
 x würde können
+* könnte
 ! Modalverben bilden den Konjunktiv II mit Umlaut: *könnte, müsste, dürfte, sollte*. Nur *wollen* und *sollen* bekommen keinen Umlaut.
 
 ? „sein“ im Konjunktiv II, 3. Sg.
@@ -42,12 +42,12 @@ x würde sein
 ! *wäre* ist der meistgebrauchte Konjunktiv II im ganzen Gespräch: *Das wäre für mich ideal.*
 
 ? Welche Formen sind Kurzformen des Konjunktiv II? (mehrere richtig)
-* hätte
-* wäre
-* müsste
 * ließe
 x würde arbeiten
 x hat
+* hätte
+* wäre
+* müsste
 ! *ließe* (von *lassen*) gehört zu den starken Verben mit gebräuchlicher Kurzform — daher *Ließe sich das noch verhandeln?*
 ```
 
@@ -65,15 +65,15 @@ x Perfekt: bin … gewesen
 ! *sein, haben* und die Modalverben stehen auch gesprochen im Präteritum: *war, hatte, konnte, musste*.
 
 ? „Bei Zalando ___ ich die Zahlungs-APIs.“ (im schriftlichen Anschreiben)
-x Perfekt: habe … betreut
 * Präteritum: betreute
+x Perfekt: habe … betreut
 ! Der geschriebene Bewerbungstext erzählt im Präteritum. Genau umgekehrt zum Gespräch.
 
 ? Warum klingt „Ich migrierte die Services und optimierte die Queries“ im Gespräch falsch?
-* Weil gesprochenes Deutsch bei Vollverben das Perfekt nimmt.
 x Weil die Verben unregelmäßig sind.
 x Weil das Präteritum grammatisch falsch ist.
 x Weil die Reihenfolge nicht stimmt.
+* Weil gesprochenes Deutsch bei Vollverben das Perfekt nimmt.
 ! Grammatisch korrekt, im Register aber daneben: Das klingt vorgelesen. Im Gespräch: *habe migriert … habe optimiert*.
 ```
 
@@ -81,15 +81,15 @@ x Weil die Reihenfolge nicht stimmt.
 
 ```uebung
 ? „Ich bin ein Entwickler, ___ gern im Team arbeitet.“
-* der — Nominativ
 x den — Akkusativ
 x dem — Dativ
+* der — Nominativ
 ! Das Pronomen ist Subjekt seines eigenen Satzes → Nominativ. Genus kommt vom Bezugswort (*der Entwickler*).
 
 ? „Ein Projekt, ___ ich von Grund auf aufgebaut habe.“
+* das — Akkusativ
 x der
 x dem
-* das — Akkusativ
 ! *das Projekt* ist Neutrum; im Relativsatz ist es das Objekt von *aufbauen* → Akkusativ. Neutrum sieht in Nom. und Akk. gleich aus.
 
 ? „Eine Technologie, mit ___ ich täglich arbeite.“
@@ -99,15 +99,15 @@ x deren
 ! Die Präposition regiert den Kasus: *mit* + Dativ. Feminin Dativ = *der*.
 
 ? „Ein Kollege, ___ ich oft geholfen habe.“
+x der
 x den
 * dem — Dativ, weil *helfen* den Dativ verlangt
-x der
 ! Nicht die Präposition entscheidet hier, sondern das Verb. *helfen, danken, gratulieren* + Dativ.
 
 ? „Eine Firma, ___ Tech-Blog ich gelesen habe.“
+* deren — Genitiv
 x der
 x die
-* deren — Genitiv
 ! Besitzverhältnis → Genitiv. Feminin und Plural: *deren*; maskulin und neutrum: *dessen*.
 ```
 
@@ -115,24 +115,24 @@ x die
 
 ```uebung
 ? Welcher Satz wirkt im Gespräch am unreifsten?
+x Ich hätte da eine Frage zum Gehalt.
 * Ich will mehr Gehalt.
 x Ich möchte mich weiterentwickeln.
 x Ich würde gern mehr Verantwortung übernehmen.
-x Ich hätte da eine Frage zum Gehalt.
 ! *wollen* ist im Deutschen kein neutrales „want“. Es klingt fordernd — im Gespräch fast immer *möchten* oder *würde gern*.
 
 ? „Was soll ich in den ersten 90 Tagen liefern?“ Was signalisiert *sollen*?
-* eine Erwartung, die von anderen kommt
-x einen eigenen Wunsch
 x eine Erlaubnis
 x eine Verpflichtung, die ich mir selbst setze
+* eine Erwartung, die von anderen kommt
+x einen eigenen Wunsch
 ! *sollen* fragt nach fremden Erwartungen — genau die richtige Frage, um zu zeigen, dass du an Wirkung denkst.
 
 ? „Dürfte ich kurz nachfragen?“ Was drückt *dürfen* hier aus?
-* eine Bitte um Erlaubnis
 x eine Fähigkeit
 x eine Notwendigkeit
 x einen Wunsch
+* eine Bitte um Erlaubnis
 ! *dürfen* holt Erlaubnis ein. Im Konjunktiv II (*dürfte*) wird daraus die höflichste Nachfrage, die das Deutsche kennt.
 ```
 

@@ -23,17 +23,17 @@ Musterlösungen am Ende.
 
 ```uebung
 ? „Stand: 12.06.2026 — diese Seite wird nicht mehr gepflegt." Welche Textsorte?
-* Wiki-Seite
 x Richtlinie
 x Rundmail
 x Stellenanzeige
+* Wiki-Seite
 ! Nur Wiki-Seiten führen einen *Stand*. Das ist zugleich das Erste, was du prüfst: Eine Seite ohne aktuelles Datum ist ein Gerücht.
 
 ? „Die Nutzung privater Geräte ist untersagt, es sei denn, sie wurde von der IT genehmigt."
-x Wiki-Seite
 * Richtlinie
 x Anleitung
 x Protokoll
+x Wiki-Seite
 ! *ist untersagt* + *es sei denn* = Pflicht plus Ausnahme. Das ist die DNA jeder Richtlinie.
 
 ? „Liebe Kolleginnen und Kollegen, ab nächster Woche wird das interne Wiki umgestellt."
@@ -55,11 +55,11 @@ x Protokoll
 
 ```uebung
 ? Welche Formulierungen sind **harte Pflicht**? (mehrere richtig)
+x sollte
+x wird empfohlen
 * ist verpflichtet
 * muss
 * ist untersagt
-x sollte
-x wird empfohlen
 ! *muss / ist verpflichtet / ist untersagt / ist nicht gestattet* sind bindend. *sollte / wird empfohlen / kann* sind es nicht — und dieser Unterschied entscheidet, ob du heute etwas tun musst.
 
 ? „es sei denn" leitet ein …
@@ -70,24 +70,24 @@ x eine Empfehlung
 ! Das Schlupfloch. In einer Richtlinie ist es oft der einzige Satzteil, der dich betrifft.
 
 ? „bis spätestens 15. September" heißt …
+x Dauer der Maßnahme
 * Frist — danach ist es zu spät
 x Empfehlung für einen Termin
 x Beginn eines Zeitraums
-x Dauer der Maßnahme
 ! *bis spätestens* markiert immer das Ende. *ab* markiert den Anfang: *ab dem 1. Oktober*.
 
 ? „Ausnahmen können auf Antrag gewährt werden." Was bedeutet das praktisch?
-* Es gibt eine Ausnahme, aber du musst sie beantragen.
-x Es gibt keine Ausnahmen.
 x Die Ausnahme gilt automatisch.
 x Die Regel ist unverbindlich.
+* Es gibt eine Ausnahme, aber du musst sie beantragen.
+x Es gibt keine Ausnahmen.
 ! *auf Antrag* heißt: Der Vorgang startet nicht von selbst. Übersehen führt regelmäßig zu abgelaufenen Fristen.
 
 ? Welche drei Dinge suchst du in einer Richtlinie zuerst?
-* Pflicht, Geltungsbereich, Ausnahme
 x Autor, Datum, Länge
 x Einleitung, Hauptteil, Schluss
 x Kosten, Nutzen, Risiko
+* Pflicht, Geltungsbereich, Ausnahme
 ! Was muss ich tun · gilt das für mich · komme ich raus. Alles andere ist Begründungstext.
 ```
 
@@ -134,17 +134,17 @@ x Nichts, VPN ist optional.
 ! Nominalstil: *die Schemaerstellung* = „weil das Schema erstellt wird".
 
 ? Der Simulator hängt nach einem Branch-Wechsel. Was tust du?
+x den VPN-Zugang beantragen
 * den Simulator neu starten
 x die Datenbank neu aufsetzen
 x das Repository neu klonen
-x den VPN-Zugang beantragen
 ! Der Abschnitt sagt es doppelt: Neustart hilft, Neuaufsetzen *ist nicht erforderlich*. Verneinte Hinweise sind in Wikis oft die wertvollsten.
 
 ? Welchen Abschnitt liest du zuerst, wenn du den Dienst nur schnell starten willst?
+x Ansprechpartner
 x Überblick
 * Voraussetzungen
 x Bekannte Probleme
-x Ansprechpartner
 ! Erst prüfen, ob du überhaupt starten kannst. Wer mit *Vorgehen* anfängt, scheitert an Schritt 1 und sucht den Fehler an der falschen Stelle.
 
 ? „stellt sie dem Bestellsystem über eine interne Schnittstelle zur Verfügung" — welches Funktionsverbgefüge steckt darin?
@@ -171,10 +171,10 @@ x Ansprechpartner
 
 ```uebung
 ? Gilt die Richtlinie für einen externen Dienstleister?
-x ja, uneingeschränkt
-* nein — für ihn gilt sein Rahmenvertrag
 x nur mit Genehmigung
 x das steht nicht im Text
+x ja, uneingeschränkt
+* nein — für ihn gilt sein Rahmenvertrag
 ! §1 *Geltungsbereich* beantwortet immer die Frage „betrifft mich das?". Hier wird eine ganze Gruppe ausdrücklich anders geregelt.
 
 ? Was ist nach §2 verboten?
@@ -185,24 +185,24 @@ x das Arbeiten von zu Hause
 ! Genau lesen: verboten ist die **Verarbeitung personenbezogener Daten**, nicht das Gerät an sich. Richtlinien sind eng formuliert — und diese Enge ist dein Freiraum.
 
 ? Wie bekommt man eine Ausnahme?
+x gar nicht
 * durch vorherige schriftliche Genehmigung der IT-Sicherheit
 x durch eine mündliche Absprache mit dem Team
 x automatisch nach Ablauf der Frist
-x gar nicht
 ! Drei Bedingungen in einem Satz: *vorher*, *schriftlich*, *durch die IT-Sicherheit*. Fehlt eine, gilt die Ausnahme nicht.
 
 ? Was passiert bei Nichteinhaltung der Frist?
-* Die bestehende Übergangsregelung erlischt.
-x Es wird eine Geldstrafe fällig.
 x Die Frist verlängert sich automatisch.
 x Die Richtlinie gilt nicht mehr.
+* Die bestehende Übergangsregelung erlischt.
+x Es wird eine Geldstrafe fällig.
 ! *erlöschen* = ohne weiteres Zutun enden. Ein typisches Verwaltungswort, das man einmal lernt und dann überall wiedersieht.
 
 ? „Anträge sind bis spätestens 15.09.2026 einzureichen." Was drückt „sind … einzureichen" aus?
-* eine Pflicht — sie müssen eingereicht werden
 x eine Möglichkeit
 x eine Empfehlung
 x eine Vergangenheit
+* eine Pflicht — sie müssen eingereicht werden
 ! *sein* + *zu* + Infinitiv = Passiv mit Notwendigkeit, das Gegenstück zu *die einzureichenden Anträge*. Amtsdeutsch pur — und extrem häufig.
 
 ? Bis wann musst du handeln, wenn du eine Ausnahme brauchst?
@@ -235,24 +235,24 @@ x eine Genehmigung beantragen
 ! Der Betreff sagt es schon: *Aktion erforderlich bis 29.08.* Deutsche Rundmails stellen die Handlung nach vorn — der Betreff ist kein Titel, sondern eine Anweisung.
 
 ? Was passiert mit einer Seite, die seit drei Jahren niemand angefasst hat?
+x Sie wird an den Autor geschickt.
 * Sie wird automatisch archiviert.
 x Sie wird gelöscht.
 x Sie bleibt unverändert.
-x Sie wird an den Autor geschickt.
 ! *archiviert*, nicht *gelöscht* — und der nächste Halbsatz sagt sogar, dass man sie zurückholen kann. Genau hinsehen lohnt sich: Der Unterschied entscheidet, ob du am Wochenende arbeitest.
 
 ? Kann man eine archivierte Seite zurückholen?
-* ja, auf Anfrage
-x nein
 x nur innerhalb von 24 Stunden
 x nur die Autorin selbst
+* ja, auf Anfrage
+x nein
 ! „eine Wiederherstellung ist auf Anfrage möglich". *auf Anfrage* = du musst danach fragen, es passiert nicht von selbst.
 
 ? „mit einer Nichtverfügbarkeit von etwa vier Stunden ist zu rechnen" — was heißt das?
-* Das System wird voraussichtlich vier Stunden nicht erreichbar sein.
 x Das System fällt garantiert vier Stunden aus.
 x Die Umstellung dauert vier Stunden pro Seite.
 x Vier Stunden Arbeit werden dir angerechnet.
+* Das System wird voraussichtlich vier Stunden nicht erreichbar sein.
 ! *mit etwas ist zu rechnen* = es ist zu erwarten. Wieder *sein* + *zu* + Infinitiv, diesmal in der Bedeutung „man muss damit rechnen".
 ```
 

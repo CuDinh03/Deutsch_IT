@@ -39,10 +39,10 @@ den ganzen Tag.
 
 ```uebung
 ? Was ist die wichtigste organisatorische Eigenschaft des Goethe C1?
+x Sprechen zählt doppelt.
 * Die vier Module sind einzeln bestehbar und einzeln wiederholbar.
 x Man muss alle vier am selben Tag bestehen.
 x Es zählt nur der Durchschnitt.
-x Sprechen zählt doppelt.
 ! Das ändert die Strategie: Du optimierst gezielt das schwächste Modul, statt überall gleichmäßig zu üben.
 
 ? Wie viele Punkte braucht man pro Modul?
@@ -50,10 +50,10 @@ x Sprechen zählt doppelt.
 ! Jedes Modul zählt /100, bestanden ab 60. Ein Modul mit 59 zieht die anderen nicht mit runter — es wird einfach wiederholt.
 
 ? Du hast 75 im Lesen, 72 im Hören, 58 im Schreiben, 70 im Sprechen. Was tust du?
-* nur Schreiben wiederholen
-x die ganze Prüfung wiederholen
 x nichts, der Durchschnitt reicht
 x Lesen und Schreiben wiederholen
+* nur Schreiben wiederholen
+x die ganze Prüfung wiederholen
 ! Drei Module sind bestanden und bleiben es. Genau dafür existiert die modulare Struktur.
 ```
 
@@ -77,10 +77,10 @@ Drei Wortgruppen entscheiden dabei fast immer über richtig und falsch:
 
 ```uebung
 ? Im Text steht: „Die Maßnahme stieß auf erheblichen Widerstand.“ Welche Antwort ist richtig?
-* Viele lehnten die Maßnahme ab.
 x Die Maßnahme war erheblich.
 x Die Maßnahme wurde umgesetzt.
 x Es gab keinen Widerstand.
+* Viele lehnten die Maßnahme ab.
 ! Die falsche Option recycelt das auffälligste Wort (*erheblich*). Auf C1 ist wörtliche Nähe eher ein Warnsignal als ein Hinweis.
 
 ? Was bedeutet „Der Autor räumt ein, dass …“?
@@ -91,10 +91,10 @@ x Er erklärt etwas ausführlich.
 ! *einräumen* signalisiert ein Zugeständnis — und danach folgt fast immer ein *aber*.
 
 ? „Nicht zuletzt deshalb wurde das Projekt gestoppt.“ Was heißt das?
+x Das war kein Grund.
 * Das war einer der Gründe, und zwar ein wichtiger.
 x Das war der einzige Grund.
 x Das war der unwichtigste Grund.
-x Das war kein Grund.
 ! *nicht zuletzt* ist eine Abstufung, keine Ausschließlichkeit. Genau hier setzen Distraktoren an.
 
 ? Welche Wörter signalisieren eine Einschränkung? (mehrere richtig)
@@ -151,10 +151,10 @@ gegen **diese eine** Stelle prüfen. Wer den ganzen Text zuerst liest, liest ihn
 
 ```uebung
 ? Was ist die Hauptaussage des zweiten Absatzes?
-* Die Verkürzung wirkt vor allem, weil sie zu besserer Organisation zwingt.
 x Die Vier-Tage-Woche allein steigert die Produktivität.
 x Besprechungen sind das größte Problem in Unternehmen.
 x Fachleute lehnen die Vier-Tage-Woche ab.
+* Die Verkürzung wirkt vor allem, weil sie zu besserer Organisation zwingt.
 ! „Entscheidend sei nicht die Vier-Tage-Woche als solche, sondern der Zwang, die verbleibende Zeit besser zu organisieren.“ Der Rest des Absatzes bereitet genau diesen Satz vor.
 
 ? Welchen Einwand nennt der Text gegen die bisherigen Befunde?
@@ -165,24 +165,24 @@ x Die Produktivität ist überall gesunken.
 ! *Kritiker weisen allerdings darauf hin, dass …* — das Signalwort *allerdings* kündigt die Einschränkung an.
 
 ? „Ob sich das Modell durchsetzt, dürfte weniger von den Studien abhängen als von der Lage am Arbeitsmarkt.“ Was sagt der Satz?
+x Das Modell wird sich nicht durchsetzen.
 * Der Arbeitsmarkt ist der wichtigere Faktor.
 x Studien sind entscheidend.
 x Beide Faktoren sind gleich wichtig.
-x Das Modell wird sich nicht durchsetzen.
 ! *weniger … als* ist ein Vergleich mit klarer Rangfolge. *dürfte* markiert zusätzlich eine Vermutung, keine Behauptung.
 
 ? Wie steht der Text insgesamt zur Vier-Tage-Woche?
-* abwägend — er nennt Belege und Einschränkungen
-x eindeutig befürwortend
 x eindeutig ablehnend
 x sachlich neutral ohne jede Wertung
+* abwägend — er nennt Belege und Einschränkungen
+x eindeutig befürwortend
 ! Typischer C1-Text: Er referiert Befunde, nennt Kritik und ordnet ein, ohne Partei zu ergreifen. Fragen nach der Haltung des Autors zielen fast immer auf genau diese Abwägung.
 
 ? „Kehrt sich diese Lage um, wird sich zeigen, wie belastbar die Überzeugungen tatsächlich waren.“ Was ist grammatisch besonders?
-* ein Konditionalsatz ohne *wenn*, mit dem Verb an erster Stelle
 x ein Passivsatz
 x ein Relativsatz
 x eine indirekte Frage
+* ein Konditionalsatz ohne *wenn*, mit dem Verb an erster Stelle
 ! *Kehrt sich die Lage um, …* = *Wenn sich die Lage umkehrt, …*. Sehr häufig in C1-Texten und leicht zu überlesen.
 ```
 
@@ -212,17 +212,17 @@ x wie stark die Produktivität steigt
 ! „Ehrlich gesagt überrascht mich **eher**, wie wenig differenziert diskutiert wird.“ Das *eher* korrigiert die Frage — genau das ist die Aufgabe.
 
 ? Was passiert laut Adler, wenn nur die Arbeitszeit sinkt?
+x Nichts verändert sich.
 * Der Effekt verschwindet nach wenigen Monaten.
 x Die Produktivität steigt trotzdem.
 x Die Krankmeldungen nehmen zu.
-x Nichts verändert sich.
 ! *verpuffen* = wirkungslos verfliegen. Ein typisches C1-Verb, das man einmal lernt und danach überall hört.
 
 ? „Die Vier-Tage-Woche ist kein Ziel, sondern ein Anlass.“ Was meint sie damit?
-* Sie ist nicht der Zweck, sondern der Auslöser für bessere Organisation.
-x Sie ist ein Grund zum Feiern.
 x Sie ist unwichtig.
 x Sie sollte abgeschafft werden.
+* Sie ist nicht der Zweck, sondern der Auslöser für bessere Organisation.
+x Sie ist ein Grund zum Feiern.
 ! *kein … sondern* ist die schärfste Korrekturfigur im Deutschen — im Hören ein sicheres Signal, dass gleich die Kernaussage kommt.
 
 ? Wovon hängt laut Adler die Zukunft des Modells ab?
@@ -230,10 +230,10 @@ x Sie sollte abgeschafft werden.
 ! Letzter Satz. Bei Interviews steht die Kernaussage sehr oft ganz am Ende — nicht vorher abschalten.
 
 ? Welche Wörter musst du beim Hören besonders markieren?
-* Negationen und Einschränkungen wie *kein*, *kaum*, *eher*, *nur*
 x Fachbegriffe
 x Eigennamen
 x Zahlen
+* Negationen und Einschränkungen wie *kein*, *kaum*, *eher*, *nur*
 ! Namen und Zahlen schreibt man ohnehin mit. Die Antwort kippt fast immer an einer Negation oder Abstufung — und die überhört man am leichtesten.
 ```
 
