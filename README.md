@@ -146,14 +146,14 @@ Included now:
   Retrospektive, Architektur-Diskussion, Deployment-Notfall, Gehaltsgespräch, Karrieregespräch,
   Kundentermin) + **7 interview banks** (Backend/Java, DevOps, Spring/Microservices, HR & Behavioral,
   System Design, Live-Coding, Gehalt & Vertrag).
-- **Full 52-week study plan** + **1,023 flashcards** + **19 quizzes (176 questions)** + a weekly
+- **Full 52-week study plan** + **1,173 flashcards** + **19 quizzes (176 questions)** + a weekly
   checklist covering **all 52 weeks**.
 - Two scored mock exams: a 100-point Phase-1 test and a telc-B2-shaped Phase-2 Modelltest,
   each with a **Fehler → Modul** table pointing at what to redo.
 
 **Every module the plan called for is now written.** The flashcard deck is being filled in passes:
-1,023 of a planned ~2,050, with the 12 IT deep dives and all 14 workplace dialogues fully converted.
-About 380 further terms already sit in the modules' vocabulary tables, waiting to be turned into cards with example sentences — see
+1,173 of a planned ~2,050, with the 12 IT deep dives, all 14 workplace dialogues and the Phase 1–4
+checklists fully converted. About 230 further terms already sit in the modules' vocabulary tables, waiting to be turned into cards with example sentences — see
 AUTHORING.md §6.1 for the breakdown by source and the command that regenerates it.
 Any not-yet-written module shows a friendly “being written” note in the app.
 
