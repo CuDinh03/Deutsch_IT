@@ -113,23 +113,40 @@ to **Word/PDF** with your tool of choice.
 
 ---
 
-## 🗺️ Build status — v0.2
+## 🗺️ Build status — v0.6
+
+**110 content modules · ~200,000 words · 699 interactive exercises.**
 
 Included now:
 
 - **All 6 phases** at full depth (54 modules: objectives, grammar, vocabulary, speaking,
   listening, reading, writing, weekly/daily plan, monthly assessment).
-- **12 IT-vocabulary deep-dive modules** (Software Dev, Java, Spring Boot, Microservices &
-  Cloud, Docker & Kubernetes, CI/CD·Git·DevOps, Database & SQL, Networking & Linux,
-  Security & Auth, Testing·Agile·Scrum, Architecture & System Design, AI & ML).
-- **Reference library**: 5 workplace dialogues (Standup, Team-Lead 1:1, Code Review, Sprint
-  Planning, Production Incident) + 3 interview banks (Backend/Java, DevOps, Spring/Microservices).
-- **Full 52-week study plan** + **210 flashcards** + quizzes + weekly checklist.
-- **77 content modules, ~116,000 words.**
+- **12 workbooks** (`*-uebungen.md`, Phase 1 + 2) with **596 self-grading exercises** —
+  multiple choice, multi-select and gap-fill. Answer, press *Prüfen*, and each item tells you
+  **why** that answer is right. Free-production tasks keep a Musterlösung instead.
+- **15 in-app Hörtexte** — listening practice with the transcript hidden behind a toggle,
+  plus Diktate and marked shadowing scripts.
+- **10 Alltag modules** — everyday survival German: bakery, lunch small talk, Modalpartikeln,
+  after-work drinks, flat viewing, Anmeldung & Ausländerbehörde, the doctor, Pfand,
+  train delays, bank & phone contracts.
+- **6 exam modules** — telc B2 overview, Lesen & Sprachbausteine, Hören, Schreiben, Sprechen,
+  and a 120+ phrase Prüfungs-Redemittel bank, all with interactive drills.
+- **12 IT-vocabulary deep dives** (Software Dev, Java, Spring Boot, Microservices & Cloud,
+  Docker & Kubernetes, CI/CD·Git·DevOps, Database & SQL, Networking & Linux, Security & Auth,
+  Testing·Agile·Scrum, Architecture & System Design, AI & ML).
+- **Reference library**: 8 workplace dialogues (Onboarding, Standup, Team-Lead 1:1, Code
+  Review, Sprint Planning, Production Incident, Krankmeldung & Urlaub, Pair Programming)
+  + 3 interview banks (Backend/Java, DevOps, Spring/Microservices).
+- **Full 52-week study plan** + **386 flashcards** + **9 quizzes (76 questions)** + weekly checklist.
+- Two scored mock exams: a 100-point Phase-1 test and a telc-B2-shaped Phase-2 Modelltest,
+  each with a **Fehler → Modul** table pointing at what to redo.
 
-Still growing (type **“Continue”** in chat): the flashcard deck toward 2000+ cards, more
-dialogues and interview roles, and any topic you want expanded. Any not-yet-written module
-shows a friendly “being written” note in the app.
+Still growing (type **“Continue”** in chat): workbooks for Phases 3–6, `templates/` and
+`bewerbung/` modules, Goethe C1 exam prep, more interview roles, and the flashcard deck
+toward 2000+ cards. Any not-yet-written module shows a friendly “being written” note in the app.
+
+> Numbers above are produced by `node build.js` — re-run it after editing content and it will
+> tell you the current module count, chunk sizes and any dead internal links.
 
 ---
 

@@ -43,6 +43,29 @@ flowchart LR
 
 ---
 
+## 📚 Was es zusätzlich gibt — und wann du es benutzt
+
+Die Wochentabellen unten sind das **Gerüst**. Diese Materialien laufen **parallel** dazu und
+sind der Teil, in dem tatsächlich geübt wird — nicht nur gelesen.
+
+| Material | Was es ist | Wann |
+|---|---|---|
+| **Übungsteile** — [Phase 1](#/phase-1/grammar-uebungen) · [Phase 2](#/phase-2/grammar-uebungen) | 12 Workbooks, **596 Aufgaben mit Sofortkorrektur**: anklicken, *Prüfen*, Begründung lesen | jede Woche, direkt nach dem Grammatik-/Wortschatzblock |
+| **Alltag** — [Café](#/alltag/cafe-baeckerei) · [Mittagspause](#/alltag/mittagspause) · [Kaffeeküche](#/alltag/kaffeekueche) · [Feierabend](#/alltag/feierabend) | Small Talk, Modalpartikeln, Team-Abend | **Wochen 1–8**, je ein Modul pro Woche |
+| **Alltag · Behörden & Leben** — [Wohnung](#/alltag/wohnungsbesichtigung) · [Anmeldung](#/alltag/anmeldung) · [Arzt](#/alltag/beim-arzt) · [Supermarkt](#/alltag/supermarkt-pfand) · [Bahn](#/alltag/bahn-verspaetung) · [Telefon](#/alltag/telefon-bank-vertrag) | die Situationen, in denen Fehler Geld kosten | **Wochen 9–16**, oder sofort bei echtem Bedarf |
+| **Hörtexte im Modul** — [P1](#/phase-1/listening-uebungen) · [P2](#/phase-2/listening-uebungen) | 15 Hörtexte mit verstecktem Transkript, Diktate, Shadowing | statt „irgendwas hören": 2× pro Woche intensiv |
+| **Prüfungsvorbereitung** — [Überblick](#/exams/overview) · [Lesen](#/exams/telc-b2-lesen-sprachbausteine) · [Hören](#/exams/telc-b2-hoeren) · [Schreiben](#/exams/telc-b2-schreiben) · [Sprechen](#/exams/telc-b2-sprechen) | telc-B2-Format, Strategie, interaktive Drills | **Wochen 13–20** — Termin schon in Woche 12 buchen |
+| **[Prüfungs-Redemittel](#/exams/pruefungs-redemittel)** | 120+ feste Sätze + Abruftraining | **täglich 10 Minuten** ab Woche 13 |
+| **Bürodialoge** — [Onboarding](#/dialogues/onboarding) · [Krankmeldung](#/dialogues/krankmeldung) · [Standup](#/dialogues/standup) · [Pair Programming](#/dialogues/pair-programming) | echte Arbeitssituationen mit Redemitteln | passend zur Woche, siehe Tabellen unten |
+| **Zwei bewertete Prüfungen** — [Phase 1](#/phase-1/assessment) (100 P.) · [Phase 2](#/phase-2/assessment) (telc-Modelltest) | mit Punkteschema und **Fehler → Modul**-Tabelle | **Woche 8** und **Woche 20** |
+
+> **Die wichtigste Änderung gegenüber dem ursprünglichen Plan:** Grammatik „durchnehmen" reicht
+> nicht. Nach jedem Grammatikblock gehört der passende **Übungsteil** — dort bekommst du sofort
+> gesagt, ob du es kannst, und warum die Antwort so lautet. Ohne diesen Schritt merkst du erst
+> im Mock, dass etwas fehlt.
+
+---
+
 ## Phase 1 — Weeks 1–8 · Strengthen B1 (B1 → B1+)
 
 Goal: fix the word order, cases, Perfekt and modal verbs that carry 80% of B1, and survive a
@@ -59,6 +82,16 @@ slow standup. All grammar links go to [Phase 1 · Grammar](#/phase-1/grammar), v
 | 6 | Trennbare Verben + Negation nicht/kein | Agile & standup phrases: der Blocker, das Ticket, das Daily | Listen to the [standup dialogue](#/dialogues/standup); role-play both roles | Write your 3-part standup script | Deliver a full slow standup: gestern/heute/Blocker | 17 | Give a complete slow standup including a blocker |
 | 7 | W-Fragen + Satzverbindung und/aber/weil/dass | Review all 200 nouns via [Flashcards](#/@flashcards); recall ≥90% | [Phase 1 · Listening](#/phase-1/listening); ask and answer 10 work questions | [Phase 1 · Writing](#/phase-1/writing): short email to a colleague | Q&A ping-pong with a partner or the TTS | 17 | Ask and answer everyday work questions without freezing |
 | 8 | Phase 1 grammar review + start an error log | Gap-fill weak words; clean up your personal IT deck | [Phase 1 · Speaking](#/phase-1/speaking): 5-min monologue about your work | [Phase 1 · Assessment](#/phase-1/assessment) writing task | Mock A: self-intro + slow standup + 5 Q&A, self-graded | 16 | Pass the Phase 1 self-check; solid B1+ foundation |
+
+
+> **Parallel in Phase 1 (Wochen 1–8):** nach jedem Grammatikblock den
+> [Grammar-Übungsteil](#/phase-1/grammar-uebungen) (69 Aufgaben), dazu
+> [Vocabulary](#/phase-1/vocabulary-uebungen) · [Speaking](#/phase-1/speaking-uebungen) ·
+> [Listening](#/phase-1/listening-uebungen) · [Reading](#/phase-1/reading-uebungen) ·
+> [Writing](#/phase-1/writing-uebungen). Je eine Woche ein **Alltag**-Modul:
+> [Café](#/alltag/cafe-baeckerei), [Mittagspause](#/alltag/mittagspause),
+> [Kaffeeküche](#/alltag/kaffeekueche), [Feierabend](#/alltag/feierabend). Woche 1 zusätzlich:
+> [Dialogue · Onboarding](#/dialogues/onboarding) und [Krankmeldung & Urlaub](#/dialogues/krankmeldung).
 
 ---
 
@@ -82,6 +115,18 @@ links go to [Phase 2 · Grammar](#/phase-2/grammar).
 | 18 | Meinungsstrukturen: "Ich bin der Meinung, dass…", "es sei denn" | Redemittel für Diskussion und Widerspruch | [Phase 2 · Speaking](#/phase-2/speaking): a structured debate | Write a 150-word Stellungnahme | 3-min stance: "Remote vs. Büro" | 17 | Defend a position with structured arguments at B2 |
 | 19 | Sprachbausteine: exam grammar review | Exam collocations; keyword transformation | [Phase 2 · Listening](#/phase-2/listening): telc B2 Hörteil, timed | [Phase 2 · Reading](#/phase-2/reading): telc B2 Leseteil, timed | telc B2 Lesen + Sprachbausteine section | 18 | Handle telc B2 reading and listening within exam time |
 | 20 | Fix top error patterns from the mock | Consolidate weak vocabulary | telc B2 paired oral: present, discuss, plan together | telc B2 Schreiben (formal email / Beschwerde), 30 min | Full telc B2 mock, self-scored; [Phase 2 · Assessment](#/phase-2/assessment) | 18 | Score B2 on a full telc mock — B2 reached |
+
+
+> **Parallel in Phase 2 (Wochen 9–20):** die sechs
+> [Phase-2-Übungsteile](#/phase-2/grammar-uebungen) — Konjunktiv II, Passiv, Relativsätze,
+> Konnektoren, n-Deklination, insgesamt 292 Aufgaben mit Sofortkorrektur.
+> **Ab Woche 13** die Prüfungsmodule: [Überblick](#/exams/overview),
+> [Lesen & Sprachbausteine](#/exams/telc-b2-lesen-sprachbausteine),
+> [Hören](#/exams/telc-b2-hoeren), [Schreiben](#/exams/telc-b2-schreiben),
+> [Sprechen](#/exams/telc-b2-sprechen) — und täglich zehn Minuten
+> [Prüfungs-Redemittel](#/exams/pruefungs-redemittel).
+> **Behörden-Alltag** (Wohnung, Anmeldung, Arzt, Bahn, Bank) passt in die Wochen 9–16.
+> Woche 20 = [telc-B2-Modelltest](#/phase-2/assessment), 2 Stunden, 100 Punkte.
 
 ---
 

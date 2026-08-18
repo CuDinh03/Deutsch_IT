@@ -11,8 +11,8 @@ window.CONTENT_INDEX = {
   meta: {
     title: "German for Software Engineers",
     subtitle: "B1 → B2 / C1 · 12-Month Roadmap",
-    version: "0.4",
-    updated: "2026-07-25"
+    version: "0.6",
+    updated: "2026-08-18"
   },
   // Drives the sidebar filter chips. Every item.topic MUST appear here or the
   // chip for it never renders. Keep in sync when adding content groups.

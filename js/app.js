@@ -727,12 +727,17 @@
       '<p style="color:var(--text-soft)">Hake Aufgaben ab — der Fortschritt wird lokal gespeichert.</p><div class="checklist">';
     if (!CL.length) html += '<div class="empty">Noch keine Wochen im Bundle.</div>';
     CL.forEach(function (w, wi) {
-      var total = w.items.length, done = w.items.filter(function (_, ii) { return state.checklist['w' + wi + '-' + ii]; }).length;
+      // Key on w.id, not the array index: inserting a week in the middle used to
+      // shift every stored tick onto the wrong row.
+      var wid = w.id || ('w' + wi);
+      var total = w.items.length, done = w.items.filter(function (_, ii) { return state.checklist[wid + '-' + ii]; }).length;
       html += '<div class="wk"><div class="wk-head" data-w="' + wi + '"><b>' + esc(w.title) + '</b><span class="badge">' + done + '/' + total + '</span><span class="caret">▾</span></div>' +
         '<div class="wk-body">';
       w.items.forEach(function (it, ii) {
-        var k = 'w' + wi + '-' + ii, on = !!state.checklist[k];
-        html += '<label class="' + (on ? 'done' : '') + '"><input type="checkbox" data-k="' + k + '" ' + (on ? 'checked' : '') + '><span>' + esc(it) + '</span></label>';
+        var k = wid + '-' + ii, on = !!state.checklist[k];
+        // inline Markdown, so an item can link straight to the module it means
+        var label = window.MD && MD.renderInline ? MD.renderInline(it) : esc(it);
+        html += '<label class="' + (on ? 'done' : '') + '"><input type="checkbox" data-k="' + k + '" ' + (on ? 'checked' : '') + '><span>' + label + '</span></label>';
       });
       html += '</div></div>';
     });

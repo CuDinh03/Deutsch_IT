@@ -343,7 +343,7 @@
       .trim();
   }
 
-  var MD = { render: render, slug: slug, escapeHtml: escapeHtml, toText: toText };
+  var MD = { render: render, renderInline: renderInline, slug: slug, escapeHtml: escapeHtml, toText: toText };
   if (typeof module !== 'undefined' && module.exports) module.exports = MD;
   else global.MD = MD;
 })(typeof window !== 'undefined' ? window : this);
