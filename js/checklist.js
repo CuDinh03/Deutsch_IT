@@ -1,7 +1,7 @@
 /*!
  * checklist.js — weekly study checklist data (persists via localStorage).
- * Covers Weeks 1–44 (Phase 1–5), i.e. every week that has content
- * written for it. Weeks 45+ arrive with the Phase 6 workbooks.
+ * Covers all 52 weeks (Phase 1–6). Every week of the roadmap now has
+ * content written for it.
  *
  * Each entry: { id, title, items:[strings] }. The id is what progress is
  * stored under — never reuse or renumber one, or ticks land on the wrong row.
@@ -476,6 +476,94 @@ window.CHECKLIST = [
       "Alle sechs Phase-5-Übungsteile auf ≥ 80 % bringen",
       "Quiz [Bewerbung · Anzeige, Anschreiben & Gehalt](#/@quiz), Ziel ≥ 8/10",
       "[Phase 5 · Assessment](#/phase-5/assessment) durchführen — Gate-Entscheidung für [Phase 6](#/phase-6/overview)"
+    ]
+  },
+  {
+    id: "w45", title: "Woche 45 · Echtes Daily-Tempo",
+    items: [
+      "[Phase 6 · Speaking · Übungsteil](#/phase-6/speaking-uebungen) Block A + B, Ziel ≥ 80 %",
+      "🎙 Fünf Tage lang das eigene Daily auf Deutsch aufnehmen — 30 Sekunden, drei Beats",
+      "Am Freitag alle fünf Aufnahmen hintereinander anhören: Füllwörter zählen",
+      "[Phase 6 · Grammar · Übungsteil](#/phase-6/grammar-uebungen) Block A: Modalpartikeln",
+      "Sechs Sätze mit sechs verschiedenen Partikeln schreiben",
+      "Eine Woche lang im Team auf echte Partikeln hören und zehn Vorkommen notieren"
+    ]
+  },
+  {
+    id: "w46", title: "Woche 46 · Review und Widerspruch",
+    items: [
+      "Sechs harte Review-Kommentare in kollegiale umschreiben",
+      "Die nächsten fünf echten Review-Kommentare auf Deutsch schreiben, je mit Verbindlichkeitsstufe",
+      "[PR & Review-Kommentare](#/templates/pull-requests) wiederholen",
+      "Einmal begründet widersprechen: „Ich verstehe den Punkt, aber …“",
+      "[Phase 6 · Listening · Übungsteil](#/phase-6/listening-uebungen) Hörtext 2 shadowen",
+      "Einen eigenen PR auf Deutsch verteidigen — laut, mit Trade-off"
+    ]
+  },
+  {
+    id: "w47", title: "Woche 47 · Incident & Postmortem",
+    items: [
+      "[Phase 6 · Writing · Übungsteil](#/phase-6/writing-uebungen) Block A + B",
+      "🎙 60-Sekunden-Incident-Update: Stand, Auswirkung, nächster Schritt, nächster Meldezeitpunkt",
+      "Ein vollständiges Postmortem auf dem Fünf-Abschnitte-Skelett schreiben",
+      "Die Ursachenzeile dreimal umschreiben, bis kein Mensch mehr darin vorkommt",
+      "[Protokoll, Incident & Übergabe](#/templates/protokoll-incident) als Vorlage anlegen",
+      "Prüfen: Sieht man am Zeitverlauf, wo Zeit verloren ging?"
+    ]
+  },
+  {
+    id: "w48", title: "Woche 48 · Planung, Retro & HR-Vokabular",
+    items: [
+      "[Phase 6 · Vocabulary · Übungsteil](#/phase-6/vocabulary-uebungen) komplett, Ziel ≥ 80 %",
+      "Zehn HR-Komposita zerlegen und den Kopf markieren",
+      "Einen echten Urlaubsantrag und eine Krankmeldung auf Deutsch schreiben",
+      "In der nächsten echten Retro einen Punkt auf Deutsch einbringen — unpersönlich, mit Vorschlag",
+      "Arbeitszeitmodell, Urlaubsanspruch und Kündigungsfrist auf Deutsch notieren",
+      "Quiz [Phase 6 · Deutsch im Job](#/@quiz), Ziel ≥ 8/10"
+    ]
+  },
+  {
+    id: "w49", title: "Woche 49 · Firmentexte & Stakeholder",
+    items: [
+      "[Phase 6 · Reading · Übungsteil](#/phase-6/reading-uebungen) alle vier Texte, Ziel ≥ 80 %",
+      "Die echte Betriebsvereinbarung lesen: drei Rechte, drei Pflichten notieren",
+      "Eine echte HR-Mail auf Handlung und Frist reduzieren",
+      "Einen eigenen ADR schreiben — mit dem Preis der Entscheidung",
+      "Eine technische Sache für einen nicht-technischen Stakeholder erklären, laut",
+      "Fünf Nominalstil-Ausdrücke in Nebensätze auflösen"
+    ]
+  },
+  {
+    id: "w50", title: "Woche 50 · Bewerbungspaket fertigstellen",
+    items: [
+      "[Bewerbung · Der Lebenslauf](#/bewerbung/lebenslauf) — vollständiger Lebenslauf als PDF, jeder Bullet mit Verb und Zahl",
+      "[Bewerbung · Das Anschreiben](#/bewerbung/anschreiben) — ein Anschreiben zu einer echten Anzeige",
+      "[LinkedIn, Xing & Recruiter](#/bewerbung/linkedin-xing) — deutsches Profil anlegen, „Über mich“ in vier Sätzen",
+      "[Bewerbungs-E-Mails](#/bewerbung/mails) — fünf Vorlagen als Textbausteine anlegen",
+      "[Der Bewerbungsprozess](#/bewerbung/prozess) — Aufenthaltsregeln aus amtlicher Quelle notieren, mit Prüfdatum",
+      "Quiz [Bewerbung · Unterlagen, Netzwerk & Prozess](#/@quiz), Ziel ≥ 8/10"
+    ]
+  },
+  {
+    id: "w51", title: "Woche 51 · Goethe-C1-Mock",
+    items: [
+      "[Prüfungen · Überblick](#/exams/overview) noch einmal lesen — Format gegen die aktuelle Website prüfen",
+      "Vollständiger Goethe-C1-Mock unter Zeit: Lesen, Hören, Schreiben, Sprechen",
+      "Jedes Modul einzeln auswerten, Ziel ≥ 60 %",
+      "[Prüfungs-Redemittel · Baukasten](#/exams/pruefungs-redemittel) für die schwächsten zwei Module wiederholen",
+      "Fehlerjournal durchgehen: welche zwei Fehler sind fossiliert?",
+      "Prüfungstermin buchen oder verschieben — begründete Entscheidung"
+    ]
+  },
+  {
+    id: "w52", title: "Woche 52 · Abschluss & Erhaltungsplan",
+    items: [
+      "Capstone: ein kompletter Arbeitstag auf Deutsch — Daily, Review, Meeting, Statusmeldung, Smalltalk",
+      "🎙 Zehn Minuten freies Sprechen über das eigene System aufnehmen",
+      "[Phase 6 · Assessment](#/phase-6/assessment) durchführen",
+      "Alle sechs Phase-6-Übungsteile auf ≥ 80 % bringen",
+      "Erhaltungsplan schreiben: tägliche 20 Minuten, wöchentliche Aufnahme, monatlicher Selbstcheck",
+      "Fehlerjournal in zwei persönliche Regeln überführen — und die Roadmap abhaken"
     ]
   },
   {

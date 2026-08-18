@@ -124,6 +124,10 @@ Kannst du mir mal eben helfen? Der Kollege meinte ja, das sei kein großes Probl
 
 > **Lösungen:** 1) *Das haben wir **doch** besprochen.* · 2) **sei** (*er/sie sei*) · 3) Konjunktiv I of *haben* = Indikativ *haben*, so you switch to Konjunktiv II *hätten* to stay unambiguous. More drills in [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 6 · Grammar · Übungsteil](#/phase-6/grammar-uebungen) — 40 Aufgaben
+> zu Modalpartikeln, indirekter Rede im Bericht, Registerwechsel und den fünf Fehlern, die bis ins
+> C1 überleben, weil sie niemand mehr korrigiert.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Write **6 sentences**, each using a different modal particle, with an English gloss.

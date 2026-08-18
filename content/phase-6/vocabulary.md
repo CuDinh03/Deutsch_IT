@@ -121,6 +121,10 @@ Ich melde mich heute krank und reiche die Krankschreibung morgen nach. Für näc
 
 > **Lösungen:** 1) *Urlaub **beantragen / nehmen*** (you *stellen* an *Antrag*) · 2) **die Gehaltserhöhung, die Gehaltserhöhungen** · 3) the last word, *der Antrag*. More in [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 6 · Vocabulary · Übungsteil](#/phase-6/vocabulary-uebungen) — 37 Aufgaben
+> zu Arbeitszeit, Krankmeldung, Gehalt und Betriebsvereinbarung, plus dem Zerlegen langer
+> HR-Komposita.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Add the **9 checklist words** (plus 6 of your own) to [Flashcards](#/@flashcards) with article + plural.

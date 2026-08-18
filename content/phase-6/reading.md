@@ -99,6 +99,9 @@ Ich habe die Betriebsvereinbarung gelesen. Kurz gesagt: Homeoffice ist an zwei T
 
 > **Lösungen:** 1) *Elternzeit nehmen* · 2) **Wer? Macht was? Bis wann?** · 3) the **action** (verb of obligation) and the **deadline**. More in [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 6 · Reading · Übungsteil](#/phase-6/reading-uebungen) — Betriebsvereinbarung,
+> HR-Mail, ADR und Wiki-Seite im Original, 31 Aufgaben zu Rechten, Pflichten und Fristen.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Skim one real German **policy or wiki page**; write its 3 key rules in your own words.

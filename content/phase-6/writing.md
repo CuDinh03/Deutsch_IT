@@ -111,6 +111,10 @@ Kurzer Statusbericht: Der Fix ist live, die Fehlerrate ist normal, offene Punkte
 
 > **Lösungen:** 1) Zusammenfassung → Auswirkung → Zeitverlauf → Ursache → Maßnahmen · 2) e.g. *"Dein Refactoring des Auth-Moduls war sehr sauber, besonders die Tests."* · 3) **Konjunktiv I** (*"…, das Alerting habe nicht ausgelöst"*). More in [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 6 · Writing · Übungsteil](#/phase-6/writing-uebungen) — 32 Aufgaben zu
+> selbsttragenden Statusmeldungen, blamefreiem Postmortem und schriftlichem Feedback. Vorlagen im
+> [Protokoll- und Incident-Baukasten](#/templates/protokoll-incident).
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Write **3 self-contained status updates** (deploy, blocker, done).

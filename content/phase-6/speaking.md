@@ -115,6 +115,9 @@ Ich sehe das ehrlich gesagt etwas anders. Dein Ansatz funktioniert, aber langfri
 
 > **Lösungen:** 1) *gestern, heute, Blocker* · 2) e.g. *"Hier würde ich es anders lösen — was hältst du von …?"* · 3) safe: Wochenende, Wetter, Kaffee, Urlaub, Sport; avoid: Gehalt/Politik. More in [Quizzes](#/@quiz).
 
+> 🗣️ **Jetzt üben.** [Phase 6 · Speaking · Übungsteil](#/phase-6/speaking-uebungen) — ein Baukasten
+> mit 23 Redemitteln plus 31 Aufgaben zu Daily, Review, Retro, Incident-Call und Widerspruch.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Record your **Daily** five days running and listen back for filler words.

@@ -11,7 +11,7 @@ window.CONTENT_INDEX = {
   meta: {
     title: "German for Software Engineers",
     subtitle: "B1 → B2 / C1 · 12-Month Roadmap",
-    version: "0.9",
+    version: "1.0",
     updated: "2026-08-18"
   },
   // Drives the sidebar filter chips. Every item.topic MUST appear here or the
@@ -139,11 +139,17 @@ window.CONTENT_INDEX = {
       items: [
         { id: "phase-6/overview",    title: "Objectives & Overview",        level: "C1", topic: "Culture",    type: "lesson" },
         { id: "phase-6/grammar",     title: "Grammar Maintenance",          level: "C1", topic: "Grammar",    type: "lesson" },
+        { id: "phase-6/grammar-uebungen",    title: "↳ Grammar · Übungsteil",    level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-6/vocabulary",  title: "Workplace Vocabulary",         level: "C1", topic: "Vocabulary", type: "lesson" },
+        { id: "phase-6/vocabulary-uebungen", title: "↳ Vocabulary · Übungsteil", level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-6/speaking",    title: "Daily Standups & Reviews",     level: "C1", topic: "Speaking",   type: "lesson" },
+        { id: "phase-6/speaking-uebungen",   title: "↳ Speaking · Übungsteil",   level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-6/listening",   title: "Listening Resources",          level: "C1", topic: "Listening",  type: "lesson" },
+        { id: "phase-6/listening-uebungen",  title: "↳ Listening · Übungsteil",  level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-6/reading",     title: "Reading Materials",            level: "C1", topic: "Reading",    type: "lesson" },
+        { id: "phase-6/reading-uebungen",    title: "↳ Reading · Übungsteil",    level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-6/writing",     title: "Professional Writing at Work", level: "C1", topic: "Writing",    type: "lesson" },
+        { id: "phase-6/writing-uebungen",    title: "↳ Writing · Übungsteil",    level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-6/plan",        title: "Weekly Milestones & Daily Plan", level: "C1", topic: "Roadmap",  type: "lesson" },
         { id: "phase-6/assessment",  title: "Monthly Assessment & Beyond",  level: "C1", topic: "Culture",    type: "lesson" }
       ]
@@ -189,6 +195,16 @@ window.CONTENT_INDEX = {
         { id: "exams/telc-b2-schreiben",               title: "telc B2 · Schriftlicher Ausdruck",   level: "B2", topic: "Exam", type: "lesson" },
         { id: "exams/telc-b2-sprechen",                title: "telc B2 · Mündlicher Ausdruck",      level: "B2", topic: "Exam", type: "lesson" },
         { id: "exams/pruefungs-redemittel",            title: "Prüfungs-Redemittel · Baukasten",    level: "B2", topic: "Exam", type: "lesson" }
+      ]
+    },
+    {
+      id: "bewerbung", title: "Bewerbung — Application Kit", icon: "📨", badge: "B2/C1",
+      items: [
+        { id: "bewerbung/prozess",       title: "Der Bewerbungsprozess in Deutschland", level: "B2", topic: "Bewerbung", type: "lesson" },
+        { id: "bewerbung/lebenslauf",    title: "Der tabellarische Lebenslauf",         level: "B2", topic: "Bewerbung", type: "lesson" },
+        { id: "bewerbung/anschreiben",   title: "Das Anschreiben — zwei Muster",        level: "B2", topic: "Bewerbung", type: "lesson" },
+        { id: "bewerbung/mails",         title: "Die E-Mails im Bewerbungsprozess",     level: "B2", topic: "Bewerbung", type: "lesson" },
+        { id: "bewerbung/linkedin-xing", title: "LinkedIn, Xing & Recruiter",           level: "C1", topic: "Bewerbung", type: "lesson" }
       ]
     },
     {

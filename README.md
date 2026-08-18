@@ -113,24 +113,27 @@ to **Word/PDF** with your tool of choice.
 
 ---
 
-## 🗺️ Build status — v0.9
+## 🗺️ Build status — v1.0
 
-**138 content modules · ~272k words · 1,405 interactive exercises.**
+**149 content modules · ~301k words · 1,670 interactive exercises.**
 
 Included now:
 
 - **All 6 phases** at full depth (54 modules: objectives, grammar, vocabulary, speaking,
   listening, reading, writing, weekly/daily plan, monthly assessment).
-- **30 workbooks** (`*-uebungen.md`, Phase 1–5) with **1,226 self-grading exercises** —
+- **36 workbooks** (`*-uebungen.md`, Phase 1–6) with **1,423 self-grading exercises** —
   multiple choice, multi-select and gap-fill. Answer, press *Prüfen*, and each item tells you
   **why** that answer is right. Free-production tasks keep a Musterlösung instead.
-- **21 in-app Hörtexte** — listening practice with the transcript hidden behind a toggle,
+- **24 in-app Hörtexte** — listening practice with the transcript hidden behind a toggle,
   plus Diktate and marked shadowing scripts.
 - **10 Alltag modules** — everyday survival German: bakery, lunch small talk, Modalpartikeln,
   after-work drinks, flat viewing, Anmeldung & Ausländerbehörde, the doctor, Pfand,
   train delays, bank & phone contracts.
 - **6 exam modules** — telc B2 overview, Lesen & Sprachbausteine, Hören, Schreiben, Sprechen,
   and a 120+ phrase Prüfungs-Redemittel bank, all with interactive drills.
+- **5 Bewerbung modules** — the complete German application kit: the hiring process end to end,
+  the tabular Lebenslauf with a full worked example, two Anschreiben models, LinkedIn/Xing profiles
+  and recruiter replies, and every email between application and contract.
 - **4 Vorlagen modules** — ready-made German work documents: a 14-template email kit (Sie and du),
   tickets with binary acceptance criteria, PR descriptions with four-level review comments, and
   minutes / incident report / handover.
@@ -141,13 +144,13 @@ Included now:
   Review, Sprint Planning, Production Incident, Krankmeldung & Urlaub, Pair Programming,
   Retrospektive, Architektur-Diskussion, Deployment-Notfall, Gehaltsgespräch, Karrieregespräch,
   Kundentermin) + 3 interview banks (Backend/Java, DevOps, Spring/Microservices).
-- **Full 52-week study plan** + **555 flashcards** + **15 quizzes (136 questions)** + a weekly
-  checklist covering **weeks 1–44**.
+- **Full 52-week study plan** + **615 flashcards** + **17 quizzes (156 questions)** + a weekly
+  checklist covering **all 52 weeks**.
 - Two scored mock exams: a 100-point Phase-1 test and a telc-B2-shaped Phase-2 Modelltest,
   each with a **Fehler → Modul** table pointing at what to redo.
 
-Still growing (type **“Continue”** in chat): workbooks for Phase 6, the `bewerbung/` modules,
-Goethe C1 exam prep, more interview roles, and the flashcard deck toward 2000+ cards.
+Still growing (type **“Continue”** in chat): Goethe C1 exam prep, four more interview banks, and
+the flashcard deck toward 2000+ cards.
 Any not-yet-written module shows a friendly “being written” note in the app.
 
 > Numbers above are produced by `node build.js` — re-run it after editing content and it will

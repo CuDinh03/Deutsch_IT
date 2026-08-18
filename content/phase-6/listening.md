@@ -101,6 +101,9 @@ Ich glaube, ich habe die Hälfte akustisch nicht verstanden. Fassen wir zusammen
 
 > **Lösungen:** 1) the **decision** and **your action item** (gist + ask) · 2) **summarize back** ("Ich fasse kurz zusammen …") · 3) just **understand** it; keep Hochdeutsch active. More in [Quizzes](#/@quiz).
 
+> 🎧 **Jetzt hören.** [Phase 6 · Listening · Übungsteil](#/phase-6/listening-uebungen) — drei Hörtexte
+> im echten Meeting-Tempo, 26 Aufgaben zum Heraushören der eigenen Aufgabe und ein Denglisch-Drill.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] For **5 meetings**, note decision + action item in German afterwards.
