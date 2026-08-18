@@ -3,7 +3,7 @@
 > Read this **before** writing any content. It is the how-to; [UPGRADE-PLAN.md](UPGRADE-PLAN.md)
 > is the what-and-when (batch table with ✅ markers at §8).
 >
-> Last verified: **18.08.2026**, after Đợt 9 — the final content batch. Everything committed and
+> Last verified: **18.08.2026**, after Đợt 9 plus flashcard pass 1. Everything committed and
 > pushed to `origin/main`.
 
 ---
@@ -15,7 +15,7 @@
 | Content modules | **156** |
 | Words | **~319,500** |
 | Interactive exercises | **1,756** |
-| Flashcards | **728** (target 2,050 — see §8) |
+| Flashcards | **873** (target 2,050 — see §8) |
 | Quizzes / questions | **19 / 176** |
 | Checklist weeks | **all 52** ✅ |
 
@@ -23,8 +23,8 @@
 5 (Phase 3) · 6 (Phase 4 + `templates/`) · 7 (Phase 5 + 3 dialogues) · 8 (Phase 6 + `bewerbung/`) ·
 9 (Goethe C1 + 4 interview banks + final sweep).
 
-**Every module UPGRADE-PLAN called for is written.** One target is still open — the flashcard deck.
-See §8.
+**Every module UPGRADE-PLAN called for is written.** The flashcard deck is being filled in passes —
+pass 1 (IT deep dives) is done. See §8 for the remaining work-list.
 
 ---
 
@@ -111,8 +111,8 @@ Every batch ships complete. Do not defer data to a later batch.
    Use `type: "lesson"` — prev/next navigation and progress counting filter on it.
    Any new `topic` must also be added to the `topics` array or its filter chip never renders.
 5. **Flashcards** — new file `js/flashcards-N.js`, merged with
-   `window.FLASHCARDS = (window.FLASHCARDS || []).concat([...])`. **Next free id range: `fc9001`+**
-   (used so far: fc0xx, fc1xx/9xx, fc10xx–fc70xx, fc80xx, fc81xx). Every noun needs article
+   `window.FLASHCARDS = (window.FLASHCARDS || []).concat([...])`. **Next free id range: `fc9201`+**
+   (used so far: fc0xx, fc1xx/9xx, fc10xx–fc70xx, fc80xx, fc81xx, fc90xx–fc91xx). Every noun needs article
    **and** plural **and** an example sentence with translation. Add the `<script>` tag to
    `index.html` (unversioned — `build.js` stamps the hash). Check for a duplicate `de` value before
    adding a card; a handful of pre-Đợt-5 duplicates already exist and are worth cleaning up one day.
@@ -150,7 +150,7 @@ node -e 'const MD=require("./js/markdown.js"),fs=require("fs");let t=0,bad=0;for
 Check flashcard/quiz integrity:
 
 ```bash
-node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","quizzes"].forEach(f=>require("./js/"+f+".js"));const ids=w.FLASHCARDS.map(c=>c.id);console.log("cards:",w.FLASHCARDS.length,"dup:",ids.filter((v,i)=>ids.indexOf(v)!==i).length);const q=w.QUIZZES.map(x=>x.id);console.log("quizzes:",w.QUIZZES.length,"dup:",q.filter((v,i)=>q.indexOf(v)!==i).length)'
+node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13","quizzes"].forEach(f=>require("./js/"+f+".js"));const ids=w.FLASHCARDS.map(c=>c.id);console.log("cards:",w.FLASHCARDS.length,"dup:",ids.filter((v,i)=>ids.indexOf(v)!==i).length);const q=w.QUIZZES.map(x=>x.id);console.log("quizzes:",w.QUIZZES.length,"dup:",q.filter((v,i)=>q.indexOf(v)!==i).length)'
 ```
 
 Renderer regression tests live in the session scratchpad, not the repo. If they are gone, the
@@ -230,16 +230,20 @@ Mini-Quiz stays where readers expect it — it is explicitly sanctioned for 3–
 
 ### The flashcard gap
 
-The deck stands at **728** against a plan target of **~2,050**. The good news is that the remaining
-work is already scoped: roughly **700 terms sit in the modules' own vocabulary tables** with article,
-plural, English and VI gloss already written — they just need an example sentence, a collocation and
-a tip to become cards.
+The deck stands at **873** against a plan target of **~2,050**, and it is being filled in passes.
+
+**Pass 1 — done:** the 12 IT deep dives in `content/vocabulary/` are now converted
+(`js/flashcards-13.js`, 145 cards, fc9001–fc9145). That bucket is closed: 147 untapped terms → 6.
+
+The remaining work is already scoped: roughly **560 terms sit in the modules' own vocabulary tables**
+with article, plural, English and VI gloss already written — they just need an example sentence, a
+collocation and a tip to become cards.
 
 Re-measure at any time:
 
 ```bash
 node -e 'const fs=require("fs");const w={};global.window=w;
-["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12"].forEach(f=>require("./js/"+f+".js"));
+["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13"].forEach(f=>require("./js/"+f+".js"));
 const have=new Set(w.FLASHCARDS.map(c=>c.de.trim()));const rows=new Map();
 (function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=d+"/"+e.name;if(e.isDirectory())walk(p);else if(e.name.endsWith(".md")){
 for(const L of fs.readFileSync(p,"utf8").split("\n")){const m=L.match(/^\|\s*([^|]+?)\s*\|\s*(der|die|das|—)\s*\|\s*([^|]*?)\s*\|\s*([^|]+?)\s*\|/);
@@ -250,15 +254,16 @@ console.log("untapped:",miss.length,JSON.stringify(by,null,1));
 console.log(miss.slice(0,40).map(([de,v])=>`${v.a} ${de} | ${v.pl} | ${v.en} | ${v.src}`).join("\n"));'
 ```
 
-Measured after Đợt 9 — **708 terms**, concentrated where the plan predicted:
+Measured after pass 1 — **563 terms**, in suggested order of value for this learner:
 
-| Source | Untapped |
-|---|---:|
-| `dialogues/` (Redemittel & vocab tables) | 163 |
-| `vocabulary/` (12 IT deep dives) | 147 |
-| `alltag/` | 95 |
-| phase Vokabel-Checklisten (P1–P6) | 213 |
-| `exams/`, `interviews/`, `templates/`, `bewerbung/` | 82 |
+| Source | Untapped | Suggested pass |
+|---|---:|---|
+| `dialogues/` (Redemittel & vocab tables) | 163 | **pass 2** — workplace reflexes, the biggest bucket |
+| phase Vokabel-Checklisten (P1–P6) | 209 | passes 3–4, split by phase |
+| `alltag/` | 95 | pass 5 — everyday survival, §0 priority |
+| `exams/` + `interviews/` | 63 | pass 6 |
+| `bewerbung/`, `templates/`, `foundations/`, `plans/` | 27 | fold into any pass |
+| `vocabulary/` (12 IT deep dives) | 6 | ✅ **done in pass 1** |
 
 **Do it in passes of 100–150 cards, not one sitting.** The quality bar in §2 still applies: every
 noun needs Artikel **and** Plural **and** an example sentence with translation. A mechanically

@@ -6,9 +6,10 @@
 > đầu đến cuối, các lệnh kiểm tra, và danh sách lỗi **đã sửa rồi — đừng tái tạo**.
 >
 > **Trạng thái 18/08/2026**: 156 module · ~319k từ ·
-> **1.756 bài tập tương tác** · 728 flashcards · 19 quiz · checklist **đủ 52 tuần**.
-> **Xong toàn bộ Đợt 0–9.** Mọi module trong kế hoạch đã viết xong. Việc còn lại duy nhất:
-> flashcards 728 → ~2.050 (xem §5.1 và AUTHORING §8).
+> **1.756 bài tập tương tác** · 873 flashcards · 19 quiz · checklist **đủ 52 tuần**.
+> **Xong toàn bộ Đợt 0–9.** Mọi module trong kế hoạch đã viết xong. Việc còn lại: flashcards
+> 873 → ~2.050, làm theo từng đợt. **Pass 1 xong** (12 module IT deep dive → 145 thẻ).
+> Còn ~560 thuật ngữ đã đo được — xem AUTHORING §8.
 
 
 > Bản kế hoạch nội dung + phần kỹ thuật tối thiểu để nội dung đó thật sự chạy được trong app.

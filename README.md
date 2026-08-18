@@ -146,15 +146,15 @@ Included now:
   Retrospektive, Architektur-Diskussion, Deployment-Notfall, Gehaltsgespräch, Karrieregespräch,
   Kundentermin) + **7 interview banks** (Backend/Java, DevOps, Spring/Microservices, HR & Behavioral,
   System Design, Live-Coding, Gehalt & Vertrag).
-- **Full 52-week study plan** + **728 flashcards** + **19 quizzes (176 questions)** + a weekly
+- **Full 52-week study plan** + **873 flashcards** + **19 quizzes (176 questions)** + a weekly
   checklist covering **all 52 weeks**.
 - Two scored mock exams: a 100-point Phase-1 test and a telc-B2-shaped Phase-2 Modelltest,
   each with a **Fehler → Modul** table pointing at what to redo.
 
-**Every module the plan called for is now written.** The one target still open is the flashcard
-deck: 728 of a planned ~2,050. About 700 further terms already sit in the modules' vocabulary
-tables, waiting to be turned into cards with example sentences — see AUTHORING.md §8 for the
-measured breakdown and the command that regenerates it.
+**Every module the plan called for is now written.** The flashcard deck is being filled in passes:
+873 of a planned ~2,050, with the 12 IT deep dives fully converted. About 560 further terms already
+sit in the modules' vocabulary tables, waiting to be turned into cards with example sentences — see
+AUTHORING.md §8 for the breakdown by source and the command that regenerates it.
 Any not-yet-written module shows a friendly “being written” note in the app.
 
 > Numbers above are produced by `node build.js` — re-run it after editing content and it will
