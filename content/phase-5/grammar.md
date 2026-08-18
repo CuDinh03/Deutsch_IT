@@ -131,6 +131,10 @@ Wenn ich mehr Zeit hätte, würde ich die Testabdeckung erhöhen. Ich hätte da 
 
 > **Lösungen:** 1) **Könnten** · 2) **Perfekt** → *habe … gearbeitet* · 3) **das** (neuter, Akkusativ) · 4) e.g. *Ich **würde gern** teilweise im Homeoffice arbeiten.* Full quiz: [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 5 · Grammar · Übungsteil](#/phase-5/grammar-uebungen) — 44 Aufgaben
+> zu Konjunktiv II, Perfekt vs. Präteritum, Relativsätzen und den Modalnuancen, die *möchten* von
+> *wollen* trennen.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Write **6 Konjunktiv-II sentences**: 3 polite requests, 3 hypotheticals ("Wenn …, würde ich …").

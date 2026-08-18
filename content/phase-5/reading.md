@@ -135,6 +135,9 @@ A Stellenanzeige is coded expectations. Learn its **standard sections** (Über u
 
 > **Lösungen:** 1) A **Kann** (nice-to-have). · 2) e.g. *zwingend erforderlich* and *setzen wir voraus* (also *mehrjährige Erfahrung*). · 3) It's a **checkable fact**, not marketing. · 4) e.g. **heise.de, Golem.de, t3n.de** or the company's own site. Full quiz: [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 5 · Reading · Übungsteil](#/phase-5/reading-uebungen) — eine vollständige
+> Stellenanzeige im Original und 29 Aufgaben zu Muss, Kann und den Weichmachern im „Wir bieten“.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Take **two real Stellenanzeigen** and colour-code every line Muss vs. Kann.

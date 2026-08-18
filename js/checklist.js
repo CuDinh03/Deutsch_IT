@@ -1,7 +1,7 @@
 /*!
  * checklist.js — weekly study checklist data (persists via localStorage).
- * Covers Weeks 1–36 (Phase 1–4), i.e. every week that has content
- * written for it. Weeks 37+ arrive with the Phase 5–6 workbooks.
+ * Covers Weeks 1–44 (Phase 1–5), i.e. every week that has content
+ * written for it. Weeks 45+ arrive with the Phase 6 workbooks.
  *
  * Each entry: { id, title, items:[strings] }. The id is what progress is
  * stored under — never reuse or renumber one, or ticks land on the wrong row.
@@ -388,6 +388,94 @@ window.CHECKLIST = [
       "[Phase 4 · Assessment](#/phase-4/assessment) durchführen, Ziel ≥ 60/100",
       "Fehlerjournal durchgehen: Konjunktiv I, worden/geworden, Anrede-Kleinschreibung",
       "Gate-Entscheidung: weiter zu [Phase 5](#/phase-5/overview)?"
+    ]
+  },
+  {
+    id: "w37", title: "Woche 37 · Interview-Grammatik",
+    items: [
+      "[Phase 5 · Grammar](#/phase-5/grammar) lesen, dann [Übungsteil](#/phase-5/grammar-uebungen) Block A + B, Ziel ≥ 80 %",
+      "Fünf Konjunktiv-II-Sätze: drei höfliche Bitten, zwei Hypothesen",
+      "Den eigenen Werdegang zweimal erzählen: gesprochen im Perfekt, geschrieben im Präteritum",
+      "Vier Relativsätze über sich selbst — je einer im Nominativ, Akkusativ, Dativ, Genitiv",
+      "Alle „ich will“-Sätze der Woche in *möchte* / *würde gern* umformulieren",
+      "Quiz [Phase 5 · Interview-Deutsch](#/@quiz), Ziel ≥ 8/10"
+    ]
+  },
+  {
+    id: "w38", title: "Woche 38 · HR-Vokabular & Unterlagen",
+    items: [
+      "[Phase 5 · Vocabulary · Übungsteil](#/phase-5/vocabulary-uebungen) Block A + B",
+      "Zehn Vertragswörter mit Artikel und Plural in [Flashcards](#/@flashcards)",
+      "Das eigene Arbeitszeugnis gegen die Notentabelle prüfen",
+      "Eigene Konditionen notieren: Kündigungsfrist, frühester Eintrittstermin, Urlaubsanspruch",
+      "Stärke und Schwäche mit Gegenmaßnahme schriftlich formulieren",
+      "Wechselmotivation in vier Sätzen — ohne ein negatives Wort über den jetzigen Arbeitgeber"
+    ]
+  },
+  {
+    id: "w39", title: "Woche 39 · Stellenanzeigen lesen",
+    items: [
+      "[Phase 5 · Reading · Übungsteil](#/phase-5/reading-uebungen) komplett, Ziel ≥ 80 %",
+      "Zwei echte Anzeigen zeilenweise als Muss oder Kann markieren",
+      "Für beide entscheiden: bewerben oder erst nachqualifizieren?",
+      "Fünf überprüfbare Fakten zu einem Zielunternehmen recherchieren (Karriereseite, Impressum, heise/Golem/t3n)",
+      "Daraus einen einzigen Gesprächssatz formulieren",
+      "Für jeden Weichmacher (*nach Absprache*, *attraktiv*, *flexibel*) eine Frage notieren"
+    ]
+  },
+  {
+    id: "w40", title: "Woche 40 · Lebenslauf & Anschreiben",
+    items: [
+      "[Phase 5 · Writing · Übungsteil](#/phase-5/writing-uebungen) Block A + B",
+      "Vollständigen tabellarischen Lebenslauf auf Deutsch schreiben — jedes Bullet mit Verb und Zahl",
+      "Ein vollständiges Anschreiben zu einer echten Anzeige, das deren Wortwahl spiegelt",
+      "Beide Dokumente laut vorlesen — Wortstellungsfehler hört man vor dem Sehen",
+      "Prüfen: Kleinschreibung nach der Anrede, kein Komma nach dem Gruß, Anlagenzeile",
+      "Von einer deutschsprachigen Person gegenlesen lassen"
+    ]
+  },
+  {
+    id: "w41", title: "Woche 41 · Der Pitch und STAR",
+    items: [
+      "[Phase 5 · Speaking · Übungsteil](#/phase-5/speaking-uebungen) Block A + B",
+      "🎙 90-Sekunden-Pitch aufnehmen, Zeit stoppen; zweite Aufnahme 15 Sekunden kürzer",
+      "Drei STAR-Geschichten: Herausforderung, Konflikt, Fehler — jede mit einer Zahl im Ergebnis",
+      "Zehn Redemittel aus dem Baukasten auswendig",
+      "Eine Fachfrage laut beantworten: Struktur ankündigen, Trade-off nennen",
+      "Eine Wissenslücke laut zugeben — und ein Vorgehen anbieten"
+    ]
+  },
+  {
+    id: "w42", title: "Woche 42 · Recruiter verstehen",
+    items: [
+      "[Phase 5 · Listening · Übungsteil](#/phase-5/listening-uebungen) alle drei Hörtexte, Block A einmalig",
+      "Diktat des Angebots (Hörtext 3) Wort für Wort prüfen",
+      "Zehn Gehaltszahlen laut, dazu die Verwechslungspaare 68/86, 47/74, 39/93",
+      "Die fünf Rettungsformulierungen auswendig (wiederholen, paraphrasieren, Zeit gewinnen)",
+      "Ein unangekündigtes Telefonat auf Deutsch führen — ohne Video",
+      "Ein Angebotsblatt aus acht Zeilen anlegen (Gehalt, variabel, Vertrag, Probezeit, Urlaub, mobil, Eintritt, Frist)"
+    ]
+  },
+  {
+    id: "w43", title: "Woche 43 · Gehalt & Karriere verhandeln",
+    items: [
+      "[Dialogue · Gehaltsgespräch](#/dialogues/gehaltsgespraech) lesen und den Drill machen",
+      "Marktspanne recherchieren und die eigene Zahl festlegen",
+      "Gehaltssatz plus Rückfrage zehnmal laut — dann die Pause fünf Sekunden aushalten",
+      "Drei Paketwünsche nach Priorität sortieren (Weiterbildung, Urlaub, mobil, Gehaltsreview)",
+      "[Dialogue · Karrieregespräch](#/dialogues/karrieregespraech) — die vier Fragen auf eine Karte schreiben",
+      "Drei eigene Leistungen belegen, jede mit einer Zahl"
+    ]
+  },
+  {
+    id: "w44", title: "Woche 44 · Mock-Interview & Phase-5-Abschluss",
+    items: [
+      "Vollständiges Mock-Gespräch, 30 Minuten: HR-Runde plus Fachrunde mit [Interview Q&A](#/interviews/backend)",
+      "Aufnahme auswerten: Wie oft *ich will*? Wie viele Ergebnisse ohne Zahl?",
+      "[Dialogue · Kundentermin](#/dialogues/kundentermin) — Dreizeilen-Status für das eigene Projekt",
+      "Alle sechs Phase-5-Übungsteile auf ≥ 80 % bringen",
+      "Quiz [Bewerbung · Anzeige, Anschreiben & Gehalt](#/@quiz), Ziel ≥ 8/10",
+      "[Phase 5 · Assessment](#/phase-5/assessment) durchführen — Gate-Entscheidung für [Phase 6](#/phase-6/overview)"
     ]
   },
   {

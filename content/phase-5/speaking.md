@@ -135,6 +135,9 @@ Erzählen Sie etwas über sich. — Gern. Ich bin Backend-Entwickler mit vier Ja
 
 > **Lösungen:** 1) **Jetzt → Werdegang → Warum hier.** · 2) **Situation, Aufgabe, Aktion, Ergebnis.** · 3) German engineers value **measurable outcomes** over adjectives. · 4) **Konjunktiv II** (*Ich hätte mir … vorgestellt*). Full quiz: [Quizzes](#/@quiz).
 
+> 🗣️ **Jetzt üben.** [Phase 5 · Speaking · Übungsteil](#/phase-5/speaking-uebungen) — ein Baukasten
+> mit 18 Redemitteln plus 32 Aufgaben zu Pitch, STAR, Fachgespräch und Gehaltseinstieg.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Write and **memorize** your 90-second self-intro; record two takes.

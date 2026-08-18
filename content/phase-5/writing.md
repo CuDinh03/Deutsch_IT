@@ -134,6 +134,10 @@ Sehr geehrte Frau Berger, vielen Dank für das freundliche Gespräch heute. Der 
 
 > **Lösungen:** 1) **Reverse-chronological — newest first.** · 2) **Lowercase** (the comma continues the sentence). · 3) **Konjunktiv II** (*Ich wäre … verfügbar; meine Gehaltsvorstellung läge/liegt bei …*). · 4) e.g. **Betreff, Anrede, Einleitung, Hauptteil, Schluss.** Full quiz: [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 5 · Writing · Übungsteil](#/phase-5/writing-uebungen) — 30 Aufgaben zu
+> Lebenslauf, Anschreiben, Gehaltssatz und Follow-up. Formales Register vorher auffrischen im
+> [E-Mail-Baukasten](#/templates/emails).
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Write your full **tabellarischer Lebenslauf** (1–2 pages, PDF, metrics in bullets).

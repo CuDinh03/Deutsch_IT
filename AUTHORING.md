@@ -3,7 +3,7 @@
 > Read this **before** writing any content. It is the how-to; [UPGRADE-PLAN.md](UPGRADE-PLAN.md)
 > is the what-and-when (batch table with ✅ markers at §8).
 >
-> Last verified: **18.08.2026**, after Đợt 6, everything committed on `main`.
+> Last verified: **18.08.2026**, after Đợt 7, everything committed and pushed to `origin/main`.
 
 ---
 
@@ -11,18 +11,18 @@
 
 | | Value |
 |---|---:|
-| Content modules | **129** |
-| Words | **~245,700** |
-| Interactive exercises | **1,176** |
-| Flashcards | **493** (target 2,050) |
-| Quizzes / questions | **13 / 116** |
-| Checklist weeks | **1–36** (of 52) |
+| Content modules | **138** |
+| Words | **~272,200** |
+| Interactive exercises | **1,405** |
+| Flashcards | **555** (target 2,050) |
+| Quizzes / questions | **15 / 136** |
+| Checklist weeks | **1–44** (of 52) |
 
 **Done:** Đợt 0 (engine) · 1 (Phase 1) · 2 (Alltag) · 3 (Phase 2) · 4 (telc B2) · 5 (Phase 3) ·
-6 (Phase 4 + `templates/`).
-**Next:** Đợt 7 — Phase 5 workbooks + 3 dialogues (Gehalt, Career talk, Kunde/PO). See UPGRADE-PLAN §8.
+6 (Phase 4 + `templates/`) · 7 (Phase 5 + 3 dialogues).
+**Next:** Đợt 8 — Phase 6 workbooks + `content/bewerbung/` (5 modules). See UPGRADE-PLAN §8.
 
-Workbooks exist for Phase 1–4. **Missing:** all six for each of Phase 5 and 6.
+Workbooks exist for Phase 1–5. **Missing:** all six for Phase 6.
 
 ---
 
@@ -109,8 +109,8 @@ Every batch ships complete. Do not defer data to a later batch.
    Use `type: "lesson"` — prev/next navigation and progress counting filter on it.
    Any new `topic` must also be added to the `topics` array or its filter chip never renders.
 5. **Flashcards** — new file `js/flashcards-N.js`, merged with
-   `window.FLASHCARDS = (window.FLASHCARDS || []).concat([...])`. **Next free id range: `fc6001`+**
-   (used so far: fc0xx, fc1xx/9xx, fc10xx, fc20xx, fc30xx, fc40xx, fc50xx). Every noun needs article
+   `window.FLASHCARDS = (window.FLASHCARDS || []).concat([...])`. **Next free id range: `fc7001`+**
+   (used so far: fc0xx, fc1xx/9xx, fc10xx, fc20xx, fc30xx, fc40xx, fc50xx, fc60xx). Every noun needs article
    **and** plural **and** an example sentence with translation. Add the `<script>` tag to
    `index.html` (unversioned — `build.js` stamps the hash). Check for a duplicate `de` value before
    adding a card; a handful of pre-Đợt-5 duplicates already exist and are worth cleaning up one day.
@@ -148,7 +148,7 @@ node -e 'const MD=require("./js/markdown.js"),fs=require("fs");let t=0,bad=0;for
 Check flashcard/quiz integrity:
 
 ```bash
-node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","quizzes"].forEach(f=>require("./js/"+f+".js"));const ids=w.FLASHCARDS.map(c=>c.id);console.log("cards:",w.FLASHCARDS.length,"dup:",ids.filter((v,i)=>ids.indexOf(v)!==i).length);const q=w.QUIZZES.map(x=>x.id);console.log("quizzes:",w.QUIZZES.length,"dup:",q.filter((v,i)=>q.indexOf(v)!==i).length)'
+node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","quizzes"].forEach(f=>require("./js/"+f+".js"));const ids=w.FLASHCARDS.map(c=>c.id);console.log("cards:",w.FLASHCARDS.length,"dup:",ids.filter((v,i)=>ids.indexOf(v)!==i).length);const q=w.QUIZZES.map(x=>x.id);console.log("quizzes:",w.QUIZZES.length,"dup:",q.filter((v,i)=>q.indexOf(v)!==i).length)'
 ```
 
 Renderer regression tests live in the session scratchpad, not the repo. If they are gone, the
@@ -196,6 +196,16 @@ short intro + how it works
 ## 📚 Empfohlene Ressourcen
 ```
 
+Dialogue skeleton (`content/dialogues/`, unchanged for 11 modules) — Dialog · translation ·
+VI-notes · Kernmuster · grammar · vocabulary · Redemittel · Kultur · Zusammenfassung ·
+Vokabel-Checkliste · Sprechübung · Mini-Quiz · Hausaufgabe · Ressourcen.
+
+**Since Đợt 7, new dialogues also carry one `## 🏋️ Drill` block of 8–10 `uebung` items**, placed
+after the Redemittel tables and before the Kultur section. Rationale: the `templates/` modules of
+Đợt 6 established that new reference material gets graded drills too. The blockquote `> **Lösungen:**`
+Mini-Quiz stays where readers expect it — it is explicitly sanctioned for 3–5 questions (UPGRADE-PLAN
+§1) and feeds the quiz written for that batch. The eleven pre-Đợt-7 dialogues were left as they were.
+
 ---
 
 ## 7. Gotchas already fixed — do not reintroduce
@@ -216,12 +226,11 @@ short intro + how it works
 
 | Batch | Work | ≈ words |
 |---|---|---:|
-| **7** | Phase 5 workbooks (6) + 3 dialogues (Gehalt, Career talk, Kunde/PO) | ~24k |
 | **8** | Phase 6 workbooks (6) + `content/bewerbung/` (5 modules) | ~28k |
 | **9** | Goethe C1 (3 modules) + 4 interview banks + final sweep | ~22k |
 
-Plus, spread across those batches or as its own pass: **flashcards 493 → ~2,050** (the largest
-remaining gap against the plan), and **checklist weeks 37–52**.
+Plus, spread across those batches or as its own pass: **flashcards 555 → ~2,050** (the largest
+remaining gap against the plan), and **checklist weeks 45–52**.
 
 Two open questions in UPGRADE-PLAN §11 the user has not answered: real recorded audio instead of
 TTS, and whether to personalise the Lebenslauf/Anschreiben templates (Đợt 8) against the user's
@@ -233,10 +242,10 @@ exam too. Converting Teil 1–3 to `uebung` is possible if asked.
 
 ---
 
-## 9. To start Đợt 7
+## 9. To start Đợt 8
 
 ```
-Read AUTHORING.md, then do Đợt 7 from UPGRADE-PLAN §8.
+Read AUTHORING.md, then do Đợt 8 from UPGRADE-PLAN §8.
 ```
 
 That is enough. Everything needed is in those two files.

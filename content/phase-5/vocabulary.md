@@ -137,6 +137,10 @@ Ihre Bewerbungsunterlagen haben uns überzeugt. Sind Sie derzeit in einer Festan
 
 > **Lösungen:** 1) **der Lebenslauf, die Lebensläufe** · 2) **permanent (no end date)**; opposite = **befristet** · 3) **brutto, pro Jahr** · 4) **die Absage** (yes = die Zusage). Full quiz: [Quizzes](#/@quiz).
 
+> 🏋️ **Jetzt üben.** [Phase 5 · Vocabulary · Übungsteil](#/phase-5/vocabulary-uebungen) — 41 Aufgaben
+> zu Bewerbungsunterlagen, Vertragswörtern und Selbstbeschreibung, inklusive der Codesprache des
+> Arbeitszeugnisses.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Add all **8 checklist words** to your personal Anki IT-deck with article + plural.

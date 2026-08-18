@@ -117,6 +117,10 @@ Wir arbeiten agil in Zwei-Wochen-Sprints, es gibt ein tägliches Daily und alle 
 
 > **Lösungen:** 1) **Why do you want this job / this team?** · 2) **Vorhersagen → Schlüsselwörter → Notizen → Bestätigen.** · 3) e.g. *Lassen Sie mich kurz überlegen.* · 4) To train for **phone screens** with no video cues. Full quiz: [Quizzes](#/@quiz).
 
+> 🎧 **Jetzt hören.** [Phase 5 · Listening · Übungsteil](#/phase-5/listening-uebungen) — drei Hörtexte
+> (Recruiter-Anruf, HR-Runde, Angebot am Telefon), 27 Aufgaben plus ein Zahlendiktat gegen den
+> Klassiker 68 ↔ 86.
+
 ## 📝 Hausaufgabe · Homework
 
 - [ ] Do **three active-listening sessions** (gist → keywords → transcript → shadow), one per ladder rung 2–4.

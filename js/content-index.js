@@ -11,7 +11,7 @@ window.CONTENT_INDEX = {
   meta: {
     title: "German for Software Engineers",
     subtitle: "B1 → B2 / C1 · 12-Month Roadmap",
-    version: "0.8",
+    version: "0.9",
     updated: "2026-08-18"
   },
   // Drives the sidebar filter chips. Every item.topic MUST appear here or the
@@ -119,11 +119,17 @@ window.CONTENT_INDEX = {
       items: [
         { id: "phase-5/overview",    title: "Objectives & Overview",        level: "C1", topic: "Interview",  type: "lesson" },
         { id: "phase-5/grammar",     title: "Grammar for Interviews",       level: "C1", topic: "Grammar",    type: "lesson" },
+        { id: "phase-5/grammar-uebungen",    title: "↳ Grammar · Übungsteil",    level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-5/vocabulary",  title: "Interview Vocabulary",         level: "C1", topic: "Interview",  type: "lesson" },
+        { id: "phase-5/vocabulary-uebungen", title: "↳ Vocabulary · Übungsteil", level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-5/speaking",    title: "Mock Interviews",              level: "C1", topic: "Speaking",   type: "lesson" },
+        { id: "phase-5/speaking-uebungen",   title: "↳ Speaking · Übungsteil",   level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-5/listening",   title: "Listening Resources",          level: "C1", topic: "Listening",  type: "lesson" },
+        { id: "phase-5/listening-uebungen",  title: "↳ Listening · Übungsteil",  level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-5/reading",     title: "Job Ads & Company Research",   level: "C1", topic: "Reading",    type: "lesson" },
+        { id: "phase-5/reading-uebungen",    title: "↳ Reading · Übungsteil",    level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-5/writing",     title: "CV, Cover Letter & Follow-up", level: "C1", topic: "Writing",    type: "lesson" },
+        { id: "phase-5/writing-uebungen",    title: "↳ Writing · Übungsteil",    level: "C1", topic: "Übungen", type: "lesson" },
         { id: "phase-5/plan",        title: "Weekly Milestones & Daily Plan", level: "C1", topic: "Roadmap",  type: "lesson" },
         { id: "phase-5/assessment",  title: "Monthly Assessment",           level: "C1", topic: "Roadmap",    type: "lesson" }
       ]
@@ -205,6 +211,9 @@ window.CONTENT_INDEX = {
         { id: "dialogues/architektur-diskussion", title: "Dialogue — Architektur-Diskussion", level: "B2", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/deployment-notfall", title: "Dialogue — Deployment-Notfall",         level: "B2", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/team-lead",        title: "Dialogue — Developer ↔ Team Lead",      level: "B2", topic: "Speaking",  type: "lesson" },
+        { id: "dialogues/karrieregespraech", title: "Dialogue — Karrieregespräch (1:1)",     level: "C1", topic: "Interview", type: "lesson" },
+        { id: "dialogues/gehaltsgespraech",  title: "Dialogue — Gehaltsgespräch",            level: "C1", topic: "Interview", type: "lesson" },
+        { id: "dialogues/kundentermin",      title: "Dialogue — Kundentermin mit PO",        level: "B2", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/code-review",      title: "Dialogue — Code Review",                level: "B2", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/sprint-planning",  title: "Dialogue — Sprint Planning",            level: "B2", topic: "Speaking",  type: "lesson" },
         { id: "dialogues/incident",         title: "Dialogue — Production Incident",        level: "C1", topic: "Speaking",  type: "lesson" },
