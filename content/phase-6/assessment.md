@@ -75,7 +75,7 @@ The final check runs on two axes: a **C1 maintenance checklist** (meetings, revi
 | Integration | die | Integrationen | integration | sự hòa nhập |
 | Fachsprache | die | Fachsprachen | technical / domain language | ngôn ngữ chuyên ngành |
 | Muttersprachler | der | Muttersprachler | native speaker | người bản ngữ |
-| Fließend | — | — | fluent | trôi chảy |
+| fließend | — | — | fluent | trôi chảy |
 | beherrschen | — | — | to master (a language) | thành thạo |
 
 → Drill these and more in [Flashcards](#/@flashcards).
