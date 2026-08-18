@@ -2,11 +2,11 @@
 
 > **Read this before touching anything.** It is the *how*. Its companions:
 > [UPGRADE-PLAN.md](UPGRADE-PLAN.md) is the *what and why* (the original plan plus the ✅ batch
-> history at §8), [CONTENT-STYLE-GUIDE.md](CONTENT-STYLE-GUIDE.md) is the *voice and vocabulary*,
-> and [README.md](README.md) is written for the learner, not for you.
+> history at §8), [BACKLOG.md](BACKLOG.md) is **what is still open and whether it is worth doing**,
+> [CONTENT-STYLE-GUIDE.md](CONTENT-STYLE-GUIDE.md) is the *voice and vocabulary*, and
+> [README.md](README.md) is written for the learner, not for you.
 >
-> Last verified: **18.08.2026**, after Đợt 9 plus flashcard passes 1–5. Everything committed and pushed
-> to `origin/main`.
+> Last verified: **19.08.2026**, after Đợt 9, flashcard passes 1–5 and the Goethe B1 module.
 
 ---
 
@@ -29,11 +29,15 @@
 
 **Every module UPGRADE-PLAN called for is written, and the flashcard harvest is finished.** Passes
 1–5 turned the modules' own vocabulary tables into cards: of **1,280** measured table rows, **1,248**
-are carded and the 32 that remain are all deliberate skips, listed in §6.1.
+are carded and the 32 that remain are all deliberate skips, listed in §6.1. The deck sits at
+**1,378** against the plan's ~2,050, and closing that gap means **writing new vocabulary** rather
+than harvesting tables — a different job with a different quality bar. Read §6.1 before starting it.
 
-There is no longer a queue of work waiting. The deck sits at 1,369 against the plan's ~2,050, and
-closing that gap means **writing new vocabulary** rather than harvesting tables — a different job
-with a different quality bar. Read §6.1 before starting it.
+**What is still open lives in [BACKLOG.md](BACKLOG.md)** — every item measured, with a command to
+re-measure it and an opinion on whether it is worth doing. The short version: the **quiz**
+workstream is the one real gap (20 sets / 186 questions against a planned ~70 / ~900), and **74 % of
+multiple-choice answers sit in position 1**, so clicking the first option scores 74 % without
+reading.
 
 ### First five minutes in a new session
 
@@ -49,6 +53,7 @@ If the build is clean and the app loads, the repo is in a good state and you can
 
 | You want to … | Say |
 |---|---|
+| pick up the open work | `Read BACKLOG.md, then do <item>.` |
 | add cards beyond the harvest | `Read AUTHORING.md §6.1, then add a flashcard deck on <topic>.` |
 | add a module | `Read AUTHORING.md §6.2, then write <module> in content/<group>/.` |
 | fix something | `Read AUTHORING.md §5 and §9, then fix <problem>.` |
@@ -348,14 +353,16 @@ nothing is pre-filled on a fresh load, `hoertext` transcripts start hidden, and 
 
 ### 6.1 Flashcard passes — the harvest is done; read this before adding more
 
-The deck stands at **1,369**. Passes 1–5 harvested every vocabulary table in `content/`: of 1,280
-measured rows, 1,248 are carded, and the 32 left are deliberate skips (listed at the end of this
-section). **The measured well is dry — the command in Step 1 will not hand you a bucket any more.**
+The deck stands at **1,378** (1,369 from passes 1–5, plus 9 written with the Goethe B1 module).
+Passes 1–5 harvested every vocabulary table in `content/`: of 1,280 measured rows, 1,248 are carded,
+and the 32 left are deliberate skips (listed at the end of this section). **The measured well is dry
+— the command in Step 1 will not hand you a bucket any more**; the only way a new deck appears now
+is the way deck 18 did, as a by-product of writing a new module.
 
 That leaves a gap to the plan's ~2,050, and it cannot be closed by harvesting. It needs **new
 vocabulary, chosen rather than found**. That is a different job, and worth being explicit about:
 
-* **Do not pad.** 1,369 hand-written cards, each with a real example, beat 2,050 where the last
+* **Do not pad.** 1,378 hand-written cards, each with a real example, beat 2,050 where the last
   seven hundred are filler. The number in UPGRADE-PLAN was an estimate made before the tables were
   counted; it is not a promise the deck owes anyone.
 * **If you do add cards, start from a gap, not a word list.** Something the learner hits and the

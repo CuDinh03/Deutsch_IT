@@ -1,5 +1,8 @@
 # UPGRADE PLAN — Nâng cấp toàn diện nội dung `german-it-roadmap`
 
+> **Việc còn tồn đã gom sang [BACKLOG.md](BACKLOG.md)** (đo lại 19.08.2026) — kèm ý kiến nên làm
+> hay không, và lệnh đo để tự kiểm. File này giữ nguyên vai trò *kế hoạch gốc + lịch sử đợt*.
+
 > ## 👉 Bắt đầu một phiên mới? Đọc [AUTHORING.md](AUTHORING.md) trước.
 >
 > Ở đó có: cú pháp 3 fence tuỳ biến (`uebung` / `spoiler` / `hoertext`), quy trình một đợt từ

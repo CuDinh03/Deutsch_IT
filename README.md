@@ -151,7 +151,7 @@ Included now:
 - Two scored mock exams: a 100-point Phase-1 test and a telc-B2-shaped Phase-2 Modelltest,
   each with a **Fehler → Modul** table pointing at what to redo.
 
-**Every module the plan called for is now written, and the flashcard deck is complete.** All 1,369
+**Every module the plan called for is now written, and the flashcard deck is complete.** All 1,378
 cards were written by hand from the modules' own vocabulary tables — the 12 IT deep dives, all 14
 workplace dialogues, every Phase 1–6 checklist, the whole everyday-German set, the exam modules and
 the four interview banks. Each card carries a real example sentence in context, a collocation and a
