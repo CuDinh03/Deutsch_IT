@@ -1,43 +1,128 @@
-# AUTHORING — how to continue this project in a new session
+# AUTHORING — the handbook for working on this project
 
-> Read this **before** writing any content. It is the how-to; [UPGRADE-PLAN.md](UPGRADE-PLAN.md)
-> is the what-and-when (batch table with ✅ markers at §8).
+> **Read this before touching anything.** It is the *how*. Its companions:
+> [UPGRADE-PLAN.md](UPGRADE-PLAN.md) is the *what and why* (the original plan plus the ✅ batch
+> history at §8), [CONTENT-STYLE-GUIDE.md](CONTENT-STYLE-GUIDE.md) is the *voice and vocabulary*,
+> and [README.md](README.md) is written for the learner, not for you.
 >
-> Last verified: **18.08.2026**, after Đợt 9 plus flashcard pass 1. Everything committed and
-> pushed to `origin/main`.
+> Last verified: **18.08.2026**, after Đợt 9 plus flashcard pass 1. Everything committed and pushed
+> to `origin/main`.
 
 ---
 
-## 1. Where the project stands
+## 0. Start here
+
+### Where the project stands
 
 | | Value |
 |---|---:|
 | Content modules | **156** |
 | Words | **~319,500** |
 | Interactive exercises | **1,756** |
-| Flashcards | **873** (target 2,050 — see §8) |
+| Flashcards | **873** (target ~2,050 — §6.1) |
 | Quizzes / questions | **19 / 176** |
 | Checklist weeks | **all 52** ✅ |
 
-**Done: all ten batches.** Đợt 0 (engine) · 1 (Phase 1) · 2 (Alltag) · 3 (Phase 2) · 4 (telc B2) ·
+**All ten batches are done.** Đợt 0 (engine) · 1 (Phase 1) · 2 (Alltag) · 3 (Phase 2) · 4 (telc B2) ·
 5 (Phase 3) · 6 (Phase 4 + `templates/`) · 7 (Phase 5 + 3 dialogues) · 8 (Phase 6 + `bewerbung/`) ·
 9 (Goethe C1 + 4 interview banks + final sweep).
 
-**Every module UPGRADE-PLAN called for is written.** The flashcard deck is being filled in passes —
-pass 1 (IT deep dives) is done. See §8 for the remaining work-list.
+**Every module UPGRADE-PLAN called for is written.** The one open job is the flashcard deck, which
+is being filled in passes — see **§6.1**, the main recipe in this file.
+
+### First five minutes in a new session
+
+```bash
+git log --oneline -5          # what happened last
+node build.js --strict        # must end "✓ No dead internal links."
+python3 -m http.server 8777   # then open http://localhost:8777
+```
+
+If the build is clean and the app loads, the repo is in a good state and you can start.
+
+### Ready-made prompts
+
+| You want to … | Say |
+|---|---|
+| continue the main open work | `Read AUTHORING.md §6.1, then do the next flashcard pass (150 cards).` |
+| add a module | `Read AUTHORING.md §6.2, then write <module> in content/<group>/.` |
+| fix something | `Read AUTHORING.md §5 and §9, then fix <problem>.` |
 
 ---
 
-## 2. The one thing that makes this project different
+## 1. Architecture in one page
 
-Every exercise is **interactive and self-grading**. The learner answers in the app, presses
-**Prüfen**, and gets a score plus a per-item explanation of *why*. Static "answers in a spoiler"
-exercises were converted away in an earlier batch — **do not write them again**.
+**No framework, no bundler, no npm.** The app is vanilla JS loaded by `<script>` tags. Node is used
+only to run `build.js`. There is nothing to install.
 
-Three custom fences do this. They are implemented in [`js/markdown.js`](js/markdown.js) and wired in
-[`js/app.js`](js/app.js).
+```
+index.html          the whole shell; every JS file is listed here as a <script defer>
+css/styles.css      all styling, CSS custom properties, light + dark
+js/markdown.js      the Markdown renderer, including the custom fences (§2)
+js/app.js           the engine: routing, sidebar, search, flashcards, quizzes, checklist
+js/content-index.js the sidebar/navigation manifest — hand-edited (§4.4)
+js/flashcards*.js   13 files, each concatenating onto window.FLASHCARDS (§4.1)
+js/quizzes.js       one array, window.QUIZZES (§4.2)
+js/checklist.js     one array, window.CHECKLIST (§4.3)
+js/content/*.js     GENERATED — one chunk per sidebar group
+js/content-manifest.js  GENERATED — module→chunk map plus content hashes
+content/**/*.md     all the actual teaching material
+build.js            turns content/ into the two generated things above
+assets/audio/       (unused so far; TTS is generated in the browser)
+```
 
-### `uebung` — the graded exercise block
+### The build
+
+`node build.js` does five things:
+
+1. Reads every `content/**/*.md`.
+2. Runs `js/content-index.js` in a Node `vm` sandbox to learn the sidebar structure — the nav is
+   never duplicated in the build script.
+3. Writes **one chunk per sidebar group** to `js/content/<group>.js`, plus `js/content-manifest.js`
+   (module → chunk map, per-chunk hashes, and the `eager` list, currently `["start"]`).
+4. **Stamps every local `<script>` in `index.html`** with a content hash (`?v=…`) so an edited
+   `quizzes.js` can never be served stale.
+5. Lints: dead internal links, nested or unclosed fences, sidebar entries with no Markdown file,
+   Markdown files no sidebar group claims (they land in a `misc` chunk and are reported), and topics
+   with no filter chip.
+
+`--strict` turns those lint findings into exit code 1. **The build is idempotent** — running it
+twice produces no diff. Always run it before committing.
+
+### How content reaches the reader
+
+Chunks are loaded by **injecting `<script>` tags**, never `fetch`. That is deliberate: it keeps
+`index.html` working when opened directly from disk over `file://`. Only the `start` chunk loads up
+front (~10 KB); a phase chunk arrives when you open a page in it, and search loads every chunk once,
+the first time you actually search.
+
+### State
+
+Everything the learner does persists in `localStorage` under the prefix **`gfit:`**. Keys in use:
+`theme`, `progress`, `checks`, `checklist`, `ueb`, `fc`, `bookmarks`, `journal`, `collapse`,
+`lastRoute`. They are read and written through `get()` / `set()` near the top of `js/app.js`.
+
+### Deployment — read this before committing
+
+`.github/workflows/deploy.yml` publishes to GitHub Pages on every push to `main`. It **checks out
+the repo and uploads it as-is. It does not run `build.js`.**
+
+> ⚠️ **Consequence:** the generated files (`js/content/*.js`, `js/content-manifest.js`) and the
+> stamped `index.html` **must be committed**. Edit a Markdown file, forget to run `node build.js`,
+> and the live site keeps serving the old text with no error anywhere.
+
+---
+
+## 2. The three custom fences — the thing that makes this project different
+
+Every exercise is **interactive and self-grading**: the learner answers in the app, presses
+**Prüfen**, and gets a score plus a per-item explanation of *why*. Static "answers hidden in a
+spoiler" exercises were converted away in an early batch — **do not write them again.**
+
+`js/markdown.js` renders five fenced block types: the standard `mermaid` and `audio`, plus three
+custom ones.
+
+### `` ```uebung `` — the graded exercise block
 
 Open with three backticks + `uebung`, close with three backticks. Inside:
 
@@ -46,26 +131,32 @@ Open with three backticks + `uebung`, close with three backticks. Inside:
 | `?` | the question (inline Markdown allowed) |
 | `*` | a **correct** option |
 | `x` | a **wrong** option |
-| `=` | accepted free-text answers, `\|`-separated (makes it a gap-fill) |
+| `=` | accepted free-text answers, `\|`-separated → makes it a gap-fill |
 | `!` | the explanation, revealed only after checking |
 
-- One `*` → radio buttons. **Two or more `*`** → checkboxes, all must match.
+- One `*` → radio buttons. **Two or more `*`** → checkboxes, and all must match.
 - `=` present → text input. Matching ignores case, surrounding spaces, trailing punctuation and
-  quote style, so `"  WARNEN.  "` matches `warnen`. List real alternatives explicitly.
+  quote style, so `"  WARNEN.  "` matches `warnen`. **List real alternatives explicitly** —
+  a full-sentence answer usually needs two or three accepted forms.
 - A blank line or the next `?` starts the next item.
-- **Every item must have a `!` explanation.** A verification command below checks this.
-- Answers live in `data-` attributes, so they are inspectable in devtools. That is fine — the
-  learner is not an adversary.
+- **Every item must have a `!` explanation.** §5 has a command that checks this repo-wide.
+- Answers live in `data-` attributes and are inspectable in devtools. That is fine — the learner is
+  not an adversary.
 
-### `spoiler` — collapsed model answers
+### `` ```spoiler `` — collapsed model answers
 
-For **open production only** (translation, free writing, recordings). Blocks C and D of a workbook
-keep these; blocks A and B must be `uebung`.
+For **open production only**: translation, free writing, recordings. In a workbook, blocks C and D
+use this; blocks A and B must be `uebung`.
 
-### `hoertext` — listening exercise
+### `` ```hoertext `` — listening exercise
 
-Play button plus a transcript hidden behind a toggle. Use this, **never** `audio`, for anything the
-learner is supposed to listen to — `audio` prints its text and hands over the answer.
+Play button plus a transcript hidden behind a toggle. Use this — **never** `audio` — for anything
+the learner is supposed to listen to first. `audio` prints its text and hands over the answer.
+
+### Everything else
+
+`markdown.js` also supports ATX headings (with slug ids), GFM tables, plain code fences, ordered,
+unordered and nested lists, GitHub task checkboxes, blockquotes, rules, links and bold/italic.
 
 ---
 
@@ -73,17 +164,17 @@ learner is supposed to listen to — `audio` prints its text and hands over the 
 
 **Never nest a fence.** `markdown.js` closes a fence on a line of *exactly* three backticks, so a
 code fence inside a `spoiler` closes it early and leaks the answers. This shipped once. `build.js`
-now lints for it and `--strict` fails — but write it right in the first place. To show a code
-example inside a spoiler, use a blockquote (`>`) instead.
+lints for it now and `--strict` fails — but write it right the first time. To show a code example
+inside a spoiler, use a blockquote (`>`).
 
 **Free production does not get auto-graded.** Translations with many valid forms, writing tasks and
 recordings belong in blocks C/D with a Musterlösung. Auto-marking them would be wrong, not helpful.
 
-**Answers must not be duplicated.** Since block A/B items carry their own explanation, the
+**Answers must not be duplicated.** Block A/B items carry their own explanation, so the
 `✅ Musterlösungen` spoiler at the end covers **only C and D**.
 
-**`☐` characters are clickable now** (app.js converts them), so they are fine in trackers and
-homework lists — but they are *not* exercises. Anything gradeable goes in a `uebung`.
+**`☐` characters are clickable** (app.js converts them), so they are fine in trackers and homework
+lists — but they are *not* exercises. Anything gradeable goes in a `uebung`.
 
 **Checklist entries need a stable `id`.** Progress is stored under `id`, not array index. Never
 renumber or reuse one.
@@ -91,39 +182,106 @@ renumber or reuse one.
 **Checklist item text is rendered as inline Markdown**, so links work there. Item text elsewhere may
 be escaped — check before assuming.
 
+**Watch your quotes in JS data files.** German typographic quotes are fine inside a
+double-quoted JS string — but the *closing* German quote `"` is the same character as a JS string
+delimiter, so `ex:"… ist „root"."` is a syntax error. `node --check` catches it; run it (§5).
+
 ---
 
-## 4. Workflow for one batch
+## 4. Data files and their schemas
 
-Every batch ships complete. Do not defer data to a later batch.
+### 4.1 Flashcards — `js/flashcards*.js`
 
-1. **Read the teaching modules first.** Exercises must drill what that phase actually teaches —
-   `grep -E '^#{2,3} ' content/phase-N/*.md` to map it, then read the substantive sections.
-2. **Write six `*-uebungen.md`** — one per teaching module (grammar, vocabulary, speaking,
-   listening, reading, writing). Target counts from UPGRADE-PLAN §3.2: grammar 35–40, vocabulary
-   25–30, the rest 20–25. Splitting a multi-part exercise into individually graded items is
-   encouraged and pushes counts higher.
-3. **Cross-link both ways.** Insert a callout above `## 📝 Hausaufgabe · Homework` in each teaching
-   module pointing at its workbook; the workbook links back in its header and Resources.
-4. **Add sidebar entries** in [`js/content-index.js`](js/content-index.js), right after the module
-   they belong to:
-   `{ id: "phase-N/grammar-uebungen", title: "↳ Grammar · Übungsteil", level: "...", topic: "Übungen", type: "lesson" },`
-   Use `type: "lesson"` — prev/next navigation and progress counting filter on it.
-   Any new `topic` must also be added to the `topics` array or its filter chip never renders.
-5. **Flashcards** — new file `js/flashcards-N.js`, merged with
-   `window.FLASHCARDS = (window.FLASHCARDS || []).concat([...])`. **Next free id range: `fc9201`+**
-   (used so far: fc0xx, fc1xx/9xx, fc10xx–fc70xx, fc80xx, fc81xx, fc90xx–fc91xx). Every noun needs article
-   **and** plural **and** an example sentence with translation. Add the `<script>` tag to
-   `index.html` (unversioned — `build.js` stamps the hash). Check for a duplicate `de` value before
-   adding a card; a handful of pre-Đợt-5 duplicates already exist and are worth cleaning up one day.
-6. **Quiz** — append to [`js/quizzes.js`](js/quizzes.js). Draw questions from the workbook's A/B
-   blocks rather than inventing new ones.
-7. **Checklist** — extend [`js/checklist.js`](js/checklist.js) with that phase's weeks, each item
-   linking to the specific module it means.
-8. **Refresh the numbers** in `README.md` (Build status section) and bump `version` in
-   `content-index.js`.
-9. **Mark the batch ✅** in UPGRADE-PLAN §8 with what actually shipped.
-10. **Verify, commit, push** (next section).
+Thirteen files, each of them:
+
+```js
+window.FLASHCARDS = (window.FLASHCARDS || []).concat([ /* cards */ ]);
+```
+
+Order does not matter; the app shuffles. One card:
+
+```js
+{ id:"fc9001", de:"Codebasis", article:"die", plural:"die Codebasen",
+  en:"codebase", vi:"mã nguồn hiện có",
+  ex:"Die Codebasis ist über acht Jahre gewachsen — niemand kennt sie ganz.",
+  exEn:"The codebase has grown over eight years — nobody knows all of it.",
+  ipa:"KOOD-baa-zis", coll:"in der Codebasis arbeiten",
+  tip:"Kopf: die Basis → die. Plural wie *die Basen*.",
+  topic:"Software Development", level:"B2" }
+```
+
+| Field | Required | Rendered where | Notes |
+|---|---|---|---|
+| `id` | ✅ | — | unique across **all** files; see the id ranges below |
+| `de` | ✅ | card front | must be unique across all files too |
+| `article` | ✅ | front, colour-coded by gender | `der` / `die` / `das`, or `—` for verbs and phrases |
+| `plural` | ✅ | front | `—` when there is none |
+| `en` | ✅ | back | |
+| `vi` | optional | back | Vietnamese gloss — worth it for genuinely hard words |
+| `ex` | ✅ | back, in German quotes | a real sentence in dev or Alltag context, never a dictionary phrase |
+| `exEn` | ✅ | back, muted | translation of `ex` |
+| `ipa` | optional | front | pseudo-pronunciation in this project's style (`KOOD-baa-zis`), not real IPA |
+| `coll` | optional | back | the collocation the word actually lives in |
+| `tip` | optional | back, with 💡 | the thing worth knowing: gender rule, false friend, plural trap |
+| `topic` | ✅ | tag + filter chip | reuse an existing value; a new one appears in the filter automatically |
+| `level` | ✅ | tag + filter | `B1` / `B2` / `C1` |
+
+The TTS button speaks `article + de + ex`, so a bad `ex` is also a bad listening experience.
+
+**Id ranges already used:** `fc0xx`, `fc1xx`/`fc9xx`, `fc10xx`–`fc70xx`, `fc80xx`, `fc81xx`,
+`fc90xx`–`fc91xx`. **Next free: `fc9201`+.**
+
+### 4.2 Quizzes — `js/quizzes.js`
+
+One array, `window.QUIZZES`. The Quizzes tool lists everything in it automatically.
+
+```js
+{ id:"q-p6-alltagsdeutsch", title:"Phase 6 · Deutsch im Job", level:"C1", topic:"Übungen",
+  questions:[
+    { q:"Welche Partikel passt? „Das haben wir ___ gestern besprochen.“",
+      options:["mal","doch","wohl","eben"], answer:1,
+      explain:"doch erinnert an gemeinsames Wissen …" }
+  ] }
+```
+
+`answer` is the **zero-based index** into `options`. Every question needs an `explain`. Quiz `topic`
+is free text — it is not checked against the sidebar `topics` array.
+
+**Draw questions from an existing workbook's A/B blocks** rather than inventing new ones. Writing
+them twice means maintaining them twice.
+
+### 4.3 Checklist — `js/checklist.js`
+
+One array, `window.CHECKLIST`, covering all 52 weeks plus a trailing `habits` entry.
+
+```js
+{ id:"w45", title:"Woche 45 · Echtes Daily-Tempo",
+  items:[ "[Phase 6 · Speaking · Übungsteil](#/phase-6/speaking-uebungen) Block A + B", … ] }
+```
+
+`items` are rendered as **inline Markdown**, so links work. **`id` is the storage key for tick
+state** — never renumber or reuse one, or existing ticks land on the wrong row.
+
+### 4.4 Navigation — `js/content-index.js`
+
+Hand-edited. `build.js` reads it to decide the chunking, so its `groups` are also the deployment
+unit.
+
+```js
+window.CONTENT_INDEX = {
+  meta:   { title, subtitle, version, updated },
+  topics: [ "Roadmap", "Grammar", … ],   // drives the filter chips
+  levels: [ "B1", "B2", "C1" ],
+  groups: [ { id, title, icon, badge, open, items:[ { id, title, level, topic, type } ] } ]
+};
+```
+
+- `item.id` is the module path without `.md` (`phase-4/grammar-uebungen`) — or an `@`-prefixed
+  built-in view: `@flashcards`, `@quiz`, `@checklist`, `@journal`, `@bookmarks`.
+- `type: "lesson"` is what prev/next navigation and progress counting filter on. Use it for content.
+- **Any new `topic` must also be added to the `topics` array**, or its filter chip never renders and
+  `build.js` warns.
+- Bump `meta.version` when you ship a batch.
 
 ---
 
@@ -133,62 +291,184 @@ Every batch ships complete. Do not defer data to a later batch.
 node build.js --strict
 ```
 
-Fails on dead internal links, nested/unclosed fences, sidebar entries with no file, Markdown files
-missing from the sidebar, and topics with no filter chip. It also rebuilds `js/content/*.js` chunks
-and re-stamps `index.html` — the build is idempotent, so a second run produces no diff.
+Must end with `✓ No dead internal links.` Fails on dead links, nested or unclosed fences, sidebar
+entries with no file, orphan Markdown files, and topics with no chip. Run it **twice** if you want
+to confirm idempotency — the second run should leave the tree unchanged.
 
 ```bash
 node --check js/markdown.js && node --check js/app.js && node --check js/content-index.js
 ```
 
-Check every exercise carries an explanation, and count what shipped:
+Add whichever data file you touched — `node --check js/flashcards-13.js` and so on. This is what
+catches the German-quote syntax trap from §3.
+
+**Every exercise carries an explanation, and how many shipped:**
 
 ```bash
 node -e 'const MD=require("./js/markdown.js"),fs=require("fs");let t=0,bad=0;for(const d of fs.readdirSync("content")){const p="content/"+d;if(!fs.statSync(p).isDirectory())continue;for(const f of fs.readdirSync(p).filter(x=>x.endsWith(".md"))){const h=MD.render(fs.readFileSync(p+"/"+f,"utf8"));const n=(h.match(/class="ueb-item"/g)||[]).length;t+=n;const fb=(h.match(/<div class="ueb-fb" hidden>([\s\S]*?)<\/div>/g)||[]);const e=fb.filter(x=>x.replace(/<[^>]+>/g,"").trim()==="").length;if(e)console.log("MISSING EXPLANATION:",p+"/"+f,e);bad+=e}}console.log("interactive items:",t,"| without explanation:",bad)'
 ```
 
-Check flashcard/quiz integrity:
+**Flashcard and quiz integrity** — duplicate ids, duplicate German words, incomplete cards:
 
 ```bash
-node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13","quizzes"].forEach(f=>require("./js/"+f+".js"));const ids=w.FLASHCARDS.map(c=>c.id);console.log("cards:",w.FLASHCARDS.length,"dup:",ids.filter((v,i)=>ids.indexOf(v)!==i).length);const q=w.QUIZZES.map(x=>x.id);console.log("quizzes:",w.QUIZZES.length,"dup:",q.filter((v,i)=>q.indexOf(v)!==i).length)'
+node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13","quizzes"].forEach(f=>require("./js/"+f+".js"));
+const ids=w.FLASHCARDS.map(c=>c.id), de=w.FLASHCARDS.map(c=>c.de);
+console.log("cards:",w.FLASHCARDS.length,"| dup ids:",ids.filter((v,i)=>ids.indexOf(v)!==i).length,"| dup words:",de.filter((v,i)=>de.indexOf(v)!==i).length);
+console.log("incomplete:",w.FLASHCARDS.filter(c=>!c.de||!c.en||!c.ex||!c.exEn||!c.topic||!c.level).length);
+const q=w.QUIZZES;console.log("quizzes:",q.length,"questions:",q.reduce((a,x)=>a+x.questions.length,0),"| malformed:",q.flatMap(x=>x.questions.filter(y=>typeof y.answer!=="number"||!y.options[y.answer]||!y.explain)).length)'
 ```
 
-Renderer regression tests live in the session scratchpad, not the repo. If they are gone, the
-`build.js --strict` lint plus the explanation check above cover the same failures.
+> A handful of duplicate German words exist from before Đợt 5 and are known. What must stay at zero
+> is **duplicates involving whatever you just added** — the recipe in §6.1 checks exactly that.
 
-**Browser check** (worth doing once per batch): serve and open one new workbook.
+**Browser check** — do this once per piece of work, not once per file:
 
 ```bash
 python3 -m http.server 8777
 ```
 
-Then confirm: exercises render, **Prüfen** scores and reveals explanations, nothing is pre-filled on
-a fresh load, and the console is clean.
+Then confirm on a page you touched: exercises render, **Prüfen** scores and reveals explanations,
+nothing is pre-filled on a fresh load, `hoertext` transcripts start hidden, and the console is clean.
 
 ---
 
-## 6. Content conventions
+## 6. Recipes
+
+### 6.1 A flashcard pass — the main open work
+
+The deck stands at **873** against a plan target of **~2,050**. The remaining ~530 terms are
+**already written**: they sit in the modules' own vocabulary tables with article, plural, English
+and often a Vietnamese gloss. Turning one into a card means adding an **example sentence**, a
+collocation and a tip.
+
+**Do 100–150 cards per pass, not one sitting.** The quality bar in §4.1 applies to every card. A
+mechanically generated deck without real examples would break the project's own standard and be
+worth less than a smaller hand-written one.
+
+#### Step 1 — measure and pick a bucket
+
+```bash
+node -e 'const fs=require("fs");const w={};global.window=w;
+["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13"].forEach(f=>require("./js/"+f+".js"));
+const have=new Set(w.FLASHCARDS.map(c=>c.de.trim()));const rows=new Map();
+(function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=d+"/"+e.name;if(e.isDirectory())walk(p);else if(e.name.endsWith(".md")){
+for(const L of fs.readFileSync(p,"utf8").split("\n")){const m=L.match(/^\|\s*([^|]+?)\s*\|\s*(der|die|das|—)\s*\|\s*([^|]*?)\s*\|\s*([^|]+?)\s*\|\s*([^|]*?)\s*\|/);
+if(!m)continue;const de=m[1].replace(/\*\*/g,"").trim();if(!de||de==="Deutsch"||de.length>60)continue;if(!rows.has(de))rows.set(de,{a:m[2],pl:m[3],en:m[4],vi:m[5],src:p});}}}})("content");
+const miss=[...rows.entries()].filter(([de])=>!have.has(de));
+const by={};miss.forEach(([,v])=>{const d=v.src.split("/")[1];by[d]=(by[d]||0)+1});
+console.log("untapped:",miss.length,JSON.stringify(by,null,1));
+// swap the filter below for the bucket you are working on:
+console.log(miss.filter(([,v])=>v.src.startsWith("content/dialogues/")).map(([de,v])=>`${v.a}|${de}|${v.pl}|${v.en}|${v.vi}`).join("\n"));'
+```
+
+Add each new deck file to the list at the top when you create it, and re-run to confirm the bucket
+actually closed.
+
+What the command above prints after pass 1 — **528 terms**, in suggested order of value for this
+learner:
+
+| Source | Untapped | Suggested pass |
+|---|---:|---|
+| `dialogues/` (Redemittel & vocab tables) | 163 | **pass 2** — workplace reflexes, biggest bucket |
+| phase Vokabel-Checklisten (P1–P6) | 181 | passes 3–4, split by phase |
+| `alltag/` | 88 | pass 5 — everyday survival, a stated priority in UPGRADE-PLAN §0 |
+| `exams/` (36) + `interviews/` (27) | 63 | pass 6 |
+| `bewerbung/`, `templates/`, `foundations/`, `plans/` | 27 | fold into any pass |
+| `vocabulary/` (12 IT deep dives) | 6 | ✅ done in pass 1 |
+
+> The exact total moves with the matching regex — the one above requires a five-column table row
+> (DE · Artikel · Plural · EN · VI), which is the shape most modules use. A four-column variant
+> finds ~35 more in tables that omit the VI column. Either way the **ranking is stable**, and the
+> command is the source of truth, not this table.
+
+#### Step 2 — write the deck
+
+New file `js/flashcards-N.js`, next free id range from §4.1. Header comment says which bucket and
+which pass. Group the cards with `/* ---- section ---- */` comments so the file stays navigable.
+
+What makes a card worth its place — the example carries the weight:
+
+| Weak | Strong |
+|---|---|
+| `ex:"Die Codebasis ist groß."` | `ex:"Die Codebasis ist über acht Jahre gewachsen — niemand kennt sie ganz."` |
+| `tip:"ein Nomen"` | `tip:"Falscher Freund: warten heißt auch 'to wait'. Nomen: die Wartung."` |
+| `coll:"—"` | `coll:"technische Schulden abbauen / aufbauen"` |
+
+The `tip` is often the actual value: gender rules (`-ung → die`), N-declension traps
+(*den Monolithen*), false friends, plural umlauts, and the gap between the correct German term and
+what a team actually says out loud.
+
+#### Step 3 — wire, verify, ship
+
+```bash
+# 1. script tag — unversioned; build.js stamps the hash
+#    add <script defer src="js/flashcards-N.js"></script> to index.html after the previous deck
+node --check js/flashcards-N.js
+# 2. duplicates involving ONLY the new deck (adjust the fcNN prefix)
+node -e 'const w={};global.window=w;["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13"].forEach(f=>require("./js/"+f+".js"));
+const byDe={};w.FLASHCARDS.forEach(c=>{(byDe[c.de]=byDe[c.de]||[]).push(c.id)});
+const nd=Object.entries(byDe).filter(([d,i])=>i.length>1&&i.some(x=>/^fc92/.test(x)));
+console.log("cards:",w.FLASHCARDS.length,"| new-deck dups:",nd.length?JSON.stringify(nd):"none");'
+node build.js --strict
+```
+
+Then the browser check, then update the numbers in `README.md`, `UPGRADE-PLAN.md` (status header)
+and this file (§0 table, §4.1 id ranges, §6.1 bucket table, and the deck list inside **every**
+command that names the deck files), and commit.
+
+### 6.2 Add a content module
+
+1. **Read what it must fit with first.** `grep -E '^#{2,3} ' content/<group>/*.md` to map the
+   siblings, then read the substantive sections. Content that drills nothing specific is filler.
+2. Write `content/<group>/<name>.md` following the skeleton in §7 and the voice in
+   [CONTENT-STYLE-GUIDE.md](CONTENT-STYLE-GUIDE.md).
+3. **Cross-link both ways.** A workbook links back to its teaching module in the header and in
+   Resources; the teaching module gets a callout above `## 📝 Hausaufgabe · Homework`.
+4. Add the sidebar entry in `js/content-index.js`, next to the module it belongs with (§4.4).
+5. Flashcards and a quiz for the new material, if it introduces vocabulary or rules.
+6. `node build.js --strict`, verify (§5), update the numbers, commit.
+
+### 6.3 Add a sidebar group
+
+Append a group object to `CONTENT_INDEX.groups` (§4.4), add its `topic` to the `topics` array, and
+put the Markdown in `content/<group-id>/`. `build.js` creates the chunk automatically — a new group
+means a new `js/content/<id>.js`, which must be committed.
+
+### 6.4 Change the checklist
+
+Insert entries in `js/checklist.js` with **new** ids. Never renumber. Items are inline Markdown, so
+link to the exact module each one means.
+
+### 6.5 Fix a module
+
+Edit the Markdown, `node build.js --strict`, browser-check the page, commit. Remember that the
+generated chunk changes too and must go in the same commit (§1).
+
+---
+
+## 7. Conventions and skeletons
 
 From [CONTENT-STYLE-GUIDE.md](CONTENT-STYLE-GUIDE.md), still in force:
 
-- Explanations in **English** for Phase 1–2 material, increasingly **German** for Phase 3+ (the
-  Phase 3 workbooks are written in German, matching the level).
-- German examples, `VI:` gloss only for genuinely hard words.
+- Explanations in **English** for Phase 1–2 material, increasingly **German** from Phase 3 on — the
+  Phase 3–6 workbooks are written in German, matching the level.
+- German examples; `VI:` gloss only for genuinely hard words.
 - Every new noun: **Artikel + Plural**.
 - Cross-link instead of repeating theory.
-- Real companies and real facts only. For exam details, state the published structure and tell the
-  learner to verify item counts against the current official *Übungstest* — telc and Goethe revise
-  their formats.
+- Real companies and real facts only. For exam details, state the **published structure** and tell
+  the learner to verify against the current official *Übungstest* / *Modellsatz* — telc and Goethe
+  revise their formats. The same rule governs anything with annually-changing numbers: describe the
+  structure, name the official source, quote no figure.
 
-Workbook skeleton:
+**Workbook skeleton** (`phase-N/<skill>-uebungen.md`):
 
 ```
 # Phase N · <Skill> — Übungsteil · Workbook
 > Level / Focus / Time + one-line promise
 short intro + how it works
 ## 🏋️ Übungsteil · Workbook
-### A. Erkennen   → uebung blocks
-### B. Anwenden   → uebung blocks
+### A. Erkennen    → uebung blocks
+### B. Anwenden    → uebung blocks
 ### C. Produzieren → open prompts
 ### D. Transfer    → real-work prompts
 ## ✅ Musterlösungen für C und D  → one spoiler
@@ -198,102 +478,56 @@ short intro + how it works
 ## 📚 Empfohlene Ressourcen
 ```
 
-Dialogue skeleton (`content/dialogues/`, unchanged for 11 modules) — Dialog · translation ·
-VI-notes · Kernmuster · grammar · vocabulary · Redemittel · Kultur · Zusammenfassung ·
-Vokabel-Checkliste · Sprechübung · Mini-Quiz · Hausaufgabe · Ressourcen.
+Target counts (UPGRADE-PLAN §3.2): grammar 35–40, vocabulary 25–30, the other skills 20–25.
+Splitting a multi-part exercise into individually graded items is encouraged and pushes counts
+higher.
+
+**Dialogue skeleton** (`content/dialogues/`) — Dialog · translation · VI-notes · Kernmuster ·
+grammar · vocabulary · Redemittel · Kultur · Zusammenfassung · Vokabel-Checkliste · Sprechübung ·
+Mini-Quiz · Hausaufgabe · Ressourcen.
 
 **Since Đợt 7, new dialogues also carry one `## 🏋️ Drill` block of 8–10 `uebung` items**, placed
 after the Redemittel tables and before the Kultur section. Rationale: the `templates/` modules of
-Đợt 6 established that new reference material gets graded drills too. The blockquote `> **Lösungen:**`
-Mini-Quiz stays where readers expect it — it is explicitly sanctioned for 3–5 questions (UPGRADE-PLAN
-§1) and feeds the quiz written for that batch. The eleven pre-Đợt-7 dialogues were left as they were.
+Đợt 6 established that new reference material gets graded drills too. The blockquote
+`> **Lösungen:**` Mini-Quiz stays where readers expect it — it is explicitly sanctioned for 3–5
+questions (UPGRADE-PLAN §1) and feeds the quiz written for that batch. The eleven pre-Đợt-7
+dialogues were deliberately left as they were.
 
 ---
 
-## 7. Gotchas already fixed — do not reintroduce
+## 8. Gotchas already fixed — do not reintroduce
 
 | Was broken | Fix in place |
 |---|---|
 | `☐` in tables was plain text; task checkboxes were `disabled` | `addCheckboxes()` in app.js converts both, persists per module |
-| Only `content-manifest.js` was cache-stamped, so edited `quizzes.js` served stale | `build.js` stamps every local `<script>` with a content hash |
+| Only `content-manifest.js` was cache-stamped, so an edited `quizzes.js` served stale | `build.js` stamps every local `<script>` with a content hash |
 | `content-manifest.js` embedded a timestamp → every build produced a diff | timestamp removed; build is idempotent |
 | Checklist progress keyed by array index → inserting a week shifted every tick | entries carry `id`; progress keyed on it |
 | `renderChecklist` escaped item text → links showed as raw Markdown | `MD.renderInline` exported and used |
 | `addTableSpeakers` was not idempotent → re-enhancing doubled 🔊 buttons | guarded with `data-spk` |
 | Nested code fence inside `spoiler` leaked answers | `build.js` fence lint, `--strict` fails |
+| A German closing quote `"` inside a JS string broke a deck file | caught by `node --check`; see §3 |
 
 ---
 
-## 8. What is left
+## 9. Open questions and deliberate omissions
 
-**All nine content batches are done.** What is left is one measurable job.
+**Unanswered by the user, carried across batches:** whether to replace the browser TTS with real
+recorded audio (UPGRADE-PLAN §11).
 
-### The flashcard gap
+**Answered by shipping:** personalising the Lebenslauf/Anschreiben against the user's real CV. Đợt 8
+went out with the fictional-but-realistic backend-Java profile UPGRADE-PLAN §4.3 specifies, flagged
+in a callout inside [`content/bewerbung/lebenslauf.md`](content/bewerbung/lebenslauf.md). If a real
+CV arrives later, the swap is contained: the muster in §4 of that module plus the two model letters
+in [`anschreiben.md`](content/bewerbung/anschreiben.md). Structure, bullet formula and paragraph
+formulas are profile-independent.
 
-The deck stands at **873** against a plan target of **~2,050**, and it is being filled in passes.
-
-**Pass 1 — done:** the 12 IT deep dives in `content/vocabulary/` are now converted
-(`js/flashcards-13.js`, 145 cards, fc9001–fc9145). That bucket is closed: 147 untapped terms → 6.
-
-The remaining work is already scoped: roughly **560 terms sit in the modules' own vocabulary tables**
-with article, plural, English and VI gloss already written — they just need an example sentence, a
-collocation and a tip to become cards.
-
-Re-measure at any time:
-
-```bash
-node -e 'const fs=require("fs");const w={};global.window=w;
-["flashcards","flashcards-2","flashcards-3","flashcards-4","flashcards-5","flashcards-6","flashcards-7","flashcards-8","flashcards-9","flashcards-10","flashcards-11","flashcards-12","flashcards-13"].forEach(f=>require("./js/"+f+".js"));
-const have=new Set(w.FLASHCARDS.map(c=>c.de.trim()));const rows=new Map();
-(function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=d+"/"+e.name;if(e.isDirectory())walk(p);else if(e.name.endsWith(".md")){
-for(const L of fs.readFileSync(p,"utf8").split("\n")){const m=L.match(/^\|\s*([^|]+?)\s*\|\s*(der|die|das|—)\s*\|\s*([^|]*?)\s*\|\s*([^|]+?)\s*\|/);
-if(!m)continue;const de=m[1].replace(/\*\*/g,"").trim();if(!de||de==="Deutsch"||de.length>60)continue;if(!rows.has(de))rows.set(de,{a:m[2],pl:m[3],en:m[4],src:p});}}}})("content");
-const miss=[...rows.entries()].filter(([de])=>!have.has(de));
-const by={};miss.forEach(([,v])=>{const d=v.src.split("/")[1];by[d]=(by[d]||0)+1});
-console.log("untapped:",miss.length,JSON.stringify(by,null,1));
-console.log(miss.slice(0,40).map(([de,v])=>`${v.a} ${de} | ${v.pl} | ${v.en} | ${v.src}`).join("\n"));'
-```
-
-Measured after pass 1 — **563 terms**, in suggested order of value for this learner:
-
-| Source | Untapped | Suggested pass |
-|---|---:|---|
-| `dialogues/` (Redemittel & vocab tables) | 163 | **pass 2** — workplace reflexes, the biggest bucket |
-| phase Vokabel-Checklisten (P1–P6) | 209 | passes 3–4, split by phase |
-| `alltag/` | 95 | pass 5 — everyday survival, §0 priority |
-| `exams/` + `interviews/` | 63 | pass 6 |
-| `bewerbung/`, `templates/`, `foundations/`, `plans/` | 27 | fold into any pass |
-| `vocabulary/` (12 IT deep dives) | 6 | ✅ **done in pass 1** |
-
-**Do it in passes of 100–150 cards, not one sitting.** The quality bar in §2 still applies: every
-noun needs Artikel **and** Plural **and** an example sentence with translation. A mechanically
-generated deck without real examples would violate the project's own standard and be worth less
-than the smaller hand-written one.
-
-One open question in UPGRADE-PLAN §11 the user has not answered: real recorded audio instead of
-TTS.
-
-The second one — personalising the Lebenslauf/Anschreiben against the user's actual CV — was still
-unanswered when Đợt 8 shipped. It went out with the fictional-but-realistic backend-Java profile the
-plan itself specifies (§4.3), clearly flagged as such in a callout inside
-[`content/bewerbung/lebenslauf.md`](content/bewerbung/lebenslauf.md). If the user later supplies a
-real CV, swapping the worked example is a contained edit: the muster in §4 of that module plus the
-two model letters in [`anschreiben.md`](content/bewerbung/anschreiben.md). Everything else — the
-structure, the bullet formula, the paragraph formulas — is profile-independent.
-
-Still self-scored on purpose: the `assessment.md` mock exams. They simulate exam conditions, where
-scoring yourself against a published band is the point, and Teil 4/5 are open production in the real
+**Self-scored on purpose:** the `assessment.md` mock exams. They simulate exam conditions, where
+grading yourself against a published band is the point, and Teil 4/5 are open production in the real
 exam too. Converting Teil 1–3 to `uebung` is possible if asked.
 
----
+**Known and tolerated:** a handful of duplicate German words across decks written before Đợt 5.
+Worth a cleanup pass one day; harmless meanwhile.
 
-## 9. To continue
-
-The batch plan is finished. For the flashcard passes described in §8:
-
-```
-Read AUTHORING.md §8, then write the next flashcard pass (150 cards, fc9001+).
-```
-
-For anything else — a fix, a new module, a format change — the same two files still carry
-everything: this one for the how, UPGRADE-PLAN for the what and why.
+**Not in the repo:** renderer regression tests. They lived in a session scratchpad. The
+`build.js --strict` lint plus the explanation check in §5 cover the same failure modes.

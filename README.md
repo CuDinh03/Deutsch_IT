@@ -152,9 +152,9 @@ Included now:
   each with a **Fehler → Modul** table pointing at what to redo.
 
 **Every module the plan called for is now written.** The flashcard deck is being filled in passes:
-873 of a planned ~2,050, with the 12 IT deep dives fully converted. About 560 further terms already
+873 of a planned ~2,050, with the 12 IT deep dives fully converted. About 530 further terms already
 sit in the modules' vocabulary tables, waiting to be turned into cards with example sentences — see
-AUTHORING.md §8 for the breakdown by source and the command that regenerates it.
+AUTHORING.md §6.1 for the breakdown by source and the command that regenerates it.
 Any not-yet-written module shows a friendly “being written” note in the app.
 
 > Numbers above are produced by `node build.js` — re-run it after editing content and it will
