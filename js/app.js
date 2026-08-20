@@ -360,6 +360,40 @@
       if (g && g.length > 2) el.appendChild(mkSpeakBtn(g, 'inline'));
     });
   }
+  /* Everything after the speaker label, minus the stage directions.
+     *(lacht)*, *(zu Huy)*, *(scannt)* render as <em>(…)</em>; spoken aloud they turn into
+     stray words in the middle of a sentence, so a fully parenthesised <em> is dropped. */
+  function dialogueLineText(labelEl) {
+    var out = '';
+    for (var n = labelEl.nextSibling; n; n = n.nextSibling) {
+      if (n.nodeType === 1 && n.tagName === 'EM' && /^\s*\(.*\)\s*$/.test(n.textContent || '')) continue;
+      out += n.textContent || '';
+    }
+    return out.replace(/\s+/g, ' ').trim();
+  }
+  /* 🔊 per line of a dialogue.
+     Scoped to the German dialogue sections only — those under a heading matching
+     "Der Dialog" (dialogues/ uses "1. Der Dialog (Deutsch)", alltag/ uses
+     "1. Der Dialog A — …"). That deliberately leaves out the English translation, which
+     lives in its own section as list items, and the "im Dialog markiert" grammar sections.
+     Speaks the utterance without the speaker label: hearing "Lena Scrum Master" before
+     every line gets old fast. Re-entrant — the .spk guard is the §8 doubling trap. */
+  function addDialogueSpeakers(root) {
+    $all('h2', root).forEach(function (h) {
+      if (!/der dialog/i.test(h.textContent || '')) return;
+      var el = h.nextElementSibling;
+      while (el && el.tagName !== 'H2') {
+        if (el.tagName === 'P' && !el.querySelector('.spk')) {
+          var lab = el.firstElementChild;
+          if (lab && lab.tagName === 'STRONG' && /:\s*$/.test(lab.textContent || '')) {
+            var line = dialogueLineText(lab);
+            if (line.length > 2) el.insertBefore(mkSpeakBtn(line), el.firstChild);
+          }
+        }
+        el = el.nextElementSibling;
+      }
+    });
+  }
   function enhanceContent(root, moduleId) {
     renderMermaid(root);
     $all('.audio-btn', root).forEach(function (b) {
@@ -369,6 +403,7 @@
     addUebungen(root, moduleId);
     addCheckboxes(root, moduleId);
     addTableSpeakers(root);
+    addDialogueSpeakers(root);
     addFlagSpeakers(root);
   }
 

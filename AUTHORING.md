@@ -571,6 +571,7 @@ dialogues were deliberately left as they were.
 | Checklist progress keyed by array index → inserting a week shifted every tick | entries carry `id`; progress keyed on it |
 | `renderChecklist` escaped item text → links showed as raw Markdown | `MD.renderInline` exported and used |
 | `addTableSpeakers` was not idempotent → re-enhancing doubled 🔊 buttons | guarded with `data-spk` |
+| Dialogue lines had no 🔊 — only the vocabulary tables and the `audio` fences did | `addDialogueSpeakers()` adds one per turn, **scoped to `## … Der Dialog …` sections** so the English translation and the "im Dialog markiert" grammar sections stay silent; guarded with the same `.spk` check |
 | Nested code fence inside `spoiler` leaked answers | `build.js` fence lint, `--strict` fails |
 | A German closing quote `"` inside a JS string broke a deck file | caught by `node --check`; see §3 |
 
